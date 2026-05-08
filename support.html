@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — BetaSuite</title>
+  <meta name="description" content="Get help with BetaSuite: contact, FAQs, troubleshooting, account &amp; data deletion, refunds, and how to report a bug.">
+  <link rel="canonical" href="https://brilt9.github.io/betasuite/support.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#0D1B2A">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true"></span>
+        BetaSuite
+      </a>
+      <div class="nav-links">
+        <a href="./">Home</a>
+        <a href="support.html" aria-current="page">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <h1>Support</h1>
+    <p class="lede">We read every message and aim to reply within 2 business days.</p>
+
+    <div class="contact-block">
+      <h2 style="margin-top:0">Contact us</h2>
+      <p>
+        Email: <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>
+      </p>
+      <p style="margin-bottom:0">
+        Or open BetaSuite and tap <em>Settings → Legal → Contact Us</em>. Pick a category (Bug Report, Feature Request, General, Billing) and the form sends straight to us — no email app needed.
+      </p>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+    <dl class="faq">
+      <dt>How much does BetaSuite cost?</dt>
+      <dd>$9.99 USD as a one-time purchase. There are no subscriptions, no in-app purchases, and no ads.</dd>
+
+      <dt>Which devices are supported?</dt>
+      <dd>iPhone (iOS 16 or later) is the primary platform. Android is supported via the same Flutter build. Some features — Apple Intelligence, Apple WeatherKit, the Broadcast Upload Extension for screen recording — are iOS-only.</dd>
+
+      <dt>How do I delete my data?</dt>
+      <dd>BetaSuite is a local-first app — there is <strong>no user account and no server-side data</strong>. To wipe everything: open BetaSuite, go to <em>Settings → Data → Wipe all app data</em>. Uninstalling the app also removes all on-device data. For files you've synced to your own Google Drive, OneDrive, or iCloud account, delete them directly from that account.</dd>
+
+      <dt>Do I need to create an account?</dt>
+      <dd>No. BetaSuite never asks you to register. Your data is generated and stored only on your device, encrypted at rest. You only sign in to a third party (Google, Microsoft, Apple) if <em>you</em> opt in to cloud sync.</dd>
+
+      <dt>How do I get a refund?</dt>
+      <dd>Refunds are handled by the App Store. Visit <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> and select your BetaSuite purchase. We don't process payments directly, so we can't issue refunds on Apple's behalf.</dd>
+
+      <dt>Why does BetaSuite need camera, microphone, and location permissions?</dt>
+      <dd>
+        Camera and microphone are used for capturing video, audio notes, and screen + camera dual recording. Location is used only when you turn on the GPS overlay so a captured frame shows where it was taken. Each permission is requested on first use, with an explanation, and can be revoked at any time in iOS / Android Settings.
+      </dd>
+
+      <dt>What is Confidential Mode?</dt>
+      <dd>A toggle that locks the app to on-device processing only. While it's on: cloud sync is disabled, every cloud AI provider is blocked, and a confirmation dialog appears before any share or export. Apple Intelligence (which runs on-device) is still permitted. Use it for NDA-bound testing.</dd>
+
+      <dt>Where do AI requests go?</dt>
+      <dd>
+        Default: Apple Intelligence on-device when your iPhone supports it (iOS 26+, iPhone 15 Pro and newer); otherwise Google Firebase AI as a cloud fallback. You can switch to bring-your-own-key for Anthropic Claude, OpenAI, Google Gemini, or DeepSeek — in which case the request goes directly from your device to that provider with your key, never via us. See the <a href="privacy.html#ai-features">privacy policy</a> for the full picture.
+      </dd>
+
+      <dt>Screen recording isn't working — what should I check?</dt>
+      <dd>
+        On iOS, screen recording uses a Broadcast Upload Extension. On the first use you need to tap "BetaSuiteBroadcast" in the system broadcast picker and then "Start Broadcast". If the picker doesn't show BetaSuiteBroadcast, restart the device — iOS sometimes caches the extension list. On Android, grant the System Alert Window permission for the floating record button to appear.
+      </dd>
+
+      <dt>How do I report a bug?</dt>
+      <dd>
+        In-app: <em>Settings → Legal → Contact Us → category "Bug Report"</em>. Or email <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>. Please include device model, iOS / Android version, BetaSuite version (Settings → About), and steps to reproduce. A short screen recording attached as a file is incredibly helpful.
+      </dd>
+
+      <dt>Will my old data survive an app update?</dt>
+      <dd>
+        Yes. BetaSuite uses Hive with a compatibility-preserving schema — every field added in a newer version is read with a null-fallback, so older recordings, projects, and feedback stay accessible after an update. If you ever need to migrate to a new device, use <em>Settings → Data → Export</em> to create a portable backup first.
+      </dd>
+    </dl>
+
+    <h2>Status &amp; outages</h2>
+    <p>
+      Because BetaSuite runs locally with no backend, there's nothing on our side to go down. If a feature that depends on a third party fails — Apple WeatherKit, a cloud-storage provider, an AI vendor — check that provider's status page directly. We'll post a notice on the <a href="./">home page</a> if a widespread issue affects multiple users.
+    </p>
+
+    <div class="callout">
+      <strong>Still stuck?</strong> Email <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a> with your device model, OS version, and BetaSuite version (Settings → About). We respond within 2 business days.
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a href="./">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+    <p style="margin-top:14px">© 2026 BetaSuite. All rights reserved.</p>
+  </footer>
+</body>
+</html>
