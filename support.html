@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Support — BetaSuite</title>
-  <meta name="description" content="Get help with BetaSuite: contact, FAQs, troubleshooting, account &amp; data deletion, refunds, and how to report a bug.">
+  <meta name="description" content="Get help with BetaSuite: contact form, FAQs, troubleshooting, account &amp; data deletion, refunds, and how to report a bug.">
   <link rel="canonical" href="https://brilt9.github.io/betasuite-website/support.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,67 @@
   <link rel="icon" type="image/png" href="icon.png">
   <link rel="apple-touch-icon" href="icon.png">
 
+  <style>
+    .contact-form { display: grid; gap: 14px; }
+    .contact-form label {
+      display: block;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .contact-form input[type=text],
+    .contact-form input[type=email],
+    .contact-form select,
+    .contact-form textarea {
+      width: 100%;
+      background: var(--navy);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font: inherit;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+    .contact-form textarea { min-height: 140px; resize: vertical; }
+    .contact-form input:focus,
+    .contact-form select:focus,
+    .contact-form textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.25);
+    }
+    .contact-form .helper { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+    .contact-form button[type=submit] {
+      background: var(--accent);
+      color: #fff;
+      border: 0;
+      border-radius: 8px;
+      padding: 12px 22px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      cursor: pointer;
+      justify-self: start;
+    }
+    .contact-form button[type=submit]:hover:not(:disabled),
+    .contact-form button[type=submit]:focus:not(:disabled) { background: var(--accent-hover); }
+    .contact-form button[type=submit]:disabled { opacity: 0.6; cursor: progress; }
+    .contact-form .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+    .form-status { margin: 0; font-size: 14px; }
+    .form-status.error { color: #FF7A85; }
+    .form-status.warn  { color: var(--amber); }
+    .form-success {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid #4CD08A;
+      border-radius: var(--radius);
+      padding: 18px 22px;
+    }
+    .form-success h2 { margin-top: 0; }
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -37,14 +98,58 @@
     <h1>Support</h1>
     <p class="lede">We read every message and aim to reply within 2 business days.</p>
 
-    <div class="contact-block">
-      <h2 style="margin-top:0">Contact us</h2>
-      <p>
-        Email: <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>
+    <div class="contact-block" id="contact">
+      <h2 style="margin-top:0">Get in touch</h2>
+      <p style="margin-top:0">
+        The fastest way to reach us. Or email
+        <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>
+        directly.
       </p>
-      <p style="margin-bottom:0">
-        Or open BetaSuite and tap <em>Settings → Legal → Contact Us</em>. Pick a category (Bug Report, Feature Request, General, Billing) and the form sends straight to us — no email app needed.
-      </p>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <div>
+          <label for="cf-name">Your name</label>
+          <input id="cf-name" name="name" type="text" autocomplete="name" required>
+        </div>
+
+        <div>
+          <label for="cf-email">Your email address</label>
+          <input id="cf-email" name="email" type="email" autocomplete="email" required>
+          <p class="helper">We'll reply to this address.</p>
+        </div>
+
+        <div>
+          <label for="cf-category">Category</label>
+          <select id="cf-category" name="category">
+            <option>Bug Report</option>
+            <option>Feature Request</option>
+            <option selected>General Inquiry</option>
+            <option>Billing</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" required minlength="10" placeholder="Please include device model, OS version, and BetaSuite version (Settings → About) for bug reports."></textarea>
+        </div>
+
+        <div class="hp" aria-hidden="true">
+          <label for="cf-website">Leave this field empty</label>
+          <input id="cf-website" name="website" type="text" tabindex="-1" autocomplete="off">
+        </div>
+
+        <p id="contact-status" class="form-status" role="status" aria-live="polite"></p>
+
+        <button type="submit">Send message</button>
+      </form>
+
+      <div id="contact-success" class="form-success" hidden tabindex="-1">
+        <h2>Message sent</h2>
+        <p style="margin:0">
+          Thanks for reaching out. We'll reply to your email within 2 business days.
+        </p>
+      </div>
     </div>
 
     <h2>Frequently asked questions</h2>
@@ -84,7 +189,7 @@
 
       <dt>How do I report a bug?</dt>
       <dd>
-        In-app: <em>Settings → Legal → Contact Us → category "Bug Report"</em>. Or email <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>. Please include device model, iOS / Android version, BetaSuite version (Settings → About), and steps to reproduce. A short screen recording attached as a file is incredibly helpful.
+        Use the form at the top of this page (category "Bug Report"), or in-app at <em>Settings → Legal → Contact Us</em>. Please include device model, iOS / Android version, BetaSuite version (Settings → About), and steps to reproduce. A short screen recording attached as a file is incredibly helpful.
       </dd>
 
       <dt>Will my old data survive an app update?</dt>
@@ -99,7 +204,10 @@
     </p>
 
     <div class="callout">
-      <strong>Still stuck?</strong> Email <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a> with your device model, OS version, and BetaSuite version (Settings → About). We respond within 2 business days.
+      <strong>Still stuck?</strong> Use the form above (or email
+      <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>) with
+      your device model, OS version, and BetaSuite version (Settings →
+      About). We respond within 2 business days.
     </div>
   </main>
 
@@ -112,5 +220,106 @@
     </div>
     <p style="margin-top:14px">© 2026 BetaSuite. All rights reserved.</p>
   </footer>
+
+  <script>
+    const EMAILJS = {
+      endpoint: 'https://api.emailjs.com/api/v1.0/email/send',
+      serviceId: 'service_w55b2l5',
+      templateId: 'template_8md1rjo',
+      publicKey: 'HtidyyyXFz6JjeNwA',
+    };
+    const TO_EMAIL = 'betasuiteau@gmail.com';
+
+    const form    = document.getElementById('contact-form');
+    const status  = document.getElementById('contact-status');
+    const success = document.getElementById('contact-success');
+    const submit  = form.querySelector('button[type=submit]');
+
+    function setStatus(msg, kind) {
+      status.textContent = msg || '';
+      status.className = 'form-status' + (kind ? ' ' + kind : '');
+    }
+    function setSubmitting(on) {
+      submit.disabled = on;
+      submit.textContent = on ? 'Sending…' : 'Send message';
+    }
+    function showSuccess() {
+      form.hidden = true;
+      success.hidden = false;
+      success.focus();
+      success.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    function mailtoFallback(data, reason) {
+      const subject = `[BetaSuite] ${data.category} — ${data.name}`;
+      const body =
+        `Name: ${data.name}\n` +
+        `Reply-to: ${data.email}\n` +
+        `Category: ${data.category}\n\n` +
+        `Message:\n${data.message}\n`;
+      const href = `mailto:${TO_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      setStatus(`${reason} Opening your email app instead — review and send.`, 'warn');
+      window.location.href = href;
+    }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      setStatus('');
+
+      if (form.elements.website.value.trim() !== '') {
+        showSuccess();
+        return;
+      }
+
+      const data = {
+        name:     form.elements.name.value.trim(),
+        email:    form.elements.email.value.trim(),
+        category: form.elements.category.value,
+        message:  form.elements.message.value.trim(),
+      };
+
+      if (!data.name || !data.email || !data.message) {
+        setStatus('Please fill in your name, email, and a message.', 'error');
+        return;
+      }
+      if (data.message.length < 10) {
+        setStatus('Please enter at least 10 characters.', 'error');
+        form.elements.message.focus();
+        return;
+      }
+      if (!data.email.includes('@') || !data.email.includes('.')) {
+        setStatus('Please enter a valid email address.', 'error');
+        form.elements.email.focus();
+        return;
+      }
+
+      setSubmitting(true);
+      try {
+        const resp = await fetch(EMAILJS.endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            service_id:  EMAILJS.serviceId,
+            template_id: EMAILJS.templateId,
+            user_id:     EMAILJS.publicKey,
+            template_params: {
+              from_name: data.name,
+              reply_to:  data.email,
+              category:  data.category,
+              message:   data.message,
+            },
+          }),
+        });
+        if (resp.ok) {
+          showSuccess();
+        } else {
+          mailtoFallback(data, `Couldn't send (${resp.status}).`);
+        }
+      } catch (err) {
+        mailtoFallback(data, 'Network error.');
+      } finally {
+        setSubmitting(false);
+      }
+    });
+  </script>
 </body>
 </html>
