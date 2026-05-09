@@ -5,15 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy — BetaSuite</title>
   <meta name="description" content="BetaSuite privacy policy. BetaSuite is built local-first: data lives on your device by default and never leaves it unless you use a feature that calls outside.">
-  <link rel="canonical" href="https://brilt9.github.io/betasuite-website/privacy.html">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="canonical" href="<https://brilt9.github.io/betasuite-website/privacy.html>">
+  <link rel="preconnect" href="<https://fonts.googleapis.com>">
+  <link rel="preconnect" href="<https://fonts.gstatic.com>" crossorigin>
+  <link href="<https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap>" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <meta name="theme-color" content="#0D1B2A">
   <link rel="icon" type="image/png" href="icon.png">
   <link rel="apple-touch-icon" href="icon.png">
-
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -35,7 +34,7 @@
 
   <main id="main">
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective: 1 January 2026</p>
+    <p class="meta">Effective: 9 May 2026</p>
 
     <p>
       BetaSuite ("we", "us") provides the BetaSuite mobile app ("the App"). The App is built local-first: feedback entries, recordings, photos, and project data live on your device by default and never leave it unless you choose to use a feature that involves an outside service.
@@ -69,9 +68,9 @@
       Coordinates are sent to a weather provider to retrieve local conditions. On iOS 16+ the default provider is Apple WeatherKit; otherwise the App falls back to OpenWeatherMap or Open-Meteo. No identifier is sent — only the coordinates needed for the lookup.
     </p>
     <ul>
-      <li><a href="https://www.apple.com/legal/privacy/data/en/weather/" target="_blank" rel="noopener">Apple WeatherKit privacy notice</a></li>
-      <li><a href="https://openweathermap.org/privacy-policy" target="_blank" rel="noopener">OpenWeatherMap privacy policy</a></li>
-      <li><a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo terms</a></li>
+      <li><a href="<https://www.apple.com/legal/privacy/data/en/weather/>" target="_blank" rel="noopener">Apple WeatherKit privacy notice</a></li>
+      <li><a href="<https://openweathermap.org/privacy-policy>" target="_blank" rel="noopener">OpenWeatherMap privacy policy</a></li>
+      <li><a href="<https://open-meteo.com/en/terms>" target="_blank" rel="noopener">Open-Meteo terms</a></li>
     </ul>
     <h3>Crash analytics</h3>
     <p>
@@ -85,12 +84,12 @@
     <h3>Apple Intelligence (on-device)</h3>
     <p>
       Used first whenever your iPhone supports it (iOS 26+, iPhone 15 Pro / 16 / 17 series). In this path no feedback content leaves your device. Apple publishes a dedicated notice covering Apple Intelligence and Private Cloud Compute:
-      <a href="https://www.apple.com/legal/privacy/data/en/intelligence-engine/" target="_blank" rel="noopener">Apple Intelligence &amp; Privacy</a>.
+      <a href="<https://www.apple.com/legal/privacy/data/en/intelligence-engine/>" target="_blank" rel="noopener">Apple Intelligence &amp; Privacy</a>.
     </p>
     <h3>Google Firebase AI (cloud fallback)</h3>
     <p>
       Used when on-device routing is unavailable. The specific text you choose to process is sent to Google for inference and is governed by Google's privacy policy. We do not see or store the request.
-      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google privacy policy</a>.
+      <a href="<https://policies.google.com/privacy>" target="_blank" rel="noopener">Google privacy policy</a>.
     </p>
     <p>
       You can switch to another provider (Anthropic Claude, OpenAI, Google Gemini, DeepSeek, or BetaSuite Default / Pollinations) or turn AI off in <em>Settings → AI Features</em>.
@@ -100,33 +99,81 @@
       When you supply your own API key for Anthropic Claude, OpenAI, Google Gemini, or DeepSeek, prompts go directly from your device to that provider for inference. The data is governed by that provider's privacy policy and terms. We do not see, store, or relay these requests. Your API key is held in device secure storage (iOS Keychain / Android Keystore) and is never transmitted to us.
     </p>
     <ul>
-      <li><a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">Anthropic Claude privacy policy</a></li>
-      <li><a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener">OpenAI privacy policy</a></li>
-      <li><a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Google Gemini API additional terms</a></li>
-      <li><a href="https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html" target="_blank" rel="noopener">DeepSeek privacy policy</a></li>
+      <li><a href="<https://www.anthropic.com/legal/privacy>" target="_blank" rel="noopener">Anthropic Claude privacy policy</a></li>
+      <li><a href="<https://openai.com/policies/privacy-policy/>" target="_blank" rel="noopener">OpenAI privacy policy</a></li>
+      <li><a href="<https://ai.google.dev/gemini-api/terms>" target="_blank" rel="noopener">Google Gemini API additional terms</a></li>
+      <li><a href="<https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html>" target="_blank" rel="noopener">DeepSeek privacy policy</a></li>
     </ul>
+
+    <h3>Voice memo transcription (always Firebase)</h3>
     <p>
-      Confidential Mode (section 5) blocks every cloud AI provider automatically — only Apple Intelligence (strictly on-device) is permitted while Confidential Mode is active.
+      Voice memos recorded inside a session are transcribed by Google Firebase AI whenever AI features are enabled and Confidential Mode is off — regardless of which provider you selected for general AI tasks. Transcription is fully blocked in Confidential Mode. The audio is sent to Google Firebase AI for inference and is governed by
+      <a href="<https://policies.google.com/privacy>" target="_blank" rel="noopener">Google's privacy policy</a>.
     </p>
 
-    <h2>5. Confidential Mode</h2>
+    <h3>AI session summaries (automatic)</h3>
+    <p>
+      When you complete a test session, the App generates a short bullet summary of that session's markers, feedback notes, and media using the AI provider you have selected. This happens automatically whenever AI features are enabled and Confidential Mode is off; on Apple Intelligence the inference is on-device. The summary is cached locally on your device and is included in exported reports only if you choose to generate one. You can regenerate or delete a summary at any time from the session detail screen.
+    </p>
+
+    <p>
+      Confidential Mode (section 6) blocks every cloud AI provider automatically — only Apple Intelligence (strictly on-device) is permitted while Confidential Mode is active.
+    </p>
+
+    <h2 id="feature-requests">5. Feature requests</h2>
+    <p>
+      The Feature Requests screen lets you share ideas with the BetaSuite team and the wider tester community. Submissions go to a public GitHub repository (<code>brilt9/betasuite-feedback</code>) where every entry is visible to anyone with internet access. You can browse and upvote ideas in-app without signing in.
+    </p>
+    <h3>What is sent</h3>
+    <p>
+      The title, description, category (Capture / Reports / AI / Sessions / Workflow / Other), the app version, and the OS version. No project, session, recording, photo, location, account, or device-identifier data is included.
+    </p>
+    <h3>Automated redaction (best-effort)</h3>
+    <p>
+      Before submission, your text runs through an on-device redactor. Pattern matching removes emails, phone numbers, IP addresses, URLs that look like they carry tokens, long hex / base64 strings, and Luhn-valid credit-card numbers. On iPhones that support Apple Intelligence, an on-device language model takes a second pass to redact names, addresses, and employer references. On other devices the redactor falls back to Google Firebase AI (Gemini) — in that path your text is sent to Google for inference, governed by
+      <a href="<https://policies.google.com/privacy>" target="_blank" rel="noopener">Google's privacy policy</a>.
+      Redaction is best-effort, never guaranteed; please review your text before submitting and avoid personal details.
+    </p>
+    <h3>Where it is stored</h3>
+    <p>
+      Each submission becomes a GitHub Issue in the public feedback repository. Anyone can read, comment on, or react to it. Once posted, an entry cannot be deleted from inside the App. To request removal or amendment, contact us via <em>Settings → Contact Us</em>.
+    </p>
+    <h3>Confidential Mode</h3>
+    <p>
+      Feature-request submission is permitted in Confidential Mode after a one-tap acknowledgement. The data flow is identical to non-confidential submission — only the form fields are sent — but the App surfaces an extra dialog so you confirm the public posting explicitly.
+    </p>
+    <h3>How it gets there</h3>
+    <p>
+      Your device POSTs to a Cloudflare Worker that BetaSuite operates. The Worker holds a fine-grained access token scoped only to the feedback repository, so the App never embeds a GitHub credential. The Worker rate-limits per IP and runs a second pass of pattern-matching redaction before posting.
+    </p>
+    <h3>Unrecognised company brand names</h3>
+    <p>
+      When you set up a project, you can pick the company being tested from a built-in registry of brand swatches. If the company isn't in the registry and you type its name as free text, the App posts a brand-add suggestion to the same public feedback repository so we can grow the registry over time. Only the typed brand name is sent (after the same on-device redaction described above), plus the app version and OS version. No project, session, recording, photo, location, or feedback content is included. Brand suggestions are automatically suppressed while Confidential Mode is active so NDA-protected client names never leave the device.
+    </p>
+    <h3>Anonymous community upvote count</h3>
+    <p>
+      When you tap thumbs-up on a request, the App generates a random UUID on first launch (stored in iOS Keychain / Android Keystore) and uses it only to dedupe your vote in a Cloudflare Worker counter. The UUID is not your name, email, account, or any device identifier supplied by the OS — it is just random bytes. It is never sent to GitHub. Reinstalling the App generates a new UUID, so a single person could in principle vote again from a fresh install. We accept that as the cost of "no logins, ever".
+    </p>
+
+    <h2>6. Confidential Mode</h2>
     <p>When Confidential Mode is active, the App enforces:</p>
     <ul>
       <li>All data stays on your device.</li>
       <li>Cloud sync is disabled.</li>
       <li>All cloud AI providers are blocked. Apple Intelligence (on-device) is permitted.</li>
+      <li>Feature-request submission (section 5) remains available after a one-tap acknowledgement, since only form fields leave the device.</li>
       <li>A confirmation dialog is required before any share or export action.</li>
     </ul>
     <p>
       Confidential Mode is best-effort enforcement of the App's data-flow paths. It is not a substitute for your own review of where data goes when you take a manual action (e.g. taking a screenshot, sharing via the system sheet after the dialog).
     </p>
 
-    <h2>6. International transfers</h2>
+    <h2>7. International transfers</h2>
     <p>
       The third-party services listed in this policy are operated from various countries. When you use such a service, the data you choose to send may be processed in a jurisdiction with different privacy and data-protection laws than the country you live in. Each service's privacy policy (linked above) describes how that service handles transfers and what protections apply.
     </p>
 
-    <h2>7. Your rights</h2>
+    <h2>8. Your rights</h2>
     <p>
       You have rights over your personal information under applicable law. Because the App stores data locally, you can exercise most rights directly inside the App:
     </p>
@@ -138,18 +185,18 @@
       <li>Export a portable backup (<em>Settings → Data → Export</em>) so you can take your data with you.</li>
     </ul>
     <p>
-      For data you have sent to a third-party service (connected cloud storage, an AI provider you used), exercise your rights with that service directly using the contact channel in their privacy policy.
+      For data you have sent to a third-party service (connected cloud storage, an AI provider you used, the public feedback repository), exercise your rights with that service directly using the contact channel in their privacy policy. For removal or amendment of a feature-request issue, contact us via <em>Settings → Contact Us</em> and we'll act on your behalf in the public repository.
     </p>
     <p>
-      For data we directly control — limited to what you send via the Contact form and any anonymised analytics you have enabled — contact us at the address in section 9 and we will respond within a reasonable time as required by applicable law.
+      For data we directly control — limited to what you send via the Contact form and any anonymised analytics you have enabled — contact us at the address in section 10 and we will respond within a reasonable time as required by applicable law.
     </p>
 
-    <h2>8. Children</h2>
+    <h2>9. Children</h2>
     <p>
       The App is not directed at children. We do not knowingly collect personal information from a child. If you believe a child has used the App and provided personal information, contact us so we can help you remove it.
     </p>
 
-    <h2>9. Changes and contact</h2>
+    <h2>10. Changes and contact</h2>
     <p>
       We may update this policy from time to time. The effective date at the top of this page reflects the most recent revision; the current version is always available inside the App at <em>Settings → Legal → Privacy Policy</em> and on this website.
     </p>
