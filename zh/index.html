@@ -1,46 +1,94 @@
 <!doctype html>
 <html lang="zh">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>BetaSuite</title>
-
-<link rel="stylesheet" href="../styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BetaSuite</title>
+  <meta name="description" content="BetaSuite — 一体化 Beta 测试工具：录制、标注、诊断与报告。">
+  <link rel="icon" href="../icon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
+  <a class="skip-link" href="#main" style="position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden">跳到内容</a>
 
-<script src="../router.js"></script>
+  <header class="site-header" role="banner">
+    <nav class="nav container" role="navigation" aria-label="主导航">
+      <a class="brand" href="./index.html" aria-label="BetaSuite 主页">
+        <img src="../icon.png" alt="BetaSuite 徽标" class="brand-mark" width="36" height="36">
+        <span class="brand-name">BetaSuite</span>
+      </a>
 
-<header class="site-header">
-<nav class="nav">
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="切换菜单">☰</button>
 
-<a class="brand" href="./index.html">BetaSuite</a>
+      <div id="nav-links" class="nav-links" role="menu">
+        <a role="menuitem" href="./index.html" data-i18n="navHome">主页</a>
+        <a role="menuitem" href="./support.html" data-i18n="navSupport">支持</a>
 
-<div class="nav-links">
+        <select id="language-picker" class="language-picker" aria-label="语言选择" title="选择语言">
+          <option value="en">🇬🇧 English</option>
+          <option value="zh">🇨🇳 中文</option>
+        </select>
+      </div>
+    </nav>
+  </header>
 
-<a href="./index.html" data-i18n="navHome">主页</a>
-<a href="./support.html" data-i18n="navSupport">支持</a>
+  <main id="main" class="container" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title" data-i18n="heroTitle">一体化 Beta 测试应用</h1>
+      <p class="lead" data-i18n="heroText">BetaSuite 是测试工具包。</p>
+    </section>
+  </main>
 
-<select id="language-picker" class="language-picker">
-<option value="en">🇬🇧 English</option>
-<option value="zh">🇨🇳 中文</option>
-</select>
+  <footer class="site-footer container" role="contentinfo" aria-label="页脚">
+    <div class="footer-links">
+      <a href="./index.html">主页</a>
+      <a href="./support.html">支持</a>
+    </div>
+    <p class="small-muted">© 2026 BetaSuite</p>
+  </footer>
 
-</div>
+  <script src="../router.js" defer></script>
 
-</nav>
-</header>
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const links = document.getElementById('nav-links');
 
-<main>
+      if (!toggle || !links) return;
 
-<h1 data-i18n="heroTitle"></h1>
-<p data-i18n="heroText"></p>
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        links.classList.toggle('open');
+        if (!expanded) {
+          const first = links.querySelector('a, button, [role="menuitem"], select');
+          if (first) first.focus();
+        } else {
+          toggle.focus();
+        }
+      });
 
-</main>
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && links.classList.contains('open')) {
+          links.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.focus();
+        }
+      });
 
-<script src="../translations.js"></script>
+      document.addEventListener('click', (e) => {
+        if (!links.classList.contains('open')) return;
+        if (!links.contains(e.target) && !toggle.contains(e.target)) {
+          links.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    })();
+  </script>
 
+  <script src="../translations.js" defer></script>
 </body>
 </html>
