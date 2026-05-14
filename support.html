@@ -1,97 +1,556 @@
 <!doctype html>
 <html lang="en">
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Support — BetaSuite</title>
 
+  <meta name="description" content="Get help with BetaSuite: contact form, FAQs, troubleshooting, account & data deletion, refunds, and how to report a bug.">
+
+  <link rel="canonical" href="https://brilt9.github.io/betasuite-website/support.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
 
+  <meta name="theme-color" content="#0D1B2A">
+
   <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <style>
+
+    .language-picker {
+      background: #0D1B2A;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font: inherit;
+      cursor: pointer;
+      margin-left: 12px;
+    }
+
+    .language-picker option {
+      color: #000;
+    }
+
+    .contact-form {
+      display: grid;
+      gap: 14px;
+    }
+
+    .contact-form label {
+      display: block;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .contact-form input[type=text],
+    .contact-form input[type=email],
+    .contact-form select,
+    .contact-form textarea {
+      width: 100%;
+      background: var(--navy);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font: inherit;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    .contact-form textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    .contact-form input:focus,
+    .contact-form select:focus,
+    .contact-form textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.25);
+    }
+
+    .contact-form button[type=submit] {
+      background: var(--accent);
+      color: #fff;
+      border: 0;
+      border-radius: 8px;
+      padding: 12px 22px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      cursor: pointer;
+      justify-self: start;
+    }
+
+    .contact-form button[type=submit]:hover:not(:disabled) {
+      background: var(--accent-hover);
+    }
+
+    .contact-form button[type=submit]:disabled {
+      opacity: 0.6;
+      cursor: progress;
+    }
+
+    .hp {
+      position: absolute;
+      left: -10000px;
+    }
+
+    .form-status {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .form-status.error {
+      color: #FF7A85;
+    }
+
+    .form-status.warn {
+      color: var(--amber);
+    }
+
+    .form-success {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid #4CD08A;
+      border-radius: var(--radius);
+      padding: 18px 22px;
+    }
+
+    .form-success h2 {
+      margin-top: 0;
+    }
+
+  </style>
 
 </head>
 
 <body>
 
-<header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <nav class="nav">
+  <header class="site-header">
 
-    <a class="brand" href="./">
-      <img class="brand-mark" src="icon.png" alt="">
-      BetaSuite
-    </a>
+    <nav class="nav" aria-label="Primary">
 
-    <div class="nav-links">
-
-      <a href="./">Home</a>
-
-      <a href="support.html">
-        Support
+      <a class="brand" href="./">
+        <img class="brand-mark" src="icon.png" alt="" aria-hidden="true">
+        BetaSuite
       </a>
 
-      <a href="privacy.html">
-        Privacy
-      </a>
+      <div class="nav-links">
 
-      <a href="terms.html">
-        Terms
-      </a>
+        <a href="./" data-i18n="navHome">
+          Home
+        </a>
 
-      <select
-        id="language-picker"
-        class="language-picker"
+        <a
+          href="support.html"
+          aria-current="page"
+          data-i18n="navSupport"
+        >
+          Support
+        </a>
+
+        <a
+          href="privacy.html"
+          data-i18n="navPrivacy"
+        >
+          Privacy
+        </a>
+
+        <a
+          href="terms.html"
+          data-i18n="navTerms"
+        >
+          Terms
+        </a>
+
+        <select
+          id="language-picker"
+          class="language-picker"
+          aria-label="Select language"
+        >
+          <option value="en">English</option>
+          <option value="zh">中文</option>
+        </select>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <main id="main">
+
+    <h1 data-i18n="supportTitle">
+      Support
+    </h1>
+
+    <p
+      class="lede"
+      data-i18n="supportLede"
+    >
+      We read every message and aim to reply within 2 business days.
+    </p>
+
+    <div class="contact-block" id="contact">
+
+      <h2
+        style="margin-top:0"
+        data-i18n="contactTitle"
       >
-        <option value="en">English</option>
-        <option value="zh">中文</option>
-      </select>
+        Get in touch
+      </h2>
+
+      <p style="margin-top:0">
+
+        The fastest way to reach us. Or email
+
+        <a href="mailto:betasuiteau@gmail.com">
+          betasuiteau@gmail.com
+        </a>
+
+        directly.
+
+      </p>
+
+      <form
+        id="contact-form"
+        class="contact-form"
+        novalidate
+      >
+
+        <div>
+          <label for="cf-name">Your name</label>
+
+          <input
+            id="cf-name"
+            name="name"
+            type="text"
+            autocomplete="name"
+            required
+          >
+        </div>
+
+        <div>
+
+          <label for="cf-email">
+            Your email address
+          </label>
+
+          <input
+            id="cf-email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+          >
+
+        </div>
+
+        <div>
+
+          <label for="cf-category">
+            Category
+          </label>
+
+          <select
+            id="cf-category"
+            name="category"
+          >
+            <option>Bug Report</option>
+            <option>Feature Request</option>
+            <option selected>General Inquiry</option>
+            <option>Billing</option>
+            <option>Other</option>
+          </select>
+
+        </div>
+
+        <div>
+
+          <label for="cf-message">
+            Message
+          </label>
+
+          <textarea
+            id="cf-message"
+            name="message"
+            required
+            minlength="10"
+          ></textarea>
+
+        </div>
+
+        <div class="hp" aria-hidden="true">
+
+          <label for="cf-website">
+            Leave this field empty
+          </label>
+
+          <input
+            id="cf-website"
+            name="website"
+            type="text"
+            tabindex="-1"
+            autocomplete="off"
+          >
+
+        </div>
+
+        <p
+          id="contact-status"
+          class="form-status"
+          role="status"
+          aria-live="polite"
+        ></p>
+
+        <button
+          type="submit"
+          data-i18n="sendMessage"
+        >
+          Send message
+        </button>
+
+      </form>
+
+      <div
+        id="contact-success"
+        class="form-success"
+        hidden
+        tabindex="-1"
+      >
+
+        <h2>Message sent</h2>
+
+        <p style="margin:0">
+          Thanks for reaching out.
+          We'll reply within 2 business days.
+        </p>
+
+      </div>
 
     </div>
 
-  </nav>
+    <h2 data-i18n="faqTitle">
+      Frequently asked questions
+    </h2>
 
-</header>
+    <dl class="faq">
 
-<main id="main">
+      <dt>Which devices are supported?</dt>
 
-  <h1>Support</h1>
+      <dd>
+        iPhone (iOS 16 or later) is the primary platform.
+        Android is also supported.
+      </dd>
 
-  <p>
-    We aim to reply within 2 business days.
-  </p>
+      <dt>Do I need an account?</dt>
 
-  <div class="contact-block">
+      <dd>
+        No. BetaSuite never requires registration.
+      </dd>
 
-    <h2>Email</h2>
+      <dt>How do I delete my data?</dt>
 
-    <p>
-      <a href="mailto:betasuiteau@gmail.com">
-        betasuiteau@gmail.com
+      <dd>
+        Open BetaSuite and go to
+        Settings → Data → Wipe all app data.
+      </dd>
+
+      <dt>What is Confidential Mode?</dt>
+
+      <dd>
+        Confidential Mode blocks cloud sync and cloud AI,
+        keeping processing local-only where possible.
+      </dd>
+
+    </dl>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div>
+
+      <a href="./" data-i18n="navHome">
+        Home
       </a>
+
+      <a href="support.html" data-i18n="navSupport">
+        Support
+      </a>
+
+      <a href="privacy.html" data-i18n="navPrivacy">
+        Privacy
+      </a>
+
+      <a href="terms.html" data-i18n="navTerms">
+        Terms
+      </a>
+
+    </div>
+
+    <p style="margin-top:14px">
+      © 2026 BetaSuite. All rights reserved.
     </p>
 
-  </div>
+  </footer>
 
-</main>
+  <script src="translations.js"></script>
 
-<footer class="site-footer">
+  <script>
 
-  <div>
-    <a href="./">Home</a>
-    <a href="support.html">Support</a>
-    <a href="privacy.html">Privacy</a>
-    <a href="terms.html">Terms</a>
-  </div>
+    const EMAILJS = {
+      endpoint: 'https://api.emailjs.com/api/v1.0/email/send',
+      serviceId: 'service_w55b2l5',
+      templateId: 'template_8md1rjo',
+      publicKey: 'HtidyyyXFz6JjeNwA',
+    };
 
-  <p>
-    © 2026 BetaSuite
-  </p>
+    const TO_EMAIL = 'betasuiteau@gmail.com';
 
-</footer>
+    const form =
+      document.getElementById('contact-form');
 
-<script src="translations.js"></script>
+    const status =
+      document.getElementById('contact-status');
+
+    const success =
+      document.getElementById('contact-success');
+
+    const submit =
+      form.querySelector('button[type=submit]');
+
+    function setStatus(msg, kind) {
+
+      status.textContent = msg || '';
+
+      status.className =
+        'form-status' + (kind ? ' ' + kind : '');
+
+    }
+
+    function setSubmitting(on) {
+
+      submit.disabled = on;
+
+      submit.textContent =
+        on ? 'Sending…' : 'Send message';
+
+    }
+
+    function showSuccess() {
+
+      form.hidden = true;
+
+      success.hidden = false;
+
+    }
+
+    form.addEventListener('submit', async (e) => {
+
+      e.preventDefault();
+
+      setStatus('');
+
+      const data = {
+        name: form.elements.name.value.trim(),
+        email: form.elements.email.value.trim(),
+        category: form.elements.category.value,
+        message: form.elements.message.value.trim(),
+      };
+
+      if (!data.name || !data.email || !data.message) {
+
+        setStatus(
+          'Please fill in all fields.',
+          'error'
+        );
+
+        return;
+      }
+
+      setSubmitting(true);
+
+      try {
+
+        const resp = await fetch(
+          EMAILJS.endpoint,
+          {
+            method: 'POST',
+
+            headers: {
+              'Content-Type': 'application/json'
+            },
+
+            body: JSON.stringify({
+
+              service_id:
+                EMAILJS.serviceId,
+
+              template_id:
+                EMAILJS.templateId,
+
+              user_id:
+                EMAILJS.publicKey,
+
+              template_params: {
+
+                from_name:
+                  data.name,
+
+                reply_to:
+                  data.email,
+
+                category:
+                  data.category,
+
+                message:
+                  data.message,
+              },
+            }),
+          }
+        );
+
+        if (resp.ok) {
+          showSuccess();
+        } else {
+          setStatus(
+            'Could not send message.',
+            'error'
+          );
+        }
+
+      } catch (err) {
+
+        setStatus(
+          'Network error.',
+          'error'
+        );
+
+      } finally {
+
+        setSubmitting(false);
+
+      }
+
+    });
+
+  </script>
 
 </body>
 </html>
