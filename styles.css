@@ -83,6 +83,15 @@ header.site-header {
   color: var(--text);
 }
 
+.brand-mark {
+  width: 24px;
+  height: 24px;
+  max-width: 24px;
+  max-height: 24px;
+  object-fit: contain;
+  display: inline-block;
+}
+
 /* MAIN */
 main {
   max-width: var(--max-w);
