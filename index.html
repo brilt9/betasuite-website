@@ -1,317 +1,170 @@
 <!doctype html>
 <html lang="en">
 <head>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BetaSuite — The toolkit for hardware & software beta testers</title>
 
-  <meta name="description" content="BetaSuite is an iOS-first toolkit for beta testers: screen recording, annotated capture, session timelines, charge-port diagnostics, and AI-assisted reports. One-time purchase. No subscriptions, no ads.">
-
-  <link rel="canonical" href="https://brilt9.github.io/betasuite-website/">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <title>BetaSuite</title>
 
   <link rel="stylesheet" href="styles.css">
 
-  <meta name="theme-color" content="#0D1B2A">
-
   <link rel="icon" type="image/png" href="icon.png">
-  <link rel="apple-touch-icon" href="icon.png">
 
-  <style>
-    .language-picker {
-      background: #0D1B2A;
-      color: #ffffff;
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 8px;
-      padding: 8px 10px;
-      font: inherit;
-      cursor: pointer;
-      margin-left: 12px;
-    }
-
-    .language-picker option {
-      color: #000;
-    }
-
-    @media (max-width: 700px) {
-      .language-picker {
-        margin-top: 10px;
-        margin-left: 0;
-      }
-    }
-  </style>
 </head>
 
 <body>
 
-  <a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
 
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary">
+  <nav class="nav">
 
-      <a class="brand" href="./">
-        <img class="brand-mark" src="icon.png" alt="" aria-hidden="true">
-        BetaSuite
+    <a class="brand" href="./">
+      <img class="brand-mark" src="icon.png" alt="">
+      BetaSuite
+    </a>
+
+    <div class="nav-links">
+
+      <a href="./" data-i18n="navHome">Home</a>
+
+      <a href="support.html" data-i18n="navSupport">
+        Support
       </a>
 
-      <div class="nav-links">
+      <a href="privacy.html" data-i18n="navPrivacy">
+        Privacy
+      </a>
 
-        <a href="./" data-i18n="navHome">Home</a>
+      <a href="terms.html" data-i18n="navTerms">
+        Terms
+      </a>
 
-        <a href="support.html" data-i18n="navSupport">Support</a>
-
-        <a href="privacy.html">Privacy</a>
-
-        <a href="terms.html">Terms</a>
-
-        <select
-          id="language-picker"
-          class="language-picker"
-          aria-label="Select language"
-        >
-          <option value="en">English</option>
-          <option value="zh">中文</option>
-        </select>
-
-      </div>
-
-    </nav>
-  </header>
-
-  <main id="main">
-
-    <section class="hero">
-
-      <h1 data-i18n="heroTitle">
-        Beta testing, all in one app.
-      </h1>
-
-      <p data-i18n="heroText">
-        BetaSuite is a mobile toolkit for hardware and software beta testers — recording, annotation, feedback collection, session timelines, charge-port diagnostics, and AI-assisted report generation. Local-first. iOS-first. Built for serious testing.
-      </p>
-
-      <div class="hero-actions">
-
-        <a
-          class="btn"
-          href="support.html"
-          data-i18n="supportButton"
-        >
-          Get Support
-        </a>
-
-        <a
-          class="btn btn-secondary"
-          href="privacy.html"
-          data-i18n="privacyButton"
-        >
-          Privacy Policy
-        </a>
-
-      </div>
-
-      <p
-        class="meta"
-        style="margin-top:24px"
-        data-i18n="metaText"
+      <select
+        id="language-picker"
+        class="language-picker"
       >
-        one-time purchase · No subscription · No ads · No tracking
-      </p>
+        <option value="en">English</option>
+        <option value="zh">中文</option>
+      </select>
 
-    </section>
-
-    <section>
-
-      <h2 data-i18n="insideTitle">
-        What's inside
-      </h2>
-
-      <div class="features">
-
-        <div class="feature">
-          <h3 data-i18n="feature1Title">
-            Screen & camera capture
-          </h3>
-
-          <p data-i18n="feature1Text">
-            Record screen with the iOS broadcast extension, or roll camera and screen at the same time. Every clip is timestamped on the frame so the evidence is unambiguous.
-          </p>
-        </div>
-
-        <div class="feature">
-          <h3 data-i18n="feature2Title">
-            Annotated feedback
-          </h3>
-
-          <p data-i18n="feature2Text">
-            Pin notes, voice memos, photos, and screenshots to a session timeline. Auto-attach device model, OS, app version, and optional battery / network state.
-          </p>
-        </div>
-
-        <div class="feature">
-          <h3 data-i18n="feature3Title">
-            Charge-port diagnostics
-          </h3>
-
-          <p data-i18n="feature3Text">
-            Quick built-in tester for charging behaviour — wattage, state-of-charge curve, and anomalies — captured into the same report stream as the rest of your testing.
-          </p>
-        </div>
-
-        <div class="feature">
-          <h3 data-i18n="feature4Title">
-            AI-assisted reports
-          </h3>
-
-          <p data-i18n="feature4Text">
-            Turn raw feedback into a polished bug report or testing summary.
-          </p>
-        </div>
-
-      </div>
-
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-
-    <div>
-      <a href="./" data-i18n="navHome">Home</a>
-      <a href="support.html" data-i18n="navSupport">Support</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
     </div>
 
-    <p style="margin-top:14px">
-      © 2026 BetaSuite. All rights reserved.
+  </nav>
+
+</header>
+
+<main id="main">
+
+  <section class="hero">
+
+    <h1 data-i18n="heroTitle">
+      Beta testing, all in one app.
+    </h1>
+
+    <p data-i18n="heroText">
+      BetaSuite is a mobile toolkit...
     </p>
 
-  </footer>
+    <div class="hero-actions">
 
-  <script>
-    const translations = {
+      <a
+        class="btn"
+        href="support.html"
+        data-i18n="supportButton"
+      >
+        Get Support
+      </a>
 
-      en: {
+      <a
+        class="btn btn-secondary"
+        href="privacy.html"
+        data-i18n="privacyButton"
+      >
+        Privacy Policy
+      </a>
 
-        navHome: "Home",
-        navSupport: "Support",
+    </div>
 
-        heroTitle: "Beta testing, all in one app.",
+    <p
+      class="meta"
+      data-i18n="metaText"
+    >
+      one-time purchase · No subscription · No ads · No tracking
+    </p>
 
-        heroText:
-          "BetaSuite is a mobile toolkit for hardware and software beta testers — recording, annotation, feedback collection, session timelines, charge-port diagnostics, and AI-assisted report generation. Local-first. iOS-first. Built for serious testing.",
+  </section>
 
-        supportButton: "Get Support",
+  <section>
 
-        privacyButton: "Privacy Policy",
+    <h2 data-i18n="insideTitle">
+      What's inside
+    </h2>
 
-        metaText:
-          "one-time purchase · No subscription · No ads · No tracking",
+    <div class="features">
 
-        insideTitle: "What's inside",
+      <div class="feature">
+        <h3 data-i18n="feature1Title">
+          Screen & camera capture
+        </h3>
 
-        feature1Title: "Screen & camera capture",
+        <p data-i18n="feature1Text">
+          Record screen...
+        </p>
+      </div>
 
-        feature1Text:
-          "Record screen with the iOS broadcast extension, or roll camera and screen at the same time. Every clip is timestamped on the frame so the evidence is unambiguous.",
+      <div class="feature">
+        <h3 data-i18n="feature2Title">
+          Annotated feedback
+        </h3>
 
-        feature2Title: "Annotated feedback",
+        <p data-i18n="feature2Text">
+          Pin notes...
+        </p>
+      </div>
 
-        feature2Text:
-          "Pin notes, voice memos, photos, and screenshots to a session timeline. Auto-attach device model, OS, app version, and optional battery / network state.",
+      <div class="feature">
+        <h3 data-i18n="feature3Title">
+          Charge-port diagnostics
+        </h3>
 
-        feature3Title: "Charge-port diagnostics",
+        <p data-i18n="feature3Text">
+          Quick built-in tester...
+        </p>
+      </div>
 
-        feature3Text:
-          "Quick built-in tester for charging behaviour — wattage, state-of-charge curve, and anomalies — captured into the same report stream as the rest of your testing.",
+      <div class="feature">
+        <h3 data-i18n="feature4Title">
+          AI-assisted reports
+        </h3>
 
-        feature4Title: "AI-assisted reports",
+        <p data-i18n="feature4Text">
+          Turn raw feedback...
+        </p>
+      </div>
 
-        feature4Text:
-          "Turn raw feedback into a polished bug report or testing summary."
-      },
+    </div>
 
-      zh: {
+  </section>
 
-        navHome: "主页",
-        navSupport: "支持",
+</main>
 
-        heroTitle: "一体化 Beta 测试应用",
+<footer class="site-footer">
 
-        heroText:
-          "BetaSuite 是面向硬件和软件测试人员的移动工具包，提供录屏、标注、反馈收集、时间线管理、充电端口诊断以及 AI 辅助报告功能。以本地优先与 iOS 优先为核心设计。",
+  <div>
+    <a href="./">Home</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </div>
 
-        supportButton: "获取支持",
+  <p>
+    © 2026 BetaSuite
+  </p>
 
-        privacyButton: "隐私政策",
+</footer>
 
-        metaText:
-          "一次性购买 · 无订阅 · 无广告 · 无追踪",
-
-        insideTitle: "功能内容",
-
-        feature1Title: "屏幕与相机录制",
-
-        feature1Text:
-          "使用 iOS 广播扩展录制屏幕，也可以同时录制相机与屏幕。所有影片都会自动加入时间戳。",
-
-        feature2Title: "标注反馈",
-
-        feature2Text:
-          "将备注、语音、照片与截图固定到测试时间线中，并自动附加设备与系统信息。",
-
-        feature3Title: "充电端口诊断",
-
-        feature3Text:
-          "内建充电测试工具，可记录功率、充电曲线与异常情况。",
-
-        feature4Title: "AI 辅助报告",
-
-        feature4Text:
-          "将原始测试反馈快速整理为专业错误报告或测试摘要。"
-      }
-    };
-
-    function setLanguage(lang) {
-
-      localStorage.setItem("language", lang);
-
-      document.querySelectorAll("[data-i18n]").forEach((element) => {
-
-        const key = element.getAttribute("data-i18n");
-
-        if (translations[lang][key]) {
-          element.innerHTML = translations[lang][key];
-        }
-
-      });
-
-      document.documentElement.lang = lang;
-    }
-
-    document.addEventListener("DOMContentLoaded", () => {
-
-      const savedLang =
-        localStorage.getItem("language") || "en";
-
-      const picker =
-        document.getElementById("language-picker");
-
-      picker.value = savedLang;
-
-      picker.addEventListener("change", (e) => {
-        setLanguage(e.target.value);
-      });
-
-      setLanguage(savedLang);
-
-    });
-  </script>
+<script src="translations.js"></script>
 
 </body>
 </html>
