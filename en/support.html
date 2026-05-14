@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Support</title>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+
+<script src="../router.js"></script>
+
+<header class="site-header">
+
+<nav class="nav">
+
+<a class="brand" href="./index.html">BetaSuite</a>
+
+<div class="nav-links">
+
+<a href="./index.html" data-i18n="navHome">Home</a>
+<a href="./support.html" data-i18n="navSupport">Support</a>
+
+<select id="language-picker" class="language-picker">
+<option value="en">🇬🇧 English</option>
+<option value="zh">🇨🇳 中文</option>
+</select>
+
+</div>
+
+</nav>
+</header>
+
+<main>
+
+<h1 data-i18n="supportTitle"></h1>
+<p data-i18n="supportLede"></p>
+
+<h2 data-i18n="contactTitle"></h2>
+
+<form>
+
+<label data-i18n="nameLabel"></label>
+<input type="text">
+
+<label data-i18n="emailLabel"></label>
+<input type="email">
+
+<label data-i18n="categoryLabel"></label>
+<select>
+<option>Bug</option>
+<option>Feature</option>
+</select>
+
+<label data-i18n="messageLabel"></label>
+<textarea></textarea>
+
+<button type="submit" data-i18n="sendMessage"></button>
+
+</form>
+
+</main>
+
+<script src="../translations.js"></script>
+
+</body>
+</html>
