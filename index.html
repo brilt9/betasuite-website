@@ -1,125 +1,79 @@
 <!doctype html>
 <html lang="en">
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>BetaSuite</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="icon.png">
-
 </head>
-
 <body>
-
-<header class="site-header">
-
-  <nav class="nav">
-
-    <a class="brand" href="./">
-      <img class="brand-mark" src="icon.png" alt="">
-      BetaSuite
-    </a>
-
-    <div class="nav-links">
-
-      <a href="./" data-i18n="navHome">Home</a>
-
-      <a href="support.html" data-i18n="navSupport">Support</a>
-
-      <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
-
-      <a href="terms.html" data-i18n="navTerms">Terms</a>
-
-      <select id="language-picker" class="language-picker">
-        <option value="en">🇬🇧 English</option>
-        <option value="zh">🇨🇳 中文</option>
-      </select>
-
-    </div>
-
-  </nav>
-
-</header>
-
-<main id="main">
-
-  <section class="hero">
-
-    <h1 data-i18n="heroTitle">
-      Beta testing, all in one app.
-    </h1>
-
-    <p data-i18n="heroText">
-      BetaSuite is a mobile toolkit...
-    </p>
-
-    <div class="hero-actions">
-
-      <a class="btn" href="support.html" data-i18n="supportButton">
-        Get Support
+  <header class="site-header" role="banner">
+    <nav class="nav" role="navigation" aria-label="Main">
+      <a class="brand" href="./">
+        <img class="brand-mark" src="icon.png" alt="BetaSuite logo">
+        <span class="brand-name">BetaSuite</span>
       </a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="./">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <select id="language-picker" class="language-picker" aria-label="Language">
+          <option value="en">🇬🇧 English</option>
+          <option value="zh">🇨🇳 中文</option>
+        </select>
+      </div>
+    </nav>
+  </header>
 
-      <a class="btn btn-secondary" href="privacy.html" data-i18n="privacyButton">
-        Privacy Policy
-      </a>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <h1 id="hero-title">Beta testing, all in one app.</h1>
+        <p class="lead">BetaSuite is a mobile toolkit that helps you capture, annotate, and report bugs quickly.</p>
+        <div class="hero-actions">
+          <a class="btn" href="support.html">Get Support</a>
+          <a class="btn btn-secondary" href="privacy.html">Privacy Policy</a>
+        </div>
+        <p class="meta">One-time purchase · No subscription · No ads · No tracking</p>
+      </div>
+    </section>
 
+    <section class="features container" aria-labelledby="inside-title">
+      <h2 id="inside-title">What's inside</h2>
+      <div class="feature-grid">
+        <article class="feature"><h3>Screen & camera capture</h3><p>Record screen and camera with one tap.</p></article>
+        <article class="feature"><h3>Annotated feedback</h3><p>Pin notes and draw on screenshots.</p></article>
+        <article class="feature"><h3>Charge-port diagnostics</h3><p>Quick built-in tester for hardware issues.</p></article>
+        <article class="feature"><h3>AI-assisted reports</h3><p>Turn raw feedback into clear reports.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-links">
+      <a href="./">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
     </div>
+    <p>© 2026 BetaSuite</p>
+  </footer>
 
-    <p class="meta" data-i18n="metaText">
-      one-time purchase · No subscription · No ads · No tracking
-    </p>
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const links = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      links.classList.toggle('open');
+    });
+  </script>
 
-  </section>
-
-  <section>
-
-    <h2 data-i18n="insideTitle">What's inside</h2>
-
-    <div class="features">
-
-      <div class="feature">
-        <h3 data-i18n="feature1Title">Screen & camera capture</h3>
-        <p data-i18n="feature1Text">Record screen...</p>
-      </div>
-
-      <div class="feature">
-        <h3 data-i18n="feature2Title">Annotated feedback</h3>
-        <p data-i18n="feature2Text">Pin notes...</p>
-      </div>
-
-      <div class="feature">
-        <h3 data-i18n="feature3Title">Charge-port diagnostics</h3>
-        <p data-i18n="feature3Text">Quick built-in tester...</p>
-      </div>
-
-      <div class="feature">
-        <h3 data-i18n="feature4Title">AI-assisted reports</h3>
-        <p data-i18n="feature4Text">Turn raw feedback...</p>
-      </div>
-
-    </div>
-
-  </section>
-
-</main>
-
-<footer class="site-footer">
-
-  <div>
-    <a href="./">Home</a>
-    <a href="support.html">Support</a>
-    <a href="privacy.html">Privacy</a>
-    <a href="terms.html">Terms</a>
-  </div>
-
-  <p>© 2026 BetaSuite</p>
-
-</footer>
-
-<script src="translations.js"></script>
-
+  <script src="translations.js"></script>
 </body>
 </html>
