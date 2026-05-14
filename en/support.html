@@ -3,130 +3,180 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Support — BetaSuite</title>
-
-  <link rel="stylesheet" href="../styles.css">
+  <meta name="description" content="Contact BetaSuite support — we reply within 2 business days.">
   <link rel="icon" type="image/png" href="../icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
+  <a class="skip-link" href="#main" style="position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden">Skip to content</a>
 
-<script src="../router.js"></script>
+  <header class="site-header" role="banner">
+    <nav class="nav container" role="navigation" aria-label="Main navigation">
+      <a class="brand" href="./index.html" aria-label="BetaSuite home">
+        <img src="../icon.png" alt="BetaSuite logo" class="brand-mark" width="36" height="36">
+        <span class="brand-name">BetaSuite</span>
+      </a>
 
-<header class="site-header">
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
 
-  <nav class="nav">
+      <div id="nav-links" class="nav-links" role="menu">
+        <a role="menuitem" href="./index.html" data-i18n="navHome">Home</a>
+        <a role="menuitem" href="./support.html" data-i18n="navSupport">Support</a>
+        <a role="menuitem" href="./privacy.html" data-i18n="navPrivacy">Privacy</a>
+        <a role="menuitem" href="./terms.html" data-i18n="navTerms">Terms</a>
 
-    <a class="brand" href="./index.html">
-      BetaSuite
-    </a>
-
-    <div class="nav-links">
-
-      <a href="./index.html" data-i18n="navHome">Home</a>
-      <a href="./support.html" data-i18n="navSupport">Support</a>
-      <a href="./privacy.html" data-i18n="navPrivacy">Privacy</a>
-      <a href="./terms.html" data-i18n="navTerms">Terms</a>
-
-      <select id="language-picker" class="language-picker">
-        <option value="en">🇬🇧 English</option>
-        <option value="zh">🇨🇳 中文</option>
-      </select>
-
-    </div>
-
-  </nav>
-
-</header>
-
-<main>
-
-  <h1 data-i18n="supportTitle">Support</h1>
-
-  <p class="lede" data-i18n="supportLede">
-    We reply within 2 business days.
-  </p>
-
-  <div class="contact-block">
-
-    <h2 data-i18n="contactTitle">Get in touch</h2>
-
-    <p>
-      Email:
-      <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>
-    </p>
-
-    <form class="contact-form">
-
-      <div>
-        <label data-i18n="nameLabel">Your name</label>
-        <input type="text" name="name" required>
-      </div>
-
-      <div>
-        <label data-i18n="emailLabel">Your email address</label>
-        <input type="email" name="email" required>
-      </div>
-
-      <div>
-        <label data-i18n="categoryLabel">Category</label>
-        <select name="category">
-          <option>Bug Report</option>
-          <option>Feature Request</option>
-          <option>General Inquiry</option>
-          <option>Billing</option>
-          <option>Other</option>
+        <select id="language-picker" class="language-picker" aria-label="Language selector" title="Select language">
+          <option value="en">🇬🇧 English</option>
+          <option value="zh">🇨🇳 中文</option>
         </select>
       </div>
+    </nav>
+  </header>
 
-      <div>
-        <label data-i18n="messageLabel">Message</label>
-        <textarea name="message" required minlength="10"></textarea>
-      </div>
+  <main id="main" class="container" tabindex="-1">
+    <section class="hero" aria-labelledby="support-title">
+      <h1 id="support-title" data-i18n="supportTitle">Support</h1>
+      <p class="lede" data-i18n="supportLede">We reply within 2 business days.</p>
+    </section>
 
-      <button type="submit" data-i18n="sendMessage">
-        Send message
-      </button>
+    <section class="contact-block" aria-labelledby="contact-title">
+      <h2 id="contact-title" data-i18n="contactTitle">Get in touch</h2>
 
-    </form>
+      <p>
+        Email:
+        <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>
+      </p>
 
-  </div>
+      <form class="contact-form" id="contact-form" novalidate>
+        <div>
+          <label for="name" data-i18n="nameLabel">Your name</label>
+          <input id="name" type="text" name="name" required data-i18n-placeholder="nameLabel" placeholder="Your name">
+        </div>
 
-  <h2 data-i18n="faqTitle">Frequently asked questions</h2>
+        <div>
+          <label for="email" data-i18n="emailLabel">Your email address</label>
+          <input id="email" type="email" name="email" required data-i18n-placeholder="emailLabel" placeholder="you@example.com">
+        </div>
 
-  <dl class="faq">
+        <div>
+          <label for="category" data-i18n="categoryLabel">Category</label>
+          <select id="category" name="category" aria-label="Category">
+            <option>Bug Report</option>
+            <option>Feature Request</option>
+            <option>General Inquiry</option>
+            <option>Billing</option>
+            <option>Other</option>
+          </select>
+        </div>
 
-    <dt>Which devices are supported?</dt>
-    <dd>iPhone (iOS 16+) is primary. Android also supported.</dd>
+        <div>
+          <label for="message" data-i18n="messageLabel">Message</label>
+          <textarea id="message" name="message" required minlength="10" rows="6" data-i18n-placeholder="messageLabel" placeholder="Describe your issue or request"></textarea>
+        </div>
 
-    <dt>Do I need an account?</dt>
-    <dd>No account required.</dd>
+        <div>
+          <button type="submit" class="btn" data-i18n-value="sendMessage">Send message</button>
+        </div>
 
-    <dt>How do I delete my data?</dt>
-    <dd>Settings → Data → Wipe all app data.</dd>
+        <p id="form-status" class="small-muted" aria-live="polite" style="margin-top:12px;"></p>
+      </form>
+    </section>
 
-    <dt>What is Confidential Mode?</dt>
-    <dd>Keeps processing local where possible.</dd>
+    <section aria-labelledby="faq-title" style="margin-top:28px;">
+      <h2 id="faq-title" data-i18n="faqTitle">Frequently asked questions</h2>
 
-  </dl>
+      <dl class="faq">
+        <dt>Which devices are supported?</dt>
+        <dd>iPhone (iOS 16+) is primary. Android also supported.</dd>
 
-</main>
+        <dt>Do I need an account?</dt>
+        <dd>No account required.</dd>
 
-<footer class="site-footer">
+        <dt>How do I delete my data?</dt>
+        <dd>Settings → Data → Wipe all app data.</dd>
 
-  <div>
-    <a href="./index.html">Home</a>
-    <a href="./support.html">Support</a>
-    <a href="./privacy.html">Privacy</a>
-    <a href="./terms.html">Terms</a>
-  </div>
+        <dt>What is Confidential Mode?</dt>
+        <dd>Keeps processing local where possible.</dd>
+      </dl>
+    </section>
+  </main>
 
-  <p>© 2026 BetaSuite</p>
+  <footer class="site-footer container" role="contentinfo" aria-label="Footer">
+    <div class="footer-links">
+      <a href="./index.html">Home</a>
+      <a href="./support.html">Support</a>
+      <a href="./privacy.html">Privacy</a>
+      <a href="./terms.html">Terms</a>
+    </div>
+    <p class="small-muted">© 2026 BetaSuite</p>
+  </footer>
 
-</footer>
+  <script src="../router.js" defer></script>
 
-<script src="../translations.js"></script>
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const links = document.getElementById('nav-links');
 
+      if (toggle && links) {
+        toggle.addEventListener('click', () => {
+          const expanded = toggle.getAttribute('aria-expanded') === 'true';
+          toggle.setAttribute('aria-expanded', String(!expanded));
+          links.classList.toggle('open');
+          if (!expanded) {
+            const first = links.querySelector('a, button, [role="menuitem"], select');
+            if (first) first.focus();
+          } else {
+            toggle.focus();
+          }
+        });
+
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && links.classList.contains('open')) {
+            links.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+            toggle.focus();
+          }
+        });
+
+        document.addEventListener('click', (e) => {
+          if (!links.classList.contains('open')) return;
+          if (!links.contains(e.target) && !toggle.contains(e.target)) {
+            links.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+          }
+        });
+      }
+
+      // Simple client-side form handler (prevents navigation, shows status).
+      const form = document.getElementById('contact-form');
+      const status = document.getElementById('form-status');
+      if (form) {
+        form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          status.textContent = 'Sending…';
+          const data = new FormData(form);
+          // Basic validation
+          if (!data.get('name') || !data.get('email') || !data.get('message')) {
+            status.textContent = 'Please complete all required fields.';
+            return;
+          }
+          // Fallback: open mail client with prefilled content
+          const subject = encodeURIComponent('BetaSuite Support Request');
+          const body = encodeURIComponent(
+            `Name: ${data.get('name')}\nEmail: ${data.get('email')}\nCategory: ${data.get('category')}\n\n${data.get('message')}`
+          );
+          window.location.href = `mailto:betasuiteau@gmail.com?subject=${subject}&body=${body}`;
+          status.textContent = 'Opening your mail client…';
+        });
+      }
+    })();
+  </script>
+
+  <script src="../translations.js" defer></script>
 </body>
 </html>
