@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>支持 — BetaSuite</title>
+
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" type="image/png" href="../icon.png">
+</head>
+
+<body>
+
+<script src="../router.js"></script>
+
+<header class="site-header">
+
+  <nav class="nav">
+
+    <a class="brand" href="./index.html">
+      BetaSuite
+    </a>
+
+    <div class="nav-links">
+
+      <a href="./index.html" data-i18n="navHome">主页</a>
+      <a href="./support.html" data-i18n="navSupport">支持</a>
+      <a href="./privacy.html" data-i18n="navPrivacy">隐私</a>
+      <a href="./terms.html" data-i18n="navTerms">条款</a>
+
+      <select id="language-picker" class="language-picker">
+        <option value="en">🇬🇧 English</option>
+        <option value="zh">🇨🇳 中文</option>
+      </select>
+
+    </div>
+
+  </nav>
+
+</header>
+
+<main>
+
+  <h1 data-i18n="supportTitle">支持</h1>
+
+  <p class="lede" data-i18n="supportLede">
+    我们通常在 2 个工作日内回复。
+  </p>
+
+  <div class="contact-block">
+
+    <h2 data-i18n="contactTitle">联系我们</h2>
+
+    <p>
+      邮箱：
+      <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>
+    </p>
+
+    <form class="contact-form">
+
+      <div>
+        <label data-i18n="nameLabel">姓名</label>
+        <input type="text" name="name" required>
+      </div>
+
+      <div>
+        <label data-i18n="emailLabel">邮箱地址</label>
+        <input type="email" name="email" required>
+      </div>
+
+      <div>
+        <label data-i18n="categoryLabel">类别</label>
+        <select name="category">
+          <option>错误报告</option>
+          <option>功能建议</option>
+          <option>一般咨询</option>
+          <option>账单问题</option>
+          <option>其他</option>
+        </select>
+      </div>
+
+      <div>
+        <label data-i18n="messageLabel">信息</label>
+        <textarea name="message" required minlength="10"></textarea>
+      </div>
+
+      <button type="submit" data-i18n="sendMessage">
+        发送
+      </button>
+
+    </form>
+
+  </div>
+
+  <h2 data-i18n="faqTitle">常见问题</h2>
+
+  <dl class="faq">
+
+    <dt>支持哪些设备？</dt>
+    <dd>主要支持 iPhone（iOS 16+），也支持 Android。</dd>
+
+    <dt>需要账号吗？</dt>
+    <dd>不需要账号。</dd>
+
+    <dt>如何删除数据？</dt>
+    <dd>设置 → 数据 → 清除所有数据。</dd>
+
+    <dt>什么是隐私模式？</dt>
+    <dd>尽可能在本地处理数据，不上传云端。</dd>
+
+  </dl>
+
+</main>
+
+<footer class="site-footer">
+
+  <div>
+    <a href="./index.html">主页</a>
+    <a href="./support.html">支持</a>
+    <a href="./privacy.html">隐私</a>
+    <a href="./terms.html">条款</a>
+  </div>
+
+  <p>© 2026 BetaSuite</p>
+
+</footer>
+
+<script src="../translations.js"></script>
+
+</body>
+</html>
