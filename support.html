@@ -1,322 +1,97 @@
 <!doctype html>
 <html lang="en">
 <head>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Support — BetaSuite</title>
-  <meta name="description" content="Get help with BetaSuite: contact form, FAQs, troubleshooting, account &amp; data deletion, refunds, and how to report a bug.">
-  <link rel="canonical" href="https://brilt9.github.io/betasuite-website/support.html">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
-  <meta name="theme-color" content="#0D1B2A">
+
   <link rel="icon" type="image/png" href="icon.png">
-  <link rel="apple-touch-icon" href="icon.png">
 
-  <style>
-    .contact-form { display: grid; gap: 14px; }
-    .contact-form label {
-      display: block;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 500;
-      font-size: 14px;
-      color: var(--text);
-      margin-bottom: 6px;
-    }
-    .contact-form input[type=text],
-    .contact-form input[type=email],
-    .contact-form select,
-    .contact-form textarea {
-      width: 100%;
-      background: var(--navy);
-      color: var(--text);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 10px 12px;
-      font: inherit;
-      font-size: 15px;
-      line-height: 1.4;
-    }
-    .contact-form textarea { min-height: 140px; resize: vertical; }
-    .contact-form input:focus,
-    .contact-form select:focus,
-    .contact-form textarea:focus {
-      outline: none;
-      border-color: var(--accent);
-      box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.25);
-    }
-    .contact-form .helper { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
-    .contact-form button[type=submit] {
-      background: var(--accent);
-      color: #fff;
-      border: 0;
-      border-radius: 8px;
-      padding: 12px 22px;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      font-size: 15px;
-      cursor: pointer;
-      justify-self: start;
-    }
-    .contact-form button[type=submit]:hover:not(:disabled),
-    .contact-form button[type=submit]:focus:not(:disabled) { background: var(--accent-hover); }
-    .contact-form button[type=submit]:disabled { opacity: 0.6; cursor: progress; }
-    .contact-form .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
-    .form-status { margin: 0; font-size: 14px; }
-    .form-status.error { color: #FF7A85; }
-    .form-status.warn  { color: var(--amber); }
-    .form-success {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-left: 3px solid #4CD08A;
-      border-radius: var(--radius);
-      padding: 18px 22px;
-    }
-    .form-success h2 { margin-top: 0; }
-  </style>
 </head>
+
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary">
-      <a class="brand" href="./">
-        <img class="brand-mark" src="icon.png" alt="" aria-hidden="true">
-        BetaSuite
+<header class="site-header">
+
+  <nav class="nav">
+
+    <a class="brand" href="./">
+      <img class="brand-mark" src="icon.png" alt="">
+      BetaSuite
+    </a>
+
+    <div class="nav-links">
+
+      <a href="./">Home</a>
+
+      <a href="support.html">
+        Support
       </a>
-      <div class="nav-links">
-        <a href="./">Home</a>
-        <a href="support.html" aria-current="page">Support</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-      </div>
-    </nav>
-  </header>
 
-  <main id="main">
-    <h1>Support</h1>
-    <p class="lede">We read every message and aim to reply within 2 business days.</p>
+      <a href="privacy.html">
+        Privacy
+      </a>
 
-    <div class="contact-block" id="contact">
-      <h2 style="margin-top:0">Get in touch</h2>
-      <p style="margin-top:0">
-        The fastest way to reach us. Or email
-        <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>
-        directly.
-      </p>
+      <a href="terms.html">
+        Terms
+      </a>
 
-      <form id="contact-form" class="contact-form" novalidate>
-        <div>
-          <label for="cf-name">Your name</label>
-          <input id="cf-name" name="name" type="text" autocomplete="name" required>
-        </div>
+      <select
+        id="language-picker"
+        class="language-picker"
+      >
+        <option value="en">English</option>
+        <option value="zh">中文</option>
+      </select>
 
-        <div>
-          <label for="cf-email">Your email address</label>
-          <input id="cf-email" name="email" type="email" autocomplete="email" required>
-          <p class="helper">We'll reply to this address.</p>
-        </div>
-
-        <div>
-          <label for="cf-category">Category</label>
-          <select id="cf-category" name="category">
-            <option>Bug Report</option>
-            <option>Feature Request</option>
-            <option selected>General Inquiry</option>
-            <option>Billing</option>
-            <option>Other</option>
-          </select>
-        </div>
-
-        <div>
-          <label for="cf-message">Message</label>
-          <textarea id="cf-message" name="message" required minlength="10" placeholder="Please include device model, OS version, and BetaSuite version (Settings → About) for bug reports."></textarea>
-        </div>
-
-        <div class="hp" aria-hidden="true">
-          <label for="cf-website">Leave this field empty</label>
-          <input id="cf-website" name="website" type="text" tabindex="-1" autocomplete="off">
-        </div>
-
-        <p id="contact-status" class="form-status" role="status" aria-live="polite"></p>
-
-        <button type="submit">Send message</button>
-      </form>
-
-      <div id="contact-success" class="form-success" hidden tabindex="-1">
-        <h2>Message sent</h2>
-        <p style="margin:0">
-          Thanks for reaching out. We'll reply to your email within 2 business days.
-        </p>
-      </div>
     </div>
 
-    <h2>Frequently asked questions</h2>
-    <dl class="faq">
-      <dt>Which devices are supported?</dt>
-      <dd>iPhone (iOS 16 or later) is the primary platform. Android is supported via the same Flutter build. Some features — Apple Intelligence, Apple WeatherKit, the Broadcast Upload Extension for screen recording — are iOS-only.</dd>
+  </nav>
 
-      <dt>How do I delete my data?</dt>
-      <dd>BetaSuite is a local-first app — there is <strong>no user account and no server-side data</strong>. To wipe everything: open BetaSuite, go to <em>Settings → Data → Wipe all app data</em>. Uninstalling the app also removes all on-device data. For files you've synced to your own Google Drive, OneDrive, or iCloud account, delete them directly from that account.</dd>
+</header>
 
-      <dt>Do I need to create an account?</dt>
-      <dd>No. BetaSuite never asks you to register. Your data is generated and stored only on your device, encrypted at rest. You only sign in to a third party (Google, Microsoft, Apple) if <em>you</em> opt in to cloud sync.</dd>
+<main id="main">
 
-      <dt>How do I get a refund?</dt>
-      <dd>Refunds are handled by the App Store. Visit <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> and select your BetaSuite purchase. We don't process payments directly, so we can't issue refunds on Apple's behalf.</dd>
+  <h1>Support</h1>
 
-      <dt>Why does BetaSuite need camera, microphone, and location permissions?</dt>
-      <dd>
-        Camera and microphone are used for capturing video, audio notes, and screen + camera dual recording. Location is used only when you turn on the GPS overlay so a captured frame shows where it was taken. Each permission is requested on first use, with an explanation, and can be revoked at any time in iOS / Android Settings.
-      </dd>
+  <p>
+    We aim to reply within 2 business days.
+  </p>
 
-      <dt>What is Confidential Mode?</dt>
-      <dd>A toggle that locks the app to on-device processing only. While it's on: cloud sync is disabled, every cloud AI provider is blocked, and a confirmation dialog appears before any share or export. Apple Intelligence (which runs on-device) is still permitted. Use it for NDA-bound testing.</dd>
+  <div class="contact-block">
 
-      <dt>Where do AI requests go?</dt>
-      <dd>
-        Default: Apple Intelligence on-device when your iPhone supports it (iOS 26+, iPhone 15 Pro and newer); otherwise Google Firebase AI as a cloud fallback. You can switch to bring-your-own-key for Anthropic Claude, OpenAI, Google Gemini, or DeepSeek — in which case the request goes directly from your device to that provider with your key, never via us. See the <a href="privacy.html#ai-features">privacy policy</a> for the full picture.
-      </dd>
+    <h2>Email</h2>
 
-      <dt>Screen recording isn't working — what should I check?</dt>
-      <dd>
-        On iOS, screen recording uses a Broadcast Upload Extension. On the first use you need to tap "BetaSuiteBroadcast" in the system broadcast picker and then "Start Broadcast". If the picker doesn't show BetaSuiteBroadcast, restart the device — iOS sometimes caches the extension list. On Android, grant the System Alert Window permission for the floating record button to appear.
-      </dd>
-
-      <dt>How do I report a bug?</dt>
-      <dd>
-        Use the form at the top of this page (category "Bug Report"), or in-app at <em>Settings → Legal → Contact Us</em>. Please include device model, iOS / Android version, BetaSuite version (Settings → About), and steps to reproduce. A short screen recording attached as a file is incredibly helpful.
-      </dd>
-
-      <dt>Will my old data survive an app update?</dt>
-      <dd>
-        Yes. BetaSuite uses Hive with a compatibility-preserving schema — every field added in a newer version is read with a null-fallback, so older recordings, projects, and feedback stay accessible after an update. If you ever need to migrate to a new device, use <em>Settings → Data → Export</em> to create a portable backup first.
-      </dd>
-    </dl>
-
-    <h2>Status &amp; outages</h2>
     <p>
-      Because BetaSuite runs locally with no backend, there's nothing on our side to go down. If a feature that depends on a third party fails — Apple WeatherKit, a cloud-storage provider, an AI vendor — check that provider's status page directly. We'll post a notice on the <a href="./">home page</a> if a widespread issue affects multiple users.
+      <a href="mailto:betasuiteau@gmail.com">
+        betasuiteau@gmail.com
+      </a>
     </p>
 
-    <div class="callout">
-      <strong>Still stuck?</strong> Use the form above (or email
-      <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>) with
-      your device model, OS version, and BetaSuite version (Settings →
-      About). We respond within 2 business days.
-    </div>
-  </main>
+  </div>
 
-  <footer class="site-footer">
-    <div>
-      <a href="./">Home</a>
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-    </div>
-    <p style="margin-top:14px">© 2026 BetaSuite. All rights reserved.</p>
-  </footer>
+</main>
 
-  <script>
-    const EMAILJS = {
-      endpoint: 'https://api.emailjs.com/api/v1.0/email/send',
-      serviceId: 'service_w55b2l5',
-      templateId: 'template_8md1rjo',
-      publicKey: 'HtidyyyXFz6JjeNwA',
-    };
-    const TO_EMAIL = 'betasuiteau@gmail.com';
+<footer class="site-footer">
 
-    const form    = document.getElementById('contact-form');
-    const status  = document.getElementById('contact-status');
-    const success = document.getElementById('contact-success');
-    const submit  = form.querySelector('button[type=submit]');
+  <div>
+    <a href="./">Home</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </div>
 
-    function setStatus(msg, kind) {
-      status.textContent = msg || '';
-      status.className = 'form-status' + (kind ? ' ' + kind : '');
-    }
-    function setSubmitting(on) {
-      submit.disabled = on;
-      submit.textContent = on ? 'Sending…' : 'Send message';
-    }
-    function showSuccess() {
-      form.hidden = true;
-      success.hidden = false;
-      success.focus();
-      success.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-    function mailtoFallback(data, reason) {
-      const subject = `[BetaSuite] ${data.category} — ${data.name}`;
-      const body =
-        `Name: ${data.name}\n` +
-        `Reply-to: ${data.email}\n` +
-        `Category: ${data.category}\n\n` +
-        `Message:\n${data.message}\n`;
-      const href = `mailto:${TO_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      setStatus(`${reason} Opening your email app instead — review and send.`, 'warn');
-      window.location.href = href;
-    }
+  <p>
+    © 2026 BetaSuite
+  </p>
 
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      setStatus('');
+</footer>
 
-      if (form.elements.website.value.trim() !== '') {
-        showSuccess();
-        return;
-      }
+<script src="translations.js"></script>
 
-      const data = {
-        name:     form.elements.name.value.trim(),
-        email:    form.elements.email.value.trim(),
-        category: form.elements.category.value,
-        message:  form.elements.message.value.trim(),
-      };
-
-      if (!data.name || !data.email || !data.message) {
-        setStatus('Please fill in your name, email, and a message.', 'error');
-        return;
-      }
-      if (data.message.length < 10) {
-        setStatus('Please enter at least 10 characters.', 'error');
-        form.elements.message.focus();
-        return;
-      }
-      if (!data.email.includes('@') || !data.email.includes('.')) {
-        setStatus('Please enter a valid email address.', 'error');
-        form.elements.email.focus();
-        return;
-      }
-
-      setSubmitting(true);
-      try {
-        const resp = await fetch(EMAILJS.endpoint, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            service_id:  EMAILJS.serviceId,
-            template_id: EMAILJS.templateId,
-            user_id:     EMAILJS.publicKey,
-            template_params: {
-              from_name: data.name,
-              reply_to:  data.email,
-              category:  data.category,
-              message:   data.message,
-            },
-          }),
-        });
-        if (resp.ok) {
-          showSuccess();
-        } else {
-          mailtoFallback(data, `Couldn't send (${resp.status}).`);
-        }
-      } catch (err) {
-        mailtoFallback(data, 'Network error.');
-      } finally {
-        setSubmitting(false);
-      }
-    });
-  </script>
 </body>
 </html>
