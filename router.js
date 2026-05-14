@@ -4,7 +4,7 @@
 
   const isRoot =
     path === "/" ||
-    path.endsWith("/index.html");
+    path.endsWith("index.html");
 
   if (!isRoot) return;
 
@@ -14,14 +14,10 @@
     navigator.language || "en";
 
   const detected =
-    browser.startsWith("zh") ? "zh" : "en";
+    browser.toLowerCase().startsWith("zh") ? "zh" : "en";
 
   const lang = saved || detected;
 
-  if (lang === "zh") {
-    window.location.href = "./zh/index.html";
-  } else {
-    window.location.href = "./en/index.html";
-  }
+  window.location.href = `./${lang}/index.html`;
 
 })();
