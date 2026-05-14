@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Support</title>
+  <title>Support — BetaSuite</title>
 
-<link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" type="image/png" href="../icon.png">
 </head>
 
 <body>
@@ -15,54 +16,115 @@
 
 <header class="site-header">
 
-<nav class="nav">
+  <nav class="nav">
 
-<a class="brand" href="./index.html">BetaSuite</a>
+    <a class="brand" href="./index.html">
+      BetaSuite
+    </a>
 
-<div class="nav-links">
+    <div class="nav-links">
 
-<a href="./index.html" data-i18n="navHome">Home</a>
-<a href="./support.html" data-i18n="navSupport">Support</a>
+      <a href="./index.html" data-i18n="navHome">Home</a>
+      <a href="./support.html" data-i18n="navSupport">Support</a>
+      <a href="./privacy.html" data-i18n="navPrivacy">Privacy</a>
+      <a href="./terms.html" data-i18n="navTerms">Terms</a>
 
-<select id="language-picker" class="language-picker">
-<option value="en">🇬🇧 English</option>
-<option value="zh">🇨🇳 中文</option>
-</select>
+      <select id="language-picker" class="language-picker">
+        <option value="en">🇬🇧 English</option>
+        <option value="zh">🇨🇳 中文</option>
+      </select>
 
-</div>
+    </div>
 
-</nav>
+  </nav>
+
 </header>
 
 <main>
 
-<h1 data-i18n="supportTitle"></h1>
-<p data-i18n="supportLede"></p>
+  <h1 data-i18n="supportTitle">Support</h1>
 
-<h2 data-i18n="contactTitle"></h2>
+  <p class="lede" data-i18n="supportLede">
+    We reply within 2 business days.
+  </p>
 
-<form>
+  <div class="contact-block">
 
-<label data-i18n="nameLabel"></label>
-<input type="text">
+    <h2 data-i18n="contactTitle">Get in touch</h2>
 
-<label data-i18n="emailLabel"></label>
-<input type="email">
+    <p>
+      Email:
+      <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>
+    </p>
 
-<label data-i18n="categoryLabel"></label>
-<select>
-<option>Bug</option>
-<option>Feature</option>
-</select>
+    <form class="contact-form">
 
-<label data-i18n="messageLabel"></label>
-<textarea></textarea>
+      <div>
+        <label data-i18n="nameLabel">Your name</label>
+        <input type="text" name="name" required>
+      </div>
 
-<button type="submit" data-i18n="sendMessage"></button>
+      <div>
+        <label data-i18n="emailLabel">Your email address</label>
+        <input type="email" name="email" required>
+      </div>
 
-</form>
+      <div>
+        <label data-i18n="categoryLabel">Category</label>
+        <select name="category">
+          <option>Bug Report</option>
+          <option>Feature Request</option>
+          <option>General Inquiry</option>
+          <option>Billing</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div>
+        <label data-i18n="messageLabel">Message</label>
+        <textarea name="message" required minlength="10"></textarea>
+      </div>
+
+      <button type="submit" data-i18n="sendMessage">
+        Send message
+      </button>
+
+    </form>
+
+  </div>
+
+  <h2 data-i18n="faqTitle">Frequently asked questions</h2>
+
+  <dl class="faq">
+
+    <dt>Which devices are supported?</dt>
+    <dd>iPhone (iOS 16+) is primary. Android also supported.</dd>
+
+    <dt>Do I need an account?</dt>
+    <dd>No account required.</dd>
+
+    <dt>How do I delete my data?</dt>
+    <dd>Settings → Data → Wipe all app data.</dd>
+
+    <dt>What is Confidential Mode?</dt>
+    <dd>Keeps processing local where possible.</dd>
+
+  </dl>
 
 </main>
+
+<footer class="site-footer">
+
+  <div>
+    <a href="./index.html">Home</a>
+    <a href="./support.html">Support</a>
+    <a href="./privacy.html">Privacy</a>
+    <a href="./terms.html">Terms</a>
+  </div>
+
+  <p>© 2026 BetaSuite</p>
+
+</footer>
 
 <script src="../translations.js"></script>
 
