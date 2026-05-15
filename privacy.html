@@ -137,7 +137,7 @@
     </p>
     <h3>Google Firebase AI (cloud fallback)</h3>
     <p>
-      Used when on-device routing is unavailable (older iPhone, Android, locale model not installed, or a feature without an on-device path). The specific text or audio you choose to process is sent to Google for inference under the BetaSuite Assist umbrella, and is governed by Google's privacy policy. We do not see or store the request.
+      Used when on-device routing is unavailable (older iPhone, locale model not installed, or a feature without an on-device path). The specific text or audio you choose to process is sent to Google for inference under the BetaSuite Assist umbrella, and is governed by Google's privacy policy. We do not see or store the request.
       <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google privacy policy</a>.
     </p>
     <p>
@@ -145,7 +145,7 @@
     </p>
     <h3>Bring-your-own-key providers</h3>
     <p>
-      When you supply your own API key for Anthropic Claude, OpenAI, Google Gemini, or DeepSeek, prompts go directly from your device to that provider for inference. The data is governed by that provider's privacy policy and terms. We do not see, store, or relay these requests. Your API key is held in device secure storage (iOS Keychain / Android Keystore) and is never transmitted to us.
+      When you supply your own API key for Anthropic Claude, OpenAI, Google Gemini, or DeepSeek, prompts go directly from your device to that provider for inference. The data is governed by that provider's privacy policy and terms. We do not see, store, or relay these requests. Your API key is held in device secure storage (iOS Keychain) and is never transmitted to us.
     </p>
     <ul>
       <li><a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">Anthropic Claude privacy policy</a></li>
@@ -155,7 +155,7 @@
     </ul>
     <h3>Voice memo and voice note transcription (on-device first, cloud fallback)</h3>
     <p>
-      Voice memos recorded inside a session — and voice notes attached to markers or feedback entries — are transcribed whenever AI features are enabled and Confidential Mode is off. On iOS 13+ devices that support it, BetaSuite Assist uses Apple's on-device speech recognition (<code>SFSpeechRecognizer</code> with <code>requiresOnDeviceRecognition</code>): the audio never leaves the device, there is no quota, and no network round-trip is involved. When on-device recognition isn't available (Android, older iOS, locale model not installed) the audio falls back to Google Firebase AI (Gemini) under the BetaSuite Assist umbrella and is governed by
+      Voice memos recorded inside a session — and voice notes attached to markers or feedback entries — are transcribed whenever AI features are enabled and Confidential Mode is off. On iOS 13+ devices that support it, BetaSuite Assist uses Apple's on-device speech recognition (<code>SFSpeechRecognizer</code> with <code>requiresOnDeviceRecognition</code>): the audio never leaves the device, there is no quota, and no network round-trip is involved. When on-device recognition isn't available (older iOS or locale model not installed) the audio falls back to Google Firebase AI (Gemini) under the BetaSuite Assist umbrella and is governed by
       <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.
       Transcription is fully blocked in Confidential Mode regardless of routing.
     </p>
@@ -207,7 +207,7 @@
     </p>
     <h3>Anonymous community upvote count</h3>
     <p>
-      When you tap thumbs-up on a request, the App generates a random UUID on first launch (stored in iOS Keychain / Android Keystore) and uses it only to dedupe your vote in a Cloudflare Worker counter. The UUID is not your name, email, account, or any device identifier supplied by the OS — it is just random bytes. It is never sent to GitHub. Reinstalling the App generates a new UUID, so a single person could in principle vote again from a fresh install. We accept that as the cost of "no logins, ever".
+      When you tap thumbs-up on a request, the App generates a random UUID on first launch (stored in iOS Keychain) and uses it only to dedupe your vote in a Cloudflare Worker counter. The UUID is not your name, email, account, or any device identifier supplied by the OS — it is just random bytes. It is never sent to GitHub. Reinstalling the App generates a new UUID, so a single person could in principle vote again from a fresh install. We accept that as the cost of "no logins, ever".
     </p>
 
     <h2 id="sec-6">6. Confidential Mode</h2>
@@ -257,11 +257,9 @@
     </p>
     <div class="contact-block">
       <p style="margin:0">
-        Questions, requests, or complaints about this policy or your data:
-        <br>
-        <a href="mailto:betasuiteau@gmail.com">betasuiteau@gmail.com</a>
-        <br>
-        Or use the in-app form at <em>Settings → Legal → Contact Us</em>.
+        Questions, requests, or complaints about this policy or your data: use the
+        <a href="support.html#contact">contact form on our support page</a>,
+        or the in-app form at <em>Settings → Legal → Contact Us</em>.
       </p>
     </div>
     <p>

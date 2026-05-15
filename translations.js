@@ -13,8 +13,8 @@ const translations = {
     heroTitle: "Catch every bug. Tell the whole story.",
     heroText: "BetaSuite is the mobile testing kit for people who actually report bugs — record screen and camera at once, replay the last 30 seconds, annotate, transcribe, and ship a polished report.",
     downloadAppStore: "Download on the App Store",
-    downloadGooglePlay: "Get it on Google Play",
-    metaText: "No subscription · No ads · No tracking · Yours for life",
+    androidNote: "iPhone only — Android in development, release date to be confirmed.",
+    metaText: "Free 3-day trial · No subscription · No ads · No tracking · Yours for life",
 
     /* Value props strip */
     valueCaptureTitle: "Capture",
@@ -44,8 +44,8 @@ const translations = {
     feat4Text: "Flip one switch and BetaSuite locks down cloud uploads, system share, and every cloud AI provider. Apple Intelligence keeps running fully on-device — no network call, ever — so AI polish and summaries still work on confidential hardware.",
 
     feat5Title: "AI routing, your way",
-    feat5Lead: "Apple Intelligence first. BetaSuite Assist as fallback. Or bring your own key.",
-    feat5Text: "Three tiers of routing: Apple Intelligence runs on-device where supported; BetaSuite Assist — our proprietary layer backed by Google Gemini — fills the gap; or paste your own API key for Claude, GPT, Gemini, DeepSeek, or Pollinations. Switch providers any time, with explicit one-tap consent before data leaves the device.",
+    feat5Lead: "Apple Intelligence on-device, BetaSuite Assist as fallback. Or bring your own key.",
+    feat5Text: "By default, Apple Intelligence runs on-device with BetaSuite Assist as the cloud fallback. Prefer your own provider? Bring your API key for Claude, GPT, Gemini, or DeepSeek. Pollinations is available as an emergency fallback. Switch providers any time in Settings — every change asks for explicit consent before data leaves the device.",
 
     feat6Title: "Dial your AI use",
     feat6Lead: "Off, polish only, profanity masking, or full summarisation.",
@@ -89,7 +89,7 @@ const translations = {
     whyTeaser1Problem: "Camera and screen at the same time?",
     whyTeaser1Answer: "BetaSuite composites both streams into one MP4 on the device being tested — no tripod, no second phone.",
     whyTeaser2Problem: "Bug already gone by the time you hit record?",
-    whyTeaser2Answer: "A rolling 10–30 second buffer keeps the moment alive — one tap saves what just happened.",
+    whyTeaser2Answer: "A rolling 15- or 30-second buffer keeps the moment alive — one tap saves what just happened.",
     whyTeaser3Problem: "Cloud AI is a leak risk on NDA hardware?",
     whyTeaser3Answer: "Confidential Mode runs Apple Intelligence fully on-device. AI polish without the network risk.",
     whyTeaserLink: "See the full comparison →",
@@ -97,11 +97,13 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Common questions",
     faqQ1: "Which devices are supported?",
-    faqA1: "iPhone (iOS 16 or later) is the primary platform. Android is also supported.",
+    faqA1: "iPhone with iOS 16 or later. Android is in development — release date to be confirmed.",
     faqQ2: "Do I need an account?",
-    faqA2: "No. BetaSuite never requires registration.",
+    faqA2: "BetaSuite itself doesn't require an account, but you'll need a valid Apple ID / App Store account to purchase and download the app.",
     faqQ3: "What is Confidential Mode?",
     faqA3: "Confidential Mode blocks cloud sync and cloud AI, keeping processing local-only where possible.",
+    faqQ4: "Is there a free trial?",
+    faqA4: "Yes — a free 3-day trial of all features so you can try before you buy.",
     faqMore: "More on the support page →",
 
     /* Closing CTA */
@@ -112,7 +114,7 @@ const translations = {
 
     /* Why page */
     whyTitle: "Built for the tester, not the vendor.",
-    whyLead: "Instabug, Marker.io, Centercode, TestFairy, UXCam, UserTesting — they share one architectural assumption: the company being tested controls the tooling. That leaves the tester with a recurring set of frustrations. BetaSuite was built specifically to close those gaps.",
+    whyLead: "The mainstream beta-testing tools share one architectural assumption: the company being tested controls the tooling. That leaves the tester with a recurring set of frustrations. BetaSuite was built specifically to close those gaps.",
     problemLabel: "The problem",
     answerLabel: "BetaSuite's answer",
 
@@ -122,7 +124,7 @@ const translations = {
 
     pain2Problem: "Intermittent bugs vanish before you hit record.",
     pain2Problem2: "By the time you've started capture, the glitch is gone — and reproducing it is a guessing game.",
-    pain2Answer: "Instant Capture keeps a rolling 10–30 second buffer in the background. One tap saves the moment that just passed. No setup, no missed evidence.",
+    pain2Answer: "Instant Capture keeps a rolling 15- or 30-second buffer in the background. One tap saves the moment that just passed. No setup, no missed evidence.",
 
     pain3Problem: "NDA work makes cloud AI a non-starter.",
     pain3Problem2: "Every cloud provider is a leak risk, so reports end up handwritten and slow.",
@@ -136,9 +138,9 @@ const translations = {
     pain5Problem2: "Blank-page paralysis, especially when you're juggling multiple programs.",
     pain5Answer: "The period summary drafts a structured report — theme, positives, issues, recommendations — straight from the markers and feedback you've already logged. PDF or DOCX, scannable bullets, ready to email.",
 
-    pain6Problem: "Tools are English-only — or ship with stale placeholder translations.",
-    pain6Problem2: "Localisation in this space is usually an afterthought that ages badly.",
-    pain6Answer: "BetaSuite launches with 21 fully translated locales and follows the device language at runtime — date, number, and time formats included.",
+    pain6Problem: "Beta-testing tools are often English-only.",
+    pain6Problem2: "Multi-language support, when it exists, often ships stale and ages badly.",
+    pain6Answer: "BetaSuite is actively rolling out multi-language support, with the device language followed at runtime as new locales come online.",
 
     whyClosingTagline: "Competitors instrument the product. BetaSuite instruments the tester.",
 
@@ -166,8 +168,8 @@ const translations = {
     heroTitle: "捕捉每一个 Bug,讲清完整故事。",
     heroText: "BetaSuite 是为真正提交 Bug 报告的人打造的移动测试工具:同时录制屏幕和相机、回放最近 30 秒、标注、转录,再生成一份精炼的报告。",
     downloadAppStore: "在 App Store 下载",
-    downloadGooglePlay: "在 Google Play 获取",
-    metaText: "无订阅 · 无广告 · 无追踪 · 终身使用",
+    androidNote: "仅支持 iPhone——Android 正在开发中,发布日期待定。",
+    metaText: "免费 3 天试用 · 无订阅 · 无广告 · 无追踪 · 终身使用",
 
     /* Value props strip */
     valueCaptureTitle: "记录",
@@ -197,8 +199,8 @@ const translations = {
     feat4Text: "一键开启,BetaSuite 即封锁云端上传、系统分享与所有云端 AI 提供商。Apple Intelligence 仍在设备本地运行——永远无网络调用——AI 润色与摘要在保密硬件上依然可用。",
 
     feat5Title: "按你的方式路由 AI",
-    feat5Lead: "优先 Apple Intelligence,其次 BetaSuite Assist,或自带密钥。",
-    feat5Text: "三层路由:在支持的设备上,Apple Intelligence 在本地运行;BetaSuite Assist——由 Google Gemini 支持的我们的专有层——填补空白;或粘贴你自己的 API 密钥用于 Claude、GPT、Gemini、DeepSeek 或 Pollinations。随时切换提供商,数据离开设备前都需明确的一键同意。",
+    feat5Lead: "Apple Intelligence 在设备本地运行,云端回退到 BetaSuite Assist。或自带密钥。",
+    feat5Text: "默认情况下,BetaSuite 在设备本地使用 Apple Intelligence,云端回退到 BetaSuite Assist。更愿意使用自己的提供商?可带入 Claude、GPT、Gemini 或 DeepSeek 的 API 密钥。Pollinations 可作为紧急回退选项。任何时候可在「设置」中切换提供商——数据离开设备前都需明确同意。",
 
     feat6Title: "自由调节 AI 使用程度",
     feat6Lead: "关闭、仅润色、屏蔽脏话,或完整摘要。",
@@ -242,7 +244,7 @@ const translations = {
     whyTeaser1Problem: "能同时录屏幕和相机吗?",
     whyTeaser1Answer: "BetaSuite 在被测设备上把两路画面合成为一段 MP4——无需三脚架,无需第二台手机。",
     whyTeaser2Problem: "按下录制按钮时 Bug 已经消失?",
-    whyTeaser2Answer: "10–30 秒的滚动缓冲让那一刻不再溜走——一键保存刚刚发生的内容。",
+    whyTeaser2Answer: "15 或 30 秒的滚动缓冲让那一刻不再溜走——一键保存刚刚发生的内容。",
     whyTeaser3Problem: "云端 AI 是 NDA 硬件上的泄漏风险?",
     whyTeaser3Answer: "保密模式让 Apple Intelligence 完全在设备本地运行。AI 润色,零网络风险。",
     whyTeaserLink: "查看完整对比 →",
@@ -250,11 +252,13 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "常见问题",
     faqQ1: "支持哪些设备?",
-    faqA1: "主要支持 iPhone(iOS 16 及以上),也支持 Android。",
+    faqA1: "iPhone(iOS 16 及以上)。Android 正在开发中,发布日期待定。",
     faqQ2: "需要账号吗?",
-    faqA2: "不需要。BetaSuite 从不需要注册。",
+    faqA2: "BetaSuite 本身不需要账号,但你需要有效的 Apple ID / App Store 账号来购买和下载应用。",
     faqQ3: "什么是保密模式?",
     faqA3: "保密模式封锁云同步和云端 AI,尽可能将处理保留在本地。",
+    faqQ4: "有免费试用吗?",
+    faqA4: "有——所有功能均提供 3 天免费试用,让你在购买前先体验。",
     faqMore: "在支持页面查看更多 →",
 
     /* Closing CTA */
@@ -265,7 +269,7 @@ const translations = {
 
     /* Why page */
     whyTitle: "为测试者而造,而非厂商。",
-    whyLead: "Instabug、Marker.io、Centercode、TestFairy、UXCam、UserTesting——它们都有一个共同的架构假设:被测试的公司掌控工具。这让测试者本身陷入反复出现的痛点。BetaSuite 正是为弥合这些缺口而生。",
+    whyLead: "主流的 Beta 测试工具都有一个共同的架构假设:被测试的公司掌控工具。这让测试者本身陷入反复出现的痛点。BetaSuite 正是为弥合这些缺口而生。",
     problemLabel: "痛点",
     answerLabel: "BetaSuite 的解法",
 
@@ -275,7 +279,7 @@ const translations = {
 
     pain2Problem: "偶发 Bug 在按下录制前就消失。",
     pain2Problem2: "等你开启捕捉,故障已经过去——复现成了猜谜游戏。",
-    pain2Answer: "即时捕捉在后台维持 10–30 秒的滚动缓冲。一键保存刚刚发生的瞬间。无需设置,不漏证据。",
+    pain2Answer: "即时捕捉在后台维持 15 或 30 秒的滚动缓冲。一键保存刚刚发生的瞬间。无需设置,不漏证据。",
 
     pain3Problem: "NDA 工作让云端 AI 难以使用。",
     pain3Problem2: "每家云服务商都是泄漏风险,报告最终只能手写,效率低下。",
@@ -289,9 +293,9 @@ const translations = {
     pain5Problem2: "尤其在同时管理多个项目时,白纸一张令人卡住。",
     pain5Answer: "时段摘要直接从你已记录的标记和反馈中起草结构化报告——主题、亮点、问题、建议。PDF 或 DOCX,要点清晰,随时发送。",
 
-    pain6Problem: "工具仅支持英文——或附带陈旧的占位翻译。",
-    pain6Problem2: "该领域的本地化通常是事后补丁,质量随时间下降。",
-    pain6Answer: "BetaSuite 发布时提供 21 种完整翻译的语言,并在运行时跟随设备语言——日期、数字与时间格式同步切换。",
+    pain6Problem: "Beta 测试工具通常仅支持英文。",
+    pain6Problem2: "即便有多语言支持,通常也是陈旧的翻译,质量随时间下降。",
+    pain6Answer: "BetaSuite 正在积极推出多语言支持,随着新语言上线,运行时将自动跟随设备语言。",
 
     whyClosingTagline: "竞品仪表化产品。BetaSuite 仪表化测试者。",
 
