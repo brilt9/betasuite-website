@@ -275,9 +275,15 @@ a:hover { color: var(--accent-2); text-decoration: underline; }
   border-color: rgba(30, 144, 255, 0.35);
 }
 .feature h3 {
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   font-size: 1.05rem;
   color: var(--text-strong);
+}
+.feature .feature-lead {
+  margin: 0 0 10px;
+  color: var(--accent-2);
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 .feature p {
   margin: 0;
@@ -366,6 +372,66 @@ a:hover { color: var(--accent-2); text-decoration: underline; }
   display: inline-block;
   margin-top: 6px;
   font-weight: 600;
+}
+
+/* Why teaser / pain-points */
+.why-teaser { padding: 32px 0 16px; }
+.why-teaser h2 { margin-top: 0; }
+.why-teaser-lead {
+  color: var(--muted);
+  max-width: 64ch;
+  margin: 0 0 24px;
+  font-size: 1.05rem;
+}
+.pain-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.pain-grid--three {
+  grid-template-columns: repeat(3, 1fr);
+}
+.pain-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  padding: 22px;
+}
+.pain-card .pain-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.pain-card .pain-label.problem { color: var(--amber); }
+.pain-card .pain-label.answer  { color: var(--accent-2); margin-top: 14px; }
+.pain-card h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  color: var(--text-strong);
+}
+.pain-card p {
+  margin: 0 0 0.4em;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.pain-card p:last-child { margin-bottom: 0; }
+.why-more {
+  display: inline-block;
+  margin-top: 18px;
+  font-weight: 600;
+}
+
+/* Italic tagline banner */
+.tagline {
+  font-style: italic;
+  color: var(--accent-2);
+  text-align: center;
+  font-size: 1.05rem;
+  margin: 0 auto 24px;
+  max-width: 56ch;
 }
 
 /* FAQ teaser */
@@ -591,6 +657,7 @@ textarea:focus-visible {
   .feature-grid { grid-template-columns: repeat(2, 1fr); }
   .callout-grid { grid-template-columns: repeat(2, 1fr); }
   .steps-grid { grid-template-columns: 1fr; }
+  .pain-grid--three { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 700px) {
   .nav { padding: 12px 16px; }
@@ -617,7 +684,9 @@ textarea:focus-visible {
   .hero { padding: 36px 0 24px; }
   .feature-grid,
   .value-props-grid,
-  .callout-grid { grid-template-columns: 1fr; }
+  .callout-grid,
+  .pain-grid,
+  .pain-grid--three { grid-template-columns: 1fr; }
   .lead, .lede { font-size: 1rem; }
   .hero-actions .btn { width: 100%; }
   .contact-block { padding: 18px; }

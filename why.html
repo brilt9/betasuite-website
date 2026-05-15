@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Why BetaSuite — Built for the tester, not the vendor</title>
+  <meta name="description" content="How BetaSuite addresses the recurring pain points of mobile beta testers: dual screen + camera recording, instant replay buffer, Confidential Mode for NDA work, no vendor cloud, and AI-drafted reports.">
+  <meta name="theme-color" content="#0b1724">
+  <link rel="canonical" href="https://brilt9.github.io/betasuite-website/why.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="./">
+        <img class="brand-mark" src="icon.png" alt="" aria-hidden="true">
+        <span class="brand-name">BetaSuite</span>
+      </a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="./" data-i18n="navHome">Home</a>
+        <a href="support.html" data-i18n="navSupport">Support</a>
+        <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
+        <a href="terms.html" data-i18n="navTerms">Terms</a>
+        <select id="language-picker" class="language-picker" aria-label="Language">
+          <option value="en">🇬🇧 English</option>
+          <option value="zh">🇨🇳 中文</option>
+        </select>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="prose">
+    <h1 data-i18n="whyTitle">Built for the tester, not the vendor.</h1>
+    <p class="lede" data-i18n="whyLead">Instabug, Marker.io, Centercode, TestFairy, UXCam, UserTesting — they share one architectural assumption: the company being tested controls the tooling. That leaves the tester with a recurring set of frustrations. BetaSuite was built specifically to close those gaps.</p>
+
+    <div class="pain-grid" style="margin-top:32px">
+      <article class="pain-card">
+        <span class="pain-label problem" data-i18n="problemLabel">The problem</span>
+        <h3 data-i18n="pain1Problem">You can't capture screen and camera at the same time.</h3>
+        <p data-i18n="pain1Problem2">A video that shows "I'm tapping here, and this is what the device does" usually needs two phones and a tripod.</p>
+        <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's answer</span>
+        <p data-i18n="pain1Answer">Dual recording composites both streams into a single MP4 on the device that's actually being tested. No tripod. No second phone.</p>
+      </article>
+
+      <article class="pain-card">
+        <span class="pain-label problem" data-i18n="problemLabel">The problem</span>
+        <h3 data-i18n="pain2Problem">Intermittent bugs vanish before you hit record.</h3>
+        <p data-i18n="pain2Problem2">By the time you've started capture, the glitch is gone — and reproducing it is a guessing game.</p>
+        <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's answer</span>
+        <p data-i18n="pain2Answer">Instant Capture keeps a rolling 10–30 second buffer in the background. One tap saves the moment that just passed. No setup, no missed evidence.</p>
+      </article>
+
+      <article class="pain-card">
+        <span class="pain-label problem" data-i18n="problemLabel">The problem</span>
+        <h3 data-i18n="pain3Problem">NDA work makes cloud AI a non-starter.</h3>
+        <p data-i18n="pain3Problem2">Every cloud provider is a leak risk, so reports end up handwritten and slow.</p>
+        <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's answer</span>
+        <p data-i18n="pain3Answer">Confidential Mode locks down cloud uploads, system share, and every cloud AI provider — while Apple Intelligence keeps running fully on-device, zero network calls. AI polish and summaries still work on confidential hardware.</p>
+      </article>
+
+      <article class="pain-card">
+        <span class="pain-label problem" data-i18n="problemLabel">The problem</span>
+        <h3 data-i18n="pain4Problem">Vendor SDKs ship your data to the vendor's cloud.</h3>
+        <p data-i18n="pain4Problem2">Mainstream beta-testing tools send tester data to a vendor backend — fine for the company, not for sensitive prototypes.</p>
+        <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's answer</span>
+        <p data-i18n="pain4Answer">BetaSuite has no server of its own. Everything is encrypted on your device, and data only moves when you pick a destination — your own iCloud Drive, Google Drive, OneDrive, Camera Roll, or a portable encrypted archive.</p>
+      </article>
+
+      <article class="pain-card">
+        <span class="pain-label problem" data-i18n="problemLabel">The problem</span>
+        <h3 data-i18n="pain5Problem">The weekly report is the slowest part of the job.</h3>
+        <p data-i18n="pain5Problem2">Blank-page paralysis, especially when you're juggling multiple programs.</p>
+        <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's answer</span>
+        <p data-i18n="pain5Answer">The period summary drafts a structured report — theme, positives, issues, recommendations — straight from the markers and feedback you've already logged. PDF or DOCX, scannable bullets, ready to email.</p>
+      </article>
+
+      <article class="pain-card">
+        <span class="pain-label problem" data-i18n="problemLabel">The problem</span>
+        <h3 data-i18n="pain6Problem">Tools are English-only — or ship with stale placeholder translations.</h3>
+        <p data-i18n="pain6Problem2">Localisation in this space is usually an afterthought that ages badly.</p>
+        <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's answer</span>
+        <p data-i18n="pain6Answer">BetaSuite launches with 21 fully translated locales and follows the device language at runtime — date, number, and time formats included.</p>
+      </article>
+    </div>
+
+    <p class="tagline" style="margin-top:48px" data-i18n="whyClosingTagline">Competitors instrument the product. BetaSuite instruments the tester.</p>
+
+    <div class="cta-row" style="margin-top:24px">
+      <a class="btn" href="#" data-i18n="downloadAppStore">Download on the App Store</a>
+      <a class="btn btn-secondary" href="#" data-i18n="downloadGooglePlay">Get it on Google Play</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="./" data-i18n="navHome">Home</a>
+        <a href="why.html" aria-current="page" data-i18n="navWhy">Why BetaSuite</a>
+        <a href="support.html" data-i18n="navSupport">Support</a>
+        <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
+        <a href="terms.html" data-i18n="navTerms">Terms</a>
+      </div>
+      <p>© 2026 BetaSuite</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const links = document.getElementById('nav-links');
+      if (!toggle || !links) return;
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        links.classList.toggle('open');
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && links.classList.contains('open')) {
+          links.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.focus();
+        }
+      });
+    })();
+  </script>
+
+  <script src="translations.js"></script>
+</body>
+</html>
