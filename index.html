@@ -6,12 +6,34 @@
   <title>BetaSuite — Built for the tester, not the vendor</title>
   <meta name="description" content="BetaSuite is the mobile testing kit for people who actually report bugs: dual screen + camera recording, 30-second instant replay, on-device AI, Confidential Mode for NDA work, and reports developers can read.">
   <meta name="theme-color" content="#0b1724">
+  <link rel="canonical" href="https://betasuite.run.place/">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BetaSuite">
+  <meta property="og:title" content="BetaSuite — Built for the tester, not the vendor">
+  <meta property="og:description" content="The mobile testing kit for people who actually report bugs: dual screen + camera recording, 30-second instant replay, on-device AI, and Confidential Mode for NDA work.">
+  <meta property="og:url" content="https://betasuite.run.place/">
+  <meta property="og:image" content="https://betasuite.run.place/icons/icon-512.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:alt" content="BetaSuite app icon">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BetaSuite — Built for the tester, not the vendor">
+  <meta name="twitter:description" content="The mobile testing kit for people who actually report bugs: dual screen + camera recording, 30-second instant replay, on-device AI, and Confidential Mode for NDA work.">
+  <meta name="twitter:image" content="https://betasuite.run.place/icons/icon-512.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="icon.png">
-  <link rel="apple-touch-icon" href="icon.png">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -39,6 +61,21 @@
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
       <div class="container">
+        <!--
+          To make this a two-column hero with a screenshot, wrap the
+          content below and the <img> in <div class="hero-content"> ...:
+
+            <div class="hero-content">
+              <div> ... existing hero text + buttons ... </div>
+              <img class="hero-image"
+                   src="screenshots/hero.png"
+                   alt="BetaSuite recording a test session"
+                   width="540" height="960">
+            </div>
+
+          The CSS class .hero-content is already styled to handle the
+          side-by-side layout and collapse to one column on mobile.
+        -->
         <h1 id="hero-title" data-i18n="heroTitle">Catch every bug. Tell the whole story.</h1>
         <p class="lead" data-i18n="heroText">BetaSuite is the mobile testing kit for people who actually report bugs — record screen and camera at once, replay the last 30 seconds, annotate, transcribe, and ship a polished report.</p>
         <div class="hero-actions">
@@ -93,14 +130,14 @@
             <p data-i18n="feat4Text">Flip one switch and BetaSuite locks down cloud uploads, system share, and every cloud AI provider. Apple Intelligence keeps running fully on-device — no network call, ever — so AI polish and summaries still work on confidential hardware.</p>
           </article>
           <article class="feature">
-            <h3 data-i18n="feat5Title">Bring your own AI</h3>
-            <p class="feature-lead" data-i18n="feat5Lead">Apple Intelligence, Claude, Gemini, GPT, DeepSeek, or Pollinations.</p>
-            <p data-i18n="feat5Text">Use BetaSuite's defaults or paste your own API key. Switch providers any time. Explicit one-tap consent before any data leaves the device — App-Store-compliant out of the box.</p>
+            <h3 data-i18n="feat5Title">AI routing, your way</h3>
+            <p class="feature-lead" data-i18n="feat5Lead">Apple Intelligence first. BetaSuite Assist as fallback. Or bring your own key.</p>
+            <p data-i18n="feat5Text">Three tiers of routing: Apple Intelligence runs on-device where supported; BetaSuite Assist — our proprietary layer backed by Google Gemini — fills the gap; or paste your own API key for Claude, GPT, Gemini, DeepSeek, or Pollinations. Switch providers any time, with explicit one-tap consent before data leaves the device.</p>
           </article>
           <article class="feature">
-            <h3 data-i18n="feat6Title">Structured feedback, fast</h3>
-            <p class="feature-lead" data-i18n="feat6Lead">Progressive disclosure, voice dictation, one-tap AI polish.</p>
-            <p data-i18n="feat6Text">The feedback form starts simple — title and description — and expands only when you need category, severity, repro steps, screenshots with annotation tools, and voice notes. AI polish tightens your wording without re-prompting consent each time.</p>
+            <h3 data-i18n="feat6Title">Dial your AI use</h3>
+            <p class="feature-lead" data-i18n="feat6Lead">Off, polish only, profanity masking, or full summarisation.</p>
+            <p data-i18n="feat6Text">Choose how much the AI does for you — minor wording polish on a feedback entry, profanity masking before a report goes out, or full session summarisation and report generation. The feedback form itself starts simple and expands only when you need category, severity, repro steps, annotated screenshots, and voice notes.</p>
           </article>
           <article class="feature">
             <h3 data-i18n="feat7Title">Built for hardware testers</h3>

@@ -5,14 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy — BetaSuite</title>
   <meta name="description" content="BetaSuite privacy policy. BetaSuite is built local-first: data lives on your device by default and never leaves it unless you use a feature that calls outside.">
-  <link rel="canonical" href="https://brilt9.github.io/betasuite-website/privacy.html">
+  <link rel="canonical" href="https://betasuite.run.place/privacy.html">
+  <meta name="theme-color" content="#0b1724">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="BetaSuite">
+  <meta property="og:title" content="Privacy Policy — BetaSuite">
+  <meta property="og:description" content="BetaSuite is built local-first: data lives on your device by default and never leaves it unless you use a feature that calls outside.">
+  <meta property="og:url" content="https://betasuite.run.place/privacy.html">
+  <meta property="og:image" content="https://betasuite.run.place/icons/icon-512.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:alt" content="BetaSuite app icon">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Privacy Policy — BetaSuite">
+  <meta name="twitter:description" content="BetaSuite is built local-first: data lives on your device by default and never leaves it unless you use a feature that calls outside.">
+  <meta name="twitter:image" content="https://betasuite.run.place/icons/icon-512.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <meta name="theme-color" content="#0b1724">
-  <link rel="icon" type="image/png" href="icon.png">
-  <link rel="apple-touch-icon" href="icon.png">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -48,7 +69,23 @@
       Where you do choose such a feature (cloud sync, AI analysis, weather overlay), data is sent directly from your device to that service. Each service is responsible for its own processing under its own privacy policy. We link to those policies in section 4. We process your personal information in accordance with applicable privacy and data-protection laws in your country of residence.
     </p>
 
-    <h2>1. What we collect, where it lives</h2>
+    <nav class="toc" aria-label="On this page">
+      <p class="toc-title">On this page</p>
+      <ol>
+        <li><a href="#sec-1">What we collect, where it lives</a></li>
+        <li><a href="#sec-2">Cloud sync (optional)</a></li>
+        <li><a href="#sec-3">Weather and analytics (optional)</a></li>
+        <li><a href="#ai-features">AI features</a></li>
+        <li><a href="#feature-requests">Feature requests</a></li>
+        <li><a href="#sec-6">Confidential Mode</a></li>
+        <li><a href="#sec-7">International transfers</a></li>
+        <li><a href="#sec-8">Your rights</a></li>
+        <li><a href="#sec-9">Children</a></li>
+        <li><a href="#sec-10">Changes and contact</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="sec-1">1. What we collect, where it lives</h2>
     <h3>On-device only</h3>
     <p>
       Feedback entries, notes, voice memos, photos, videos, screen recordings, project data, markers, sessions, and auto-populated device context (model, OS, app version, optional battery / network state when you enable that toggle). All stored on your device, encrypted at rest using AES via the device secure-storage keychain.
@@ -62,12 +99,12 @@
       We do not run a backend that stores your account data. We have no access to your cloud storage, your AI requests, or the contents of your feedback entries. We do not sell or trade personal information. We do not run advertising and do not track you across other apps or websites.
     </p>
 
-    <h2>2. Cloud sync (optional)</h2>
+    <h2 id="sec-2">2. Cloud sync (optional)</h2>
     <p>
       If you connect Google Drive, OneDrive, or iCloud, files you choose to upload are sent from your device to your own account at that provider via standard authentication. We do not see, store, or proxy these uploads. Disconnect the account at any time in <em>Settings → Storage</em>.
     </p>
 
-    <h2>3. Weather and analytics (optional)</h2>
+    <h2 id="sec-3">3. Weather and analytics (optional)</h2>
     <h3>Weather overlay</h3>
     <p>
       Coordinates are sent to a weather provider to retrieve local conditions. On iOS 16+ the default provider is Apple WeatherKit; otherwise the App falls back to OpenWeatherMap or Open-Meteo. No identifier is sent — only the coordinates needed for the lookup.
@@ -173,7 +210,7 @@
       When you tap thumbs-up on a request, the App generates a random UUID on first launch (stored in iOS Keychain / Android Keystore) and uses it only to dedupe your vote in a Cloudflare Worker counter. The UUID is not your name, email, account, or any device identifier supplied by the OS — it is just random bytes. It is never sent to GitHub. Reinstalling the App generates a new UUID, so a single person could in principle vote again from a fresh install. We accept that as the cost of "no logins, ever".
     </p>
 
-    <h2>6. Confidential Mode</h2>
+    <h2 id="sec-6">6. Confidential Mode</h2>
     <p>When Confidential Mode is active, the App enforces:</p>
     <ul>
       <li>All data stays on your device.</li>
@@ -186,12 +223,12 @@
       Confidential Mode is best-effort enforcement of the App's data-flow paths. It is not a substitute for your own review of where data goes when you take a manual action (e.g. taking a screenshot, sharing via the system sheet after the dialog).
     </p>
 
-    <h2>7. International transfers</h2>
+    <h2 id="sec-7">7. International transfers</h2>
     <p>
       The third-party services listed in this policy are operated from various countries. When you use such a service, the data you choose to send may be processed in a jurisdiction with different privacy and data-protection laws than the country you live in. Each service's privacy policy (linked above) describes how that service handles transfers and what protections apply.
     </p>
 
-    <h2>8. Your rights</h2>
+    <h2 id="sec-8">8. Your rights</h2>
     <p>
       You have rights over your personal information under applicable law. Because the App stores data locally, you can exercise most rights directly inside the App:
     </p>
@@ -209,12 +246,12 @@
       For data we directly control — limited to what you send via the Contact form and any anonymised analytics you have enabled — contact us at the address in section 10 and we will respond within a reasonable time as required by applicable law.
     </p>
 
-    <h2>9. Children</h2>
+    <h2 id="sec-9">9. Children</h2>
     <p>
       The App is not directed at children. We do not knowingly collect personal information from a child. If you believe a child has used the App and provided personal information, contact us so we can help you remove it.
     </p>
 
-    <h2>10. Changes and contact</h2>
+    <h2 id="sec-10">10. Changes and contact</h2>
     <p>
       We may update this policy from time to time. The effective date at the top of this page reflects the most recent revision; the current version is always available inside the App at <em>Settings → Legal → Privacy Policy</em> and on this website.
     </p>

@@ -43,13 +43,13 @@ const translations = {
     feat4Lead: "On-device AI for NDA work.",
     feat4Text: "Flip one switch and BetaSuite locks down cloud uploads, system share, and every cloud AI provider. Apple Intelligence keeps running fully on-device — no network call, ever — so AI polish and summaries still work on confidential hardware.",
 
-    feat5Title: "Bring your own AI",
-    feat5Lead: "Apple Intelligence, Claude, Gemini, GPT, DeepSeek, or Pollinations.",
-    feat5Text: "Use BetaSuite's defaults or paste your own API key. Switch providers any time. Explicit one-tap consent before any data leaves the device — App-Store-compliant out of the box.",
+    feat5Title: "AI routing, your way",
+    feat5Lead: "Apple Intelligence first. BetaSuite Assist as fallback. Or bring your own key.",
+    feat5Text: "Three tiers of routing: Apple Intelligence runs on-device where supported; BetaSuite Assist — our proprietary layer backed by Google Gemini — fills the gap; or paste your own API key for Claude, GPT, Gemini, DeepSeek, or Pollinations. Switch providers any time, with explicit one-tap consent before data leaves the device.",
 
-    feat6Title: "Structured feedback, fast",
-    feat6Lead: "Progressive disclosure, voice dictation, one-tap AI polish.",
-    feat6Text: "The feedback form starts simple — title and description — and expands only when you need category, severity, repro steps, screenshots with annotation tools, and voice notes. AI polish tightens your wording without re-prompting consent each time.",
+    feat6Title: "Dial your AI use",
+    feat6Lead: "Off, polish only, profanity masking, or full summarisation.",
+    feat6Text: "Choose how much the AI does for you — minor wording polish on a feedback entry, profanity masking before a report goes out, or full session summarisation and report generation. The feedback form itself starts simple and expands only when you need category, severity, repro steps, annotated screenshots, and voice notes.",
 
     feat7Title: "Built for hardware testers",
     feat7Lead: "Front, Side, Back, Under — angle-tagged from the start.",
@@ -196,13 +196,13 @@ const translations = {
     feat4Lead: "面向 NDA 工作的本地 AI。",
     feat4Text: "一键开启,BetaSuite 即封锁云端上传、系统分享与所有云端 AI 提供商。Apple Intelligence 仍在设备本地运行——永远无网络调用——AI 润色与摘要在保密硬件上依然可用。",
 
-    feat5Title: "自带 AI",
-    feat5Lead: "Apple Intelligence、Claude、Gemini、GPT、DeepSeek 或 Pollinations。",
-    feat5Text: "使用 BetaSuite 的默认设置,或粘贴你自己的 API 密钥。随时切换提供商。任何数据离开设备前都需明确的一键同意——开箱即符合 App Store 规范。",
+    feat5Title: "按你的方式路由 AI",
+    feat5Lead: "优先 Apple Intelligence,其次 BetaSuite Assist,或自带密钥。",
+    feat5Text: "三层路由:在支持的设备上,Apple Intelligence 在本地运行;BetaSuite Assist——由 Google Gemini 支持的我们的专有层——填补空白;或粘贴你自己的 API 密钥用于 Claude、GPT、Gemini、DeepSeek 或 Pollinations。随时切换提供商,数据离开设备前都需明确的一键同意。",
 
-    feat6Title: "高效的结构化反馈",
-    feat6Lead: "渐进式表单、语音口述、一键 AI 润色。",
-    feat6Text: "反馈表单从简单开始——标题和描述——只有在需要时才展开类别、严重程度、重现步骤、带标注的截图和语音笔记。AI 润色会优化措辞,且不会每次都重新询问同意。",
+    feat6Title: "自由调节 AI 使用程度",
+    feat6Lead: "关闭、仅润色、屏蔽脏话,或完整摘要。",
+    feat6Text: "自由选择 AI 的参与程度——反馈条目的轻度措辞润色、报告发出前的脏话屏蔽,或完整的会话摘要与报告生成。反馈表单本身保持简洁,仅在需要时展开类别、严重程度、重现步骤、带标注的截图和语音笔记。",
 
     feat7Title: "为硬件测试而生",
     feat7Lead: "正面、侧面、背面、底部——从一开始就带角度标签。",
