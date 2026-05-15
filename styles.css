@@ -259,7 +259,7 @@ a:hover { color: var(--accent-2); text-decoration: underline; }
 .features h2 { margin-top: 0; }
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
 .feature {
@@ -283,6 +283,120 @@ a:hover { color: var(--accent-2); text-decoration: underline; }
   margin: 0;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+/* Value props strip */
+.value-props {
+  padding: 0 0 24px;
+}
+.value-props-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  text-align: center;
+}
+.value-prop {
+  padding: 22px 18px;
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-soft);
+}
+.value-prop h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  color: var(--accent-2);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.value-prop p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* How it works — numbered steps */
+.steps { padding: 24px 0 56px; }
+.steps h2 { margin-top: 0; }
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  counter-reset: step;
+}
+.step {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  padding: 22px;
+}
+.step h3 {
+  margin: 0 0 8px;
+  color: var(--text-strong);
+  font-size: 1.05rem;
+}
+.step p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+
+/* On-device AI callout */
+.callout {
+  background: linear-gradient(180deg, rgba(30, 144, 255, 0.10), rgba(30, 144, 255, 0.03));
+  border-top: 1px solid rgba(30, 144, 255, 0.25);
+  border-bottom: 1px solid rgba(30, 144, 255, 0.25);
+  padding: 48px 0;
+  margin: 24px 0;
+}
+.callout h2 { margin: 0 0 8px; }
+.callout-lead {
+  color: var(--muted);
+  margin: 0 0 24px;
+  max-width: 60ch;
+}
+.callout-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.callout-item h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  color: var(--text-strong);
+}
+.callout-item p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+.callout-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+/* FAQ teaser */
+.faq-teaser { padding: 24px 0 8px; }
+.faq-teaser h2 { margin-top: 0; }
+.faq-more {
+  display: inline-block;
+  margin-top: 18px;
+  font-weight: 600;
+}
+
+/* Closing CTA */
+.cta {
+  padding: 56px 0 64px;
+  text-align: center;
+}
+.cta h2 {
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+.cta p {
+  color: var(--muted);
+  max-width: 50ch;
+  margin: 0 auto 22px;
+}
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Legal / prose pages */
@@ -475,6 +589,8 @@ textarea:focus-visible {
 /* Responsive */
 @media (max-width: 1000px) {
   .feature-grid { grid-template-columns: repeat(2, 1fr); }
+  .callout-grid { grid-template-columns: repeat(2, 1fr); }
+  .steps-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 700px) {
   .nav { padding: 12px 16px; }
@@ -499,8 +615,13 @@ textarea:focus-visible {
     margin-top: 6px;
   }
   .hero { padding: 36px 0 24px; }
-  .feature-grid { grid-template-columns: 1fr; }
+  .feature-grid,
+  .value-props-grid,
+  .callout-grid { grid-template-columns: 1fr; }
   .lead, .lede { font-size: 1rem; }
+  .hero-actions .btn { width: 100%; }
   .contact-block { padding: 18px; }
   .prose, .support-main { padding: 28px 16px 40px; }
+  .callout { padding: 36px 0; }
+  .cta { padding: 40px 0 48px; }
 }
