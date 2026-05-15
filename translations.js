@@ -309,6 +309,1246 @@ const translations = {
     messageLabel: "信息",
     sendMessage: "发送",
     faqTitle: "常见问题"
+  },
+
+  de: {
+    /* Nav */
+    navHome: "Start",
+    navSupport: "Support",
+    navPrivacy: "Datenschutz",
+    navTerms: "Nutzungsbedingungen",
+    navWhy: "Warum BetaSuite",
+
+    /* Hero */
+    heroTitle: "Jeden Bug einfangen. Die ganze Geschichte erzählen.",
+    heroText: "BetaSuite ist das mobile Test-Kit für Leute, die wirklich Bugs melden – Bildschirm und Kamera gleichzeitig aufnehmen, die letzten 30 Sekunden wiedergeben, annotieren, transkribieren und einen ausgefeilten Bericht abliefern.",
+    downloadAppStore: "Im App Store laden",
+    androidNote: "Nur für iPhone – Android in Entwicklung, Veröffentlichungsdatum noch offen.",
+    metaText: "3 Tage kostenlos testen · Kein Abo · Keine Werbung · Kein Tracking · Lebenslang nutzbar",
+
+    /* Value props strip */
+    valueCaptureTitle: "Aufzeichnen",
+    valueCaptureText: "Bildschirm + Kamera, Sofortwiedergabe, Sprachnotizen, Fotos.",
+    valueAnnotateTitle: "Annotieren",
+    valueAnnotateText: "Zeichnen, markieren und mit Zeitstempel auf jedem Clip und Screenshot.",
+    valueReportTitle: "Berichten",
+    valueReportText: "Automatische Session-Zusammenfassungen, die Entwickler tatsächlich lesen.",
+
+    /* Feature grid (9 cards) */
+    insideTitle: "Was drinsteckt",
+
+    feat1Title: "Jeden Moment einfangen",
+    feat1Lead: "Doppelaufnahme, Sofortaufnahme, Live-Overlays.",
+    feat1Text: "Nimmt Bildschirm und Frontkamera in einem zusammengesetzten Video auf, während du Apps wechselst. Ein Tipp speichert die letzten 30 Sekunden aus einem rollenden Puffer – perfekt für unvorhersehbare, sporadische Fehler. Jede Aufnahme erhält automatisch Datum, Uhrzeit, GPS, Wetter und Geräteinformationen.",
+
+    feat2Title: "Sessions auf einer Zeitleiste",
+    feat2Lead: "Marker, Sprachnotizen, Fotos – alles auf einer Zeitleiste.",
+    feat2Text: "Setze in dem Moment, in dem etwas passiert, mit einem Tipp einen Marker. Hänge einen Screenshot an, diktiere eine Sprachnotiz oder erweitere später zu einem vollständigen Bug-Report. Jede Session erfasst Gerätestatus, OS, Akkugesundheit und Wetter automatisch – Kontext fehlt nie.",
+
+    feat3Title: "KI-gestützte Berichte",
+    feat3Lead: "Ein ausgefeiltes PDF oder DOCX in Sekunden.",
+    feat3Text: "Wähle einen Zeitraum – diese Woche, letzte Woche, individueller Bereich – und BetaSuite entwirft einen strukturierten Bericht (Thema, Pluspunkte, Probleme, Empfehlungen) als überfliegbare Stichpunkte. Bilder werden automatisch in die Abschnitte Zustand, Mapping und Zusätzlich sortiert. Direkt aus der App per Mail versenden.",
+
+    feat4Title: "Vertraulicher Modus",
+    feat4Lead: "Geräteinterne KI für NDA-Arbeit.",
+    feat4Text: "Ein Schalter genügt und BetaSuite sperrt Cloud-Uploads, System-Sharing und jeden Cloud-KI-Anbieter. Apple Intelligence läuft weiter vollständig auf dem Gerät – kein einziger Netzwerkaufruf – sodass KI-Politur und Zusammenfassungen auch auf vertraulicher Hardware funktionieren.",
+
+    feat5Title: "KI-Routing nach deinem Geschmack",
+    feat5Lead: "Apple Intelligence auf dem Gerät, BetaSuite Assist als Fallback. Oder nutze deinen eigenen Schlüssel.",
+    feat5Text: "Standardmäßig läuft Apple Intelligence auf dem Gerät, mit BetaSuite Assist als Cloud-Fallback. Lieber dein eigener Anbieter? Bring deinen API-Schlüssel für Claude, GPT, Gemini oder DeepSeek mit. Pollinations steht als Notfall-Fallback bereit. Anbieter jederzeit in den Einstellungen wechseln – jede Änderung verlangt eine ausdrückliche Zustimmung, bevor Daten das Gerät verlassen.",
+
+    feat6Title: "Stelle deine KI-Nutzung ein",
+    feat6Lead: "Aus, nur Politur, Schimpfwortmaskierung oder vollständige Zusammenfassung.",
+    feat6Text: "Wähle, wie viel die KI für dich übernimmt – kleine Wortpolitur an einem Feedback-Eintrag, Maskierung von Schimpfwörtern bevor ein Bericht rausgeht, oder vollständige Session-Zusammenfassung und Berichtserstellung. Das Feedback-Formular selbst beginnt schlicht und erweitert sich nur, wenn du Kategorie, Schweregrad, Reproduktionsschritte, annotierte Screenshots und Sprachnotizen brauchst.",
+
+    feat7Title: "Für Hardware-Tester gebaut",
+    feat7Lead: "Vorne, Seite, Hinten, Unten – von Anfang an mit Winkel-Tags.",
+    feat7Text: "Mehrbild-Zustandsaufnahmen mit Winkel-Chips, die das nächste Foto vortaggen. Mapping-Screenshots und freie Zusatzfotos haben eigene Berichtsabschnitte. Reverse-Geocoding-Standort und Apple-WeatherKit-Bedingungen sind eingebaut.",
+
+    feat8Title: "Projektstruktur, die mitwächst",
+    feat8Lead: "Ein Projekt pro Produkt, Sofortaufnahme für alles andere.",
+    feat8Text: "Bündele Sessions, Feedback und Berichte unter benannten Projekten. Hänge NDAs und Kontakte pro Projekt an – oder überspringe das Setup ganz und nutze das immer angeheftete Sofortaufnahme-Projekt für einmalige Funde.",
+
+    feat9Title: "Cloud-Sync nach deinen Regeln",
+    feat9Lead: "iCloud Drive, Google Drive, OneDrive, Fotomediathek oder gar nichts.",
+    feat9Text: "BetaSuite hat nie einen eigenen Server, der deine Daten hält. Exportiere in deine bestehende Cloud, in deine Fotomediathek oder als portables, verschlüsseltes .betasuite.json-Archiv, das du auf jedem Gerät neu importieren kannst.",
+
+    /* How it works */
+    howTitle: "So funktioniert es",
+    step1Title: "1. Session aufzeichnen",
+    step1Text: "Starte ein Projekt, drücke Aufnahme und nutze die App oder das Gerät so, wie ein Tester es täte.",
+    step2Title: "2. Markieren und annotieren",
+    step2Text: "Setze Marker, füge Sprachnotizen hinzu und zeichne auf Screenshots – alles automatisch mit Zeitstempel.",
+    step3Title: "3. Bericht erstellen",
+    step3Text: "BetaSuite stellt eine Session-Zusammenfassung samt Medien zusammen, fertig zum Teilen mit Entwicklern.",
+
+    /* Callout */
+    calloutTitle: "Privacy-first by design",
+    calloutLead: "BetaSuite setzt überall, wo dein iPhone es unterstützt, auf KI auf dem Gerät.",
+    callout1Title: "KI, die auf deinem Gerät bleibt",
+    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) erledigt die Textgenerierung lokal.",
+    callout2Title: "Sprache, die nicht weggeht",
+    callout2Text: "Sprachnotizen werden auf unterstützten iPhones via Apples Speech-Framework auf dem Gerät transkribiert.",
+    callout3Title: "Ein Schalter für sensible Arbeit",
+    callout3Text: "Der Vertrauliche Modus blockiert jeden Cloud-Weg, sodass NDA-Tests lokal bleiben.",
+    calloutLink: "Vollständige Datenschutzerklärung lesen →",
+
+    /* Why teaser on home page */
+    whyTeaserTitle: "Für den Tester gebaut, nicht für den Anbieter.",
+    whyTeaserLead: "Die gängigen Beta-Test-Tools vermessen das Produkt. BetaSuite vermisst den Tester.",
+    whyTeaser1Problem: "Kamera und Bildschirm gleichzeitig?",
+    whyTeaser1Answer: "BetaSuite kombiniert beide Streams zu einer MP4 auf dem getesteten Gerät – kein Stativ, kein zweites Telefon.",
+    whyTeaser2Problem: "Bug schon weg, bevor du auf Aufnahme drückst?",
+    whyTeaser2Answer: "Ein rollender 15- oder 30-Sekunden-Puffer hält den Moment fest – ein Tipp speichert, was gerade passiert ist.",
+    whyTeaser3Problem: "Cloud-KI ist auf NDA-Hardware ein Leck-Risiko?",
+    whyTeaser3Answer: "Der Vertrauliche Modus lässt Apple Intelligence vollständig auf dem Gerät laufen. KI-Politur ohne Netzwerkrisiko.",
+    whyTeaserLink: "Vollständigen Vergleich ansehen →",
+
+    /* FAQ teaser */
+    faqTeaserTitle: "Häufige Fragen",
+    faqQ1: "Welche Geräte werden unterstützt?",
+    faqA1: "iPhone mit iOS 16 oder neuer. Android ist in Entwicklung – Veröffentlichungsdatum noch offen.",
+    faqQ2: "Brauche ich ein Konto?",
+    faqA2: "BetaSuite selbst benötigt kein Konto, aber du brauchst eine gültige Apple-ID bzw. ein App-Store-Konto, um die App zu kaufen und zu laden.",
+    faqQ3: "Was ist der Vertrauliche Modus?",
+    faqA3: "Der Vertrauliche Modus blockiert Cloud-Sync und Cloud-KI und hält die Verarbeitung wo möglich rein lokal.",
+    faqQ4: "Gibt es eine kostenlose Testversion?",
+    faqA4: "Ja – eine kostenlose 3-Tage-Testversion mit allen Funktionen, damit du vor dem Kauf testen kannst.",
+    faqMore: "Mehr auf der Support-Seite →",
+
+    /* Closing CTA */
+    taglineMain: "Wettbewerber vermessen das Produkt. BetaSuite vermisst den Tester.",
+    ctaTitle: "Bereit, bessere Bug-Reports abzuliefern?",
+    ctaText: "Lade BetaSuite – oder melde dich, wenn du vorher Fragen hast.",
+    ctaContact: "Fragen? Melde dich →",
+
+    /* Why page */
+    whyTitle: "Für den Tester gebaut, nicht für den Anbieter.",
+    whyLead: "Die gängigen Beta-Test-Tools teilen eine architektonische Annahme: Das getestete Unternehmen kontrolliert das Werkzeug. Das hinterlässt beim Tester eine wiederkehrende Reihe von Frustrationen. BetaSuite wurde gezielt gebaut, um diese Lücken zu schließen.",
+    problemLabel: "Das Problem",
+    answerLabel: "BetaSuites Antwort",
+
+    pain1Problem: "Du kannst Bildschirm und Kamera nicht gleichzeitig aufnehmen.",
+    pain1Problem2: "Ein Video, das zeigt „Ich tippe hier, und das macht das Gerät“, braucht meist zwei Telefone und ein Stativ.",
+    pain1Answer: "Die Doppelaufnahme kombiniert beide Streams zu einer einzigen MP4 auf dem tatsächlich getesteten Gerät. Kein Stativ. Kein zweites Telefon.",
+
+    pain2Problem: "Sporadische Bugs verschwinden, bevor du auf Aufnahme drückst.",
+    pain2Problem2: "Bis du die Aufnahme gestartet hast, ist der Glitch weg – und Reproduktion wird zum Ratespiel.",
+    pain2Answer: "Sofortaufnahme hält im Hintergrund einen rollenden 15- oder 30-Sekunden-Puffer. Ein Tipp speichert den gerade vergangenen Moment. Kein Setup, keine verpassten Beweise.",
+
+    pain3Problem: "NDA-Arbeit macht Cloud-KI zum No-Go.",
+    pain3Problem2: "Jeder Cloud-Anbieter ist ein Leck-Risiko, also enden Berichte handgeschrieben und langsam.",
+    pain3Answer: "Der Vertrauliche Modus sperrt Cloud-Uploads, System-Sharing und jeden Cloud-KI-Anbieter – während Apple Intelligence vollständig auf dem Gerät läuft, null Netzwerkaufrufe. KI-Politur und Zusammenfassungen funktionieren auch auf vertraulicher Hardware.",
+
+    pain4Problem: "Anbieter-SDKs schicken deine Daten in die Cloud des Anbieters.",
+    pain4Problem2: "Gängige Beta-Test-Tools senden Testerdaten an ein Anbieter-Backend – okay für die Firma, nicht für sensible Prototypen.",
+    pain4Answer: "BetaSuite hat keinen eigenen Server. Alles wird auf deinem Gerät verschlüsselt, und Daten bewegen sich nur, wenn du ein Ziel auswählst – dein eigenes iCloud Drive, Google Drive, OneDrive, deine Fotomediathek oder ein portables verschlüsseltes Archiv.",
+
+    pain5Problem: "Der Wochenbericht ist der langsamste Teil der Arbeit.",
+    pain5Problem2: "Leere-Seiten-Lähmung, vor allem wenn du mehrere Programme jonglierst.",
+    pain5Answer: "Die Zeitraum-Zusammenfassung entwirft einen strukturierten Bericht – Thema, Pluspunkte, Probleme, Empfehlungen – direkt aus den Markern und dem Feedback, das du bereits erfasst hast. PDF oder DOCX, überfliegbare Stichpunkte, fertig zum Mailen.",
+
+    pain6Problem: "Beta-Test-Tools sind oft nur auf Englisch.",
+    pain6Problem2: "Mehrsprachenunterstützung, wenn überhaupt vorhanden, kommt oft veraltet und altert schlecht.",
+    pain6Answer: "BetaSuite rollt aktiv Mehrsprachenunterstützung aus; die Gerätesprache wird zur Laufzeit übernommen, sobald neue Sprachen verfügbar sind.",
+
+    whyClosingTagline: "Wettbewerber vermessen das Produkt. BetaSuite vermisst den Tester.",
+
+    /* Support page */
+    supportTitle: "Support",
+    supportLede: "Wir lesen jede Nachricht und antworten in der Regel innerhalb von 2 Werktagen.",
+    contactTitle: "Kontakt aufnehmen",
+    nameLabel: "Dein Name",
+    emailLabel: "Deine E-Mail-Adresse",
+    categoryLabel: "Kategorie",
+    messageLabel: "Nachricht",
+    sendMessage: "Nachricht senden",
+    faqTitle: "Häufig gestellte Fragen"
+  },
+
+  nl: {
+    /* Nav */
+    navHome: "Home",
+    navSupport: "Support",
+    navPrivacy: "Privacy",
+    navTerms: "Voorwaarden",
+    navWhy: "Waarom BetaSuite",
+
+    /* Hero */
+    heroTitle: "Vang elke bug. Vertel het hele verhaal.",
+    heroText: "BetaSuite is de mobiele testkit voor mensen die echt bugs rapporteren — neem scherm en camera tegelijk op, speel de laatste 30 seconden opnieuw af, annoteer, transcribeer en lever een gepolijst rapport af.",
+    downloadAppStore: "Download in de App Store",
+    androidNote: "Alleen iPhone — Android in ontwikkeling, releasedatum nog te bevestigen.",
+    metaText: "Gratis 3 dagen proberen · Geen abonnement · Geen advertenties · Geen tracking · Levenslang van jou",
+
+    /* Value props strip */
+    valueCaptureTitle: "Vastleggen",
+    valueCaptureText: "Scherm + camera, instant replay, spraakmemo's, foto's.",
+    valueAnnotateTitle: "Annoteren",
+    valueAnnotateText: "Teken, prik en plaats een tijdstempel op elke clip en screenshot.",
+    valueReportTitle: "Rapporteren",
+    valueReportText: "Automatische sessiesamenvattingen die ontwikkelaars echt lezen.",
+
+    /* Feature grid (9 cards) */
+    insideTitle: "Wat zit erin",
+
+    feat1Title: "Leg elk moment vast",
+    feat1Lead: "Dubbele opname, instant capture, live overlays.",
+    feat1Text: "Neemt scherm en frontcamera op in één samengestelde video terwijl je tussen apps wisselt. Eén tik bewaart de laatste 30 seconden uit een rollende buffer — perfect voor onvoorspelbare, sporadische glitches. Elke opname krijgt automatisch datum, tijd, GPS, weer en apparaatinformatie mee.",
+
+    feat2Title: "Sessies op een tijdlijn",
+    feat2Lead: "Markers, spraakmemo's, foto's — alles op één tijdlijn.",
+    feat2Text: "Plaats met één tik een marker zodra er iets gebeurt. Voeg een screenshot toe, dicteer een spraakmemo of werk later uit tot een volledig bugrapport. Elke sessie legt apparaatstatus, OS, accugezondheid en weer automatisch vast — context ontbreekt nooit.",
+
+    feat3Title: "AI-ondersteunde rapporten",
+    feat3Lead: "Een gepolijste PDF of DOCX in seconden.",
+    feat3Text: "Kies een periode — deze week, vorige week, eigen bereik — en BetaSuite stelt een gestructureerd rapport op (thema, pluspunten, problemen, aanbevelingen) als scanbare bullets. Beelden worden automatisch in Conditie-, Mapping- en Aanvullende secties gesorteerd. Verstuur het direct vanuit de app per e-mail.",
+
+    feat4Title: "Vertrouwelijke modus",
+    feat4Lead: "AI op het apparaat voor NDA-werk.",
+    feat4Text: "Eén schakelaar omzetten en BetaSuite vergrendelt cloud-uploads, systeemdelen en elke cloud-AI-aanbieder. Apple Intelligence blijft volledig op het apparaat draaien — geen enkele netwerkaanroep — zodat AI-polijsten en samenvattingen ook op vertrouwelijke hardware blijven werken.",
+
+    feat5Title: "AI-routing op jouw manier",
+    feat5Lead: "Apple Intelligence op het apparaat, BetaSuite Assist als fallback. Of breng je eigen sleutel.",
+    feat5Text: "Standaard draait Apple Intelligence op het apparaat met BetaSuite Assist als cloud-fallback. Liever je eigen aanbieder? Breng je API-sleutel mee voor Claude, GPT, Gemini of DeepSeek. Pollinations is beschikbaar als noodfallback. Wissel op elk moment van aanbieder in Instellingen — elke wijziging vraagt expliciete toestemming voordat data het apparaat verlaat.",
+
+    feat6Title: "Stem je AI-gebruik af",
+    feat6Lead: "Uit, alleen polijsten, schuttingtaal maskeren of volledige samenvatting.",
+    feat6Text: "Kies hoeveel de AI voor je doet — een lichte taalpolijst op een feedbackitem, schuttingtaal maskeren voordat een rapport uitgaat, of volledige sessiesamenvatting en rapportgeneratie. Het feedbackformulier zelf begint eenvoudig en breidt alleen uit als je categorie, ernst, reproductiestappen, geannoteerde screenshots en spraakmemo's nodig hebt.",
+
+    feat7Title: "Gemaakt voor hardware-testers",
+    feat7Lead: "Voor, zij, achter, onder — vanaf het begin met hoek-tags.",
+    feat7Text: "Conditiefoto's met meerdere afbeeldingen en hoek-chips die de volgende foto vooraf taggen. Mapping-screenshots en vrije aanvullende foto's hebben hun eigen rapportsecties. Reverse-geocoded locatie en Apple WeatherKit-condities standaard ingebouwd.",
+
+    feat8Title: "Projectstructuur die meeschaalt",
+    feat8Lead: "Eén project per product, instant capture voor de rest.",
+    feat8Text: "Bundel sessies, feedback en rapporten onder benoemde projecten. Hang NDA's en contacten per project aan — of sla setup over en gebruik het altijd vastgemaakte Instant Capture-project voor eenmalige vondsten.",
+
+    feat9Title: "Cloudsync op jouw voorwaarden",
+    feat9Lead: "iCloud Drive, Google Drive, OneDrive, Foto's of niets.",
+    feat9Text: "BetaSuite heeft nooit een eigen server die jouw data bewaart. Exporteer naar je bestaande cloud, je Foto's-bibliotheek of een draagbaar versleuteld .betasuite.json-archief dat je op elk apparaat opnieuw kunt importeren.",
+
+    /* How it works */
+    howTitle: "Hoe het werkt",
+    step1Title: "1. Neem de sessie op",
+    step1Text: "Start een project, druk op opnemen en gebruik de app of het apparaat zoals een tester dat zou doen.",
+    step2Title: "2. Markeren en annoteren",
+    step2Text: "Plaats markers, voeg spraakmemo's toe en teken op screenshots — allemaal automatisch met tijdstempel.",
+    step3Title: "3. Genereer een rapport",
+    step3Text: "BetaSuite stelt een sessiesamenvatting met de media samen, klaar om met ontwikkelaars te delen.",
+
+    /* Callout */
+    calloutTitle: "Privacy-first by design",
+    calloutLead: "BetaSuite leunt op AI op het apparaat overal waar je iPhone dat ondersteunt.",
+    callout1Title: "AI die op je apparaat blijft",
+    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) verwerkt tekstgeneratie lokaal.",
+    callout2Title: "Spraak die nooit vertrekt",
+    callout2Text: "Spraakmemo's worden op het apparaat getranscribeerd via Apple's Speech-framework op ondersteunde iPhones.",
+    callout3Title: "Eén schakelaar voor gevoelig werk",
+    callout3Text: "De vertrouwelijke modus blokkeert elke cloudroute, zodat NDA-tests lokaal blijven.",
+    calloutLink: "Lees het volledige privacybeleid →",
+
+    /* Why teaser on home page */
+    whyTeaserTitle: "Gemaakt voor de tester, niet voor de leverancier.",
+    whyTeaserLead: "De gangbare beta-testtools meten het product. BetaSuite meet de tester.",
+    whyTeaser1Problem: "Camera en scherm tegelijk?",
+    whyTeaser1Answer: "BetaSuite combineert beide streams tot één MP4 op het geteste apparaat — geen statief, geen tweede telefoon.",
+    whyTeaser2Problem: "Bug al weg tegen de tijd dat je op opnemen drukt?",
+    whyTeaser2Answer: "Een rollende buffer van 15 of 30 seconden houdt het moment vast — één tik bewaart wat zojuist gebeurde.",
+    whyTeaser3Problem: "Cloud-AI is een lekrisico op NDA-hardware?",
+    whyTeaser3Answer: "De vertrouwelijke modus laat Apple Intelligence volledig op het apparaat draaien. AI-polijst zonder netwerkrisico.",
+    whyTeaserLink: "Bekijk de volledige vergelijking →",
+
+    /* FAQ teaser */
+    faqTeaserTitle: "Veelgestelde vragen",
+    faqQ1: "Welke apparaten worden ondersteund?",
+    faqA1: "iPhone met iOS 16 of nieuwer. Android is in ontwikkeling — releasedatum nog te bevestigen.",
+    faqQ2: "Heb ik een account nodig?",
+    faqA2: "BetaSuite zelf vereist geen account, maar je hebt een geldige Apple ID / App Store-account nodig om de app te kopen en te downloaden.",
+    faqQ3: "Wat is de vertrouwelijke modus?",
+    faqA3: "De vertrouwelijke modus blokkeert cloudsync en cloud-AI en houdt verwerking waar mogelijk lokaal.",
+    faqQ4: "Is er een gratis proefperiode?",
+    faqA4: "Ja — een gratis proefperiode van 3 dagen met alle functies, zodat je kunt proberen voor je koopt.",
+    faqMore: "Meer op de supportpagina →",
+
+    /* Closing CTA */
+    taglineMain: "Concurrenten meten het product. BetaSuite meet de tester.",
+    ctaTitle: "Klaar om betere bugrapporten af te leveren?",
+    ctaText: "Download BetaSuite — of neem contact op als je eerst vragen hebt.",
+    ctaContact: "Vragen? Neem contact op →",
+
+    /* Why page */
+    whyTitle: "Gemaakt voor de tester, niet voor de leverancier.",
+    whyLead: "De gangbare beta-testtools delen één architecturale aanname: het bedrijf dat getest wordt, beheert het gereedschap. Dat laat de tester met een terugkerende reeks frustraties achter. BetaSuite is specifiek gebouwd om die gaten te dichten.",
+    problemLabel: "Het probleem",
+    answerLabel: "BetaSuite's antwoord",
+
+    pain1Problem: "Je kunt scherm en camera niet tegelijk vastleggen.",
+    pain1Problem2: "Een video die toont \"ik tik hier, en dit doet het apparaat\" vergt meestal twee telefoons en een statief.",
+    pain1Answer: "Dubbele opname combineert beide streams tot één MP4 op het apparaat dat daadwerkelijk getest wordt. Geen statief. Geen tweede telefoon.",
+
+    pain2Problem: "Sporadische bugs verdwijnen voordat je op opnemen drukt.",
+    pain2Problem2: "Tegen de tijd dat je opname is gestart, is de glitch weg — en reproduceren wordt een gokspel.",
+    pain2Answer: "Instant Capture houdt op de achtergrond een rollende buffer van 15 of 30 seconden bij. Eén tik bewaart het moment dat net voorbij is. Geen setup, geen gemiste bewijzen.",
+
+    pain3Problem: "NDA-werk maakt cloud-AI onbruikbaar.",
+    pain3Problem2: "Elke cloudaanbieder is een lekrisico, dus rapporten worden uiteindelijk handgeschreven en traag.",
+    pain3Answer: "De vertrouwelijke modus vergrendelt cloud-uploads, systeemdelen en elke cloud-AI-aanbieder — terwijl Apple Intelligence volledig op het apparaat blijft draaien, nul netwerkaanroepen. AI-polijsten en samenvattingen blijven ook op vertrouwelijke hardware werken.",
+
+    pain4Problem: "Vendor-SDK's sturen jouw data naar de cloud van de vendor.",
+    pain4Problem2: "Gangbare beta-testtools sturen testerdata naar een vendor-backend — prima voor het bedrijf, niet voor gevoelige prototypes.",
+    pain4Answer: "BetaSuite heeft geen eigen server. Alles wordt op je apparaat versleuteld, en data verplaatst alleen wanneer jij een bestemming kiest — je eigen iCloud Drive, Google Drive, OneDrive, Foto's of een draagbaar versleuteld archief.",
+
+    pain5Problem: "Het wekelijkse rapport is het traagste deel van het werk.",
+    pain5Problem2: "Lege-pagina-verlamming, vooral wanneer je meerdere programma's tegelijk doet.",
+    pain5Answer: "De periodesamenvatting stelt een gestructureerd rapport op — thema, pluspunten, problemen, aanbevelingen — rechtstreeks uit de markers en feedback die je al hebt vastgelegd. PDF of DOCX, scanbare bullets, klaar om te mailen.",
+
+    pain6Problem: "Beta-testtools zijn vaak alleen Engelstalig.",
+    pain6Problem2: "Meertalige ondersteuning, als die bestaat, komt vaak verouderd uit en veroudert slecht.",
+    pain6Answer: "BetaSuite rolt actief meertalige ondersteuning uit; de apparaattaal wordt tijdens runtime gevolgd zodra nieuwe talen beschikbaar komen.",
+
+    whyClosingTagline: "Concurrenten meten het product. BetaSuite meet de tester.",
+
+    /* Support page */
+    supportTitle: "Support",
+    supportLede: "We lezen elk bericht en streven ernaar binnen 2 werkdagen te antwoorden.",
+    contactTitle: "Neem contact op",
+    nameLabel: "Je naam",
+    emailLabel: "Je e-mailadres",
+    categoryLabel: "Categorie",
+    messageLabel: "Bericht",
+    sendMessage: "Bericht versturen",
+    faqTitle: "Veelgestelde vragen"
+  },
+
+  fr: {
+    /* Nav */
+    navHome: "Accueil",
+    navSupport: "Support",
+    navPrivacy: "Confidentialité",
+    navTerms: "Conditions",
+    navWhy: "Pourquoi BetaSuite",
+
+    /* Hero */
+    heroTitle: "Capturez chaque bug. Racontez toute l'histoire.",
+    heroText: "BetaSuite est le kit de test mobile pour les gens qui rapportent vraiment des bugs — enregistrez écran et caméra en même temps, rejouez les 30 dernières secondes, annotez, transcrivez et livrez un rapport soigné.",
+    downloadAppStore: "Télécharger sur l'App Store",
+    androidNote: "iPhone uniquement — Android en développement, date de sortie à confirmer.",
+    metaText: "Essai gratuit de 3 jours · Sans abonnement · Sans publicité · Sans pistage · À vous pour la vie",
+
+    /* Value props strip */
+    valueCaptureTitle: "Capturer",
+    valueCaptureText: "Écran + caméra, replay instantané, mémos vocaux, photos.",
+    valueAnnotateTitle: "Annoter",
+    valueAnnotateText: "Dessinez, épinglez et horodatez chaque clip et capture.",
+    valueReportTitle: "Rapporter",
+    valueReportText: "Des résumés de session automatiques que les développeurs lisent vraiment.",
+
+    /* Feature grid (9 cards) */
+    insideTitle: "Ce qu'il y a dedans",
+
+    feat1Title: "Capturez chaque instant",
+    feat1Lead: "Double enregistrement, capture instantanée, superpositions en direct.",
+    feat1Text: "Enregistre l'écran et la caméra avant dans une seule vidéo composée pendant que vous changez d'app. Une touche enregistre les 30 dernières secondes depuis un tampon glissant — parfait pour les glitches sporadiques imprévisibles. Chaque capture est automatiquement marquée avec date, heure, GPS, météo et infos de l'appareil.",
+
+    feat2Title: "Sessions sur une chronologie",
+    feat2Lead: "Marqueurs, mémos vocaux, photos — tout sur une chronologie.",
+    feat2Text: "Posez un marqueur d'une touche dès que quelque chose se passe. Joignez une capture, dictez un mémo vocal, ou développez plus tard en rapport de bug complet. Chaque session capture automatiquement l'état de l'appareil, l'OS, la santé de la batterie et la météo — le contexte ne manque jamais.",
+
+    feat3Title: "Rapports assistés par IA",
+    feat3Lead: "Un PDF ou DOCX soigné en quelques secondes.",
+    feat3Text: "Choisissez une période — cette semaine, la semaine dernière, plage personnalisée — et BetaSuite rédige un rapport structuré (thème, points positifs, problèmes, recommandations) en puces parcourables. Images triées automatiquement en sections État, Mapping et Compléments. Envoyez par e-mail depuis l'app.",
+
+    feat4Title: "Mode confidentiel",
+    feat4Lead: "IA sur l'appareil pour le travail sous NDA.",
+    feat4Text: "Un seul interrupteur et BetaSuite verrouille les uploads cloud, le partage système et tous les fournisseurs d'IA cloud. Apple Intelligence continue de tourner entièrement sur l'appareil — aucun appel réseau — pour que la finition IA et les résumés fonctionnent même sur du matériel confidentiel.",
+
+    feat5Title: "Routage IA à votre façon",
+    feat5Lead: "Apple Intelligence sur l'appareil, BetaSuite Assist en repli. Ou apportez votre propre clé.",
+    feat5Text: "Par défaut, Apple Intelligence tourne sur l'appareil avec BetaSuite Assist comme repli cloud. Vous préférez votre propre fournisseur ? Apportez votre clé API pour Claude, GPT, Gemini ou DeepSeek. Pollinations est disponible comme repli d'urgence. Changez de fournisseur à tout moment dans les Réglages — chaque changement demande un consentement explicite avant que les données ne quittent l'appareil.",
+
+    feat6Title: "Réglez votre usage de l'IA",
+    feat6Lead: "Désactivé, simple finition, masquage de jurons ou résumé complet.",
+    feat6Text: "Choisissez à quel point l'IA fait le travail — léger lissage des mots sur une entrée de feedback, masquage de jurons avant qu'un rapport ne parte, ou résumé complet de session et génération de rapport. Le formulaire de feedback lui-même reste simple et ne s'étend que lorsque vous avez besoin de catégorie, gravité, étapes de reproduction, captures annotées et mémos vocaux.",
+
+    feat7Title: "Conçu pour les testeurs hardware",
+    feat7Lead: "Avant, côté, arrière, dessous — tagués par angle dès le départ.",
+    feat7Text: "Photos d'état multi-images avec puces d'angle qui pré-taguent la photo suivante. Captures de mapping et photos additionnelles libres ont leurs propres sections de rapport. Localisation par géocodage inverse et conditions Apple WeatherKit intégrées.",
+
+    feat8Title: "Une structure de projet qui passe à l'échelle",
+    feat8Lead: "Un projet par produit, capture instantanée pour tout le reste.",
+    feat8Text: "Regroupez sessions, feedbacks et rapports sous des projets nommés. Attachez NDA et contacts par projet — ou sautez la configuration et utilisez le projet Instant Capture toujours épinglé pour les trouvailles ponctuelles.",
+
+    feat9Title: "Sync cloud à vos conditions",
+    feat9Lead: "iCloud Drive, Google Drive, OneDrive, Pellicule ou rien du tout.",
+    feat9Text: "BetaSuite n'a jamais son propre serveur qui détient vos données. Exportez vers votre cloud existant, votre Pellicule ou une archive .betasuite.json chiffrée portable réimportable sur n'importe quel appareil.",
+
+    /* How it works */
+    howTitle: "Comment ça marche",
+    step1Title: "1. Enregistrez la session",
+    step1Text: "Démarrez un projet, lancez l'enregistrement, et utilisez l'app ou l'appareil comme un testeur le ferait.",
+    step2Title: "2. Marquez et annotez",
+    step2Text: "Posez des marqueurs, ajoutez des mémos vocaux et dessinez sur les captures — tout horodaté automatiquement.",
+    step3Title: "3. Générez un rapport",
+    step3Text: "BetaSuite assemble un résumé de session avec les médias, prêt à partager avec les développeurs.",
+
+    /* Callout */
+    calloutTitle: "Confidentialité dès la conception",
+    calloutLead: "BetaSuite s'appuie sur l'IA sur l'appareil partout où votre iPhone le permet.",
+    callout1Title: "Une IA qui reste sur votre appareil",
+    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) gère la génération de texte localement.",
+    callout2Title: "Une voix qui ne sort jamais",
+    callout2Text: "Les mémos vocaux sont transcrits sur l'appareil via le framework Speech d'Apple sur iPhone compatibles.",
+    callout3Title: "Un interrupteur pour le travail sensible",
+    callout3Text: "Le mode confidentiel bloque toute route cloud, pour que les tests sous NDA restent locaux.",
+    calloutLink: "Lire la politique de confidentialité complète →",
+
+    /* Why teaser on home page */
+    whyTeaserTitle: "Conçu pour le testeur, pas pour le fournisseur.",
+    whyTeaserLead: "Les outils mainstream de beta-test instrumentent le produit. BetaSuite instrumente le testeur.",
+    whyTeaser1Problem: "Caméra et écran en même temps ?",
+    whyTeaser1Answer: "BetaSuite compose les deux flux en un seul MP4 sur l'appareil testé — pas de trépied, pas de second téléphone.",
+    whyTeaser2Problem: "Bug déjà parti quand vous appuyez sur enregistrer ?",
+    whyTeaser2Answer: "Un tampon glissant de 15 ou 30 secondes garde le moment vivant — une touche enregistre ce qui vient de se passer.",
+    whyTeaser3Problem: "L'IA cloud est un risque de fuite sur du matériel sous NDA ?",
+    whyTeaser3Answer: "Le mode confidentiel fait tourner Apple Intelligence entièrement sur l'appareil. Finition IA sans risque réseau.",
+    whyTeaserLink: "Voir la comparaison complète →",
+
+    /* FAQ teaser */
+    faqTeaserTitle: "Questions courantes",
+    faqQ1: "Quels appareils sont pris en charge ?",
+    faqA1: "iPhone avec iOS 16 ou plus récent. Android est en développement — date de sortie à confirmer.",
+    faqQ2: "Faut-il un compte ?",
+    faqA2: "BetaSuite lui-même ne nécessite pas de compte, mais il vous faut un identifiant Apple / compte App Store valide pour acheter et télécharger l'app.",
+    faqQ3: "Qu'est-ce que le mode confidentiel ?",
+    faqA3: "Le mode confidentiel bloque la sync cloud et l'IA cloud, gardant le traitement local autant que possible.",
+    faqQ4: "Y a-t-il un essai gratuit ?",
+    faqA4: "Oui — un essai gratuit de 3 jours de toutes les fonctionnalités, pour essayer avant d'acheter.",
+    faqMore: "Plus sur la page support →",
+
+    /* Closing CTA */
+    taglineMain: "Les concurrents instrumentent le produit. BetaSuite instrumente le testeur.",
+    ctaTitle: "Prêt à livrer de meilleurs rapports de bug ?",
+    ctaText: "Téléchargez BetaSuite — ou contactez-nous d'abord si vous avez des questions.",
+    ctaContact: "Des questions ? Contactez-nous →",
+
+    /* Why page */
+    whyTitle: "Conçu pour le testeur, pas pour le fournisseur.",
+    whyLead: "Les outils mainstream de beta-test partagent une hypothèse architecturale : l'entreprise testée contrôle l'outillage. Cela laisse le testeur avec un ensemble récurrent de frustrations. BetaSuite a été conçu spécifiquement pour combler ces lacunes.",
+    problemLabel: "Le problème",
+    answerLabel: "La réponse de BetaSuite",
+
+    pain1Problem: "Vous ne pouvez pas capturer écran et caméra en même temps.",
+    pain1Problem2: "Une vidéo qui montre « je tape ici, et voilà ce que fait l'appareil » exige généralement deux téléphones et un trépied.",
+    pain1Answer: "Le double enregistrement compose les deux flux en un seul MP4 sur l'appareil réellement testé. Pas de trépied. Pas de second téléphone.",
+
+    pain2Problem: "Les bugs sporadiques disparaissent avant que vous appuyiez sur enregistrer.",
+    pain2Problem2: "Le temps d'avoir lancé la capture, le glitch est parti — et la reproduction devient un jeu de devinettes.",
+    pain2Answer: "Instant Capture maintient en arrière-plan un tampon glissant de 15 ou 30 secondes. Une touche enregistre l'instant qui vient de passer. Sans setup, sans preuve manquée.",
+
+    pain3Problem: "Le travail sous NDA rend l'IA cloud impraticable.",
+    pain3Problem2: "Chaque fournisseur cloud est un risque de fuite, donc les rapports finissent écrits à la main et lents.",
+    pain3Answer: "Le mode confidentiel verrouille uploads cloud, partage système et tous les fournisseurs d'IA cloud — pendant qu'Apple Intelligence continue de tourner entièrement sur l'appareil, zéro appel réseau. Finition IA et résumés fonctionnent même sur du matériel confidentiel.",
+
+    pain4Problem: "Les SDK de fournisseurs envoient vos données vers leur cloud.",
+    pain4Problem2: "Les outils mainstream de beta-test envoient les données du testeur vers un backend fournisseur — bien pour l'entreprise, pas pour des prototypes sensibles.",
+    pain4Answer: "BetaSuite n'a pas son propre serveur. Tout est chiffré sur votre appareil, et les données ne bougent que lorsque vous choisissez une destination — votre propre iCloud Drive, Google Drive, OneDrive, Pellicule ou une archive chiffrée portable.",
+
+    pain5Problem: "Le rapport hebdomadaire est la partie la plus lente du travail.",
+    pain5Problem2: "Paralysie de la page blanche, surtout quand vous jonglez avec plusieurs programmes.",
+    pain5Answer: "Le résumé de période rédige un rapport structuré — thème, points positifs, problèmes, recommandations — directement à partir des marqueurs et feedbacks déjà saisis. PDF ou DOCX, puces parcourables, prêt à envoyer par mail.",
+
+    pain6Problem: "Les outils de beta-test sont souvent en anglais uniquement.",
+    pain6Problem2: "Le support multilingue, quand il existe, arrive souvent obsolète et vieillit mal.",
+    pain6Answer: "BetaSuite déploie activement le support multilingue, avec la langue de l'appareil suivie au runtime à mesure que de nouvelles langues arrivent.",
+
+    whyClosingTagline: "Les concurrents instrumentent le produit. BetaSuite instrumente le testeur.",
+
+    /* Support page */
+    supportTitle: "Support",
+    supportLede: "Nous lisons chaque message et visons à répondre sous 2 jours ouvrés.",
+    contactTitle: "Nous contacter",
+    nameLabel: "Votre nom",
+    emailLabel: "Votre adresse e-mail",
+    categoryLabel: "Catégorie",
+    messageLabel: "Message",
+    sendMessage: "Envoyer le message",
+    faqTitle: "Questions fréquentes"
+  },
+
+  nb: {
+    /* Nav */
+    navHome: "Hjem",
+    navSupport: "Støtte",
+    navPrivacy: "Personvern",
+    navTerms: "Vilkår",
+    navWhy: "Hvorfor BetaSuite",
+
+    /* Hero */
+    heroTitle: "Fang hver bug. Fortell hele historien.",
+    heroText: "BetaSuite er det mobile testsettet for folk som faktisk rapporterer bugs — ta opp skjerm og kamera samtidig, spill av de siste 30 sekundene på nytt, annoter, transkriber og lever en polert rapport.",
+    downloadAppStore: "Last ned i App Store",
+    androidNote: "Kun iPhone — Android under utvikling, lanseringsdato bekreftes senere.",
+    metaText: "Gratis 3-dagers prøveperiode · Ingen abonnement · Ingen reklame · Ingen sporing · Ditt for livet",
+
+    /* Value props strip */
+    valueCaptureTitle: "Fang opp",
+    valueCaptureText: "Skjerm + kamera, øyeblikkelig avspilling, taleopptak, bilder.",
+    valueAnnotateTitle: "Annoter",
+    valueAnnotateText: "Tegn, fest og tidsstempel hvert klipp og skjermbilde.",
+    valueReportTitle: "Rapporter",
+    valueReportText: "Automatiske øktssammendrag som utviklere faktisk leser.",
+
+    /* Feature grid (9 cards) */
+    insideTitle: "Hva som er inni",
+
+    feat1Title: "Fang hvert øyeblikk",
+    feat1Lead: "Dobbeltopptak, øyeblikkelig opptak, sanntidsoverlegg.",
+    feat1Text: "Tar opp skjerm og frontkamera i én sammensatt video mens du bytter app. Ett trykk lagrer de siste 30 sekundene fra en rullerende buffer — perfekt for sporadiske, uforutsigbare feil. Hvert opptak får automatisk dato, klokkeslett, GPS, vær og enhetsinformasjon.",
+
+    feat2Title: "Tidslinje-baserte økter",
+    feat2Lead: "Markører, taleopptak, bilder — alt på én tidslinje.",
+    feat2Text: "Sett en markør med ett trykk i det noe skjer. Legg ved et skjermbilde, dikter et taleopptak, eller utvid senere til en full bug-rapport. Hver økt fanger automatisk enhetsstatus, OS, batterihelse og vær — kontekst mangler aldri.",
+
+    feat3Title: "AI-assisterte rapporter",
+    feat3Lead: "En polert PDF eller DOCX på sekunder.",
+    feat3Text: "Velg en periode — denne uken, forrige uke, egendefinert område — og BetaSuite skriver et strukturert rapportutkast (tema, positive punkter, problemer, anbefalinger) som lett skannbare punkter. Bilder sorteres automatisk i seksjonene Tilstand, Mapping og Tilleggsbilder. Send det fra appen på e-post.",
+
+    feat4Title: "Konfidensiell modus",
+    feat4Lead: "AI på enheten for NDA-arbeid.",
+    feat4Text: "Slå én bryter og BetaSuite stenger ned skylast, systemdeling og alle sky-AI-leverandører. Apple Intelligence fortsetter å kjøre helt på enheten — aldri et nettverkskall — så AI-polering og sammendrag fungerer fortsatt på konfidensiell maskinvare.",
+
+    feat5Title: "AI-routing på din måte",
+    feat5Lead: "Apple Intelligence på enheten, BetaSuite Assist som reserve. Eller bruk din egen nøkkel.",
+    feat5Text: "Som standard kjører Apple Intelligence på enheten med BetaSuite Assist som sky-reserve. Foretrekker du din egen leverandør? Ta med din API-nøkkel for Claude, GPT, Gemini eller DeepSeek. Pollinations er tilgjengelig som nødreserve. Bytt leverandør når som helst i Innstillinger — hver endring ber om eksplisitt samtykke før data forlater enheten.",
+
+    feat6Title: "Juster din AI-bruk",
+    feat6Lead: "Av, kun polering, banneord-maskering eller fullt sammendrag.",
+    feat6Text: "Velg hvor mye AI-en gjør for deg — liten språklig polering på en tilbakemelding, banneord-maskering før en rapport går ut, eller fullt øktssammendrag og rapportgenerering. Tilbakemeldingsskjemaet starter enkelt og utvides bare når du trenger kategori, alvorlighet, reproduksjonstrinn, annoterte skjermbilder og taleopptak.",
+
+    feat7Title: "Bygget for hardware-testere",
+    feat7Lead: "Front, side, bak, under — vinkel-tagget fra start.",
+    feat7Text: "Tilstandsbilder med flere bilder og vinkel-chips som pre-tagger neste bilde. Mapping-skjermbilder og fritt formaterte tilleggsbilder har egne rapport-seksjoner. Reverse-geokodet plassering og Apple WeatherKit-forhold er innebygd.",
+
+    feat8Title: "Prosjektstruktur som skalerer",
+    feat8Lead: "Ett prosjekt per produkt, øyeblikkelig opptak for alt annet.",
+    feat8Text: "Grupper økter, tilbakemeldinger og rapporter under navngitte prosjekter. Legg ved NDA-er og kontakter per prosjekt — eller hopp over oppsettet helt og bruk det alltid festede Instant Capture-prosjektet for engangsfunn.",
+
+    feat9Title: "Skysynkronisering på dine vilkår",
+    feat9Lead: "iCloud Drive, Google Drive, OneDrive, Bilder eller ingenting.",
+    feat9Text: "BetaSuite har aldri sin egen server som holder dataene dine. Eksporter til din eksisterende sky, til Bilder, eller til et bærbart kryptert .betasuite.json-arkiv du kan importere på nytt på en hvilken som helst enhet.",
+
+    /* How it works */
+    howTitle: "Slik fungerer det",
+    step1Title: "1. Ta opp økten",
+    step1Text: "Start et prosjekt, trykk på opptak, og bruk appen eller enheten slik en tester ville gjort.",
+    step2Title: "2. Marker og annoter",
+    step2Text: "Slipp markører, legg til taleopptak og tegn på skjermbilder — alt automatisk tidsstemplet.",
+    step3Title: "3. Generer en rapport",
+    step3Text: "BetaSuite setter sammen et øktssammendrag med medier, klart til å dele med utviklere.",
+
+    /* Callout */
+    calloutTitle: "Personvern først, etter design",
+    calloutLead: "BetaSuite lener seg på AI på enheten overalt der iPhone-en din støtter det.",
+    callout1Title: "AI som blir på enheten",
+    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) håndterer tekstgenerering lokalt.",
+    callout2Title: "Tale som aldri forlater",
+    callout2Text: "Taleopptak transkriberes på enheten via Apples Speech-rammeverk på støttede iPhones.",
+    callout3Title: "Én bryter for sensitivt arbeid",
+    callout3Text: "Konfidensiell modus blokkerer hver sky-rute slik at NDA-testing forblir lokal.",
+    calloutLink: "Les hele personvernreglene →",
+
+    /* Why teaser on home page */
+    whyTeaserTitle: "Bygget for testeren, ikke for leverandøren.",
+    whyTeaserLead: "De vanlige beta-testverktøyene måler produktet. BetaSuite måler testeren.",
+    whyTeaser1Problem: "Kamera og skjerm samtidig?",
+    whyTeaser1Answer: "BetaSuite setter sammen begge strømmene til én MP4 på enheten som testes — ingen stativ, ingen ekstra telefon.",
+    whyTeaser2Problem: "Bug allerede borte når du trykker på opptak?",
+    whyTeaser2Answer: "En rullerende buffer på 15 eller 30 sekunder holder øyeblikket levende — ett trykk lagrer det som nettopp skjedde.",
+    whyTeaser3Problem: "Sky-AI er en lekkasjerisiko på NDA-maskinvare?",
+    whyTeaser3Answer: "Konfidensiell modus kjører Apple Intelligence helt på enheten. AI-polering uten nettverksrisiko.",
+    whyTeaserLink: "Se den fullstendige sammenligningen →",
+
+    /* FAQ teaser */
+    faqTeaserTitle: "Vanlige spørsmål",
+    faqQ1: "Hvilke enheter støttes?",
+    faqA1: "iPhone med iOS 16 eller nyere. Android er under utvikling — lanseringsdato bekreftes senere.",
+    faqQ2: "Trenger jeg en konto?",
+    faqA2: "BetaSuite selv krever ingen konto, men du trenger en gyldig Apple-ID / App Store-konto for å kjøpe og laste ned appen.",
+    faqQ3: "Hva er konfidensiell modus?",
+    faqA3: "Konfidensiell modus blokkerer skysynkronisering og sky-AI, og holder behandlingen lokal der det er mulig.",
+    faqQ4: "Er det en gratis prøveperiode?",
+    faqA4: "Ja — en gratis 3-dagers prøveperiode med alle funksjonene, så du kan prøve før du kjøper.",
+    faqMore: "Mer på støttesiden →",
+
+    /* Closing CTA */
+    taglineMain: "Konkurrentene måler produktet. BetaSuite måler testeren.",
+    ctaTitle: "Klar til å levere bedre bug-rapporter?",
+    ctaText: "Last ned BetaSuite — eller ta kontakt hvis du har spørsmål først.",
+    ctaContact: "Spørsmål? Ta kontakt →",
+
+    /* Why page */
+    whyTitle: "Bygget for testeren, ikke for leverandøren.",
+    whyLead: "De vanlige beta-testverktøyene deler én arkitektonisk antagelse: selskapet som testes kontrollerer verktøyet. Det etterlater testeren med et tilbakevendende sett med frustrasjoner. BetaSuite ble bygget spesifikt for å lukke disse hullene.",
+    problemLabel: "Problemet",
+    answerLabel: "BetaSuites svar",
+
+    pain1Problem: "Du kan ikke fange skjerm og kamera samtidig.",
+    pain1Problem2: "En video som viser «jeg trykker her, og dette gjør enheten» trenger vanligvis to telefoner og et stativ.",
+    pain1Answer: "Dobbeltopptak setter sammen begge strømmene til én MP4 på enheten som faktisk testes. Ingen stativ. Ingen ekstra telefon.",
+
+    pain2Problem: "Sporadiske bugs forsvinner før du trykker på opptak.",
+    pain2Problem2: "Når du har startet opptaket, er feilen borte — og reproduksjon blir gjettelek.",
+    pain2Answer: "Instant Capture holder en rullerende 15- eller 30-sekunders buffer i bakgrunnen. Ett trykk lagrer øyeblikket som nettopp passerte. Ingen oppsett, ingen tapt bevis.",
+
+    pain3Problem: "NDA-arbeid gjør sky-AI uaktuelt.",
+    pain3Problem2: "Hver skyleverandør er en lekkasjerisiko, så rapporter ender opp håndskrevne og trege.",
+    pain3Answer: "Konfidensiell modus stenger ned skylast, systemdeling og alle sky-AI-leverandører — mens Apple Intelligence fortsetter å kjøre helt på enheten, null nettverkskall. AI-polering og sammendrag fungerer fortsatt på konfidensiell maskinvare.",
+
+    pain4Problem: "Leverandør-SDK-er sender dataene dine til leverandørens sky.",
+    pain4Problem2: "Vanlige beta-testverktøy sender testerdata til en leverandør-backend — greit for selskapet, ikke for sensitive prototyper.",
+    pain4Answer: "BetaSuite har ingen egen server. Alt krypteres på enheten din, og data flytter seg bare når du velger et mål — din egen iCloud Drive, Google Drive, OneDrive, Bilder eller et bærbart kryptert arkiv.",
+
+    pain5Problem: "Ukerapporten er den tregeste delen av jobben.",
+    pain5Problem2: "Blank side-lammelse, særlig når du sjonglerer med flere programmer.",
+    pain5Answer: "Periodesammendraget skriver et utkast til strukturert rapport — tema, positive punkter, problemer, anbefalinger — rett fra markørene og tilbakemeldingene du allerede har logget. PDF eller DOCX, lett skannbare punkter, klart for e-post.",
+
+    pain6Problem: "Beta-testverktøy er ofte bare på engelsk.",
+    pain6Problem2: "Flerspråklig støtte, når den finnes, er ofte utdatert og eldes dårlig.",
+    pain6Answer: "BetaSuite ruller aktivt ut flerspråklig støtte, og enhetsspråket følges automatisk i runtime etter hvert som nye språk kommer på plass.",
+
+    whyClosingTagline: "Konkurrentene måler produktet. BetaSuite måler testeren.",
+
+    /* Support page */
+    supportTitle: "Støtte",
+    supportLede: "Vi leser hver melding og sikter på å svare innen 2 virkedager.",
+    contactTitle: "Ta kontakt",
+    nameLabel: "Navnet ditt",
+    emailLabel: "E-postadressen din",
+    categoryLabel: "Kategori",
+    messageLabel: "Melding",
+    sendMessage: "Send melding",
+    faqTitle: "Ofte stilte spørsmål"
+  },
+
+  sv: {
+    /* Nav */
+    navHome: "Hem",
+    navSupport: "Support",
+    navPrivacy: "Integritet",
+    navTerms: "Villkor",
+    navWhy: "Varför BetaSuite",
+
+    /* Hero */
+    heroTitle: "Fånga varje bugg. Berätta hela historien.",
+    heroText: "BetaSuite är den mobila testkit för folk som faktiskt rapporterar buggar — spela in skärm och kamera samtidigt, spela upp de senaste 30 sekunderna, annotera, transkribera och leverera en polerad rapport.",
+    downloadAppStore: "Hämta i App Store",
+    androidNote: "Endast iPhone — Android under utveckling, släppdatum ska bekräftas.",
+    metaText: "Gratis 3-dagars prövoperiod · Inget abonnemang · Inga annonser · Ingen spårning · Ditt för livet",
+
+    /* Value props strip */
+    valueCaptureTitle: "Fånga",
+    valueCaptureText: "Skärm + kamera, omedelbar uppspelning, röstmemon, foton.",
+    valueAnnotateTitle: "Annotera",
+    valueAnnotateText: "Rita, fäst och tidsstämpla varje klipp och skärmdump.",
+    valueReportTitle: "Rapportera",
+    valueReportText: "Automatiska sessionssammanfattningar som utvecklare faktiskt läser.",
+
+    /* Feature grid (9 cards) */
+    insideTitle: "Vad som finns inuti",
+
+    feat1Title: "Fånga varje ögonblick",
+    feat1Lead: "Dubbel inspelning, snabbinspelning, live-överlägg.",
+    feat1Text: "Spelar in skärm och frontkamera i en sammansatt video medan du växlar appar. Ett tryck sparar de senaste 30 sekunderna från en rullande buffert — perfekt för oförutsägbara, sporadiska glitchar. Varje inspelning får automatiskt datum, tid, GPS, väder och enhetsinformation.",
+
+    feat2Title: "Tidslinjebaserade sessioner",
+    feat2Lead: "Markörer, röstmemon, foton — allt på en tidslinje.",
+    feat2Text: "Släpp en markör med ett tryck i samma sekund som något händer. Bifoga en skärmdump, diktera ett röstmemo, eller utöka senare till en fullständig buggrapport. Varje session fångar enhetstillstånd, OS, batterihälsa och väder automatiskt — sammanhang saknas aldrig.",
+
+    feat3Title: "AI-assisterade rapporter",
+    feat3Lead: "En polerad PDF eller DOCX på sekunder.",
+    feat3Text: "Välj en period — den här veckan, förra veckan, eget intervall — och BetaSuite utkastar en strukturerad rapport (tema, positiva punkter, problem, rekommendationer) som skannbara punkter. Bilder sorteras automatiskt in i sektionerna Tillstånd, Mapping och Övrigt. Maila direkt från appen.",
+
+    feat4Title: "Konfidentiellt läge",
+    feat4Lead: "AI på enheten för NDA-arbete.",
+    feat4Text: "Slå om en knapp och BetaSuite stänger av molnladdningar, systemdelning och varje moln-AI-leverantör. Apple Intelligence fortsätter köras helt på enheten — aldrig ett nätverksanrop — så AI-polering och sammanfattningar fungerar även på konfidentiell hårdvara.",
+
+    feat5Title: "AI-routning på ditt sätt",
+    feat5Lead: "Apple Intelligence på enheten, BetaSuite Assist som reserv. Eller ta med din egen nyckel.",
+    feat5Text: "Som standard körs Apple Intelligence på enheten med BetaSuite Assist som molnreserv. Föredrar du din egen leverantör? Ta med din API-nyckel för Claude, GPT, Gemini eller DeepSeek. Pollinations finns som nödreserv. Byt leverantör när som helst i Inställningar — varje ändring kräver uttryckligt samtycke innan data lämnar enheten.",
+
+    feat6Title: "Justera din AI-användning",
+    feat6Lead: "Av, endast polering, svordomsmaskering eller full sammanfattning.",
+    feat6Text: "Välj hur mycket AI:n gör åt dig — liten språklig polering på en återkoppling, svordomsmaskering innan en rapport går ut, eller full sessionssammanfattning och rapportgenerering. Återkopplingsformuläret börjar enkelt och utökas bara när du behöver kategori, allvarlighetsgrad, reproduktionssteg, annoterade skärmdumpar och röstmemon.",
+
+    feat7Title: "Byggt för hårdvarutestare",
+    feat7Lead: "Fram, sida, bak, under — vinkel-taggade från start.",
+    feat7Text: "Tillståndsbilder med flera bilder och vinkel-chips som förtaggar nästa foto. Mapping-skärmdumpar och fritt formade tilläggsfoton har egna rapportsektioner. Omvänd geokodning av plats och Apple WeatherKit-förhållanden inbyggda.",
+
+    feat8Title: "Projektstruktur som skalar",
+    feat8Lead: "Ett projekt per produkt, snabbinspelning för allt annat.",
+    feat8Text: "Gruppera sessioner, återkoppling och rapporter under namngivna projekt. Bifoga NDA:er och kontakter per projekt — eller hoppa över setup helt och använd det alltid fastnålade Instant Capture-projektet för engångsfynd.",
+
+    feat9Title: "Molnsynk på dina villkor",
+    feat9Lead: "iCloud Drive, Google Drive, OneDrive, Bildbibliotek eller ingenting.",
+    feat9Text: "BetaSuite har aldrig en egen server som håller dina data. Exportera till ditt befintliga moln, ditt Bildbibliotek, eller ett bärbart krypterat .betasuite.json-arkiv du kan återimportera på vilken enhet som helst.",
+
+    /* How it works */
+    howTitle: "Så fungerar det",
+    step1Title: "1. Spela in sessionen",
+    step1Text: "Starta ett projekt, tryck på spela in, och använd appen eller enheten som en testare skulle göra.",
+    step2Title: "2. Markera och annotera",
+    step2Text: "Släpp markörer, lägg till röstmemon, och rita på skärmdumpar — allt automatiskt tidsstämplat.",
+    step3Title: "3. Generera en rapport",
+    step3Text: "BetaSuite sätter samman en sessionssammanfattning plus media, redo att dela med utvecklare.",
+
+    /* Callout */
+    calloutTitle: "Integritet först, från start",
+    calloutLead: "BetaSuite lutar sig mot AI på enheten överallt där din iPhone stöder det.",
+    callout1Title: "AI som stannar på din enhet",
+    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) hanterar textgenerering lokalt.",
+    callout2Title: "Tal som aldrig lämnar",
+    callout2Text: "Röstmemon transkriberas på enheten via Apples Speech-ramverk på stödda iPhones.",
+    callout3Title: "En knapp för känsligt arbete",
+    callout3Text: "Konfidentiellt läge blockerar varje molnväg så att NDA-testning förblir lokal.",
+    calloutLink: "Läs hela integritetspolicyn →",
+
+    /* Why teaser on home page */
+    whyTeaserTitle: "Byggt för testaren, inte för leverantören.",
+    whyTeaserLead: "De vanliga beta-testverktygen mäter produkten. BetaSuite mäter testaren.",
+    whyTeaser1Problem: "Kamera och skärm samtidigt?",
+    whyTeaser1Answer: "BetaSuite sätter samman båda strömmarna till en MP4 på den enhet som testas — inget stativ, ingen extra telefon.",
+    whyTeaser2Problem: "Bugg redan borta när du trycker på spela in?",
+    whyTeaser2Answer: "En rullande buffert på 15 eller 30 sekunder håller ögonblicket levande — ett tryck sparar det som just hände.",
+    whyTeaser3Problem: "Moln-AI är en läckrisk på NDA-hårdvara?",
+    whyTeaser3Answer: "Konfidentiellt läge kör Apple Intelligence helt på enheten. AI-polering utan nätverksrisken.",
+    whyTeaserLink: "Se den fullständiga jämförelsen →",
+
+    /* FAQ teaser */
+    faqTeaserTitle: "Vanliga frågor",
+    faqQ1: "Vilka enheter stöds?",
+    faqA1: "iPhone med iOS 16 eller senare. Android är under utveckling — släppdatum ska bekräftas.",
+    faqQ2: "Behöver jag ett konto?",
+    faqA2: "BetaSuite självt kräver inget konto, men du behöver ett giltigt Apple-ID / App Store-konto för att köpa och ladda ned appen.",
+    faqQ3: "Vad är konfidentiellt läge?",
+    faqA3: "Konfidentiellt läge blockerar molnsynk och moln-AI och håller bearbetningen lokal där det är möjligt.",
+    faqQ4: "Finns det en gratis prövoperiod?",
+    faqA4: "Ja — en gratis 3-dagars prövoperiod med alla funktioner, så du kan prova innan du köper.",
+    faqMore: "Mer på supportsidan →",
+
+    /* Closing CTA */
+    taglineMain: "Konkurrenterna mäter produkten. BetaSuite mäter testaren.",
+    ctaTitle: "Redo att leverera bättre buggrapporter?",
+    ctaText: "Hämta BetaSuite — eller hör av dig om du har frågor först.",
+    ctaContact: "Frågor? Hör av dig →",
+
+    /* Why page */
+    whyTitle: "Byggt för testaren, inte för leverantören.",
+    whyLead: "De vanliga beta-testverktygen delar en arkitektonisk premiss: företaget som testas kontrollerar verktyget. Det lämnar testaren med en återkommande uppsättning frustrationer. BetaSuite byggdes specifikt för att täppa till de hålen.",
+    problemLabel: "Problemet",
+    answerLabel: "BetaSuites svar",
+
+    pain1Problem: "Du kan inte fånga skärm och kamera samtidigt.",
+    pain1Problem2: "En video som visar \"jag trycker här, och så här gör enheten\" kräver vanligen två telefoner och ett stativ.",
+    pain1Answer: "Dubbel inspelning sätter samman båda strömmarna till en enda MP4 på den enhet som faktiskt testas. Inget stativ. Ingen extra telefon.",
+
+    pain2Problem: "Sporadiska buggar försvinner innan du hinner trycka på spela in.",
+    pain2Problem2: "När du startat inspelningen är glitchen borta — och reproducering blir en gissningslek.",
+    pain2Answer: "Instant Capture håller en rullande 15- eller 30-sekunders buffert i bakgrunden. Ett tryck sparar ögonblicket som just passerade. Inget setup, inga missade bevis.",
+
+    pain3Problem: "NDA-arbete gör moln-AI omöjligt.",
+    pain3Problem2: "Varje molnleverantör är en läckrisk, så rapporter blir handskrivna och långsamma.",
+    pain3Answer: "Konfidentiellt läge stänger av molnladdningar, systemdelning och varje moln-AI-leverantör — medan Apple Intelligence fortsätter köras helt på enheten, noll nätverksanrop. AI-polering och sammanfattningar fungerar fortfarande på konfidentiell hårdvara.",
+
+    pain4Problem: "Leverantörs-SDK:er skickar din data till leverantörens moln.",
+    pain4Problem2: "Vanliga beta-testverktyg skickar testardata till en leverantörs-backend — okej för företaget, inte för känsliga prototyper.",
+    pain4Answer: "BetaSuite har ingen egen server. Allt krypteras på din enhet, och data rör sig bara när du väljer en destination — ditt eget iCloud Drive, Google Drive, OneDrive, Bildbibliotek eller ett bärbart krypterat arkiv.",
+
+    pain5Problem: "Veckorapporten är den långsammaste delen av jobbet.",
+    pain5Problem2: "Tomma sidan-förlamning, särskilt när du jonglerar flera program.",
+    pain5Answer: "Periodsammanfattningen utkastar en strukturerad rapport — tema, positiva punkter, problem, rekommendationer — direkt från markörerna och återkopplingen du redan loggat. PDF eller DOCX, skannbara punkter, klar att maila.",
+
+    pain6Problem: "Beta-testverktyg är ofta bara på engelska.",
+    pain6Problem2: "Flerspråksstöd, när det finns, kommer ofta gammalt och åldras dåligt.",
+    pain6Answer: "BetaSuite rullar aktivt ut flerspråksstöd, och enhetens språk följs i runtime allteftersom nya språk kommer på plats.",
+
+    whyClosingTagline: "Konkurrenterna mäter produkten. BetaSuite mäter testaren.",
+
+    /* Support page */
+    supportTitle: "Support",
+    supportLede: "Vi läser varje meddelande och siktar på att svara inom 2 arbetsdagar.",
+    contactTitle: "Hör av dig",
+    nameLabel: "Ditt namn",
+    emailLabel: "Din e-postadress",
+    categoryLabel: "Kategori",
+    messageLabel: "Meddelande",
+    sendMessage: "Skicka meddelande",
+    faqTitle: "Vanliga frågor"
+  },
+
+  es: {
+    /* Nav */
+    navHome: "Inicio",
+    navSupport: "Soporte",
+    navPrivacy: "Privacidad",
+    navTerms: "Términos",
+    navWhy: "Por qué BetaSuite",
+
+    /* Hero */
+    heroTitle: "Captura cada bug. Cuenta toda la historia.",
+    heroText: "BetaSuite es el kit de pruebas móviles para personas que de verdad reportan bugs: graba pantalla y cámara a la vez, reproduce los últimos 30 segundos, anota, transcribe y entrega un informe pulido.",
+    downloadAppStore: "Descargar en el App Store",
+    androidNote: "Solo iPhone — Android en desarrollo, fecha de lanzamiento por confirmar.",
+    metaText: "Prueba gratis de 3 días · Sin suscripción · Sin anuncios · Sin seguimiento · Tuyo de por vida",
+
+    /* Value props strip */
+    valueCaptureTitle: "Capturar",
+    valueCaptureText: "Pantalla + cámara, repetición instantánea, notas de voz, fotos.",
+    valueAnnotateTitle: "Anotar",
+    valueAnnotateText: "Dibuja, fija y marca con tiempo cada clip y captura.",
+    valueReportTitle: "Reportar",
+    valueReportText: "Resúmenes automáticos de sesión que los desarrolladores sí leen.",
+
+    /* Feature grid (9 cards) */
+    insideTitle: "Qué hay dentro",
+
+    feat1Title: "Captura cada momento",
+    feat1Lead: "Grabación dual, captura instantánea, superposiciones en vivo.",
+    feat1Text: "Graba pantalla y cámara frontal en un único vídeo compuesto mientras cambias de app. Un toque guarda los últimos 30 segundos de un búfer rodante — perfecto para fallos intermitentes que no podías predecir. Cada captura lleva fecha, hora, GPS, clima e info del dispositivo automáticamente.",
+
+    feat2Title: "Sesiones en línea de tiempo",
+    feat2Lead: "Marcadores, notas de voz, fotos — todo en una línea de tiempo.",
+    feat2Text: "Coloca un marcador con un toque en el segundo en que ocurre algo. Adjunta una captura, dicta una nota de voz, o expande luego a un informe completo. Cada sesión registra estado del dispositivo, OS, salud de batería y clima de forma automática — el contexto nunca falta.",
+
+    feat3Title: "Informes asistidos por IA",
+    feat3Lead: "Un PDF o DOCX pulido en segundos.",
+    feat3Text: "Elige un periodo — esta semana, la pasada, rango personalizado — y BetaSuite redacta un informe estructurado (tema, positivos, problemas, recomendaciones) en viñetas escaneables. Las imágenes se ordenan automáticamente en secciones Estado, Mapping y Adicional. Envíalo por correo desde la app.",
+
+    feat4Title: "Modo confidencial",
+    feat4Lead: "IA en el dispositivo para trabajo bajo NDA.",
+    feat4Text: "Un solo interruptor y BetaSuite bloquea subidas a la nube, compartir del sistema y todo proveedor de IA en la nube. Apple Intelligence sigue corriendo totalmente en el dispositivo — sin ninguna llamada de red — para que el pulido por IA y los resúmenes sigan funcionando en hardware confidencial.",
+
+    feat5Title: "Enrutado de IA a tu manera",
+    feat5Lead: "Apple Intelligence en el dispositivo, BetaSuite Assist como respaldo. O usa tu propia clave.",
+    feat5Text: "Por defecto, Apple Intelligence corre en el dispositivo con BetaSuite Assist como respaldo en la nube. ¿Prefieres tu proveedor? Trae tu clave API para Claude, GPT, Gemini o DeepSeek. Pollinations está disponible como respaldo de emergencia. Cambia de proveedor cuando quieras en Ajustes — cada cambio pide consentimiento explícito antes de que los datos salgan del dispositivo.",
+
+    feat6Title: "Ajusta tu uso de IA",
+    feat6Lead: "Apagada, solo pulido, enmascarado de palabrotas o resumen completo.",
+    feat6Text: "Elige cuánto hace la IA por ti — pulido leve de palabras en una entrada de feedback, enmascarado de palabrotas antes de enviar un informe, o resumen completo de sesión y generación de informe. El propio formulario de feedback empieza simple y solo se expande cuando necesitas categoría, severidad, pasos de reproducción, capturas anotadas y notas de voz.",
+
+    feat7Title: "Pensado para testers de hardware",
+    feat7Lead: "Frente, lateral, atrás, debajo — etiquetado por ángulo desde el inicio.",
+    feat7Text: "Fotos de estado multi-imagen con chips de ángulo que pre-etiquetan la siguiente foto. Capturas de mapping y fotos adicionales libres tienen sus propias secciones de informe. Geocodificación inversa de ubicación y condiciones de Apple WeatherKit incluidas.",
+
+    feat8Title: "Estructura de proyecto que escala",
+    feat8Lead: "Un proyecto por producto, captura instantánea para todo lo demás.",
+    feat8Text: "Agrupa sesiones, feedback e informes bajo proyectos con nombre. Adjunta NDA y contactos por proyecto — o sáltate la configuración y usa el proyecto Instant Capture siempre fijado para hallazgos puntuales.",
+
+    feat9Title: "Sincronización en la nube a tu medida",
+    feat9Lead: "iCloud Drive, Google Drive, OneDrive, Carrete o nada.",
+    feat9Text: "BetaSuite nunca tiene su propio servidor con tus datos. Exporta a tu nube, a tu Carrete, o a un archivo .betasuite.json portátil cifrado que puedes reimportar en cualquier dispositivo.",
+
+    /* How it works */
+    howTitle: "Cómo funciona",
+    step1Title: "1. Graba la sesión",
+    step1Text: "Inicia un proyecto, pulsa grabar, y usa la app o el dispositivo como lo haría un tester.",
+    step2Title: "2. Marca y anota",
+    step2Text: "Coloca marcadores, añade notas de voz y dibuja sobre las capturas — todo con tiempo automático.",
+    step3Title: "3. Genera un informe",
+    step3Text: "BetaSuite ensambla un resumen de sesión más los medios, listo para compartir con desarrolladores.",
+
+    /* Callout */
+    calloutTitle: "Privacidad por diseño",
+    calloutLead: "BetaSuite se apoya en IA en el dispositivo siempre que tu iPhone lo permita.",
+    callout1Title: "IA que se queda en tu dispositivo",
+    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) gestiona la generación de texto localmente.",
+    callout2Title: "Voz que nunca sale",
+    callout2Text: "Las notas de voz se transcriben en el dispositivo a través del framework Speech de Apple en iPhones compatibles.",
+    callout3Title: "Un interruptor para trabajo sensible",
+    callout3Text: "El modo confidencial bloquea toda ruta a la nube para que las pruebas bajo NDA queden locales.",
+    calloutLink: "Lee la política de privacidad completa →",
+
+    /* Why teaser on home page */
+    whyTeaserTitle: "Hecho para el tester, no para el proveedor.",
+    whyTeaserLead: "Las herramientas de beta-testing convencionales instrumentan el producto. BetaSuite instrumenta al tester.",
+    whyTeaser1Problem: "¿Cámara y pantalla a la vez?",
+    whyTeaser1Answer: "BetaSuite compone ambos flujos en un único MP4 en el dispositivo que se prueba — sin trípode, sin segundo móvil.",
+    whyTeaser2Problem: "¿El bug ya se fue cuando le diste a grabar?",
+    whyTeaser2Answer: "Un búfer rodante de 15 o 30 segundos mantiene vivo el momento — un toque guarda lo que acaba de pasar.",
+    whyTeaser3Problem: "¿La IA en la nube es un riesgo de fuga en hardware bajo NDA?",
+    whyTeaser3Answer: "El modo confidencial ejecuta Apple Intelligence totalmente en el dispositivo. Pulido por IA sin riesgo de red.",
+    whyTeaserLink: "Ver la comparación completa →",
+
+    /* FAQ teaser */
+    faqTeaserTitle: "Preguntas frecuentes",
+    faqQ1: "¿Qué dispositivos se admiten?",
+    faqA1: "iPhone con iOS 16 o posterior. Android está en desarrollo — fecha de lanzamiento por confirmar.",
+    faqQ2: "¿Necesito una cuenta?",
+    faqA2: "BetaSuite en sí no requiere cuenta, pero necesitas un Apple ID / cuenta de App Store válidos para comprar y descargar la app.",
+    faqQ3: "¿Qué es el modo confidencial?",
+    faqA3: "El modo confidencial bloquea la sincronización en la nube y la IA en la nube, manteniendo el procesamiento en local cuando es posible.",
+    faqQ4: "¿Hay una prueba gratuita?",
+    faqA4: "Sí — una prueba gratuita de 3 días con todas las funciones, para que pruebes antes de comprar.",
+    faqMore: "Más en la página de soporte →",
+
+    /* Closing CTA */
+    taglineMain: "Los competidores instrumentan el producto. BetaSuite instrumenta al tester.",
+    ctaTitle: "¿Listo para entregar mejores informes de bugs?",
+    ctaText: "Descarga BetaSuite — o ponte en contacto si tienes dudas primero.",
+    ctaContact: "¿Dudas? Ponte en contacto →",
+
+    /* Why page */
+    whyTitle: "Hecho para el tester, no para el proveedor.",
+    whyLead: "Las herramientas de beta-testing convencionales comparten un supuesto arquitectónico: la empresa probada controla la herramienta. Eso deja al tester con un conjunto recurrente de frustraciones. BetaSuite se construyó específicamente para cerrar esos huecos.",
+    problemLabel: "El problema",
+    answerLabel: "La respuesta de BetaSuite",
+
+    pain1Problem: "No puedes capturar pantalla y cámara al mismo tiempo.",
+    pain1Problem2: "Un vídeo que muestre «toco aquí, y esto hace el dispositivo» suele necesitar dos móviles y un trípode.",
+    pain1Answer: "La grabación dual compone ambos flujos en un único MP4 en el dispositivo que se está probando. Sin trípode. Sin segundo móvil.",
+
+    pain2Problem: "Los bugs intermitentes desaparecen antes de que pulses grabar.",
+    pain2Problem2: "Cuando arrancas la captura, el fallo ya se fue — y reproducirlo es un juego de adivinanzas.",
+    pain2Answer: "Instant Capture mantiene un búfer rodante de 15 o 30 segundos en segundo plano. Un toque guarda el momento que acaba de pasar. Sin configuración, sin pruebas perdidas.",
+
+    pain3Problem: "El trabajo bajo NDA hace inviable la IA en la nube.",
+    pain3Problem2: "Cada proveedor de nube es un riesgo de fuga, así que los informes acaban escritos a mano y lentos.",
+    pain3Answer: "El modo confidencial bloquea subidas a la nube, compartir del sistema y todo proveedor de IA en la nube — mientras Apple Intelligence sigue corriendo totalmente en el dispositivo, cero llamadas de red. El pulido por IA y los resúmenes siguen funcionando en hardware confidencial.",
+
+    pain4Problem: "Los SDK de proveedores envían tus datos a la nube del proveedor.",
+    pain4Problem2: "Las herramientas de beta-testing convencionales envían los datos del tester a un backend del proveedor — bien para la empresa, mal para prototipos sensibles.",
+    pain4Answer: "BetaSuite no tiene servidor propio. Todo se cifra en tu dispositivo, y los datos solo se mueven cuando eliges destino — tu propio iCloud Drive, Google Drive, OneDrive, Carrete o un archivo cifrado portátil.",
+
+    pain5Problem: "El informe semanal es la parte más lenta del trabajo.",
+    pain5Problem2: "Parálisis de la página en blanco, sobre todo cuando llevas varios programas a la vez.",
+    pain5Answer: "El resumen de periodo redacta un informe estructurado — tema, positivos, problemas, recomendaciones — directamente desde los marcadores y feedback ya registrados. PDF o DOCX, viñetas escaneables, listo para enviar por correo.",
+
+    pain6Problem: "Las herramientas de beta-testing suelen ser solo en inglés.",
+    pain6Problem2: "El soporte multiidioma, cuando existe, suele venir desactualizado y envejecer mal.",
+    pain6Answer: "BetaSuite está desplegando activamente soporte multiidioma, y el idioma del dispositivo se sigue en runtime a medida que se incorporan nuevos idiomas.",
+
+    whyClosingTagline: "Los competidores instrumentan el producto. BetaSuite instrumenta al tester.",
+
+    /* Support page */
+    supportTitle: "Soporte",
+    supportLede: "Leemos cada mensaje y procuramos responder en 2 días laborables.",
+    contactTitle: "Ponte en contacto",
+    nameLabel: "Tu nombre",
+    emailLabel: "Tu correo electrónico",
+    categoryLabel: "Categoría",
+    messageLabel: "Mensaje",
+    sendMessage: "Enviar mensaje",
+    faqTitle: "Preguntas frecuentes"
+  },
+
+  it: {
+    /* Nav */
+    navHome: "Home",
+    navSupport: "Supporto",
+    navPrivacy: "Privacy",
+    navTerms: "Termini",
+    navWhy: "Perché BetaSuite",
+
+    /* Hero */
+    heroTitle: "Cattura ogni bug. Racconta tutta la storia.",
+    heroText: "BetaSuite è il kit di test mobile per chi i bug li segnala davvero: registra schermo e fotocamera insieme, riproduci gli ultimi 30 secondi, annota, trascrivi e consegna un report rifinito.",
+    downloadAppStore: "Scarica su App Store",
+    androidNote: "Solo iPhone — Android in sviluppo, data di rilascio da confermare.",
+    metaText: "Prova gratuita di 3 giorni · Nessun abbonamento · Niente pubblicità · Niente tracciamento · Tuo per sempre",
+
+    /* Value props strip */
+    valueCaptureTitle: "Catturare",
+    valueCaptureText: "Schermo + fotocamera, replay istantaneo, memo vocali, foto.",
+    valueAnnotateTitle: "Annotare",
+    valueAnnotateText: "Disegna, appunta e timestampa ogni clip e screenshot.",
+    valueReportTitle: "Riportare",
+    valueReportText: "Riepiloghi di sessione automatici che gli sviluppatori leggono davvero.",
+
+    /* Feature grid (9 cards) */
+    insideTitle: "Cosa c'è dentro",
+
+    feat1Title: "Cattura ogni momento",
+    feat1Lead: "Doppia registrazione, cattura istantanea, overlay in tempo reale.",
+    feat1Text: "Registra schermo e fotocamera frontale in un unico video composito mentre cambi app. Un tocco salva gli ultimi 30 secondi da un buffer rotante — perfetto per glitch sporadici imprevedibili. Ogni cattura riceve automaticamente data, ora, GPS, meteo e info sul dispositivo.",
+
+    feat2Title: "Sessioni su una timeline",
+    feat2Lead: "Marker, memo vocali, foto — tutto su un'unica timeline.",
+    feat2Text: "Posa un marker con un tocco nel momento in cui qualcosa accade. Allega uno screenshot, detta un memo vocale, o espandi più tardi in un report di bug completo. Ogni sessione cattura stato del dispositivo, OS, salute della batteria e meteo in automatico — il contesto non manca mai.",
+
+    feat3Title: "Report assistiti dall'IA",
+    feat3Lead: "Un PDF o DOCX rifinito in pochi secondi.",
+    feat3Text: "Scegli un periodo — questa settimana, la scorsa, intervallo personalizzato — e BetaSuite stende un report strutturato (tema, punti positivi, problemi, raccomandazioni) come bullet scorrevoli. Le immagini vengono ordinate automaticamente nelle sezioni Condizione, Mapping e Aggiuntive. Invialo via email dall'app.",
+
+    feat4Title: "Modalità riservata",
+    feat4Lead: "IA on-device per il lavoro sotto NDA.",
+    feat4Text: "Un solo interruttore e BetaSuite blocca upload cloud, condivisione di sistema e ogni provider di IA cloud. Apple Intelligence continua a girare interamente sul dispositivo — nessuna chiamata di rete, mai — così rifinitura IA e riepiloghi funzionano anche su hardware riservato.",
+
+    feat5Title: "Routing IA a modo tuo",
+    feat5Lead: "Apple Intelligence on-device, BetaSuite Assist come fallback. Oppure porta la tua chiave.",
+    feat5Text: "Per impostazione predefinita, Apple Intelligence gira sul dispositivo con BetaSuite Assist come fallback cloud. Preferisci il tuo provider? Porta la tua chiave API per Claude, GPT, Gemini o DeepSeek. Pollinations è disponibile come fallback di emergenza. Cambia provider quando vuoi nelle Impostazioni — ogni cambio chiede consenso esplicito prima che i dati lascino il dispositivo.",
+
+    feat6Title: "Regola il tuo uso dell'IA",
+    feat6Lead: "Off, solo rifinitura, mascheramento delle parolacce o riepilogo completo.",
+    feat6Text: "Scegli quanto fa l'IA per te — leggera rifinitura del testo su una voce di feedback, mascheramento delle parolacce prima che parta un report, o riepilogo completo della sessione e generazione del report. Il modulo di feedback parte semplice e si espande solo quando ti servono categoria, gravità, passi di riproduzione, screenshot annotati e memo vocali.",
+
+    feat7Title: "Pensato per i tester hardware",
+    feat7Lead: "Fronte, lato, retro, sotto — taggati per angolo fin dall'inizio.",
+    feat7Text: "Foto di condizione multi-immagine con chip di angolo che pre-taggano la foto successiva. Screenshot di mapping e foto aggiuntive libere hanno sezioni di report dedicate. Localizzazione con reverse geocoding e condizioni Apple WeatherKit integrate.",
+
+    feat8Title: "Struttura di progetto che scala",
+    feat8Lead: "Un progetto per prodotto, cattura istantanea per tutto il resto.",
+    feat8Text: "Raggruppa sessioni, feedback e report sotto progetti con nome. Allega NDA e contatti per progetto — o salta del tutto la configurazione e usa il progetto Instant Capture sempre in evidenza per le scoperte una tantum.",
+
+    feat9Title: "Sync nel cloud alle tue condizioni",
+    feat9Lead: "iCloud Drive, Google Drive, OneDrive, Rullino o nulla.",
+    feat9Text: "BetaSuite non ha mai un suo server che tiene i tuoi dati. Esporta sul tuo cloud, sul Rullino, o in un archivio .betasuite.json crittografato e portabile, reimportabile su qualsiasi dispositivo.",
+
+    /* How it works */
+    howTitle: "Come funziona",
+    step1Title: "1. Registra la sessione",
+    step1Text: "Avvia un progetto, premi registra, e usa l'app o il dispositivo come farebbe un tester.",
+    step2Title: "2. Marca e annota",
+    step2Text: "Posa marker, aggiungi memo vocali e disegna sugli screenshot — tutto con timestamp automatico.",
+    step3Title: "3. Genera un report",
+    step3Text: "BetaSuite assembla un riepilogo di sessione e i media, pronto per condividere con gli sviluppatori.",
+
+    /* Callout */
+    calloutTitle: "Privacy-first per design",
+    calloutLead: "BetaSuite si appoggia all'IA on-device ovunque il tuo iPhone la supporti.",
+    callout1Title: "IA che resta sul tuo dispositivo",
+    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) gestisce la generazione del testo in locale.",
+    callout2Title: "Voce che non se ne va",
+    callout2Text: "I memo vocali vengono trascritti sul dispositivo tramite il framework Speech di Apple su iPhone compatibili.",
+    callout3Title: "Un interruttore per il lavoro sensibile",
+    callout3Text: "La modalità riservata blocca ogni rotta verso il cloud, così i test sotto NDA restano locali.",
+    calloutLink: "Leggi l'informativa completa →",
+
+    /* Why teaser on home page */
+    whyTeaserTitle: "Costruito per il tester, non per il fornitore.",
+    whyTeaserLead: "Gli strumenti di beta-testing mainstream strumentano il prodotto. BetaSuite strumenta il tester.",
+    whyTeaser1Problem: "Fotocamera e schermo insieme?",
+    whyTeaser1Answer: "BetaSuite compone entrambi i flussi in un unico MP4 sul dispositivo testato — niente treppiede, nessun secondo telefono.",
+    whyTeaser2Problem: "Bug già sparito quando premi registra?",
+    whyTeaser2Answer: "Un buffer rotante da 15 o 30 secondi tiene vivo il momento — un tocco salva quello che è appena successo.",
+    whyTeaser3Problem: "L'IA cloud è un rischio di fuga su hardware sotto NDA?",
+    whyTeaser3Answer: "La modalità riservata fa girare Apple Intelligence interamente sul dispositivo. Rifinitura IA senza il rischio di rete.",
+    whyTeaserLink: "Vedi il confronto completo →",
+
+    /* FAQ teaser */
+    faqTeaserTitle: "Domande frequenti",
+    faqQ1: "Quali dispositivi sono supportati?",
+    faqA1: "iPhone con iOS 16 o successivo. Android è in sviluppo — data di rilascio da confermare.",
+    faqQ2: "Serve un account?",
+    faqA2: "BetaSuite in sé non richiede un account, ma serve un Apple ID / account App Store valido per acquistare e scaricare l'app.",
+    faqQ3: "Cos'è la modalità riservata?",
+    faqA3: "La modalità riservata blocca la sync cloud e l'IA cloud, mantenendo l'elaborazione in locale dove possibile.",
+    faqQ4: "C'è una prova gratuita?",
+    faqA4: "Sì — una prova gratuita di 3 giorni con tutte le funzioni, per provare prima di acquistare.",
+    faqMore: "Altro nella pagina supporto →",
+
+    /* Closing CTA */
+    taglineMain: "I concorrenti strumentano il prodotto. BetaSuite strumenta il tester.",
+    ctaTitle: "Pronto a consegnare report di bug migliori?",
+    ctaText: "Scarica BetaSuite — oppure contattaci se prima hai delle domande.",
+    ctaContact: "Domande? Contattaci →",
+
+    /* Why page */
+    whyTitle: "Costruito per il tester, non per il fornitore.",
+    whyLead: "Gli strumenti di beta-testing mainstream condividono un'assunzione architetturale: l'azienda testata controlla lo strumento. Questo lascia il tester con un insieme ricorrente di frustrazioni. BetaSuite è stato costruito proprio per chiudere quei vuoti.",
+    problemLabel: "Il problema",
+    answerLabel: "La risposta di BetaSuite",
+
+    pain1Problem: "Non puoi catturare schermo e fotocamera insieme.",
+    pain1Problem2: "Un video che mostra «sto toccando qui, ed ecco cosa fa il dispositivo» di solito richiede due telefoni e un treppiede.",
+    pain1Answer: "La doppia registrazione compone entrambi i flussi in un unico MP4 sul dispositivo davvero in test. Niente treppiede. Nessun secondo telefono.",
+
+    pain2Problem: "I bug sporadici svaniscono prima che premi registra.",
+    pain2Problem2: "Quando hai avviato la cattura, il glitch è andato — e riprodurlo diventa un gioco di indovinelli.",
+    pain2Answer: "Instant Capture mantiene in background un buffer rotante da 15 o 30 secondi. Un tocco salva il momento appena passato. Niente setup, niente prove perse.",
+
+    pain3Problem: "Il lavoro sotto NDA rende impraticabile l'IA cloud.",
+    pain3Problem2: "Ogni provider cloud è un rischio di fuga, quindi i report finiscono scritti a mano e lenti.",
+    pain3Answer: "La modalità riservata blocca upload cloud, condivisione di sistema e ogni provider di IA cloud — mentre Apple Intelligence continua a girare interamente sul dispositivo, zero chiamate di rete. Rifinitura IA e riepiloghi funzionano anche su hardware riservato.",
+
+    pain4Problem: "Gli SDK dei vendor inviano i tuoi dati nel cloud del vendor.",
+    pain4Problem2: "Gli strumenti di beta-testing mainstream mandano i dati del tester a un backend del vendor — bene per l'azienda, male per i prototipi sensibili.",
+    pain4Answer: "BetaSuite non ha un proprio server. Tutto è cifrato sul tuo dispositivo, e i dati si muovono solo quando scegli una destinazione — il tuo iCloud Drive, Google Drive, OneDrive, Rullino o un archivio cifrato portabile.",
+
+    pain5Problem: "Il report settimanale è la parte più lenta del lavoro.",
+    pain5Problem2: "Paralisi da pagina bianca, soprattutto quando giochi con più programmi.",
+    pain5Answer: "Il riepilogo di periodo stende un report strutturato — tema, punti positivi, problemi, raccomandazioni — direttamente dai marker e dal feedback già registrati. PDF o DOCX, bullet scorrevoli, pronto da inviare via mail.",
+
+    pain6Problem: "Gli strumenti di beta-testing sono spesso solo in inglese.",
+    pain6Problem2: "Il supporto multilingua, quando c'è, esce spesso datato e invecchia male.",
+    pain6Answer: "BetaSuite sta attivamente espandendo il supporto multilingua, con la lingua del dispositivo seguita a runtime man mano che arrivano nuove lingue.",
+
+    whyClosingTagline: "I concorrenti strumentano il prodotto. BetaSuite strumenta il tester.",
+
+    /* Support page */
+    supportTitle: "Supporto",
+    supportLede: "Leggiamo ogni messaggio e puntiamo a rispondere entro 2 giorni lavorativi.",
+    contactTitle: "Contattaci",
+    nameLabel: "Il tuo nome",
+    emailLabel: "Il tuo indirizzo email",
+    categoryLabel: "Categoria",
+    messageLabel: "Messaggio",
+    sendMessage: "Invia messaggio",
+    faqTitle: "Domande frequenti"
+  },
+
+  pl: {
+    /* Nav */
+    navHome: "Strona główna",
+    navSupport: "Wsparcie",
+    navPrivacy: "Prywatność",
+    navTerms: "Warunki",
+    navWhy: "Dlaczego BetaSuite",
+
+    /* Hero */
+    heroTitle: "Złap każdego buga. Opowiedz całą historię.",
+    heroText: "BetaSuite to mobilny zestaw testowy dla osób, które naprawdę zgłaszają bugi — nagrywaj ekran i kamerę jednocześnie, odtwarzaj ostatnie 30 sekund, opisuj, transkrybuj i wysyłaj dopracowany raport.",
+    downloadAppStore: "Pobierz w App Store",
+    androidNote: "Tylko iPhone — Android w fazie rozwoju, data wydania do potwierdzenia.",
+    metaText: "Bezpłatny okres próbny 3 dni · Bez subskrypcji · Bez reklam · Bez śledzenia · Twoje na zawsze",
+
+    /* Value props strip */
+    valueCaptureTitle: "Przechwyć",
+    valueCaptureText: "Ekran + kamera, natychmiastowa powtórka, notatki głosowe, zdjęcia.",
+    valueAnnotateTitle: "Opisz",
+    valueAnnotateText: "Rysuj, przypinaj i znaczyj czasem każdy klip i zrzut ekranu.",
+    valueReportTitle: "Raportuj",
+    valueReportText: "Automatyczne podsumowania sesji, które programiści naprawdę czytają.",
+
+    /* Feature grid (9 cards) */
+    insideTitle: "Co jest w środku",
+
+    feat1Title: "Złap każdy moment",
+    feat1Lead: "Podwójne nagrywanie, natychmiastowe przechwytywanie, nakładki na żywo.",
+    feat1Text: "Nagrywa ekran i przednią kamerę w jedno złożone wideo, gdy przełączasz aplikacje. Jedno dotknięcie zapisuje ostatnie 30 sekund z bufora kroczącego — idealne na nieprzewidywalne, sporadyczne usterki. Każde nagranie automatycznie otrzymuje datę, godzinę, GPS, pogodę i informacje o urządzeniu.",
+
+    feat2Title: "Sesje na osi czasu",
+    feat2Lead: "Znaczniki, notatki głosowe, zdjęcia — wszystko na jednej osi czasu.",
+    feat2Text: "Postaw znacznik jednym dotknięciem w sekundzie, w której coś się dzieje. Dołącz zrzut ekranu, podyktuj notatkę głosową, lub rozwiń później do pełnego zgłoszenia buga. Każda sesja automatycznie zapisuje stan urządzenia, OS, kondycję baterii i pogodę — kontekst nigdy nie znika.",
+
+    feat3Title: "Raporty wspomagane SI",
+    feat3Lead: "Dopracowany PDF lub DOCX w kilka sekund.",
+    feat3Text: "Wybierz okres — ten tydzień, poprzedni tydzień, własny zakres — a BetaSuite napisze ustrukturyzowany raport (temat, plusy, problemy, rekomendacje) jako łatwo skanowalne punkty. Obrazy są automatycznie sortowane do sekcji Stan, Mapping i Dodatkowe. Wyślij e-mailem prosto z aplikacji.",
+
+    feat4Title: "Tryb poufny",
+    feat4Lead: "SI na urządzeniu do pracy pod NDA.",
+    feat4Text: "Jedno przełączenie i BetaSuite blokuje wysyłki do chmury, udostępnianie systemowe i każdego dostawcę SI w chmurze. Apple Intelligence dalej działa w pełni na urządzeniu — bez ani jednego wywołania sieciowego — więc dopracowanie SI i streszczenia działają nawet na poufnym sprzęcie.",
+
+    feat5Title: "Routing SI po Twojemu",
+    feat5Lead: "Apple Intelligence na urządzeniu, BetaSuite Assist jako zapas. Lub przynieś własny klucz.",
+    feat5Text: "Domyślnie Apple Intelligence działa na urządzeniu, a BetaSuite Assist stanowi zapas chmurowy. Wolisz własnego dostawcę? Przynieś klucz API dla Claude, GPT, Gemini lub DeepSeek. Pollinations jest dostępny jako awaryjny zapas. Zmieniaj dostawcę kiedy chcesz w Ustawieniach — każda zmiana prosi o jednoznaczną zgodę zanim dane opuszczą urządzenie.",
+
+    feat6Title: "Wyreguluj użycie SI",
+    feat6Lead: "Wyłączone, tylko polerowanie, maskowanie wulgaryzmów lub pełne streszczenie.",
+    feat6Text: "Wybierz, ile SI robi za Ciebie — drobne polerowanie tekstu we wpisie zwrotnym, maskowanie wulgaryzmów przed wysłaniem raportu, lub pełne streszczenie sesji i generowanie raportu. Sam formularz zwrotny zaczyna się prosto i rozszerza tylko wtedy, gdy potrzebujesz kategorii, wagi, kroków reprodukcji, opisanych zrzutów i notatek głosowych.",
+
+    feat7Title: "Stworzone dla testerów sprzętu",
+    feat7Lead: "Przód, bok, tył, spód — z tagami kątów od początku.",
+    feat7Text: "Wieloobrazowe zdjęcia stanu z chipsami kątów, które wstępnie tagują kolejne zdjęcie. Zrzuty mappingu i swobodne dodatkowe zdjęcia mają własne sekcje raportu. Lokalizacja z geokodowaniem odwrotnym i warunki Apple WeatherKit wbudowane.",
+
+    feat8Title: "Struktura projektów, która skaluje się",
+    feat8Lead: "Jeden projekt na produkt, natychmiastowe przechwytywanie dla całej reszty.",
+    feat8Text: "Grupuj sesje, opinie i raporty w nazwane projekty. Dołącz NDA i kontakty per projekt — albo pomiń konfigurację i użyj zawsze przypiętego projektu Instant Capture do jednorazowych odkryć.",
+
+    feat9Title: "Synchronizacja w chmurze na Twoich warunkach",
+    feat9Lead: "iCloud Drive, Google Drive, OneDrive, Rolka aparatu lub nic.",
+    feat9Text: "BetaSuite nigdy nie ma własnego serwera trzymającego Twoje dane. Eksportuj do swojej istniejącej chmury, do Rolki aparatu, lub do przenośnego, zaszyfrowanego archiwum .betasuite.json, które możesz reimportować na dowolnym urządzeniu.",
+
+    /* How it works */
+    howTitle: "Jak to działa",
+    step1Title: "1. Nagraj sesję",
+    step1Text: "Załóż projekt, naciśnij nagrywanie i używaj aplikacji lub urządzenia tak, jak robiłby to tester.",
+    step2Title: "2. Oznacz i opisz",
+    step2Text: "Stawiaj znaczniki, dodawaj notatki głosowe i rysuj na zrzutach — wszystko automatycznie ze znacznikiem czasu.",
+    step3Title: "3. Wygeneruj raport",
+    step3Text: "BetaSuite składa podsumowanie sesji wraz z mediami, gotowe do udostępnienia programistom.",
+
+    /* Callout */
+    calloutTitle: "Prywatność z założenia",
+    calloutLead: "BetaSuite opiera się na SI na urządzeniu wszędzie tam, gdzie Twój iPhone to wspiera.",
+    callout1Title: "SI, która zostaje na Twoim urządzeniu",
+    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) generuje tekst lokalnie.",
+    callout2Title: "Mowa, która nigdzie nie ucieka",
+    callout2Text: "Notatki głosowe są transkrybowane na urządzeniu przez framework Speech Apple na obsługiwanych iPhone'ach.",
+    callout3Title: "Jeden przełącznik na wrażliwą pracę",
+    callout3Text: "Tryb poufny blokuje każdą trasę do chmury, więc testy pod NDA pozostają lokalne.",
+    calloutLink: "Przeczytaj pełną politykę prywatności →",
+
+    /* Why teaser on home page */
+    whyTeaserTitle: "Zbudowane dla testera, nie dla dostawcy.",
+    whyTeaserLead: "Główne narzędzia beta-testów mierzą produkt. BetaSuite mierzy testera.",
+    whyTeaser1Problem: "Kamera i ekran jednocześnie?",
+    whyTeaser1Answer: "BetaSuite składa oba strumienie w jeden plik MP4 na testowanym urządzeniu — bez statywu, bez drugiego telefonu.",
+    whyTeaser2Problem: "Bug już zniknął, gdy nacisnąłeś nagrywanie?",
+    whyTeaser2Answer: "Kroczący bufor 15 lub 30 sekund podtrzymuje moment — jedno dotknięcie zapisuje to, co przed chwilą się stało.",
+    whyTeaser3Problem: "SI w chmurze to ryzyko wycieku na sprzęcie pod NDA?",
+    whyTeaser3Answer: "Tryb poufny uruchamia Apple Intelligence w pełni na urządzeniu. Dopracowanie SI bez ryzyka sieciowego.",
+    whyTeaserLink: "Zobacz pełne porównanie →",
+
+    /* FAQ teaser */
+    faqTeaserTitle: "Częste pytania",
+    faqQ1: "Jakie urządzenia są obsługiwane?",
+    faqA1: "iPhone z iOS 16 lub nowszym. Android jest w fazie rozwoju — data wydania do potwierdzenia.",
+    faqQ2: "Czy potrzebuję konta?",
+    faqA2: "Sam BetaSuite nie wymaga konta, ale potrzebujesz ważnego Apple ID / konta App Store, by kupić i pobrać aplikację.",
+    faqQ3: "Czym jest tryb poufny?",
+    faqA3: "Tryb poufny blokuje synchronizację z chmurą i SI w chmurze, utrzymując przetwarzanie lokalnie tam, gdzie to możliwe.",
+    faqQ4: "Czy jest darmowa wersja próbna?",
+    faqA4: "Tak — bezpłatna wersja próbna 3 dni ze wszystkimi funkcjami, byś mógł sprawdzić przed zakupem.",
+    faqMore: "Więcej na stronie wsparcia →",
+
+    /* Closing CTA */
+    taglineMain: "Konkurenci mierzą produkt. BetaSuite mierzy testera.",
+    ctaTitle: "Gotowy dostarczać lepsze raporty bugów?",
+    ctaText: "Pobierz BetaSuite — albo skontaktuj się z nami, jeśli masz najpierw pytania.",
+    ctaContact: "Pytania? Skontaktuj się →",
+
+    /* Why page */
+    whyTitle: "Zbudowane dla testera, nie dla dostawcy.",
+    whyLead: "Główne narzędzia beta-testów dzielą jedno założenie architektoniczne: testowana firma kontroluje narzędzia. To zostawia testera z powtarzającym się zestawem frustracji. BetaSuite został zbudowany właśnie po to, by zamknąć te luki.",
+    problemLabel: "Problem",
+    answerLabel: "Odpowiedź BetaSuite",
+
+    pain1Problem: "Nie możesz przechwycić ekranu i kamery jednocześnie.",
+    pain1Problem2: "Wideo pokazujące „dotykam tutaj, a urządzenie robi to” zwykle wymaga dwóch telefonów i statywu.",
+    pain1Answer: "Podwójne nagrywanie składa oba strumienie w jeden plik MP4 na urządzeniu, które naprawdę jest testowane. Bez statywu. Bez drugiego telefonu.",
+
+    pain2Problem: "Sporadyczne bugi znikają, zanim naciśniesz nagrywanie.",
+    pain2Problem2: "Zanim uruchomisz przechwytywanie, usterki już nie ma — a reprodukcja staje się zgadywanką.",
+    pain2Answer: "Instant Capture utrzymuje w tle kroczący bufor 15 lub 30 sekund. Jedno dotknięcie zapisuje moment, który przed chwilą minął. Bez konfiguracji, bez utraconych dowodów.",
+
+    pain3Problem: "Praca pod NDA czyni SI w chmurze niemożliwą.",
+    pain3Problem2: "Każdy dostawca chmury to ryzyko wycieku, więc raporty kończą jako pisane ręcznie i powolne.",
+    pain3Answer: "Tryb poufny blokuje wysyłki do chmury, udostępnianie systemowe i każdego dostawcę SI w chmurze — podczas gdy Apple Intelligence dalej działa w pełni na urządzeniu, zero wywołań sieciowych. Dopracowanie SI i streszczenia działają nawet na poufnym sprzęcie.",
+
+    pain4Problem: "SDK dostawców wysyłają Twoje dane do chmury dostawcy.",
+    pain4Problem2: "Główne narzędzia beta-testów wysyłają dane testera do backendu dostawcy — w porządku dla firmy, nie dla wrażliwych prototypów.",
+    pain4Answer: "BetaSuite nie ma własnego serwera. Wszystko jest szyfrowane na Twoim urządzeniu, a dane przemieszczają się tylko, gdy wybierzesz cel — Twój własny iCloud Drive, Google Drive, OneDrive, Rolkę aparatu lub przenośne, zaszyfrowane archiwum.",
+
+    pain5Problem: "Tygodniowy raport to najwolniejsza część pracy.",
+    pain5Problem2: "Paraliż białej kartki, zwłaszcza gdy żonglujesz wieloma programami.",
+    pain5Answer: "Podsumowanie okresu generuje ustrukturyzowany raport — temat, plusy, problemy, rekomendacje — wprost ze znaczników i opinii, które już zarejestrowałeś. PDF lub DOCX, łatwo skanowalne punkty, gotowe do wysłania mailem.",
+
+    pain6Problem: "Narzędzia beta-testów są często tylko po angielsku.",
+    pain6Problem2: "Wsparcie wielojęzyczne, jeśli istnieje, często wychodzi nieaktualne i źle się starzeje.",
+    pain6Answer: "BetaSuite aktywnie wdraża wsparcie wielojęzyczne, a język urządzenia jest podążany w runtime w miarę pojawiania się nowych języków.",
+
+    whyClosingTagline: "Konkurenci mierzą produkt. BetaSuite mierzy testera.",
+
+    /* Support page */
+    supportTitle: "Wsparcie",
+    supportLede: "Czytamy każdą wiadomość i celujemy w odpowiedź w ciągu 2 dni roboczych.",
+    contactTitle: "Skontaktuj się",
+    nameLabel: "Twoje imię",
+    emailLabel: "Twój adres e-mail",
+    categoryLabel: "Kategoria",
+    messageLabel: "Wiadomość",
+    sendMessage: "Wyślij wiadomość",
+    faqTitle: "Najczęściej zadawane pytania"
   }
 };
 
@@ -324,6 +1564,21 @@ const _debounce = (fn, wait = 150) => {
 const _safeSetLocal = _debounce((k, v) => {
   try { localStorage.setItem(k, v); } catch (e) { /* ignore */ }
 }, 120);
+
+/* ---------- Locale normalisation ---------- */
+function _normaliseLang(lang) {
+  if (!lang) return "en";
+  const lc = String(lang).toLowerCase();
+  // Norwegian umbrella → Bokmål
+  if (lc === "no" || lc.startsWith("no-") || lc === "nn" || lc.startsWith("nn-")) return "nb";
+  // Direct match against supported keys
+  if (Object.prototype.hasOwnProperty.call(translations, lc)) return lc;
+  // Region-prefix match (e.g. "en-GB" → "en", "zh-CN" → "zh")
+  for (const code of Object.keys(translations)) {
+    if (lc.startsWith(code + "-")) return code;
+  }
+  return "en";
+}
 
 /* ---------- Core i18n ---------- */
 function _applyTranslationToElement(el, dict) {
@@ -367,10 +1622,10 @@ function translateDocument(lang) {
 /* ---------- Public API ---------- */
 function setLanguage(lang) {
   if (!lang) return;
-  const normalized = (lang === "zh" || lang.startsWith("zh")) ? "zh" : "en";
-  translateDocument(normalized);
-  _safeSetLocal("language", normalized);
-  return normalized;
+  const normalised = _normaliseLang(lang);
+  translateDocument(normalised);
+  _safeSetLocal("language", normalised);
+  return normalised;
 }
 
 function getCurrentLanguage() {
@@ -398,8 +1653,8 @@ function initI18n(options = {}) {
   })();
 
   const browserLang = (navigator.languages && navigator.languages[0]) || navigator.language || "en";
-  const detected = browserLang.toLowerCase().startsWith("zh") ? "zh" : "en";
-  const lang = saved || detected;
+  const detected = _normaliseLang(browserLang);
+  const lang = saved ? _normaliseLang(saved) : detected;
 
   const picker = document.getElementById("language-picker");
   if (picker) {
