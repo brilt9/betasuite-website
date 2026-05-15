@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BetaSuite — Mobile testing kit for serious bug reports</title>
-  <meta name="description" content="BetaSuite is a privacy-first mobile testing app: dual screen + camera recording, 30-second instant replay, on-device transcription, AI session summaries, and a Confidential Mode for NDA work.">
+  <title>BetaSuite — Built for the tester, not the vendor</title>
+  <meta name="description" content="BetaSuite is the mobile testing kit for people who actually report bugs: dual screen + camera recording, 30-second instant replay, on-device AI, Confidential Mode for NDA work, and reports developers can read.">
   <meta name="theme-color" content="#0b1724">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +45,7 @@
           <a class="btn" href="#" data-i18n="downloadAppStore" aria-label="Download on the App Store">Download on the App Store</a>
           <a class="btn btn-secondary" href="#" data-i18n="downloadGooglePlay" aria-label="Get it on Google Play">Get it on Google Play</a>
         </div>
-        <p class="meta" data-i18n="metaText">One-time purchase · No subscription · No ads · No tracking</p>
+        <p class="meta" data-i18n="metaText">No subscription · No ads · No tracking · Yours for life</p>
       </div>
     </section>
 
@@ -73,28 +73,49 @@
         <h2 id="inside-title" data-i18n="insideTitle">What's inside</h2>
         <div class="feature-grid">
           <article class="feature">
-            <h3 data-i18n="feature1Title">Dual recording — screen + PiP camera</h3>
-            <p data-i18n="feature1Text">Capture the screen and the device itself at the same time. Show developers exactly what the user did and how the app behaved in real time.</p>
+            <h3 data-i18n="feat1Title">Capture every moment</h3>
+            <p class="feature-lead" data-i18n="feat1Lead">Dual recording, instant capture, live overlays.</p>
+            <p data-i18n="feat1Text">Records screen and front camera into one composited video while you switch apps. Tap once to save the last 30 seconds from a rolling buffer — perfect for intermittent glitches you couldn't predict. Every capture is auto-stamped with date, time, GPS, weather, and device info.</p>
           </article>
           <article class="feature">
-            <h3 data-i18n="feature2Title">Instant capture (15 / 30 s replay)</h3>
-            <p data-i18n="feature2Text">Background-record the last 15 or 30 seconds. A bug already happened? Tap once to save the buffer.</p>
+            <h3 data-i18n="feat2Title">Timeline-based sessions</h3>
+            <p class="feature-lead" data-i18n="feat2Lead">Markers, voice notes, photos — all on one timeline.</p>
+            <p data-i18n="feat2Text">Drop a one-tap marker the second something happens. Attach a screenshot, dictate a voice note, or expand into a full bug report later. Every session captures device state, OS, battery health, and weather automatically — context is never missing.</p>
           </article>
           <article class="feature">
-            <h3 data-i18n="feature3Title">Annotate photos and video</h3>
-            <p data-i18n="feature3Text">Draw, pin notes, and mark up media right in the app. Every frame and photo carries a to-the-second timestamp; imported media keeps its original timestamp too.</p>
+            <h3 data-i18n="feat3Title">AI-assisted reports</h3>
+            <p class="feature-lead" data-i18n="feat3Lead">A polished PDF or DOCX in seconds.</p>
+            <p data-i18n="feat3Text">Pick a period — this week, last week, custom range — and BetaSuite drafts a structured report (theme, positives, issues, recommendations) as scannable bullets. Images auto-sorted into Condition, Mapping, and Additional sections. Email it from the app.</p>
           </article>
           <article class="feature">
-            <h3 data-i18n="feature4Title">Voice memos, transcribed on-device</h3>
-            <p data-i18n="feature4Text">Speak observations as you test. On supported iPhones, Apple's Speech framework transcribes locally — the audio never leaves your device.</p>
+            <h3 data-i18n="feat4Title">Confidential Mode</h3>
+            <p class="feature-lead" data-i18n="feat4Lead">On-device AI for NDA work.</p>
+            <p data-i18n="feat4Text">Flip one switch and BetaSuite locks down cloud uploads, system share, and every cloud AI provider. Apple Intelligence keeps running fully on-device — no network call, ever — so AI polish and summaries still work on confidential hardware.</p>
           </article>
           <article class="feature">
-            <h3 data-i18n="feature5Title">AI session summaries and reports</h3>
-            <p data-i18n="feature5Text">When a session ends, BetaSuite turns markers, notes, and media into a clean bullet summary. On iPhone 15 Pro / 16 / 17 with Apple Intelligence, the inference runs on-device.</p>
+            <h3 data-i18n="feat5Title">Bring your own AI</h3>
+            <p class="feature-lead" data-i18n="feat5Lead">Apple Intelligence, Claude, Gemini, GPT, DeepSeek, or Pollinations.</p>
+            <p data-i18n="feat5Text">Use BetaSuite's defaults or paste your own API key. Switch providers any time. Explicit one-tap consent before any data leaves the device — App-Store-compliant out of the box.</p>
           </article>
           <article class="feature">
-            <h3 data-i18n="feature6Title">Confidential Mode for NDA work</h3>
-            <p data-i18n="feature6Text">One toggle blocks cloud sync and every cloud AI provider — only Apple's on-device paths run. Test sensitive products without changing how you work.</p>
+            <h3 data-i18n="feat6Title">Structured feedback, fast</h3>
+            <p class="feature-lead" data-i18n="feat6Lead">Progressive disclosure, voice dictation, one-tap AI polish.</p>
+            <p data-i18n="feat6Text">The feedback form starts simple — title and description — and expands only when you need category, severity, repro steps, screenshots with annotation tools, and voice notes. AI polish tightens your wording without re-prompting consent each time.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat7Title">Built for hardware testers</h3>
+            <p class="feature-lead" data-i18n="feat7Lead">Front, Side, Back, Under — angle-tagged from the start.</p>
+            <p data-i18n="feat7Text">Multi-image condition shots with angle chips that pre-tag the next photo. Mapping screenshots and free-form additional photos live in their own report sections. Reverse-geocoded location and Apple WeatherKit conditions baked in.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat8Title">Project structure that scales</h3>
+            <p class="feature-lead" data-i18n="feat8Lead">One project per product, instant capture for everything else.</p>
+            <p data-i18n="feat8Text">Group sessions, feedback, and reports under named projects. Attach NDAs and contacts per project — or skip setup entirely and use the always-pinned Instant Capture project for one-off finds.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat9Title">Cloud sync on your terms</h3>
+            <p class="feature-lead" data-i18n="feat9Lead">iCloud Drive, Google Drive, OneDrive, Camera Roll, or nothing.</p>
+            <p data-i18n="feat9Text">BetaSuite never has its own server holding your data. Export to your existing cloud, your Camera Roll, or a portable encrypted .betasuite.json archive you can re-import on any device.</p>
           </article>
         </div>
       </div>
@@ -135,10 +156,38 @@
           </div>
           <div class="callout-item">
             <h3 data-i18n="callout3Title">One toggle for sensitive work</h3>
-            <p data-i18n="callout3Text">Confidential Mode blocks every cloud route — sync, AI, and analytics — so NDA testing stays local.</p>
+            <p data-i18n="callout3Text">Confidential Mode blocks every cloud route so NDA testing stays local.</p>
           </div>
         </div>
         <a class="callout-link" href="privacy.html#ai-features" data-i18n="calloutLink">Read the full privacy policy →</a>
+      </div>
+    </section>
+
+    <section class="why-teaser" aria-labelledby="why-teaser-title">
+      <div class="container">
+        <h2 id="why-teaser-title" data-i18n="whyTeaserTitle">Built for the tester, not the vendor.</h2>
+        <p class="why-teaser-lead" data-i18n="whyTeaserLead">The mainstream beta-testing tools instrument the product. BetaSuite instruments the tester.</p>
+        <div class="pain-grid pain-grid--three">
+          <article class="pain-card">
+            <span class="pain-label problem" data-i18n="problemLabel">The problem</span>
+            <h3 data-i18n="whyTeaser1Problem">Camera and screen at the same time?</h3>
+            <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's answer</span>
+            <p data-i18n="whyTeaser1Answer">BetaSuite composites both streams into one MP4 on the device being tested — no tripod, no second phone.</p>
+          </article>
+          <article class="pain-card">
+            <span class="pain-label problem" data-i18n="problemLabel">The problem</span>
+            <h3 data-i18n="whyTeaser2Problem">Bug already gone by the time you hit record?</h3>
+            <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's answer</span>
+            <p data-i18n="whyTeaser2Answer">A rolling 10–30 second buffer keeps the moment alive — one tap saves what just happened.</p>
+          </article>
+          <article class="pain-card">
+            <span class="pain-label problem" data-i18n="problemLabel">The problem</span>
+            <h3 data-i18n="whyTeaser3Problem">Cloud AI is a leak risk on NDA hardware?</h3>
+            <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's answer</span>
+            <p data-i18n="whyTeaser3Answer">Confidential Mode runs Apple Intelligence fully on-device. AI polish without the network risk.</p>
+          </article>
+        </div>
+        <a class="why-more" href="why.html" data-i18n="whyTeaserLink">See the full comparison →</a>
       </div>
     </section>
 
@@ -161,6 +210,7 @@
 
     <section class="cta" aria-labelledby="cta-title">
       <div class="container">
+        <p class="tagline" data-i18n="taglineMain">Competitors instrument the product. BetaSuite instruments the tester.</p>
         <h2 id="cta-title" data-i18n="ctaTitle">Ready to ship better bug reports?</h2>
         <p data-i18n="ctaText">Download BetaSuite — or get in touch if you have questions first.</p>
         <div class="cta-row">
@@ -176,6 +226,7 @@
     <div class="container">
       <div class="footer-links">
         <a href="./" data-i18n="navHome">Home</a>
+        <a href="why.html" data-i18n="navWhy">Why BetaSuite</a>
         <a href="support.html" data-i18n="navSupport">Support</a>
         <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
         <a href="terms.html" data-i18n="navTerms">Terms</a>
