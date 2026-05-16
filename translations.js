@@ -29,7 +29,7 @@ const translations = {
 
     feat1Title: "Capture every moment",
     feat1Lead: "Dual recording, instant capture, live overlays.",
-    feat1Text: "Records screen and front camera into one composited video while you switch apps. Tap once to save the last 30 seconds from a rolling buffer — perfect for intermittent glitches you couldn't predict. Every capture is auto-stamped with date, time, GPS, weather, and device info.",
+    feat1Text: "Records screen and front camera into one composited video while you switch apps. Tap once to save the last 30 seconds from a rolling buffer — perfect for intermittent glitches you couldn't predict. Every capture is auto-stamped with date, time, GPS, weather, and device info. Trim the dead time off a clip in-app afterwards — frame-accurate with one-tap undo.",
 
     feat2Title: "Timeline-based sessions",
     feat2Lead: "Markers, voice notes, photos — all on one timeline.",
@@ -37,7 +37,7 @@ const translations = {
 
     feat3Title: "AI-assisted reports",
     feat3Lead: "A polished PDF or DOCX in seconds.",
-    feat3Text: "Pick a period — this week, last week, custom range — and BetaSuite drafts a structured report (theme, positives, issues, recommendations) as scannable bullets. Images auto-sorted into Condition, Mapping, and Additional sections. Email it from the app.",
+    feat3Text: "Pick a period — this week, last week, custom range — and BetaSuite drafts a structured report (theme, positives, issues, recommendations) as scannable bullets. Images auto-sorted into Condition, Mapping, and Additional sections, with each section on its own page so the PDF reads like a deck of chapters. Per-project brand colour. Email it from the app.",
 
     feat4Title: "Confidential Mode",
     feat4Lead: "On-device AI for NDA work.",
@@ -53,7 +53,7 @@ const translations = {
 
     feat7Title: "Built for hardware testers",
     feat7Lead: "Front, Side, Back, Under — angle-tagged from the start.",
-    feat7Text: "Multi-image condition shots with angle chips that pre-tag the next photo. Mapping screenshots and free-form additional photos live in their own report sections. Reverse-geocoded location and Apple WeatherKit conditions baked in.",
+    feat7Text: "Multi-image condition shots with angle chips that pre-tag the next photo. Mapping screenshots and free-form additional photos live in their own report sections. Reverse-geocoded location and Apple WeatherKit conditions baked in. Drop in photos taken months ago and BetaSuite restores the original date, GPS, and the actual weather from that moment — not from when you uploaded. Live charge-port readout (volts, amps, watts) for power-delivery debugging.",
 
     feat8Title: "Project structure that scales",
     feat8Lead: "One project per product, instant capture for everything else.",
@@ -140,7 +140,7 @@ const translations = {
 
     pain6Problem: "Beta-testing tools are often English-only.",
     pain6Problem2: "Multi-language support, when it exists, often ships stale and ages badly.",
-    pain6Answer: "BetaSuite is actively rolling out multi-language support, with the device language followed at runtime as new locales come online.",
+    pain6Answer: "Now shipping in 21 languages — BetaSuite follows your device language live, so testers in Tokyo, Berlin, or São Paulo all see the app in their own.",
 
     whyClosingTagline: "Competitors instrument the product. BetaSuite instruments the tester.",
 
@@ -184,7 +184,7 @@ const translations = {
 
     feat1Title: "捕捉每一个瞬间",
     feat1Lead: "双路录制、即时捕捉、实时叠加。",
-    feat1Text: "在你切换应用时,同时录制屏幕和前置相机并合成为一段视频。一键保存滚动缓冲中的最近 30 秒——非常适合那些难以预判的偶发故障。每次录制都会自动附上日期、时间、GPS、天气和设备信息。",
+    feat1Text: "在你切换应用时,同时录制屏幕和前置相机并合成为一段视频。一键保存滚动缓冲中的最近 30 秒——非常适合那些难以预判的偶发故障。每次录制都会自动附上日期、时间、GPS、天气和设备信息。事后可在应用内修剪片段开头或结尾的空闲时间——精确到帧,一键撤销。",
 
     feat2Title: "基于时间线的会话",
     feat2Lead: "标记、语音笔记、照片——全部在同一条时间线上。",
@@ -192,7 +192,7 @@ const translations = {
 
     feat3Title: "AI 辅助报告",
     feat3Lead: "几秒生成精致的 PDF 或 DOCX。",
-    feat3Text: "选择时间段——本周、上周、自定义范围——BetaSuite 会以可快速浏览的要点起草结构化报告(主题、亮点、问题、建议)。图片自动归入 Condition、Mapping 和 Additional 各节。直接从应用内邮件发送。",
+    feat3Text: "选择时间段——本周、上周、自定义范围——BetaSuite 会以可快速浏览的要点起草结构化报告(主题、亮点、问题、建议)。图片自动归入 Condition、Mapping 和 Additional 各节,每节独占一页,让 PDF 读起来像一本分章的文档。支持按项目品牌色。直接从应用内邮件发送。",
 
     feat4Title: "保密模式",
     feat4Lead: "面向 NDA 工作的本地 AI。",
@@ -208,7 +208,7 @@ const translations = {
 
     feat7Title: "为硬件测试而生",
     feat7Lead: "正面、侧面、背面、底部——从一开始就带角度标签。",
-    feat7Text: "支持多图状态拍摄,角度标签会为下一张照片预先标记。Mapping 截图与自由形式的附加照片各自有专属报告分区。内置反向地理编码定位与 Apple WeatherKit 天气信息。",
+    feat7Text: "支持多图状态拍摄,角度标签会为下一张照片预先标记。Mapping 截图与自由形式的附加照片各自有专属报告分区。内置反向地理编码定位与 Apple WeatherKit 天气信息。导入数月前拍摄的照片,BetaSuite 会还原原始日期、GPS,以及拍摄当时的真实天气——而不是上传那一刻的天气。内置充电口实时读数(电压、电流、功率),便于排查供电问题。",
 
     feat8Title: "可扩展的项目结构",
     feat8Lead: "每个产品一个项目,其余用即时捕捉。",
@@ -295,7 +295,7 @@ const translations = {
 
     pain6Problem: "Beta 测试工具通常仅支持英文。",
     pain6Problem2: "即便有多语言支持,通常也是陈旧的翻译,质量随时间下降。",
-    pain6Answer: "BetaSuite 正在积极推出多语言支持,随着新语言上线,运行时将自动跟随设备语言。",
+    pain6Answer: "现已支持 21 种语言——BetaSuite 实时跟随设备语言,无论测试者身在东京、柏林还是圣保罗,都能看到母语界面。",
 
     whyClosingTagline: "竞品仪表化产品。BetaSuite 仪表化测试者。",
 
@@ -339,7 +339,7 @@ const translations = {
 
     feat1Title: "Jeden Moment einfangen",
     feat1Lead: "Doppelaufnahme, Sofortaufnahme, Live-Overlays.",
-    feat1Text: "Nimmt Bildschirm und Frontkamera in einem zusammengesetzten Video auf, während du Apps wechselst. Ein Tipp speichert die letzten 30 Sekunden aus einem rollenden Puffer – perfekt für unvorhersehbare, sporadische Fehler. Jede Aufnahme erhält automatisch Datum, Uhrzeit, GPS, Wetter und Geräteinformationen.",
+    feat1Text: "Nimmt Bildschirm und Frontkamera in einem zusammengesetzten Video auf, während du Apps wechselst. Ein Tipp speichert die letzten 30 Sekunden aus einem rollenden Puffer – perfekt für unvorhersehbare, sporadische Fehler. Jede Aufnahme erhält automatisch Datum, Uhrzeit, GPS, Wetter und Geräteinformationen. Schneide nachträglich Leerzeit aus einem Clip direkt in der App – framegenau, mit Undo per Tipp.",
 
     feat2Title: "Sessions auf einer Zeitleiste",
     feat2Lead: "Marker, Sprachnotizen, Fotos – alles auf einer Zeitleiste.",
@@ -347,7 +347,7 @@ const translations = {
 
     feat3Title: "KI-gestützte Berichte",
     feat3Lead: "Ein ausgefeiltes PDF oder DOCX in Sekunden.",
-    feat3Text: "Wähle einen Zeitraum – diese Woche, letzte Woche, individueller Bereich – und BetaSuite entwirft einen strukturierten Bericht (Thema, Pluspunkte, Probleme, Empfehlungen) als überfliegbare Stichpunkte. Bilder werden automatisch in die Abschnitte Zustand, Mapping und Zusätzlich sortiert. Direkt aus der App per Mail versenden.",
+    feat3Text: "Wähle einen Zeitraum – diese Woche, letzte Woche, individueller Bereich – und BetaSuite entwirft einen strukturierten Bericht (Thema, Pluspunkte, Probleme, Empfehlungen) als überfliegbare Stichpunkte. Bilder werden automatisch in die Abschnitte Zustand, Mapping und Zusätzlich sortiert, jeder Abschnitt auf einer eigenen Seite, sodass das PDF wie ein Kapitelbuch liest. Projektbezogene Markenfarbe. Direkt aus der App per Mail versenden.",
 
     feat4Title: "Vertraulicher Modus",
     feat4Lead: "Geräteinterne KI für NDA-Arbeit.",
@@ -363,7 +363,7 @@ const translations = {
 
     feat7Title: "Für Hardware-Tester gebaut",
     feat7Lead: "Vorne, Seite, Hinten, Unten – von Anfang an mit Winkel-Tags.",
-    feat7Text: "Mehrbild-Zustandsaufnahmen mit Winkel-Chips, die das nächste Foto vortaggen. Mapping-Screenshots und freie Zusatzfotos haben eigene Berichtsabschnitte. Reverse-Geocoding-Standort und Apple-WeatherKit-Bedingungen sind eingebaut.",
+    feat7Text: "Mehrbild-Zustandsaufnahmen mit Winkel-Chips, die das nächste Foto vortaggen. Mapping-Screenshots und freie Zusatzfotos haben eigene Berichtsabschnitte. Reverse-Geocoding-Standort und Apple-WeatherKit-Bedingungen sind eingebaut. Lade Fotos hoch, die du vor Monaten aufgenommen hast – BetaSuite stellt das ursprüngliche Datum, den GPS-Punkt und das tatsächliche Wetter aus diesem Moment wieder her, nicht das vom Upload-Zeitpunkt. Live-Ladeanschluss-Anzeige (Volt, Ampere, Watt) zum Debuggen der Stromversorgung.",
 
     feat8Title: "Projektstruktur, die mitwächst",
     feat8Lead: "Ein Projekt pro Produkt, Sofortaufnahme für alles andere.",
@@ -450,7 +450,7 @@ const translations = {
 
     pain6Problem: "Beta-Test-Tools sind oft nur auf Englisch.",
     pain6Problem2: "Mehrsprachenunterstützung, wenn überhaupt vorhanden, kommt oft veraltet und altert schlecht.",
-    pain6Answer: "BetaSuite rollt aktiv Mehrsprachenunterstützung aus; die Gerätesprache wird zur Laufzeit übernommen, sobald neue Sprachen verfügbar sind.",
+    pain6Answer: "Jetzt in 21 Sprachen verfügbar – BetaSuite folgt der Gerätesprache live, sodass Tester in Tokio, Berlin oder São Paulo die App jeweils in ihrer eigenen Sprache sehen.",
 
     whyClosingTagline: "Wettbewerber vermessen das Produkt. BetaSuite vermisst den Tester.",
 
@@ -494,7 +494,7 @@ const translations = {
 
     feat1Title: "Leg elk moment vast",
     feat1Lead: "Dubbele opname, instant capture, live overlays.",
-    feat1Text: "Neemt scherm en frontcamera op in één samengestelde video terwijl je tussen apps wisselt. Eén tik bewaart de laatste 30 seconden uit een rollende buffer — perfect voor onvoorspelbare, sporadische glitches. Elke opname krijgt automatisch datum, tijd, GPS, weer en apparaatinformatie mee.",
+    feat1Text: "Neemt scherm en frontcamera op in één samengestelde video terwijl je tussen apps wisselt. Eén tik bewaart de laatste 30 seconden uit een rollende buffer — perfect voor onvoorspelbare, sporadische glitches. Elke opname krijgt automatisch datum, tijd, GPS, weer en apparaatinformatie mee. Trim achteraf de stille tijd uit een clip in de app — frame-precies, met één-tik ongedaan maken.",
 
     feat2Title: "Sessies op een tijdlijn",
     feat2Lead: "Markers, spraakmemo's, foto's — alles op één tijdlijn.",
@@ -502,7 +502,7 @@ const translations = {
 
     feat3Title: "AI-ondersteunde rapporten",
     feat3Lead: "Een gepolijste PDF of DOCX in seconden.",
-    feat3Text: "Kies een periode — deze week, vorige week, eigen bereik — en BetaSuite stelt een gestructureerd rapport op (thema, pluspunten, problemen, aanbevelingen) als scanbare bullets. Beelden worden automatisch in Conditie-, Mapping- en Aanvullende secties gesorteerd. Verstuur het direct vanuit de app per e-mail.",
+    feat3Text: "Kies een periode — deze week, vorige week, eigen bereik — en BetaSuite stelt een gestructureerd rapport op (thema, pluspunten, problemen, aanbevelingen) als scanbare bullets. Beelden worden automatisch in Conditie-, Mapping- en Aanvullende secties gesorteerd, elke sectie op een eigen pagina zodat de PDF leest als een hoofdstukkenboek. Eigen merkkleur per project. Verstuur het direct vanuit de app per e-mail.",
 
     feat4Title: "Vertrouwelijke modus",
     feat4Lead: "AI op het apparaat voor NDA-werk.",
@@ -518,7 +518,7 @@ const translations = {
 
     feat7Title: "Gemaakt voor hardware-testers",
     feat7Lead: "Voor, zij, achter, onder — vanaf het begin met hoek-tags.",
-    feat7Text: "Conditiefoto's met meerdere afbeeldingen en hoek-chips die de volgende foto vooraf taggen. Mapping-screenshots en vrije aanvullende foto's hebben hun eigen rapportsecties. Reverse-geocoded locatie en Apple WeatherKit-condities standaard ingebouwd.",
+    feat7Text: "Conditiefoto's met meerdere afbeeldingen en hoek-chips die de volgende foto vooraf taggen. Mapping-screenshots en vrije aanvullende foto's hebben hun eigen rapportsecties. Reverse-geocoded locatie en Apple WeatherKit-condities standaard ingebouwd. Sleep foto's van maanden geleden naar binnen en BetaSuite herstelt de oorspronkelijke datum, GPS en het werkelijke weer van dat moment — niet van het moment dat je ze uploadde. Live-uitlezing van de laadpoort (volt, ampère, watt) voor debugging van de stroomvoorziening.",
 
     feat8Title: "Projectstructuur die meeschaalt",
     feat8Lead: "Eén project per product, instant capture voor de rest.",
@@ -605,7 +605,7 @@ const translations = {
 
     pain6Problem: "Beta-testtools zijn vaak alleen Engelstalig.",
     pain6Problem2: "Meertalige ondersteuning, als die bestaat, komt vaak verouderd uit en veroudert slecht.",
-    pain6Answer: "BetaSuite rolt actief meertalige ondersteuning uit; de apparaattaal wordt tijdens runtime gevolgd zodra nieuwe talen beschikbaar komen.",
+    pain6Answer: "Nu beschikbaar in 21 talen — BetaSuite volgt je apparaattaal live, dus testers in Tokio, Berlijn of São Paulo zien de app elk in hun eigen taal.",
 
     whyClosingTagline: "Concurrenten meten het product. BetaSuite meet de tester.",
 
@@ -649,7 +649,7 @@ const translations = {
 
     feat1Title: "Capturez chaque instant",
     feat1Lead: "Double enregistrement, capture instantanée, superpositions en direct.",
-    feat1Text: "Enregistre l'écran et la caméra avant dans une seule vidéo composée pendant que vous changez d'app. Une touche enregistre les 30 dernières secondes depuis un tampon glissant — parfait pour les glitches sporadiques imprévisibles. Chaque capture est automatiquement marquée avec date, heure, GPS, météo et infos de l'appareil.",
+    feat1Text: "Enregistre l'écran et la caméra avant dans une seule vidéo composée pendant que vous changez d'app. Une touche enregistre les 30 dernières secondes depuis un tampon glissant — parfait pour les glitches sporadiques imprévisibles. Chaque capture est automatiquement marquée avec date, heure, GPS, météo et infos de l'appareil. Coupez ensuite les temps morts d'un clip dans l'app — précis à l'image près, avec annulation en un tap.",
 
     feat2Title: "Sessions sur une chronologie",
     feat2Lead: "Marqueurs, mémos vocaux, photos — tout sur une chronologie.",
@@ -657,7 +657,7 @@ const translations = {
 
     feat3Title: "Rapports assistés par IA",
     feat3Lead: "Un PDF ou DOCX soigné en quelques secondes.",
-    feat3Text: "Choisissez une période — cette semaine, la semaine dernière, plage personnalisée — et BetaSuite rédige un rapport structuré (thème, points positifs, problèmes, recommandations) en puces parcourables. Images triées automatiquement en sections État, Mapping et Compléments. Envoyez par e-mail depuis l'app.",
+    feat3Text: "Choisissez une période — cette semaine, la semaine dernière, plage personnalisée — et BetaSuite rédige un rapport structuré (thème, points positifs, problèmes, recommandations) en puces parcourables. Images triées automatiquement en sections État, Mapping et Compléments, chaque section sur sa propre page pour que le PDF se lise comme un livre par chapitres. Couleur de marque par projet. Envoyez par e-mail depuis l'app.",
 
     feat4Title: "Mode confidentiel",
     feat4Lead: "IA sur l'appareil pour le travail sous NDA.",
@@ -673,7 +673,7 @@ const translations = {
 
     feat7Title: "Conçu pour les testeurs hardware",
     feat7Lead: "Avant, côté, arrière, dessous — tagués par angle dès le départ.",
-    feat7Text: "Photos d'état multi-images avec puces d'angle qui pré-taguent la photo suivante. Captures de mapping et photos additionnelles libres ont leurs propres sections de rapport. Localisation par géocodage inverse et conditions Apple WeatherKit intégrées.",
+    feat7Text: "Photos d'état multi-images avec puces d'angle qui pré-taguent la photo suivante. Captures de mapping et photos additionnelles libres ont leurs propres sections de rapport. Localisation par géocodage inverse et conditions Apple WeatherKit intégrées. Importez des photos prises il y a des mois et BetaSuite restaure la date d'origine, le GPS et la météo réelle de ce moment-là — pas celle du moment où vous les avez téléchargées. Lecture en direct du port de charge (volts, ampères, watts) pour déboguer l'alimentation.",
 
     feat8Title: "Une structure de projet qui passe à l'échelle",
     feat8Lead: "Un projet par produit, capture instantanée pour tout le reste.",
@@ -760,7 +760,7 @@ const translations = {
 
     pain6Problem: "Les outils de beta-test sont souvent en anglais uniquement.",
     pain6Problem2: "Le support multilingue, quand il existe, arrive souvent obsolète et vieillit mal.",
-    pain6Answer: "BetaSuite déploie activement le support multilingue, avec la langue de l'appareil suivie au runtime à mesure que de nouvelles langues arrivent.",
+    pain6Answer: "Désormais disponible en 21 langues — BetaSuite suit la langue de votre appareil en direct, pour que les testeurs à Tokyo, Berlin ou São Paulo voient l'app chacun dans la leur.",
 
     whyClosingTagline: "Les concurrents instrumentent le produit. BetaSuite instrumente le testeur.",
 
@@ -804,7 +804,7 @@ const translations = {
 
     feat1Title: "Fang hvert øyeblikk",
     feat1Lead: "Dobbeltopptak, øyeblikkelig opptak, sanntidsoverlegg.",
-    feat1Text: "Tar opp skjerm og frontkamera i én sammensatt video mens du bytter app. Ett trykk lagrer de siste 30 sekundene fra en rullerende buffer — perfekt for sporadiske, uforutsigbare feil. Hvert opptak får automatisk dato, klokkeslett, GPS, vær og enhetsinformasjon.",
+    feat1Text: "Tar opp skjerm og frontkamera i én sammensatt video mens du bytter app. Ett trykk lagrer de siste 30 sekundene fra en rullerende buffer — perfekt for sporadiske, uforutsigbare feil. Hvert opptak får automatisk dato, klokkeslett, GPS, vær og enhetsinformasjon. Trim dødtid fra et klipp i appen etterpå — bilde-nøyaktig, med ett-trykks angre.",
 
     feat2Title: "Tidslinje-baserte økter",
     feat2Lead: "Markører, taleopptak, bilder — alt på én tidslinje.",
@@ -812,7 +812,7 @@ const translations = {
 
     feat3Title: "AI-assisterte rapporter",
     feat3Lead: "En polert PDF eller DOCX på sekunder.",
-    feat3Text: "Velg en periode — denne uken, forrige uke, egendefinert område — og BetaSuite skriver et strukturert rapportutkast (tema, positive punkter, problemer, anbefalinger) som lett skannbare punkter. Bilder sorteres automatisk i seksjonene Tilstand, Mapping og Tilleggsbilder. Send det fra appen på e-post.",
+    feat3Text: "Velg en periode — denne uken, forrige uke, egendefinert område — og BetaSuite skriver et strukturert rapportutkast (tema, positive punkter, problemer, anbefalinger) som lett skannbare punkter. Bilder sorteres automatisk i seksjonene Tilstand, Mapping og Tilleggsbilder, hver seksjon på sin egen side så PDF-en leses som en bok i kapitler. Egen merkefarge per prosjekt. Send det fra appen på e-post.",
 
     feat4Title: "Konfidensiell modus",
     feat4Lead: "AI på enheten for NDA-arbeid.",
@@ -828,7 +828,7 @@ const translations = {
 
     feat7Title: "Bygget for hardware-testere",
     feat7Lead: "Front, side, bak, under — vinkel-tagget fra start.",
-    feat7Text: "Tilstandsbilder med flere bilder og vinkel-chips som pre-tagger neste bilde. Mapping-skjermbilder og fritt formaterte tilleggsbilder har egne rapport-seksjoner. Reverse-geokodet plassering og Apple WeatherKit-forhold er innebygd.",
+    feat7Text: "Tilstandsbilder med flere bilder og vinkel-chips som pre-tagger neste bilde. Mapping-skjermbilder og fritt formaterte tilleggsbilder har egne rapport-seksjoner. Reverse-geokodet plassering og Apple WeatherKit-forhold er innebygd. Last opp bilder tatt for måneder siden, og BetaSuite gjenoppretter opprinnelig dato, GPS og det faktiske været fra det øyeblikket — ikke fra opplastingstidspunktet. Sanntidsavlesning av ladeporten (volt, ampere, watt) for feilsøking av strømforsyning.",
 
     feat8Title: "Prosjektstruktur som skalerer",
     feat8Lead: "Ett prosjekt per produkt, øyeblikkelig opptak for alt annet.",
@@ -915,7 +915,7 @@ const translations = {
 
     pain6Problem: "Beta-testverktøy er ofte bare på engelsk.",
     pain6Problem2: "Flerspråklig støtte, når den finnes, er ofte utdatert og eldes dårlig.",
-    pain6Answer: "BetaSuite ruller aktivt ut flerspråklig støtte, og enhetsspråket følges automatisk i runtime etter hvert som nye språk kommer på plass.",
+    pain6Answer: "Nå tilgjengelig på 21 språk — BetaSuite følger enhetsspråket live, så testere i Tokyo, Berlin eller São Paulo ser appen på sitt eget språk.",
 
     whyClosingTagline: "Konkurrentene måler produktet. BetaSuite måler testeren.",
 
@@ -959,7 +959,7 @@ const translations = {
 
     feat1Title: "Fånga varje ögonblick",
     feat1Lead: "Dubbel inspelning, snabbinspelning, live-överlägg.",
-    feat1Text: "Spelar in skärm och frontkamera i en sammansatt video medan du växlar appar. Ett tryck sparar de senaste 30 sekunderna från en rullande buffert — perfekt för oförutsägbara, sporadiska glitchar. Varje inspelning får automatiskt datum, tid, GPS, väder och enhetsinformation.",
+    feat1Text: "Spelar in skärm och frontkamera i en sammansatt video medan du växlar appar. Ett tryck sparar de senaste 30 sekunderna från en rullande buffert — perfekt för oförutsägbara, sporadiska glitchar. Varje inspelning får automatiskt datum, tid, GPS, väder och enhetsinformation. Trimma död tid från ett klipp i appen efteråt — bildexakt, med ett-trycks ångra.",
 
     feat2Title: "Tidslinjebaserade sessioner",
     feat2Lead: "Markörer, röstmemon, foton — allt på en tidslinje.",
@@ -967,7 +967,7 @@ const translations = {
 
     feat3Title: "AI-assisterade rapporter",
     feat3Lead: "En polerad PDF eller DOCX på sekunder.",
-    feat3Text: "Välj en period — den här veckan, förra veckan, eget intervall — och BetaSuite utkastar en strukturerad rapport (tema, positiva punkter, problem, rekommendationer) som skannbara punkter. Bilder sorteras automatiskt in i sektionerna Tillstånd, Mapping och Övrigt. Maila direkt från appen.",
+    feat3Text: "Välj en period — den här veckan, förra veckan, eget intervall — och BetaSuite utkastar en strukturerad rapport (tema, positiva punkter, problem, rekommendationer) som skannbara punkter. Bilder sorteras automatiskt in i sektionerna Tillstånd, Mapping och Övrigt, varje sektion på en egen sida så att PDF:en läses som en bok i kapitel. Egen varumärkesfärg per projekt. Maila direkt från appen.",
 
     feat4Title: "Konfidentiellt läge",
     feat4Lead: "AI på enheten för NDA-arbete.",
@@ -983,7 +983,7 @@ const translations = {
 
     feat7Title: "Byggt för hårdvarutestare",
     feat7Lead: "Fram, sida, bak, under — vinkel-taggade från start.",
-    feat7Text: "Tillståndsbilder med flera bilder och vinkel-chips som förtaggar nästa foto. Mapping-skärmdumpar och fritt formade tilläggsfoton har egna rapportsektioner. Omvänd geokodning av plats och Apple WeatherKit-förhållanden inbyggda.",
+    feat7Text: "Tillståndsbilder med flera bilder och vinkel-chips som förtaggar nästa foto. Mapping-skärmdumpar och fritt formade tilläggsfoton har egna rapportsektioner. Omvänd geokodning av plats och Apple WeatherKit-förhållanden inbyggda. Lägg in foton tagna för månader sedan och BetaSuite återställer ursprungsdatum, GPS och faktiskt väder från det ögonblicket — inte från när du laddade upp dem. Live-avläsning av laddporten (volt, ampere, watt) för felsökning av strömförsörjningen.",
 
     feat8Title: "Projektstruktur som skalar",
     feat8Lead: "Ett projekt per produkt, snabbinspelning för allt annat.",
@@ -1070,7 +1070,7 @@ const translations = {
 
     pain6Problem: "Beta-testverktyg är ofta bara på engelska.",
     pain6Problem2: "Flerspråksstöd, när det finns, kommer ofta gammalt och åldras dåligt.",
-    pain6Answer: "BetaSuite rullar aktivt ut flerspråksstöd, och enhetens språk följs i runtime allteftersom nya språk kommer på plats.",
+    pain6Answer: "Finns nu på 21 språk — BetaSuite följer enhetens språk live, så testare i Tokyo, Berlin eller São Paulo ser appen var och en på sitt eget språk.",
 
     whyClosingTagline: "Konkurrenterna mäter produkten. BetaSuite mäter testaren.",
 
@@ -1114,7 +1114,7 @@ const translations = {
 
     feat1Title: "Captura cada momento",
     feat1Lead: "Grabación dual, captura instantánea, superposiciones en vivo.",
-    feat1Text: "Graba pantalla y cámara frontal en un único vídeo compuesto mientras cambias de app. Un toque guarda los últimos 30 segundos de un búfer rodante — perfecto para fallos intermitentes que no podías predecir. Cada captura lleva fecha, hora, GPS, clima e info del dispositivo automáticamente.",
+    feat1Text: "Graba pantalla y cámara frontal en un único vídeo compuesto mientras cambias de app. Un toque guarda los últimos 30 segundos de un búfer rodante — perfecto para fallos intermitentes que no podías predecir. Cada captura lleva fecha, hora, GPS, clima e info del dispositivo automáticamente. Recorta después el tiempo muerto de un clip en la app — precisión por fotograma, con deshacer en un toque.",
 
     feat2Title: "Sesiones en línea de tiempo",
     feat2Lead: "Marcadores, notas de voz, fotos — todo en una línea de tiempo.",
@@ -1122,7 +1122,7 @@ const translations = {
 
     feat3Title: "Informes asistidos por IA",
     feat3Lead: "Un PDF o DOCX pulido en segundos.",
-    feat3Text: "Elige un periodo — esta semana, la pasada, rango personalizado — y BetaSuite redacta un informe estructurado (tema, positivos, problemas, recomendaciones) en viñetas escaneables. Las imágenes se ordenan automáticamente en secciones Estado, Mapping y Adicional. Envíalo por correo desde la app.",
+    feat3Text: "Elige un periodo — esta semana, la pasada, rango personalizado — y BetaSuite redacta un informe estructurado (tema, positivos, problemas, recomendaciones) en viñetas escaneables. Las imágenes se ordenan automáticamente en secciones Estado, Mapping y Adicional, cada sección en su propia página para que el PDF se lea como un libro por capítulos. Color de marca por proyecto. Envíalo por correo desde la app.",
 
     feat4Title: "Modo confidencial",
     feat4Lead: "IA en el dispositivo para trabajo bajo NDA.",
@@ -1138,7 +1138,7 @@ const translations = {
 
     feat7Title: "Pensado para testers de hardware",
     feat7Lead: "Frente, lateral, atrás, debajo — etiquetado por ángulo desde el inicio.",
-    feat7Text: "Fotos de estado multi-imagen con chips de ángulo que pre-etiquetan la siguiente foto. Capturas de mapping y fotos adicionales libres tienen sus propias secciones de informe. Geocodificación inversa de ubicación y condiciones de Apple WeatherKit incluidas.",
+    feat7Text: "Fotos de estado multi-imagen con chips de ángulo que pre-etiquetan la siguiente foto. Capturas de mapping y fotos adicionales libres tienen sus propias secciones de informe. Geocodificación inversa de ubicación y condiciones de Apple WeatherKit incluidas. Importa fotos tomadas hace meses y BetaSuite restaura la fecha original, el GPS y el clima real de ese momento — no del momento en que las subiste. Lectura en vivo del puerto de carga (voltios, amperios, vatios) para depurar la alimentación.",
 
     feat8Title: "Estructura de proyecto que escala",
     feat8Lead: "Un proyecto por producto, captura instantánea para todo lo demás.",
@@ -1225,7 +1225,7 @@ const translations = {
 
     pain6Problem: "Las herramientas de beta-testing suelen ser solo en inglés.",
     pain6Problem2: "El soporte multiidioma, cuando existe, suele venir desactualizado y envejecer mal.",
-    pain6Answer: "BetaSuite está desplegando activamente soporte multiidioma, y el idioma del dispositivo se sigue en runtime a medida que se incorporan nuevos idiomas.",
+    pain6Answer: "Ahora disponible en 21 idiomas — BetaSuite sigue el idioma de tu dispositivo en directo, así los testers en Tokio, Berlín o São Paulo ven la app cada uno en el suyo.",
 
     whyClosingTagline: "Los competidores instrumentan el producto. BetaSuite instrumenta al tester.",
 
@@ -1269,7 +1269,7 @@ const translations = {
 
     feat1Title: "Cattura ogni momento",
     feat1Lead: "Doppia registrazione, cattura istantanea, overlay in tempo reale.",
-    feat1Text: "Registra schermo e fotocamera frontale in un unico video composito mentre cambi app. Un tocco salva gli ultimi 30 secondi da un buffer rotante — perfetto per glitch sporadici imprevedibili. Ogni cattura riceve automaticamente data, ora, GPS, meteo e info sul dispositivo.",
+    feat1Text: "Registra schermo e fotocamera frontale in un unico video composito mentre cambi app. Un tocco salva gli ultimi 30 secondi da un buffer rotante — perfetto per glitch sporadici imprevedibili. Ogni cattura riceve automaticamente data, ora, GPS, meteo e info sul dispositivo. Taglia in seguito i tempi morti da un clip nell'app — preciso al fotogramma, con annulla a un tocco.",
 
     feat2Title: "Sessioni su una timeline",
     feat2Lead: "Marker, memo vocali, foto — tutto su un'unica timeline.",
@@ -1277,7 +1277,7 @@ const translations = {
 
     feat3Title: "Report assistiti dall'IA",
     feat3Lead: "Un PDF o DOCX rifinito in pochi secondi.",
-    feat3Text: "Scegli un periodo — questa settimana, la scorsa, intervallo personalizzato — e BetaSuite stende un report strutturato (tema, punti positivi, problemi, raccomandazioni) come bullet scorrevoli. Le immagini vengono ordinate automaticamente nelle sezioni Condizione, Mapping e Aggiuntive. Invialo via email dall'app.",
+    feat3Text: "Scegli un periodo — questa settimana, la scorsa, intervallo personalizzato — e BetaSuite stende un report strutturato (tema, punti positivi, problemi, raccomandazioni) come bullet scorrevoli. Le immagini vengono ordinate automaticamente nelle sezioni Condizione, Mapping e Aggiuntive, ciascuna sezione su una propria pagina così il PDF si legge come un libro a capitoli. Colore del brand per progetto. Invialo via email dall'app.",
 
     feat4Title: "Modalità riservata",
     feat4Lead: "IA on-device per il lavoro sotto NDA.",
@@ -1293,7 +1293,7 @@ const translations = {
 
     feat7Title: "Pensato per i tester hardware",
     feat7Lead: "Fronte, lato, retro, sotto — taggati per angolo fin dall'inizio.",
-    feat7Text: "Foto di condizione multi-immagine con chip di angolo che pre-taggano la foto successiva. Screenshot di mapping e foto aggiuntive libere hanno sezioni di report dedicate. Localizzazione con reverse geocoding e condizioni Apple WeatherKit integrate.",
+    feat7Text: "Foto di condizione multi-immagine con chip di angolo che pre-taggano la foto successiva. Screenshot di mapping e foto aggiuntive libere hanno sezioni di report dedicate. Localizzazione con reverse geocoding e condizioni Apple WeatherKit integrate. Importa foto scattate mesi fa e BetaSuite ripristina la data originale, il GPS e il meteo reale di quel momento — non quello del momento in cui le hai caricate. Lettura in tempo reale della porta di ricarica (volt, ampere, watt) per il debug dell'alimentazione.",
 
     feat8Title: "Struttura di progetto che scala",
     feat8Lead: "Un progetto per prodotto, cattura istantanea per tutto il resto.",
@@ -1380,7 +1380,7 @@ const translations = {
 
     pain6Problem: "Gli strumenti di beta-testing sono spesso solo in inglese.",
     pain6Problem2: "Il supporto multilingua, quando c'è, esce spesso datato e invecchia male.",
-    pain6Answer: "BetaSuite sta attivamente espandendo il supporto multilingua, con la lingua del dispositivo seguita a runtime man mano che arrivano nuove lingue.",
+    pain6Answer: "Ora disponibile in 21 lingue — BetaSuite segue la lingua del dispositivo in tempo reale, così tester a Tokyo, Berlino o São Paulo vedono l'app ciascuno nella propria.",
 
     whyClosingTagline: "I concorrenti strumentano il prodotto. BetaSuite strumenta il tester.",
 
@@ -1424,7 +1424,7 @@ const translations = {
 
     feat1Title: "Złap każdy moment",
     feat1Lead: "Podwójne nagrywanie, natychmiastowe przechwytywanie, nakładki na żywo.",
-    feat1Text: "Nagrywa ekran i przednią kamerę w jedno złożone wideo, gdy przełączasz aplikacje. Jedno dotknięcie zapisuje ostatnie 30 sekund z bufora kroczącego — idealne na nieprzewidywalne, sporadyczne usterki. Każde nagranie automatycznie otrzymuje datę, godzinę, GPS, pogodę i informacje o urządzeniu.",
+    feat1Text: "Nagrywa ekran i przednią kamerę w jedno złożone wideo, gdy przełączasz aplikacje. Jedno dotknięcie zapisuje ostatnie 30 sekund z bufora kroczącego — idealne na nieprzewidywalne, sporadyczne usterki. Każde nagranie automatycznie otrzymuje datę, godzinę, GPS, pogodę i informacje o urządzeniu. Potem przytnij martwy czas z klipu w aplikacji — z dokładnością do klatki, cofnij jednym dotknięciem.",
 
     feat2Title: "Sesje na osi czasu",
     feat2Lead: "Znaczniki, notatki głosowe, zdjęcia — wszystko na jednej osi czasu.",
@@ -1432,7 +1432,7 @@ const translations = {
 
     feat3Title: "Raporty wspomagane SI",
     feat3Lead: "Dopracowany PDF lub DOCX w kilka sekund.",
-    feat3Text: "Wybierz okres — ten tydzień, poprzedni tydzień, własny zakres — a BetaSuite napisze ustrukturyzowany raport (temat, plusy, problemy, rekomendacje) jako łatwo skanowalne punkty. Obrazy są automatycznie sortowane do sekcji Stan, Mapping i Dodatkowe. Wyślij e-mailem prosto z aplikacji.",
+    feat3Text: "Wybierz okres — ten tydzień, poprzedni tydzień, własny zakres — a BetaSuite napisze ustrukturyzowany raport (temat, plusy, problemy, rekomendacje) jako łatwo skanowalne punkty. Obrazy są automatycznie sortowane do sekcji Stan, Mapping i Dodatkowe, każda sekcja na osobnej stronie, więc PDF czyta się jak książkę w rozdziałach. Kolor marki per projekt. Wyślij e-mailem prosto z aplikacji.",
 
     feat4Title: "Tryb poufny",
     feat4Lead: "SI na urządzeniu do pracy pod NDA.",
@@ -1448,7 +1448,7 @@ const translations = {
 
     feat7Title: "Stworzone dla testerów sprzętu",
     feat7Lead: "Przód, bok, tył, spód — z tagami kątów od początku.",
-    feat7Text: "Wieloobrazowe zdjęcia stanu z chipsami kątów, które wstępnie tagują kolejne zdjęcie. Zrzuty mappingu i swobodne dodatkowe zdjęcia mają własne sekcje raportu. Lokalizacja z geokodowaniem odwrotnym i warunki Apple WeatherKit wbudowane.",
+    feat7Text: "Wieloobrazowe zdjęcia stanu z chipsami kątów, które wstępnie tagują kolejne zdjęcie. Zrzuty mappingu i swobodne dodatkowe zdjęcia mają własne sekcje raportu. Lokalizacja z geokodowaniem odwrotnym i warunki Apple WeatherKit wbudowane. Dodaj zdjęcia zrobione miesiące temu, a BetaSuite przywróci oryginalną datę, GPS i rzeczywistą pogodę z tamtego momentu — a nie z chwili przesyłania. Odczyt portu ładowania na żywo (wolty, ampery, waty) do debugowania zasilania.",
 
     feat8Title: "Struktura projektów, która skaluje się",
     feat8Lead: "Jeden projekt na produkt, natychmiastowe przechwytywanie dla całej reszty.",
@@ -1535,7 +1535,7 @@ const translations = {
 
     pain6Problem: "Narzędzia beta-testów są często tylko po angielsku.",
     pain6Problem2: "Wsparcie wielojęzyczne, jeśli istnieje, często wychodzi nieaktualne i źle się starzeje.",
-    pain6Answer: "BetaSuite aktywnie wdraża wsparcie wielojęzyczne, a język urządzenia jest podążany w runtime w miarę pojawiania się nowych języków.",
+    pain6Answer: "Dostępne teraz w 21 językach — BetaSuite na żywo podąża za językiem urządzenia, więc testerzy w Tokio, Berlinie czy São Paulo widzą aplikację każdy w swoim języku.",
 
     whyClosingTagline: "Konkurenci mierzą produkt. BetaSuite mierzy testera.",
 
