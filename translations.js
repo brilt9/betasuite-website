@@ -14,7 +14,7 @@ const translations = {
     heroText: "BetaSuite is the mobile testing kit for people who actually report bugs — record screen and camera at once, replay the last 30 seconds, annotate, transcribe, and ship a polished report.",
     downloadAppStore: "Download on the App Store",
     androidNote: "iPhone only — Android in development, release date to be confirmed.",
-    metaText: "Free 3-day trial · No subscription · No ads · No tracking · Yours for life",
+    metaText: "One-off App Store purchase · No subscription · No ads · No tracking · Yours for life",
 
     /* Value props strip */
     valueCaptureTitle: "Capture",
@@ -102,8 +102,8 @@ const translations = {
     faqA2: "BetaSuite itself doesn't require an account, but you'll need a valid Apple ID / App Store account to purchase and download the app.",
     faqQ3: "What is Confidential Mode?",
     faqA3: "Confidential Mode blocks cloud sync and cloud AI, keeping processing local-only where possible.",
-    faqQ4: "Is there a free trial?",
-    faqA4: "Yes — a free 3-day trial of all features so you can try before you buy.",
+    faqQ4: "Is there a subscription?",
+    faqA4: "No — BetaSuite is a one-off App Store purchase. Pay once, yours for life.",
     faqMore: "More on the support page →",
 
     /* Closing CTA */
@@ -169,7 +169,7 @@ const translations = {
     heroText: "BetaSuite 是为真正提交 Bug 报告的人打造的移动测试工具:同时录制屏幕和相机、回放最近 30 秒、标注、转录,再生成一份精炼的报告。",
     downloadAppStore: "在 App Store 下载",
     androidNote: "仅支持 iPhone——Android 正在开发中,发布日期待定。",
-    metaText: "免费 3 天试用 · 无订阅 · 无广告 · 无追踪 · 终身使用",
+    metaText: "App Store 一次性购买 · 无订阅 · 无广告 · 无追踪 · 终身使用",
 
     /* Value props strip */
     valueCaptureTitle: "记录",
@@ -257,8 +257,8 @@ const translations = {
     faqA2: "BetaSuite 本身不需要账号,但你需要有效的 Apple ID / App Store 账号来购买和下载应用。",
     faqQ3: "什么是保密模式?",
     faqA3: "保密模式封锁云同步和云端 AI,尽可能将处理保留在本地。",
-    faqQ4: "有免费试用吗?",
-    faqA4: "有——所有功能均提供 3 天免费试用,让你在购买前先体验。",
+    faqQ4: "需要订阅吗?",
+    faqA4: "不需要——BetaSuite 是 App Store 一次性购买。一次付款,终身使用。",
     faqMore: "在支持页面查看更多 →",
 
     /* Closing CTA */
@@ -324,7 +324,7 @@ const translations = {
     heroText: "BetaSuite ist das mobile Test-Kit für Leute, die wirklich Bugs melden – Bildschirm und Kamera gleichzeitig aufnehmen, die letzten 30 Sekunden wiedergeben, annotieren, transkribieren und einen ausgefeilten Bericht abliefern.",
     downloadAppStore: "Im App Store laden",
     androidNote: "Nur für iPhone – Android in Entwicklung, Veröffentlichungsdatum noch offen.",
-    metaText: "3 Tage kostenlos testen · Kein Abo · Keine Werbung · Kein Tracking · Lebenslang nutzbar",
+    metaText: "Einmalkauf im App Store · Kein Abo · Keine Werbung · Kein Tracking · Lebenslang nutzbar",
 
     /* Value props strip */
     valueCaptureTitle: "Aufzeichnen",
@@ -412,8 +412,8 @@ const translations = {
     faqA2: "BetaSuite selbst benötigt kein Konto, aber du brauchst eine gültige Apple-ID bzw. ein App-Store-Konto, um die App zu kaufen und zu laden.",
     faqQ3: "Was ist der Vertrauliche Modus?",
     faqA3: "Der Vertrauliche Modus blockiert Cloud-Sync und Cloud-KI und hält die Verarbeitung wo möglich rein lokal.",
-    faqQ4: "Gibt es eine kostenlose Testversion?",
-    faqA4: "Ja – eine kostenlose 3-Tage-Testversion mit allen Funktionen, damit du vor dem Kauf testen kannst.",
+    faqQ4: "Gibt es ein Abo?",
+    faqA4: "Nein – BetaSuite ist ein Einmalkauf im App Store. Einmal zahlen, lebenslang nutzen.",
     faqMore: "Mehr auf der Support-Seite →",
 
     /* Closing CTA */
@@ -479,7 +479,7 @@ const translations = {
     heroText: "BetaSuite is de mobiele testkit voor mensen die echt bugs rapporteren — neem scherm en camera tegelijk op, speel de laatste 30 seconden opnieuw af, annoteer, transcribeer en lever een gepolijst rapport af.",
     downloadAppStore: "Download in de App Store",
     androidNote: "Alleen iPhone — Android in ontwikkeling, releasedatum nog te bevestigen.",
-    metaText: "Gratis 3 dagen proberen · Geen abonnement · Geen advertenties · Geen tracking · Levenslang van jou",
+    metaText: "Eenmalige aankoop in de App Store · Geen abonnement · Geen advertenties · Geen tracking · Levenslang van jou",
 
     /* Value props strip */
     valueCaptureTitle: "Vastleggen",
@@ -567,8 +567,8 @@ const translations = {
     faqA2: "BetaSuite zelf vereist geen account, maar je hebt een geldige Apple ID / App Store-account nodig om de app te kopen en te downloaden.",
     faqQ3: "Wat is de vertrouwelijke modus?",
     faqA3: "De vertrouwelijke modus blokkeert cloudsync en cloud-AI en houdt verwerking waar mogelijk lokaal.",
-    faqQ4: "Is er een gratis proefperiode?",
-    faqA4: "Ja — een gratis proefperiode van 3 dagen met alle functies, zodat je kunt proberen voor je koopt.",
+    faqQ4: "Is er een abonnement?",
+    faqA4: "Nee — BetaSuite is een eenmalige aankoop in de App Store. Eén keer betalen, levenslang van jou.",
     faqMore: "Meer op de supportpagina →",
 
     /* Closing CTA */
@@ -634,7 +634,7 @@ const translations = {
     heroText: "BetaSuite est le kit de test mobile pour les gens qui rapportent vraiment des bugs — enregistrez écran et caméra en même temps, rejouez les 30 dernières secondes, annotez, transcrivez et livrez un rapport soigné.",
     downloadAppStore: "Télécharger sur l'App Store",
     androidNote: "iPhone uniquement — Android en développement, date de sortie à confirmer.",
-    metaText: "Essai gratuit de 3 jours · Sans abonnement · Sans publicité · Sans pistage · À vous pour la vie",
+    metaText: "Achat unique sur l'App Store · Sans abonnement · Sans publicité · Sans pistage · À vous pour la vie",
 
     /* Value props strip */
     valueCaptureTitle: "Capturer",
@@ -722,8 +722,8 @@ const translations = {
     faqA2: "BetaSuite lui-même ne nécessite pas de compte, mais il vous faut un identifiant Apple / compte App Store valide pour acheter et télécharger l'app.",
     faqQ3: "Qu'est-ce que le mode confidentiel ?",
     faqA3: "Le mode confidentiel bloque la sync cloud et l'IA cloud, gardant le traitement local autant que possible.",
-    faqQ4: "Y a-t-il un essai gratuit ?",
-    faqA4: "Oui — un essai gratuit de 3 jours de toutes les fonctionnalités, pour essayer avant d'acheter.",
+    faqQ4: "Y a-t-il un abonnement ?",
+    faqA4: "Non — BetaSuite est un achat unique sur l'App Store. Payez une fois, à vous pour la vie.",
     faqMore: "Plus sur la page support →",
 
     /* Closing CTA */
@@ -789,7 +789,7 @@ const translations = {
     heroText: "BetaSuite er det mobile testsettet for folk som faktisk rapporterer bugs — ta opp skjerm og kamera samtidig, spill av de siste 30 sekundene på nytt, annoter, transkriber og lever en polert rapport.",
     downloadAppStore: "Last ned i App Store",
     androidNote: "Kun iPhone — Android under utvikling, lanseringsdato bekreftes senere.",
-    metaText: "Gratis 3-dagers prøveperiode · Ingen abonnement · Ingen reklame · Ingen sporing · Ditt for livet",
+    metaText: "Engangskjøp i App Store · Ingen abonnement · Ingen reklame · Ingen sporing · Ditt for livet",
 
     /* Value props strip */
     valueCaptureTitle: "Fang opp",
@@ -877,8 +877,8 @@ const translations = {
     faqA2: "BetaSuite selv krever ingen konto, men du trenger en gyldig Apple-ID / App Store-konto for å kjøpe og laste ned appen.",
     faqQ3: "Hva er konfidensiell modus?",
     faqA3: "Konfidensiell modus blokkerer skysynkronisering og sky-AI, og holder behandlingen lokal der det er mulig.",
-    faqQ4: "Er det en gratis prøveperiode?",
-    faqA4: "Ja — en gratis 3-dagers prøveperiode med alle funksjonene, så du kan prøve før du kjøper.",
+    faqQ4: "Er det et abonnement?",
+    faqA4: "Nei — BetaSuite er et engangskjøp i App Store. Betal én gang, ditt for livet.",
     faqMore: "Mer på støttesiden →",
 
     /* Closing CTA */
@@ -944,7 +944,7 @@ const translations = {
     heroText: "BetaSuite är den mobila testkit för folk som faktiskt rapporterar buggar — spela in skärm och kamera samtidigt, spela upp de senaste 30 sekunderna, annotera, transkribera och leverera en polerad rapport.",
     downloadAppStore: "Hämta i App Store",
     androidNote: "Endast iPhone — Android under utveckling, släppdatum ska bekräftas.",
-    metaText: "Gratis 3-dagars prövoperiod · Inget abonnemang · Inga annonser · Ingen spårning · Ditt för livet",
+    metaText: "Engångsköp i App Store · Inget abonnemang · Inga annonser · Ingen spårning · Ditt för livet",
 
     /* Value props strip */
     valueCaptureTitle: "Fånga",
@@ -1032,8 +1032,8 @@ const translations = {
     faqA2: "BetaSuite självt kräver inget konto, men du behöver ett giltigt Apple-ID / App Store-konto för att köpa och ladda ned appen.",
     faqQ3: "Vad är konfidentiellt läge?",
     faqA3: "Konfidentiellt läge blockerar molnsynk och moln-AI och håller bearbetningen lokal där det är möjligt.",
-    faqQ4: "Finns det en gratis prövoperiod?",
-    faqA4: "Ja — en gratis 3-dagars prövoperiod med alla funktioner, så du kan prova innan du köper.",
+    faqQ4: "Finns det ett abonnemang?",
+    faqA4: "Nej — BetaSuite är ett engångsköp i App Store. Betala en gång, ditt för livet.",
     faqMore: "Mer på supportsidan →",
 
     /* Closing CTA */
@@ -1099,7 +1099,7 @@ const translations = {
     heroText: "BetaSuite es el kit de pruebas móviles para personas que de verdad reportan bugs: graba pantalla y cámara a la vez, reproduce los últimos 30 segundos, anota, transcribe y entrega un informe pulido.",
     downloadAppStore: "Descargar en el App Store",
     androidNote: "Solo iPhone — Android en desarrollo, fecha de lanzamiento por confirmar.",
-    metaText: "Prueba gratis de 3 días · Sin suscripción · Sin anuncios · Sin seguimiento · Tuyo de por vida",
+    metaText: "Compra única en la App Store · Sin suscripción · Sin anuncios · Sin seguimiento · Tuyo de por vida",
 
     /* Value props strip */
     valueCaptureTitle: "Capturar",
@@ -1187,8 +1187,8 @@ const translations = {
     faqA2: "BetaSuite en sí no requiere cuenta, pero necesitas un Apple ID / cuenta de App Store válidos para comprar y descargar la app.",
     faqQ3: "¿Qué es el modo confidencial?",
     faqA3: "El modo confidencial bloquea la sincronización en la nube y la IA en la nube, manteniendo el procesamiento en local cuando es posible.",
-    faqQ4: "¿Hay una prueba gratuita?",
-    faqA4: "Sí — una prueba gratuita de 3 días con todas las funciones, para que pruebes antes de comprar.",
+    faqQ4: "¿Hay una suscripción?",
+    faqA4: "No — BetaSuite es una compra única en la App Store. Paga una vez, tuyo de por vida.",
     faqMore: "Más en la página de soporte →",
 
     /* Closing CTA */
@@ -1254,7 +1254,7 @@ const translations = {
     heroText: "BetaSuite è il kit di test mobile per chi i bug li segnala davvero: registra schermo e fotocamera insieme, riproduci gli ultimi 30 secondi, annota, trascrivi e consegna un report rifinito.",
     downloadAppStore: "Scarica su App Store",
     androidNote: "Solo iPhone — Android in sviluppo, data di rilascio da confermare.",
-    metaText: "Prova gratuita di 3 giorni · Nessun abbonamento · Niente pubblicità · Niente tracciamento · Tuo per sempre",
+    metaText: "Acquisto una tantum su App Store · Nessun abbonamento · Niente pubblicità · Niente tracciamento · Tuo per sempre",
 
     /* Value props strip */
     valueCaptureTitle: "Catturare",
@@ -1342,8 +1342,8 @@ const translations = {
     faqA2: "BetaSuite in sé non richiede un account, ma serve un Apple ID / account App Store valido per acquistare e scaricare l'app.",
     faqQ3: "Cos'è la modalità riservata?",
     faqA3: "La modalità riservata blocca la sync cloud e l'IA cloud, mantenendo l'elaborazione in locale dove possibile.",
-    faqQ4: "C'è una prova gratuita?",
-    faqA4: "Sì — una prova gratuita di 3 giorni con tutte le funzioni, per provare prima di acquistare.",
+    faqQ4: "C'è un abbonamento?",
+    faqA4: "No — BetaSuite è un acquisto una tantum su App Store. Paga una volta, tuo per sempre.",
     faqMore: "Altro nella pagina supporto →",
 
     /* Closing CTA */
@@ -1409,7 +1409,7 @@ const translations = {
     heroText: "BetaSuite to mobilny zestaw testowy dla osób, które naprawdę zgłaszają bugi — nagrywaj ekran i kamerę jednocześnie, odtwarzaj ostatnie 30 sekund, opisuj, transkrybuj i wysyłaj dopracowany raport.",
     downloadAppStore: "Pobierz w App Store",
     androidNote: "Tylko iPhone — Android w fazie rozwoju, data wydania do potwierdzenia.",
-    metaText: "Bezpłatny okres próbny 3 dni · Bez subskrypcji · Bez reklam · Bez śledzenia · Twoje na zawsze",
+    metaText: "Jednorazowy zakup w App Store · Bez subskrypcji · Bez reklam · Bez śledzenia · Twoje na zawsze",
 
     /* Value props strip */
     valueCaptureTitle: "Przechwyć",
@@ -1497,8 +1497,8 @@ const translations = {
     faqA2: "Sam BetaSuite nie wymaga konta, ale potrzebujesz ważnego Apple ID / konta App Store, by kupić i pobrać aplikację.",
     faqQ3: "Czym jest tryb poufny?",
     faqA3: "Tryb poufny blokuje synchronizację z chmurą i SI w chmurze, utrzymując przetwarzanie lokalnie tam, gdzie to możliwe.",
-    faqQ4: "Czy jest darmowa wersja próbna?",
-    faqA4: "Tak — bezpłatna wersja próbna 3 dni ze wszystkimi funkcjami, byś mógł sprawdzić przed zakupem.",
+    faqQ4: "Czy jest subskrypcja?",
+    faqA4: "Nie — BetaSuite to jednorazowy zakup w App Store. Zapłać raz, Twoje na zawsze.",
     faqMore: "Więcej na stronie wsparcia →",
 
     /* Closing CTA */
