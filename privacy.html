@@ -68,7 +68,7 @@
 
   <main id="main" class="prose">
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective: 12 May 2026</p>
+    <p class="meta">Effective: 18 May 2026</p>
 
     <p>
       BetaSuite ("we", "us") provides the BetaSuite mobile app ("the App"). The App is built local-first: feedback entries, recordings, photos, and project data live on your device by default and never leave it unless you choose to use a feature that involves an outside service.
@@ -104,7 +104,7 @@
     </p>
     <h3>What we never collect</h3>
     <p>
-      We do not run a backend that stores your account data. We have no access to your cloud storage, your AI requests, or the contents of your feedback entries. We do not sell or trade personal information. We do not run advertising and do not track you across other apps or websites.
+      We do not run a backend that stores your account data or the contents of your feedback entries — the only BetaSuite-operated infrastructure is a Cloudflare Worker used for feature-request posting and the anonymous upvote counter (section 5). We have no access to your cloud storage, your AI requests, or the contents of your feedback entries. We do not sell or trade personal information. We do not run advertising and do not track you across other apps or websites.
     </p>
 
     <h2 id="sec-2">2. Cloud sync (optional)</h2>
@@ -151,6 +151,11 @@
     <p>
       You can switch to another provider (Anthropic Claude, OpenAI, Google Gemini, DeepSeek, or BetaSuite Default / Pollinations) or turn AI off in <em>Settings → AI Features</em>.
     </p>
+    <h3>BetaSuite Default / Pollinations (emergency fallback)</h3>
+    <p>
+      Pollinations is a free, key-less open AI service offered as a last-resort fallback when no other provider is available. When this route is used, the prompt is sent directly from your device to the Pollinations service for inference and is governed by their terms. We do not see, store, or relay these requests. Pollinations is blocked in Confidential Mode along with every other cloud provider.
+      <a href="https://pollinations.ai/" target="_blank" rel="noopener">Pollinations</a>.
+    </p>
     <h3>Bring-your-own-key providers</h3>
     <p>
       When you supply your own API key for Anthropic Claude, OpenAI, Google Gemini, or DeepSeek, prompts go directly from your device to that provider for inference. The data is governed by that provider's privacy policy and terms. We do not see, store, or relay these requests. Your API key is held in device secure storage (iOS Keychain) and is never transmitted to us.
@@ -163,9 +168,9 @@
     </ul>
     <h3>Voice memo and voice note transcription (on-device first, cloud fallback)</h3>
     <p>
-      Voice memos recorded inside a session — and voice notes attached to markers or feedback entries — are transcribed whenever AI features are enabled and Confidential Mode is off. On iOS 13+ devices that support it, BetaSuite Assist uses Apple's on-device speech recognition (<code>SFSpeechRecognizer</code> with <code>requiresOnDeviceRecognition</code>): the audio never leaves the device, there is no quota, and no network round-trip is involved. When on-device recognition isn't available (older iOS or locale model not installed) the audio falls back to Google Firebase AI (Gemini) under the BetaSuite Assist umbrella and is governed by
+      Voice memos recorded inside a session — and voice notes attached to markers or feedback entries — are transcribed whenever AI features are enabled. On iOS 13+ devices that support it, BetaSuite Assist uses Apple's on-device speech recognition (<code>SFSpeechRecognizer</code> with <code>requiresOnDeviceRecognition</code>): the audio never leaves the device, there is no quota, and no network round-trip is involved. When on-device recognition isn't available (older iOS or locale model not installed) the audio falls back to Google Firebase AI (Gemini) under the BetaSuite Assist umbrella and is governed by
       <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.
-      Transcription is fully blocked in Confidential Mode regardless of routing.
+      In Confidential Mode the cloud fallback is blocked — on-device transcription still runs on devices that support it, and is skipped entirely on devices that don't.
     </p>
     <p>
       The App also offers an optional post-transcription polish step that removes speech fillers ("um", "uh", "like"), tightens punctuation, and softens crude language before the transcript is shown to you or embedded in a report. This polish call routes through whichever AI provider you have selected and shares its privacy posture — disable AI features in Settings to skip it. Profanity is masked at report-generation time in any case.
@@ -199,7 +204,7 @@
     </p>
     <h3>Where it is stored</h3>
     <p>
-      Each submission becomes a GitHub Issue in the public feedback repository. Anyone can read, comment on, or react to it. Once posted, an entry cannot be deleted from inside the App. To request removal or amendment, contact us via <em>Settings → Contact Us</em>.
+      Each submission becomes a GitHub Issue in the public feedback repository. Anyone can read, comment on, or react to it. Once posted, an entry cannot be deleted from inside the App. To remove or amend an entry, contact us via <em>Settings → Contact Us</em> and we'll act on it in the public repository.
     </p>
     <h3>Confidential Mode</h3>
     <p>
@@ -207,7 +212,7 @@
     </p>
     <h3>How it gets there</h3>
     <p>
-      Your device POSTs to a Cloudflare Worker that BetaSuite operates. The Worker holds a fine-grained access token scoped only to the feedback repository, so the App never embeds a GitHub credential. The Worker rate-limits per IP and runs a second pass of pattern-matching redaction before posting.
+      Your device POSTs to a Cloudflare Worker that BetaSuite operates. The Worker holds a fine-grained access token scoped only to the feedback repository, so the App never embeds a GitHub credential. The Worker runs a second pass of pattern-matching redaction before posting. Your IP address is visible to the Worker for the duration of the request — Cloudflare uses it transiently for rate-limiting and abuse prevention — and is not stored by BetaSuite or forwarded to GitHub.
     </p>
     <h3>Unrecognised company brand names</h3>
     <p>
@@ -233,7 +238,7 @@
 
     <h2 id="sec-7">7. International transfers</h2>
     <p>
-      The third-party services listed in this policy are operated from various countries. When you use such a service, the data you choose to send may be processed in a jurisdiction with different privacy and data-protection laws than the country you live in. Each service's privacy policy (linked above) describes how that service handles transfers and what protections apply.
+      The third-party services listed in this policy are operated from various countries. When you use such a service, the data you choose to send may be processed in a jurisdiction with different privacy and data-protection laws than the country you live in. Each service's privacy policy (linked above) describes how that service handles transfers and what protections apply. The BetaSuite Cloudflare Worker used for feature-request posting and the anonymous upvote counter (section 5) runs on Cloudflare's global edge network, so each request is served from the Cloudflare data centre nearest to you — the request may be processed outside your country of residence; see <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudflare's privacy policy</a> for detail.
     </p>
 
     <h2 id="sec-8">8. Your rights</h2>
@@ -256,7 +261,7 @@
 
     <h2 id="sec-9">9. Children</h2>
     <p>
-      The App is not directed at children. We do not knowingly collect personal information from a child. If you believe a child has used the App and provided personal information, contact us so we can help you remove it.
+      The App is not directed at children, and we do not knowingly collect personal information from a child. Because the App holds data locally, a parent or guardian can remove it directly via <em>Settings → Data → Wipe all app data</em>, or by uninstalling the App. For a public feature request posted by a child, contact us and we'll remove it on your behalf.
     </p>
 
     <h2 id="sec-10">10. Changes and contact</h2>
