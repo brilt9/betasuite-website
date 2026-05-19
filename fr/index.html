@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BetaSuite — Conçu pour le testeur, pas pour le fournisseur</title>
+  <meta name="description" content="BetaSuite est le kit de test mobile pour ceux qui rapportent vraiment des bugs : enregistrement écran + caméra en simultané, replay instantané de 30 secondes, IA sur l'appareil, Mode confidentiel pour le travail sous NDA et rapports lisibles par les développeurs.">
+  <meta name="theme-color" content="#0b1724">
+  <link rel="canonical" href="https://betasuite.pages.dev/fr/">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BetaSuite">
+  <meta property="og:title" content="BetaSuite — Conçu pour le testeur, pas pour le fournisseur">
+  <meta property="og:description" content="BetaSuite est le kit de test mobile pour ceux qui rapportent vraiment des bugs : enregistrement écran + caméra en simultané, replay instantané de 30 secondes, IA sur l'appareil, Mode confidentiel pour le travail sous NDA et rapports lisibles par les développeurs.">
+  <meta property="og:url" content="https://betasuite.pages.dev/fr/">
+  <meta property="og:image" content="https://betasuite.pages.dev/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="BetaSuite — Built for the tester, not the vendor">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="nl_NL">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="nb_NO">
+  <meta property="og:locale:alternate" content="sv_SE">
+  <meta property="og:locale:alternate" content="pl_PL">
+  <meta property="og:locale:alternate" content="zh_CN">
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="en" href="https://betasuite.pages.dev/">
+  <link rel="alternate" hreflang="de" href="https://betasuite.pages.dev/de/">
+  <link rel="alternate" hreflang="nl" href="https://betasuite.pages.dev/nl/">
+  <link rel="alternate" hreflang="fr" href="https://betasuite.pages.dev/fr/">
+  <link rel="alternate" hreflang="es" href="https://betasuite.pages.dev/es/">
+  <link rel="alternate" hreflang="it" href="https://betasuite.pages.dev/it/">
+  <link rel="alternate" hreflang="nb" href="https://betasuite.pages.dev/nb/">
+  <link rel="alternate" hreflang="sv" href="https://betasuite.pages.dev/sv/">
+  <link rel="alternate" hreflang="pl" href="https://betasuite.pages.dev/pl/">
+  <link rel="alternate" hreflang="zh" href="https://betasuite.pages.dev/zh/">
+  <link rel="alternate" hreflang="x-default" href="https://betasuite.pages.dev/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BetaSuite — Conçu pour le testeur, pas pour le fournisseur">
+  <meta name="twitter:description" content="BetaSuite est le kit de test mobile pour ceux qui rapportent vraiment des bugs : enregistrement écran + caméra en simultané, replay instantané de 30 secondes, IA sur l'appareil, Mode confidentiel pour le travail sous NDA et rapports lisibles par les développeurs.">
+  <meta name="twitter:image" content="https://betasuite.pages.dev/og-image.png">
+
+  <meta name="robots" content="index, follow">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "BetaSuite",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "iOS 16+",
+    "url": "https://betasuite.pages.dev/",
+    "image": "https://betasuite.pages.dev/icons/icon-512.png",
+    "description": "BetaSuite est le kit de test mobile pour ceux qui rapportent vraiment des bugs : enregistrement écran + caméra en simultané, replay instantané de 30 secondes, IA sur l'appareil, Mode confidentiel pour le travail sous NDA et rapports lisibles par les développeurs.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "BetaSuite",
+      "url": "https://betasuite.pages.dev/"
+    },
+    "inLanguage": [
+      "en",
+      "de",
+      "nl",
+      "fr",
+      "es",
+      "it",
+      "nb",
+      "sv",
+      "pl",
+      "zh"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quels appareils sont pris en charge ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "iPhone avec iOS 16 ou plus récent. Android est en développement — date de sortie à confirmer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Faut-il un compte ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BetaSuite lui-même ne nécessite pas de compte, mais il vous faut un identifiant Apple / compte App Store valide pour acheter et télécharger l'app."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Y a-t-il un abonnement ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Non — BetaSuite est un achat unique sur l'App Store. Payez une fois, à vous pour la vie."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qu'est-ce que le mode confidentiel ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Le mode confidentiel bloque la sync cloud et l'IA cloud, gardant le traitement local autant que possible."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Comment ça marche",
+    "description": "Record a mobile testing session, mark and annotate, then generate a polished report to share with developers.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "1. Enregistrez la session",
+        "text": "Démarrez un projet, lancez l'enregistrement, et utilisez l'app ou l'appareil comme un testeur le ferait."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "2. Marquez et annotez",
+        "text": "Posez des marqueurs, ajoutez des mémos vocaux et dessinez sur les captures — tout horodaté automatiquement."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "3. Générez un rapport",
+        "text": "BetaSuite assemble un résumé de session avec les médias, prêt à partager avec les développeurs."
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BetaSuite",
+    "url": "https://betasuite.pages.dev/",
+    "logo": "https://betasuite.pages.dev/icons/icon-512.png"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="icon.png" fetchpriority="high">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="./">
+        <img class="brand-mark" src="icon.png" alt="" aria-hidden="true">
+        <span class="brand-name">BetaSuite</span>
+      </a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="./" aria-current="page" data-i18n="navHome">Accueil</a>
+        <a href="support.html" data-i18n="navSupport">Support</a>
+        <a href="/privacy.html" data-i18n="navPrivacy">Confidentialité</a>
+        <a href="/terms.html" data-i18n="navTerms">Conditions</a>
+        <select id="language-picker" class="language-picker" aria-label="Language">
+          <option value="en">🇬🇧 English</option>
+          <option value="de">🇩🇪 Deutsch</option>
+          <option value="nl">🇳🇱 Nederlands</option>
+          <option value="fr">🇫🇷 Français</option>
+          <option value="es">🇪🇸 Español</option>
+          <option value="it">🇮🇹 Italiano</option>
+          <option value="nb">🇳🇴 Norsk</option>
+          <option value="sv">🇸🇪 Svenska</option>
+          <option value="pl">🇵🇱 Polski</option>
+          <option value="zh">🇨🇳 中文</option>
+        </select>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <!--
+          To make this a two-column hero with a screenshot, wrap the
+          content below and the <img> in <div class="hero-content"> ...:
+
+            <div class="hero-content">
+              <div> ... existing hero text + buttons ... </div>
+              <img class="hero-image"
+                   src="screenshots/hero.png"
+                   alt="BetaSuite recording a test session"
+                   width="540" height="960">
+            </div>
+
+          The CSS class .hero-content is already styled to handle the
+          side-by-side layout and collapse to one column on mobile.
+        -->
+        <h1 id="hero-title" data-i18n="heroTitle">Capturez chaque bug. Racontez toute l'histoire.</h1>
+        <p class="lead" data-i18n="heroText">BetaSuite est le kit de test mobile pour les gens qui rapportent vraiment des bugs — enregistrez écran et caméra en même temps, rejouez les 30 dernières secondes, annotez, transcrivez et livrez un rapport soigné.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#" data-i18n="downloadAppStore" aria-label="Download on the App Store">Télécharger sur l'App Store</a>
+        </div>
+        <p class="meta"><span data-i18n="androidNote">iPhone uniquement — Android en développement, date de sortie à confirmer.</span> <a href="support.html#contact" data-i18n="androidNotifyLink">Me notifier →</a></p>
+        <p class="meta" data-i18n="metaText">Achat unique sur l'App Store · Sans abonnement · Sans publicité · Sans pistage · À vous pour la vie</p>
+      </div>
+    </section>
+
+    <section class="value-props" aria-label="Value propositions">
+      <div class="container">
+        <div class="value-props-grid">
+          <div class="value-prop">
+            <h3 data-i18n="valueCaptureTitle">Capturer</h3>
+            <p data-i18n="valueCaptureText">Écran + caméra, replay instantané, mémos vocaux, photos.</p>
+          </div>
+          <div class="value-prop">
+            <h3 data-i18n="valueAnnotateTitle">Annoter</h3>
+            <p data-i18n="valueAnnotateText">Dessinez, épinglez et horodatez chaque clip et capture.</p>
+          </div>
+          <div class="value-prop">
+            <h3 data-i18n="valueReportTitle">Rapporter</h3>
+            <p data-i18n="valueReportText">Des résumés de session automatiques que les développeurs lisent vraiment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" aria-labelledby="inside-title">
+      <div class="container">
+        <h2 id="inside-title" data-i18n="insideTitle">Ce qu'il y a dedans</h2>
+        <div class="feature-grid">
+          <article class="feature">
+            <h3 data-i18n="feat1Title">Capturez chaque instant</h3>
+            <p class="feature-lead" data-i18n="feat1Lead">Double enregistrement, capture instantanée, superpositions en direct.</p>
+            <p data-i18n="feat1Text">Enregistre l'écran et la caméra avant dans une seule vidéo composée pendant que vous changez d'app. Une touche enregistre les 30 dernières secondes depuis un tampon glissant — parfait pour les glitches sporadiques imprévisibles. Chaque capture est automatiquement marquée avec date, heure, GPS, météo et infos de l'appareil. Coupez ensuite les temps morts d'un clip dans l'app — précis à l'image près, avec annulation en un tap.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat2Title">Sessions sur une chronologie</h3>
+            <p class="feature-lead" data-i18n="feat2Lead">Marqueurs, mémos vocaux, photos — tout sur une chronologie.</p>
+            <p data-i18n="feat2Text">Posez un marqueur d'une touche dès que quelque chose se passe. Joignez une capture, dictez un mémo vocal, ou développez plus tard en rapport de bug complet. Chaque session capture automatiquement l'état de l'appareil, l'OS, la santé de la batterie et la météo — le contexte ne manque jamais.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat3Title">Rapports assistés par IA</h3>
+            <p class="feature-lead" data-i18n="feat3Lead">Un PDF ou DOCX soigné en quelques secondes.</p>
+            <p data-i18n="feat3Text">Choisissez une période — cette semaine, la semaine dernière, plage personnalisée — et BetaSuite rédige un rapport structuré (thème, points positifs, problèmes, recommandations) en puces parcourables. Images triées automatiquement en sections État, Mapping et Compléments, chaque section sur sa propre page pour que le PDF se lise comme un livre par chapitres. Couleur de marque par projet. Envoyez par e-mail depuis l'app.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat4Title">Mode confidentiel</h3>
+            <p class="feature-lead" data-i18n="feat4Lead">IA sur l'appareil pour le travail sous NDA.</p>
+            <p data-i18n="feat4Text">Un seul interrupteur et BetaSuite verrouille les uploads cloud, le partage système et tous les fournisseurs d'IA cloud. Apple Intelligence continue de tourner entièrement sur l'appareil — aucun appel réseau — pour que la finition IA et les résumés fonctionnent même sur du matériel confidentiel.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat5Title">Routage IA à votre façon</h3>
+            <p class="feature-lead" data-i18n="feat5Lead">Apple Intelligence sur l'appareil, BetaSuite Assist en repli. Ou apportez votre propre clé.</p>
+            <p data-i18n="feat5Text">Par défaut, Apple Intelligence tourne sur l'appareil avec BetaSuite Assist comme repli cloud. Vous préférez votre propre fournisseur ? Apportez votre clé API pour Claude, GPT, Gemini ou DeepSeek. Pollinations est disponible comme repli d'urgence. Changez de fournisseur à tout moment dans les Réglages — chaque changement demande un consentement explicite avant que les données ne quittent l'appareil.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat6Title">Réglez votre usage de l'IA</h3>
+            <p class="feature-lead" data-i18n="feat6Lead">Désactivé, simple finition, masquage de jurons ou résumé complet.</p>
+            <p data-i18n="feat6Text">Choisissez à quel point l'IA fait le travail — léger lissage des mots sur une entrée de feedback, masquage de jurons avant qu'un rapport ne parte, ou résumé complet de session et génération de rapport. Le formulaire de feedback lui-même reste simple et ne s'étend que lorsque vous avez besoin de catégorie, gravité, étapes de reproduction, captures annotées et mémos vocaux.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat7Title">Conçu pour les testeurs hardware</h3>
+            <p class="feature-lead" data-i18n="feat7Lead">Avant, côté, arrière, dessous — tagués par angle dès le départ.</p>
+            <p data-i18n="feat7Text">Photos d'état multi-images avec puces d'angle qui pré-taguent la photo suivante. Captures de mapping et photos additionnelles libres ont leurs propres sections de rapport. Localisation par géocodage inverse et conditions Apple WeatherKit intégrées. Importez des photos prises il y a des mois et BetaSuite restaure la date d'origine, le GPS et la météo réelle de ce moment-là — pas celle du moment où vous les avez téléchargées. Lecture en direct du port de charge (volts, ampères, watts) pour déboguer l'alimentation.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat8Title">Une structure de projet qui passe à l'échelle</h3>
+            <p class="feature-lead" data-i18n="feat8Lead">Un projet par produit, capture instantanée pour tout le reste.</p>
+            <p data-i18n="feat8Text">Regroupez sessions, feedbacks et rapports sous des projets nommés. Attachez NDA et contacts par projet — ou sautez la configuration et utilisez le projet Instant Capture toujours épinglé pour les trouvailles ponctuelles.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat9Title">Sync cloud à vos conditions</h3>
+            <p class="feature-lead" data-i18n="feat9Lead">iCloud Drive, Google Drive, OneDrive, Pellicule ou rien du tout.</p>
+            <p data-i18n="feat9Text">BetaSuite n'a jamais son propre serveur qui détient vos données. Exportez vers votre cloud existant, votre Pellicule ou une archive .betasuite.json chiffrée portable réimportable sur n'importe quel appareil.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps" aria-labelledby="how-title">
+      <div class="container">
+        <h2 id="how-title" data-i18n="howTitle">Comment ça marche</h2>
+        <div class="steps-grid">
+          <article class="step">
+            <h3 data-i18n="step1Title">1. Enregistrez la session</h3>
+            <p data-i18n="step1Text">Démarrez un projet, lancez l'enregistrement, et utilisez l'app ou l'appareil comme un testeur le ferait.</p>
+          </article>
+          <article class="step">
+            <h3 data-i18n="step2Title">2. Marquez et annotez</h3>
+            <p data-i18n="step2Text">Posez des marqueurs, ajoutez des mémos vocaux et dessinez sur les captures — tout horodaté automatiquement.</p>
+          </article>
+          <article class="step">
+            <h3 data-i18n="step3Title">3. Générez un rapport</h3>
+            <p data-i18n="step3Text">BetaSuite assemble un résumé de session avec les médias, prêt à partager avec les développeurs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="callout" aria-labelledby="callout-title">
+      <div class="container">
+        <h2 id="callout-title" data-i18n="calloutTitle">Confidentialité dès la conception</h2>
+        <p class="callout-lead" data-i18n="calloutLead">BetaSuite s'appuie sur l'IA sur l'appareil partout où votre iPhone le permet.</p>
+        <div class="callout-grid">
+          <div class="callout-item">
+            <h3 data-i18n="callout1Title">Une IA qui reste sur votre appareil</h3>
+            <p data-i18n="callout1Text">Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) gère la génération de texte localement.</p>
+          </div>
+          <div class="callout-item">
+            <h3 data-i18n="callout2Title">Une voix qui ne sort jamais</h3>
+            <p data-i18n="callout2Text">Les mémos vocaux sont transcrits sur l'appareil via le framework Speech d'Apple sur iPhone compatibles.</p>
+          </div>
+          <div class="callout-item">
+            <h3 data-i18n="callout3Title">Un interrupteur pour le travail sensible</h3>
+            <p data-i18n="callout3Text">Le mode confidentiel bloque toute route cloud, pour que les tests sous NDA restent locaux.</p>
+          </div>
+        </div>
+        <a class="callout-link" href="/privacy.html#ai-features" data-i18n="calloutLink">Lire la politique de confidentialité complète →</a>
+      </div>
+    </section>
+
+    <section class="why-teaser" aria-labelledby="why-teaser-title">
+      <div class="container">
+        <h2 id="why-teaser-title" data-i18n="whyTeaserTitle">Conçu pour le testeur, pas pour le fournisseur.</h2>
+        <p class="why-teaser-lead" data-i18n="whyTeaserLead">Les outils mainstream de beta-test instrumentent le produit. BetaSuite instrumente le testeur.</p>
+        <div class="pain-grid pain-grid--three">
+          <article class="pain-card">
+            <span class="pain-label problem" data-i18n="problemLabel">Le problème</span>
+            <h3 data-i18n="whyTeaser1Problem">Caméra et écran en même temps ?</h3>
+            <span class="pain-label answer" data-i18n="answerLabel">La réponse de BetaSuite</span>
+            <p data-i18n="whyTeaser1Answer">BetaSuite compose les deux flux en un seul MP4 sur l'appareil testé — pas de trépied, pas de second téléphone.</p>
+          </article>
+          <article class="pain-card">
+            <span class="pain-label problem" data-i18n="problemLabel">Le problème</span>
+            <h3 data-i18n="whyTeaser2Problem">Bug déjà parti quand vous appuyez sur enregistrer ?</h3>
+            <span class="pain-label answer" data-i18n="answerLabel">La réponse de BetaSuite</span>
+            <p data-i18n="whyTeaser2Answer">Un tampon glissant de 15 ou 30 secondes garde le moment vivant — une touche enregistre ce qui vient de se passer.</p>
+          </article>
+          <article class="pain-card">
+            <span class="pain-label problem" data-i18n="problemLabel">Le problème</span>
+            <h3 data-i18n="whyTeaser3Problem">L'IA cloud est un risque de fuite sur du matériel sous NDA ?</h3>
+            <span class="pain-label answer" data-i18n="answerLabel">La réponse de BetaSuite</span>
+            <p data-i18n="whyTeaser3Answer">Le mode confidentiel fait tourner Apple Intelligence entièrement sur l'appareil. Finition IA sans risque réseau.</p>
+          </article>
+        </div>
+        <a class="why-more" href="why.html" data-i18n="whyTeaserLink">Voir la comparaison complète →</a>
+      </div>
+    </section>
+
+    <section class="faq-teaser" aria-labelledby="faq-teaser-title">
+      <div class="container">
+        <h2 id="faq-teaser-title" data-i18n="faqTeaserTitle">Questions courantes</h2>
+        <dl class="faq">
+          <dt data-i18n="faqQ1">Quels appareils sont pris en charge ?</dt>
+          <dd data-i18n="faqA1">iPhone avec iOS 16 ou plus récent. Android est en développement — date de sortie à confirmer.</dd>
+
+          <dt data-i18n="faqQ2">Faut-il un compte ?</dt>
+          <dd data-i18n="faqA2">BetaSuite lui-même ne nécessite pas de compte, mais il vous faut un identifiant Apple / compte App Store valide pour acheter et télécharger l'app.</dd>
+
+          <dt data-i18n="faqQ4">Y a-t-il un abonnement ?</dt>
+          <dd data-i18n="faqA4">Non — BetaSuite est un achat unique sur l'App Store. Payez une fois, à vous pour la vie.</dd>
+
+          <dt data-i18n="faqQ3">Qu'est-ce que le mode confidentiel ?</dt>
+          <dd data-i18n="faqA3">Le mode confidentiel bloque la sync cloud et l'IA cloud, gardant le traitement local autant que possible.</dd>
+        </dl>
+        <a class="faq-more" href="support.html#contact" data-i18n="faqMore">Plus sur la page support →</a>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container">
+        <p class="tagline" data-i18n="taglineMain">Les concurrents instrumentent le produit. BetaSuite instrumente le testeur.</p>
+        <h2 id="cta-title" data-i18n="ctaTitle">Prêt à livrer de meilleurs rapports de bug ?</h2>
+        <p data-i18n="ctaText">Téléchargez BetaSuite — ou contactez-nous d'abord si vous avez des questions.</p>
+        <div class="cta-row">
+          <a class="btn" href="#" data-i18n="downloadAppStore">Télécharger sur l'App Store</a>
+        </div>
+        <p class="meta" style="margin-top:14px"><span data-i18n="androidNote">iPhone uniquement — Android en développement, date de sortie à confirmer.</span> <a href="support.html#contact" data-i18n="androidNotifyLink">Me notifier →</a></p>
+        <p style="margin-top:18px"><a href="support.html" data-i18n="ctaContact">Des questions ? Contactez-nous →</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="./" data-i18n="navHome">Accueil</a>
+        <a href="why.html" data-i18n="navWhy">Pourquoi BetaSuite</a>
+        <a href="support.html" data-i18n="navSupport">Support</a>
+        <a href="/privacy.html" data-i18n="navPrivacy">Confidentialité</a>
+        <a href="/terms.html" data-i18n="navTerms">Conditions</a>
+      </div>
+      <p>© 2026 BetaSuite</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const links = document.getElementById('nav-links');
+      if (!toggle || !links) return;
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        links.classList.toggle('open');
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && links.classList.contains('open')) {
+          links.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.focus();
+        }
+      });
+    })();
+  </script>
+
+  <script src="translations.js"></script>
+</body>
+</html>

@@ -19,10 +19,11 @@
   <meta property="og:title" content="Why BetaSuite — Built for the tester, not the vendor">
   <meta property="og:description" content="How BetaSuite addresses the recurring pain points of mobile beta testers: dual screen + camera recording, instant replay buffer, Confidential Mode for NDA work, no vendor cloud.">
   <meta property="og:url" content="https://betasuite.pages.dev/why.html">
-  <meta property="og:image" content="https://betasuite.pages.dev/icons/icon-512.png">
-  <meta property="og:image:width" content="512">
-  <meta property="og:image:height" content="512">
-  <meta property="og:image:alt" content="BetaSuite app icon">
+  <meta property="og:image" content="https://betasuite.pages.dev/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="BetaSuite — Built for the tester, not the vendor">
 
   <meta property="og:locale" content="en_GB">
   <meta property="og:locale:alternate" content="de_DE">
@@ -35,16 +36,58 @@
   <meta property="og:locale:alternate" content="pl_PL">
   <meta property="og:locale:alternate" content="zh_CN">
 
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="en" href="https://betasuite.pages.dev/why.html">
+  <link rel="alternate" hreflang="de" href="https://betasuite.pages.dev/de/why.html">
+  <link rel="alternate" hreflang="nl" href="https://betasuite.pages.dev/nl/why.html">
+  <link rel="alternate" hreflang="fr" href="https://betasuite.pages.dev/fr/why.html">
+  <link rel="alternate" hreflang="es" href="https://betasuite.pages.dev/es/why.html">
+  <link rel="alternate" hreflang="it" href="https://betasuite.pages.dev/it/why.html">
+  <link rel="alternate" hreflang="nb" href="https://betasuite.pages.dev/nb/why.html">
+  <link rel="alternate" hreflang="sv" href="https://betasuite.pages.dev/sv/why.html">
+  <link rel="alternate" hreflang="pl" href="https://betasuite.pages.dev/pl/why.html">
+  <link rel="alternate" hreflang="zh" href="https://betasuite.pages.dev/zh/why.html">
+  <link rel="alternate" hreflang="x-default" href="https://betasuite.pages.dev/why.html">
+
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Why BetaSuite — Built for the tester, not the vendor">
   <meta name="twitter:description" content="How BetaSuite addresses the recurring pain points of mobile beta testers.">
-  <meta name="twitter:image" content="https://betasuite.pages.dev/icons/icon-512.png">
+  <meta name="twitter:image" content="https://betasuite.pages.dev/og-image.png">
 
   <meta name="robots" content="index, follow">
 
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Why BetaSuite — Built for the tester, not the vendor",
+    "description": "How BetaSuite addresses the recurring pain points of mobile beta testers: dual screen + camera recording, instant replay buffer, Confidential Mode for NDA work, no vendor cloud, and AI-drafted reports.",
+    "image": "https://betasuite.pages.dev/og-image.png",
+    "author": { "@type": "Organization", "name": "BetaSuite" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "BetaSuite",
+      "logo": { "@type": "ImageObject", "url": "https://betasuite.pages.dev/icons/icon-512.png" }
+    },
+    "mainEntityOfPage": "https://betasuite.pages.dev/why.html"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://betasuite.pages.dev/" },
+      { "@type": "ListItem", "position": 2, "name": "Why BetaSuite", "item": "https://betasuite.pages.dev/why.html" }
+    ]
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="icon.png" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -61,8 +104,8 @@
       <div id="nav-links" class="nav-links">
         <a href="./" data-i18n="navHome">Home</a>
         <a href="support.html" data-i18n="navSupport">Support</a>
-        <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
-        <a href="terms.html" data-i18n="navTerms">Terms</a>
+        <a href="/privacy.html" data-i18n="navPrivacy">Privacy</a>
+        <a href="/terms.html" data-i18n="navTerms">Terms</a>
         <select id="language-picker" class="language-picker" aria-label="Language">
           <option value="en">🇬🇧 English</option>
           <option value="de">🇩🇪 Deutsch</option>
@@ -147,8 +190,8 @@
         <a href="./" data-i18n="navHome">Home</a>
         <a href="why.html" aria-current="page" data-i18n="navWhy">Why BetaSuite</a>
         <a href="support.html" data-i18n="navSupport">Support</a>
-        <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
-        <a href="terms.html" data-i18n="navTerms">Terms</a>
+        <a href="/privacy.html" data-i18n="navPrivacy">Privacy</a>
+        <a href="/terms.html" data-i18n="navTerms">Terms</a>
       </div>
       <p>© 2026 BetaSuite</p>
     </div>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found — BetaSuite</title>
+  <meta name="description" content="That page isn't here. Head back to the BetaSuite homepage, or contact us if you were looking for something specific.">
+  <meta name="theme-color" content="#0b1724">
+  <meta name="robots" content="noindex, follow">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="/">
+        <img class="brand-mark" src="/icon.png" alt="" aria-hidden="true">
+        <span class="brand-name">BetaSuite</span>
+      </a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="/" data-i18n="navHome">Home</a>
+        <a href="/support.html" data-i18n="navSupport">Support</a>
+        <a href="/privacy.html" data-i18n="navPrivacy">Privacy</a>
+        <a href="/terms.html" data-i18n="navTerms">Terms</a>
+        <select id="language-picker" class="language-picker" aria-label="Language">
+          <option value="en">🇬🇧 English</option>
+          <option value="de">🇩🇪 Deutsch</option>
+          <option value="nl">🇳🇱 Nederlands</option>
+          <option value="fr">🇫🇷 Français</option>
+          <option value="es">🇪🇸 Español</option>
+          <option value="it">🇮🇹 Italiano</option>
+          <option value="nb">🇳🇴 Norsk</option>
+          <option value="sv">🇸🇪 Svenska</option>
+          <option value="pl">🇵🇱 Polski</option>
+          <option value="zh">🇨🇳 中文</option>
+        </select>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="prose" style="text-align:center; padding-top:80px;">
+    <h1 data-i18n="notFoundTitle">Page not found</h1>
+    <p class="lede" data-i18n="notFoundText">That page isn't here. It may have moved, or never existed in the first place.</p>
+    <div class="cta-row" style="margin-top:28px; justify-content:center;">
+      <a class="btn" href="/" data-i18n="notFoundHome">Back to home</a>
+      <a class="btn btn-secondary" href="/support.html#contact" data-i18n="notFoundContact">Contact support</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="/" data-i18n="navHome">Home</a>
+        <a href="/why.html" data-i18n="navWhy">Why BetaSuite</a>
+        <a href="/support.html" data-i18n="navSupport">Support</a>
+        <a href="/privacy.html" data-i18n="navPrivacy">Privacy</a>
+        <a href="/terms.html" data-i18n="navTerms">Terms</a>
+      </div>
+      <p>© 2026 BetaSuite</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const links = document.getElementById('nav-links');
+      if (!toggle || !links) return;
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        links.classList.toggle('open');
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && links.classList.contains('open')) {
+          links.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.focus();
+        }
+      });
+    })();
+  </script>
+
+  <script src="/translations.js"></script>
+</body>
+</html>

@@ -19,10 +19,11 @@
   <meta property="og:title" content="Terms of Use — BetaSuite">
   <meta property="og:description" content="The licence, restrictions, intellectual property, third-party services, warranty disclaimer, and governing law for the BetaSuite app.">
   <meta property="og:url" content="https://betasuite.pages.dev/terms.html">
-  <meta property="og:image" content="https://betasuite.pages.dev/icons/icon-512.png">
-  <meta property="og:image:width" content="512">
-  <meta property="og:image:height" content="512">
-  <meta property="og:image:alt" content="BetaSuite app icon">
+  <meta property="og:image" content="https://betasuite.pages.dev/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="BetaSuite — Built for the tester, not the vendor">
 
   <meta property="og:locale" content="en_GB">
 
@@ -30,12 +31,25 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Terms of Use — BetaSuite">
   <meta name="twitter:description" content="The licence, restrictions, intellectual property, third-party services, warranty disclaimer, and governing law for the BetaSuite app.">
-  <meta name="twitter:image" content="https://betasuite.pages.dev/icons/icon-512.png">
+  <meta name="twitter:image" content="https://betasuite.pages.dev/og-image.png">
 
   <meta name="robots" content="index, follow">
 
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://betasuite.pages.dev/" },
+      { "@type": "ListItem", "position": 2, "name": "Terms of Use", "item": "https://betasuite.pages.dev/terms.html" }
+    ]
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="icon.png" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>

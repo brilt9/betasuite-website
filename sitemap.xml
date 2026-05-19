@@ -1,27 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home -->
   <url>
     <loc>https://betasuite.pages.dev/</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://betasuite.pages.dev/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://betasuite.pages.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://betasuite.pages.dev/nl/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://betasuite.pages.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://betasuite.pages.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://betasuite.pages.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://betasuite.pages.dev/nb/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://betasuite.pages.dev/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://betasuite.pages.dev/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://betasuite.pages.dev/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://betasuite.pages.dev/"/>
   </url>
+  <url><loc>https://betasuite.pages.dev/de/</loc><lastmod>2026-05-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://betasuite.pages.dev/nl/</loc><lastmod>2026-05-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://betasuite.pages.dev/fr/</loc><lastmod>2026-05-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://betasuite.pages.dev/es/</loc><lastmod>2026-05-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://betasuite.pages.dev/it/</loc><lastmod>2026-05-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://betasuite.pages.dev/nb/</loc><lastmod>2026-05-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://betasuite.pages.dev/sv/</loc><lastmod>2026-05-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://betasuite.pages.dev/pl/</loc><lastmod>2026-05-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://betasuite.pages.dev/zh/</loc><lastmod>2026-05-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <!-- Why -->
   <url>
     <loc>https://betasuite.pages.dev/why.html</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://betasuite.pages.dev/why.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://betasuite.pages.dev/de/why.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://betasuite.pages.dev/nl/why.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://betasuite.pages.dev/fr/why.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://betasuite.pages.dev/es/why.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://betasuite.pages.dev/it/why.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://betasuite.pages.dev/nb/why.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://betasuite.pages.dev/sv/why.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://betasuite.pages.dev/pl/why.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://betasuite.pages.dev/zh/why.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://betasuite.pages.dev/why.html"/>
   </url>
+  <url><loc>https://betasuite.pages.dev/de/why.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://betasuite.pages.dev/nl/why.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://betasuite.pages.dev/fr/why.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://betasuite.pages.dev/es/why.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://betasuite.pages.dev/it/why.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://betasuite.pages.dev/nb/why.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://betasuite.pages.dev/sv/why.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://betasuite.pages.dev/pl/why.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://betasuite.pages.dev/zh/why.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Support -->
   <url>
     <loc>https://betasuite.pages.dev/support.html</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://betasuite.pages.dev/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://betasuite.pages.dev/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://betasuite.pages.dev/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://betasuite.pages.dev/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://betasuite.pages.dev/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://betasuite.pages.dev/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://betasuite.pages.dev/nb/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://betasuite.pages.dev/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://betasuite.pages.dev/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://betasuite.pages.dev/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://betasuite.pages.dev/support.html"/>
   </url>
+  <url><loc>https://betasuite.pages.dev/de/support.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://betasuite.pages.dev/nl/support.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://betasuite.pages.dev/fr/support.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://betasuite.pages.dev/es/support.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://betasuite.pages.dev/it/support.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://betasuite.pages.dev/nb/support.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://betasuite.pages.dev/sv/support.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://betasuite.pages.dev/pl/support.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://betasuite.pages.dev/zh/support.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+
+  <!-- Legal (English-only) -->
   <url>
     <loc>https://betasuite.pages.dev/privacy.html</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://betasuite.pages.dev/terms.html</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
