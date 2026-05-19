@@ -23,12 +23,84 @@
   <meta property="og:image:width" content="512">
   <meta property="og:image:height" content="512">
   <meta property="og:image:alt" content="BetaSuite app icon">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="nl_NL">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="nb_NO">
+  <meta property="og:locale:alternate" content="sv_SE">
+  <meta property="og:locale:alternate" content="pl_PL">
+  <meta property="og:locale:alternate" content="zh_CN">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="BetaSuite — Built for the tester, not the vendor">
   <meta name="twitter:description" content="The mobile testing kit for people who actually report bugs: dual screen + camera recording, 30-second instant replay, on-device AI, and Confidential Mode for NDA work.">
   <meta name="twitter:image" content="https://betasuite.pages.dev/icons/icon-512.png">
+
+  <meta name="robots" content="index, follow">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "BetaSuite",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "iOS 16+",
+    "url": "https://betasuite.pages.dev/",
+    "image": "https://betasuite.pages.dev/icons/icon-512.png",
+    "description": "BetaSuite is the mobile testing kit for people who actually report bugs: dual screen + camera recording, 30-second instant replay, on-device AI, Confidential Mode for NDA work, and reports developers can read.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "BetaSuite",
+      "url": "https://betasuite.pages.dev/"
+    },
+    "inLanguage": ["en", "de", "nl", "fr", "es", "it", "nb", "sv", "pl", "zh"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which devices are supported?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "iPhone with iOS 16 or later. Android is in development — release date to be confirmed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need an account?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BetaSuite itself doesn't require an account, but you'll need a valid Apple ID / App Store account to purchase and download the app."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a subscription?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No — BetaSuite is a one-off App Store purchase. Pay once, yours for life."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Confidential Mode?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Confidential Mode blocks cloud sync and cloud AI, keeping processing local-only where possible."
+        }
+      }
+    ]
+  }
+  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -89,7 +161,7 @@
         <div class="hero-actions">
           <a class="btn" href="#" data-i18n="downloadAppStore" aria-label="Download on the App Store">Download on the App Store</a>
         </div>
-        <p class="meta" data-i18n="androidNote">iOS only — Android in development, release date to be confirmed.</p>
+        <p class="meta"><span data-i18n="androidNote">iOS only — Android in development, release date to be confirmed.</span> <a href="support.html#contact" data-i18n="androidNotifyLink">Notify me →</a></p>
         <p class="meta" data-i18n="metaText">One-off App Store purchase · No subscription · No ads · No tracking · Yours for life</p>
       </div>
     </section>
@@ -264,7 +336,7 @@
         <div class="cta-row">
           <a class="btn" href="#" data-i18n="downloadAppStore">Download on the App Store</a>
         </div>
-        <p class="meta" style="margin-top:14px" data-i18n="androidNote">iPhone only — Android in development, release date to be confirmed.</p>
+        <p class="meta" style="margin-top:14px"><span data-i18n="androidNote">iPhone only — Android in development, release date to be confirmed.</span> <a href="support.html#contact" data-i18n="androidNotifyLink">Notify me →</a></p>
         <p style="margin-top:18px"><a href="support.html" data-i18n="ctaContact">Questions? Get in touch →</a></p>
       </div>
     </section>
