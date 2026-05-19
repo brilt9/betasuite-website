@@ -111,6 +111,12 @@ const translations = {
     notFoundText: "That page isn't here. It may have moved, or never existed in the first place.",
     notFoundHome: "Back to home",
     notFoundContact: "Contact support",
+    pageTitleIndex: "BetaSuite — Built for the tester, not the vendor",
+    pageTitleWhy: "Why BetaSuite — Built for the tester, not the vendor",
+    pageTitleSupport: "Support — BetaSuite",
+    metaDescIndex: "BetaSuite is the mobile testing kit for people who actually report bugs: dual screen + camera recording, 30-second instant replay, on-device AI, Confidential Mode for NDA work, and reports developers can read.",
+    metaDescWhy: "How BetaSuite addresses the recurring pain points of mobile beta testers: dual screen + camera recording, instant replay buffer, Confidential Mode for NDA work, no vendor cloud, and AI-drafted reports.",
+    metaDescSupport: "Get help with BetaSuite: contact form, FAQs, troubleshooting, account & data deletion, and how to report a bug.",
     faqMore: "More on the support page →",
 
     /* Closing CTA */
@@ -273,6 +279,12 @@ const translations = {
     notFoundText: "此页面不存在。可能已被移动,或从未存在过。",
     notFoundHome: "返回主页",
     notFoundContact: "联系支持",
+    pageTitleIndex: "BetaSuite —— 为测试者而造,而非厂商",
+    pageTitleWhy: "为什么选 BetaSuite —— 为测试者而造,而非厂商",
+    pageTitleSupport: "支持 —— BetaSuite",
+    metaDescIndex: "BetaSuite 是为真正提交 Bug 报告的人打造的移动测试工具:同时录制屏幕和相机、回放最近 30 秒、设备本地 AI、面向 NDA 工作的保密模式,以及开发者真正读得懂的报告。",
+    metaDescWhy: "BetaSuite 如何解决移动 Beta 测试者反复遇到的痛点:屏幕 + 相机双路录制、即时回放缓冲、面向 NDA 工作的保密模式、零厂商云端、AI 起草的报告。",
+    metaDescSupport: "获取 BetaSuite 帮助:联系表单、常见问题、故障排查、账号与数据删除,以及如何报告 Bug。",
     faqMore: "在支持页面查看更多 →",
 
     /* Closing CTA */
@@ -435,6 +447,12 @@ const translations = {
     notFoundText: "Diese Seite ist nicht hier. Sie wurde vielleicht verschoben oder hat nie existiert.",
     notFoundHome: "Zur Startseite",
     notFoundContact: "Support kontaktieren",
+    pageTitleIndex: "BetaSuite — Für die Testenden, nicht den Anbieter",
+    pageTitleWhy: "Warum BetaSuite — Für die Testenden, nicht den Anbieter",
+    pageTitleSupport: "Support — BetaSuite",
+    metaDescIndex: "BetaSuite ist das mobile Test-Kit für Leute, die wirklich Bugs melden: Bildschirm- und Kamera-Aufnahme gleichzeitig, 30-Sekunden Instant-Replay, On-Device-KI, Vertraulicher Modus für NDA-Arbeit und Reports, die Entwickler tatsächlich lesen.",
+    metaDescWhy: "Wie BetaSuite die wiederkehrenden Probleme mobiler Beta-Tester löst: gleichzeitige Bildschirm- + Kamera-Aufnahme, Instant-Replay-Puffer, Vertraulicher Modus für NDA-Arbeit, keine Anbieter-Cloud und KI-entworfene Reports.",
+    metaDescSupport: "Hilfe zu BetaSuite: Kontaktformular, FAQs, Fehlerbehebung, Konto- und Datenlöschung sowie wie man einen Bug meldet.",
     faqMore: "Mehr auf der Support-Seite →",
 
     /* Closing CTA */
@@ -597,6 +615,12 @@ const translations = {
     notFoundText: "Deze pagina is hier niet. Misschien is hij verplaatst, of heeft hij nooit bestaan.",
     notFoundHome: "Terug naar home",
     notFoundContact: "Contact opnemen",
+    pageTitleIndex: "BetaSuite — Gemaakt voor de tester, niet de leverancier",
+    pageTitleWhy: "Waarom BetaSuite — Gemaakt voor de tester, niet de leverancier",
+    pageTitleSupport: "Support — BetaSuite",
+    metaDescIndex: "BetaSuite is de mobiele testkit voor wie écht bugs rapporteert: scherm + camera tegelijk opnemen, 30 seconden instant replay, on-device AI, Vertrouwelijke modus voor NDA-werk en rapporten die ontwikkelaars echt lezen.",
+    metaDescWhy: "Hoe BetaSuite de terugkerende pijnpunten van mobiele betatesters aanpakt: scherm + camera tegelijk opnemen, instant-replay-buffer, Vertrouwelijke modus voor NDA-werk, geen leverancierscloud en AI-opgestelde rapporten.",
+    metaDescSupport: "Hulp bij BetaSuite: contactformulier, FAQs, probleemoplossing, account- en gegevensverwijdering, en hoe je een bug rapporteert.",
     faqMore: "Meer op de supportpagina →",
 
     /* Closing CTA */
@@ -759,6 +783,12 @@ const translations = {
     notFoundText: "Cette page n'est pas ici. Elle a peut-être été déplacée, ou n'a jamais existé.",
     notFoundHome: "Retour à l'accueil",
     notFoundContact: "Contacter le support",
+    pageTitleIndex: "BetaSuite — Conçu pour le testeur, pas pour le fournisseur",
+    pageTitleWhy: "Pourquoi BetaSuite — Conçu pour le testeur, pas pour le fournisseur",
+    pageTitleSupport: "Support — BetaSuite",
+    metaDescIndex: "BetaSuite est le kit de test mobile pour ceux qui rapportent vraiment des bugs : enregistrement écran + caméra en simultané, replay instantané de 30 secondes, IA sur l'appareil, Mode confidentiel pour le travail sous NDA et rapports lisibles par les développeurs.",
+    metaDescWhy: "Comment BetaSuite résout les problèmes récurrents des testeurs bêta mobiles : enregistrement écran + caméra simultané, tampon de replay instantané, Mode confidentiel pour le travail sous NDA, sans cloud fournisseur et rapports rédigés par IA.",
+    metaDescSupport: "Obtenir de l'aide sur BetaSuite : formulaire de contact, FAQ, dépannage, suppression de compte et de données, et comment signaler un bug.",
     faqMore: "Plus sur la page support →",
 
     /* Closing CTA */
@@ -921,6 +951,12 @@ const translations = {
     notFoundText: "Denne siden er ikke her. Den kan ha blitt flyttet, eller aldri eksistert.",
     notFoundHome: "Tilbake til forsiden",
     notFoundContact: "Kontakt støtte",
+    pageTitleIndex: "BetaSuite — Bygd for testeren, ikke leverandøren",
+    pageTitleWhy: "Hvorfor BetaSuite — Bygd for testeren, ikke leverandøren",
+    pageTitleSupport: "Støtte — BetaSuite",
+    metaDescIndex: "BetaSuite er det mobile testsettet for folk som faktisk rapporterer feil: skjerm- og kameraopptak samtidig, 30 sekunders instant replay, AI på enheten, Konfidensiell modus for NDA-arbeid og rapporter utviklere faktisk leser.",
+    metaDescWhy: "Hvordan BetaSuite løser de tilbakevendende problemene for mobile betatestere: samtidig skjerm- + kameraopptak, instant-replay-buffer, Konfidensiell modus for NDA-arbeid, ingen leverandørsky og AI-utformede rapporter.",
+    metaDescSupport: "Få hjelp med BetaSuite: kontaktskjema, vanlige spørsmål, feilsøking, konto- og dataslettelse, og hvordan rapportere en feil.",
     faqMore: "Mer på støttesiden →",
 
     /* Closing CTA */
@@ -1083,6 +1119,12 @@ const translations = {
     notFoundText: "Sidan finns inte här. Den kan ha flyttats, eller aldrig funnits.",
     notFoundHome: "Tillbaka till startsidan",
     notFoundContact: "Kontakta support",
+    pageTitleIndex: "BetaSuite — Byggt för testaren, inte leverantören",
+    pageTitleWhy: "Varför BetaSuite — Byggt för testaren, inte leverantören",
+    pageTitleSupport: "Support — BetaSuite",
+    metaDescIndex: "BetaSuite är det mobila testkit för dem som faktiskt rapporterar buggar: skärm- och kamerainspelning samtidigt, 30 sekunders instant replay, AI på enheten, Konfidentiellt läge för NDA-arbete och rapporter som utvecklare faktiskt läser.",
+    metaDescWhy: "Hur BetaSuite löser de återkommande problemen för mobila betatestare: samtidig skärm- + kamerainspelning, instant-replay-buffert, Konfidentiellt läge för NDA-arbete, ingen leverantörsmoln och AI-utkastade rapporter.",
+    metaDescSupport: "Få hjälp med BetaSuite: kontaktformulär, vanliga frågor, felsökning, konto- och databorttagning, och hur du rapporterar en bugg.",
     faqMore: "Mer på supportsidan →",
 
     /* Closing CTA */
@@ -1245,6 +1287,12 @@ const translations = {
     notFoundText: "Esta página no está aquí. Es posible que se haya movido o nunca haya existido.",
     notFoundHome: "Volver al inicio",
     notFoundContact: "Contactar con soporte",
+    pageTitleIndex: "BetaSuite — Hecho para el tester, no para el proveedor",
+    pageTitleWhy: "Por qué BetaSuite — Hecho para el tester, no para el proveedor",
+    pageTitleSupport: "Soporte — BetaSuite",
+    metaDescIndex: "BetaSuite es el kit de pruebas móvil para quienes realmente reportan bugs: grabación simultánea de pantalla y cámara, repetición instantánea de 30 segundos, IA en el dispositivo, Modo Confidencial para trabajo bajo NDA e informes que los desarrolladores leen.",
+    metaDescWhy: "Cómo BetaSuite resuelve los problemas recurrentes de los beta testers móviles: grabación simultánea de pantalla + cámara, búfer de repetición instantánea, Modo Confidencial para trabajo bajo NDA, sin nube del proveedor e informes redactados por IA.",
+    metaDescSupport: "Obtén ayuda con BetaSuite: formulario de contacto, FAQs, resolución de problemas, eliminación de cuenta y datos, y cómo reportar un bug.",
     faqMore: "Más en la página de soporte →",
 
     /* Closing CTA */
@@ -1407,6 +1455,12 @@ const translations = {
     notFoundText: "Questa pagina non è qui. Potrebbe essere stata spostata, o non essere mai esistita.",
     notFoundHome: "Torna alla home",
     notFoundContact: "Contatta l'assistenza",
+    pageTitleIndex: "BetaSuite — Costruito per il tester, non per il vendor",
+    pageTitleWhy: "Perché BetaSuite — Costruito per il tester, non per il vendor",
+    pageTitleSupport: "Supporto — BetaSuite",
+    metaDescIndex: "BetaSuite è il kit di test mobile per chi segnala davvero i bug: registrazione contemporanea di schermo e fotocamera, replay istantaneo di 30 secondi, IA sul dispositivo, Modalità Riservata per il lavoro sotto NDA e report che gli sviluppatori leggono davvero.",
+    metaDescWhy: "Come BetaSuite affronta i problemi ricorrenti dei beta tester mobili: registrazione contemporanea di schermo + fotocamera, buffer di replay istantaneo, Modalità Riservata per lavoro sotto NDA, niente cloud del vendor e report redatti dall'IA.",
+    metaDescSupport: "Ottieni aiuto su BetaSuite: modulo di contatto, FAQ, risoluzione problemi, eliminazione account e dati, e come segnalare un bug.",
     faqMore: "Altro nella pagina supporto →",
 
     /* Closing CTA */
@@ -1569,6 +1623,12 @@ const translations = {
     notFoundText: "Tej strony tu nie ma. Mogła zostać przeniesiona lub nigdy nie istniała.",
     notFoundHome: "Powrót do strony głównej",
     notFoundContact: "Skontaktuj się z pomocą",
+    pageTitleIndex: "BetaSuite — Stworzone dla testera, nie dla dostawcy",
+    pageTitleWhy: "Dlaczego BetaSuite — Stworzone dla testera, nie dla dostawcy",
+    pageTitleSupport: "Wsparcie — BetaSuite",
+    metaDescIndex: "BetaSuite to mobilny zestaw testowy dla tych, którzy naprawdę zgłaszają błędy: jednoczesne nagrywanie ekranu i kamery, 30-sekundowa natychmiastowa powtórka, AI na urządzeniu, Tryb poufny do pracy pod NDA i raporty, które programiści naprawdę czytają.",
+    metaDescWhy: "Jak BetaSuite rozwiązuje powtarzające się problemy mobilnych beta-testerów: jednoczesne nagrywanie ekranu + kamery, bufor natychmiastowej powtórki, Tryb poufny do pracy pod NDA, brak chmury dostawcy i raporty redagowane przez AI.",
+    metaDescSupport: "Uzyskaj pomoc dotyczącą BetaSuite: formularz kontaktowy, FAQ, rozwiązywanie problemów, usuwanie konta i danych oraz jak zgłosić błąd.",
     faqMore: "Więcej na stronie wsparcia →",
 
     /* Closing CTA */
