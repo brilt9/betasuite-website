@@ -14,6 +14,7 @@ const translations = {
     heroText: "BetaSuite is the mobile testing kit for people who actually report bugs — record screen and camera at once, replay the last 30 seconds, annotate, transcribe, and ship a polished report.",
     downloadAppStore: "Download on the App Store",
     androidNote: "iPhone only — Android in development, release date to be confirmed.",
+    androidNotifyLink: "Notify me →",
     metaText: "One-off App Store purchase · No subscription · No ads · No tracking · Yours for life",
 
     /* Value props strip */
@@ -104,6 +105,8 @@ const translations = {
     faqA3: "Confidential Mode blocks cloud sync and cloud AI, keeping processing local-only where possible.",
     faqQ4: "Is there a subscription?",
     faqA4: "No — BetaSuite is a one-off App Store purchase. Pay once, yours for life.",
+    faqDeleteQ: "How do I delete my data?",
+    faqDeleteA: "Open BetaSuite and go to Settings → Data → Wipe all app data.",
     faqMore: "More on the support page →",
 
     /* Closing CTA */
@@ -169,6 +172,7 @@ const translations = {
     heroText: "BetaSuite 是为真正提交 Bug 报告的人打造的移动测试工具:同时录制屏幕和相机、回放最近 30 秒、标注、转录,再生成一份精炼的报告。",
     downloadAppStore: "在 App Store 下载",
     androidNote: "仅支持 iPhone——Android 正在开发中,发布日期待定。",
+    androidNotifyLink: "通知我 →",
     metaText: "App Store 一次性购买 · 无订阅 · 无广告 · 无追踪 · 终身使用",
 
     /* Value props strip */
@@ -259,6 +263,8 @@ const translations = {
     faqA3: "保密模式封锁云同步和云端 AI,尽可能将处理保留在本地。",
     faqQ4: "需要订阅吗?",
     faqA4: "不需要——BetaSuite 是 App Store 一次性购买。一次付款,终身使用。",
+    faqDeleteQ: "如何删除我的数据?",
+    faqDeleteA: "打开 BetaSuite,前往「设置 → 数据 → 清除所有应用数据」。",
     faqMore: "在支持页面查看更多 →",
 
     /* Closing CTA */
@@ -324,6 +330,7 @@ const translations = {
     heroText: "BetaSuite ist das mobile Test-Kit für Leute, die wirklich Bugs melden – Bildschirm und Kamera gleichzeitig aufnehmen, die letzten 30 Sekunden wiedergeben, annotieren, transkribieren und einen ausgefeilten Bericht abliefern.",
     downloadAppStore: "Im App Store laden",
     androidNote: "Nur für iPhone – Android in Entwicklung, Veröffentlichungsdatum noch offen.",
+    androidNotifyLink: "Benachrichtige mich →",
     metaText: "Einmalkauf im App Store · Kein Abo · Keine Werbung · Kein Tracking · Lebenslang nutzbar",
 
     /* Value props strip */
@@ -414,6 +421,8 @@ const translations = {
     faqA3: "Der Vertrauliche Modus blockiert Cloud-Sync und Cloud-KI und hält die Verarbeitung wo möglich rein lokal.",
     faqQ4: "Gibt es ein Abo?",
     faqA4: "Nein – BetaSuite ist ein Einmalkauf im App Store. Einmal zahlen, lebenslang nutzen.",
+    faqDeleteQ: "Wie lösche ich meine Daten?",
+    faqDeleteA: "Öffne BetaSuite und gehe zu Einstellungen → Daten → Alle App-Daten löschen.",
     faqMore: "Mehr auf der Support-Seite →",
 
     /* Closing CTA */
@@ -479,6 +488,7 @@ const translations = {
     heroText: "BetaSuite is de mobiele testkit voor mensen die echt bugs rapporteren — neem scherm en camera tegelijk op, speel de laatste 30 seconden opnieuw af, annoteer, transcribeer en lever een gepolijst rapport af.",
     downloadAppStore: "Download in de App Store",
     androidNote: "Alleen iPhone — Android in ontwikkeling, releasedatum nog te bevestigen.",
+    androidNotifyLink: "Houd me op de hoogte →",
     metaText: "Eenmalige aankoop in de App Store · Geen abonnement · Geen advertenties · Geen tracking · Levenslang van jou",
 
     /* Value props strip */
@@ -569,6 +579,8 @@ const translations = {
     faqA3: "De vertrouwelijke modus blokkeert cloudsync en cloud-AI en houdt verwerking waar mogelijk lokaal.",
     faqQ4: "Is er een abonnement?",
     faqA4: "Nee — BetaSuite is een eenmalige aankoop in de App Store. Eén keer betalen, levenslang van jou.",
+    faqDeleteQ: "Hoe verwijder ik mijn gegevens?",
+    faqDeleteA: "Open BetaSuite en ga naar Instellingen → Data → Alle app-gegevens wissen.",
     faqMore: "Meer op de supportpagina →",
 
     /* Closing CTA */
@@ -634,6 +646,7 @@ const translations = {
     heroText: "BetaSuite est le kit de test mobile pour les gens qui rapportent vraiment des bugs — enregistrez écran et caméra en même temps, rejouez les 30 dernières secondes, annotez, transcrivez et livrez un rapport soigné.",
     downloadAppStore: "Télécharger sur l'App Store",
     androidNote: "iPhone uniquement — Android en développement, date de sortie à confirmer.",
+    androidNotifyLink: "Me notifier →",
     metaText: "Achat unique sur l'App Store · Sans abonnement · Sans publicité · Sans pistage · À vous pour la vie",
 
     /* Value props strip */
@@ -724,6 +737,8 @@ const translations = {
     faqA3: "Le mode confidentiel bloque la sync cloud et l'IA cloud, gardant le traitement local autant que possible.",
     faqQ4: "Y a-t-il un abonnement ?",
     faqA4: "Non — BetaSuite est un achat unique sur l'App Store. Payez une fois, à vous pour la vie.",
+    faqDeleteQ: "Comment supprimer mes données ?",
+    faqDeleteA: "Ouvrez BetaSuite et allez dans Réglages → Données → Effacer toutes les données de l'app.",
     faqMore: "Plus sur la page support →",
 
     /* Closing CTA */
@@ -789,6 +804,7 @@ const translations = {
     heroText: "BetaSuite er det mobile testsettet for folk som faktisk rapporterer bugs — ta opp skjerm og kamera samtidig, spill av de siste 30 sekundene på nytt, annoter, transkriber og lever en polert rapport.",
     downloadAppStore: "Last ned i App Store",
     androidNote: "Kun iPhone — Android under utvikling, lanseringsdato bekreftes senere.",
+    androidNotifyLink: "Varsle meg →",
     metaText: "Engangskjøp i App Store · Ingen abonnement · Ingen reklame · Ingen sporing · Ditt for livet",
 
     /* Value props strip */
@@ -879,6 +895,8 @@ const translations = {
     faqA3: "Konfidensiell modus blokkerer skysynkronisering og sky-AI, og holder behandlingen lokal der det er mulig.",
     faqQ4: "Er det et abonnement?",
     faqA4: "Nei — BetaSuite er et engangskjøp i App Store. Betal én gang, ditt for livet.",
+    faqDeleteQ: "Hvordan sletter jeg dataene mine?",
+    faqDeleteA: "Åpne BetaSuite og gå til Innstillinger → Data → Slett alle app-data.",
     faqMore: "Mer på støttesiden →",
 
     /* Closing CTA */
@@ -944,6 +962,7 @@ const translations = {
     heroText: "BetaSuite är den mobila testkit för folk som faktiskt rapporterar buggar — spela in skärm och kamera samtidigt, spela upp de senaste 30 sekunderna, annotera, transkribera och leverera en polerad rapport.",
     downloadAppStore: "Hämta i App Store",
     androidNote: "Endast iPhone — Android under utveckling, släppdatum ska bekräftas.",
+    androidNotifyLink: "Meddela mig →",
     metaText: "Engångsköp i App Store · Inget abonnemang · Inga annonser · Ingen spårning · Ditt för livet",
 
     /* Value props strip */
@@ -1034,6 +1053,8 @@ const translations = {
     faqA3: "Konfidentiellt läge blockerar molnsynk och moln-AI och håller bearbetningen lokal där det är möjligt.",
     faqQ4: "Finns det ett abonnemang?",
     faqA4: "Nej — BetaSuite är ett engångsköp i App Store. Betala en gång, ditt för livet.",
+    faqDeleteQ: "Hur tar jag bort mina data?",
+    faqDeleteA: "Öppna BetaSuite och gå till Inställningar → Data → Radera all app-data.",
     faqMore: "Mer på supportsidan →",
 
     /* Closing CTA */
@@ -1099,6 +1120,7 @@ const translations = {
     heroText: "BetaSuite es el kit de pruebas móviles para personas que de verdad reportan bugs: graba pantalla y cámara a la vez, reproduce los últimos 30 segundos, anota, transcribe y entrega un informe pulido.",
     downloadAppStore: "Descargar en el App Store",
     androidNote: "Solo iPhone — Android en desarrollo, fecha de lanzamiento por confirmar.",
+    androidNotifyLink: "Avísame →",
     metaText: "Compra única en la App Store · Sin suscripción · Sin anuncios · Sin seguimiento · Tuyo de por vida",
 
     /* Value props strip */
@@ -1189,6 +1211,8 @@ const translations = {
     faqA3: "El modo confidencial bloquea la sincronización en la nube y la IA en la nube, manteniendo el procesamiento en local cuando es posible.",
     faqQ4: "¿Hay una suscripción?",
     faqA4: "No — BetaSuite es una compra única en la App Store. Paga una vez, tuyo de por vida.",
+    faqDeleteQ: "¿Cómo elimino mis datos?",
+    faqDeleteA: "Abre BetaSuite y ve a Ajustes → Datos → Borrar todos los datos de la app.",
     faqMore: "Más en la página de soporte →",
 
     /* Closing CTA */
@@ -1254,6 +1278,7 @@ const translations = {
     heroText: "BetaSuite è il kit di test mobile per chi i bug li segnala davvero: registra schermo e fotocamera insieme, riproduci gli ultimi 30 secondi, annota, trascrivi e consegna un report rifinito.",
     downloadAppStore: "Scarica su App Store",
     androidNote: "Solo iPhone — Android in sviluppo, data di rilascio da confermare.",
+    androidNotifyLink: "Avvisami →",
     metaText: "Acquisto una tantum su App Store · Nessun abbonamento · Niente pubblicità · Niente tracciamento · Tuo per sempre",
 
     /* Value props strip */
@@ -1344,6 +1369,8 @@ const translations = {
     faqA3: "La modalità riservata blocca la sync cloud e l'IA cloud, mantenendo l'elaborazione in locale dove possibile.",
     faqQ4: "C'è un abbonamento?",
     faqA4: "No — BetaSuite è un acquisto una tantum su App Store. Paga una volta, tuo per sempre.",
+    faqDeleteQ: "Come elimino i miei dati?",
+    faqDeleteA: "Apri BetaSuite e vai su Impostazioni → Dati → Cancella tutti i dati dell'app.",
     faqMore: "Altro nella pagina supporto →",
 
     /* Closing CTA */
@@ -1409,6 +1436,7 @@ const translations = {
     heroText: "BetaSuite to mobilny zestaw testowy dla osób, które naprawdę zgłaszają bugi — nagrywaj ekran i kamerę jednocześnie, odtwarzaj ostatnie 30 sekund, opisuj, transkrybuj i wysyłaj dopracowany raport.",
     downloadAppStore: "Pobierz w App Store",
     androidNote: "Tylko iPhone — Android w fazie rozwoju, data wydania do potwierdzenia.",
+    androidNotifyLink: "Powiadom mnie →",
     metaText: "Jednorazowy zakup w App Store · Bez subskrypcji · Bez reklam · Bez śledzenia · Twoje na zawsze",
 
     /* Value props strip */
@@ -1499,6 +1527,8 @@ const translations = {
     faqA3: "Tryb poufny blokuje synchronizację z chmurą i SI w chmurze, utrzymując przetwarzanie lokalnie tam, gdzie to możliwe.",
     faqQ4: "Czy jest subskrypcja?",
     faqA4: "Nie — BetaSuite to jednorazowy zakup w App Store. Zapłać raz, Twoje na zawsze.",
+    faqDeleteQ: "Jak usunąć moje dane?",
+    faqDeleteA: "Otwórz BetaSuite i przejdź do Ustawienia → Dane → Usuń wszystkie dane aplikacji.",
     faqMore: "Więcej na stronie wsparcia →",
 
     /* Closing CTA */
