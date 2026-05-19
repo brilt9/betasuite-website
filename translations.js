@@ -107,6 +107,10 @@ const translations = {
     faqA4: "No — BetaSuite is a one-off App Store purchase. Pay once, yours for life.",
     faqDeleteQ: "How do I delete my data?",
     faqDeleteA: "Open BetaSuite and go to Settings → Data → Wipe all app data.",
+    notFoundTitle: "Page not found",
+    notFoundText: "That page isn't here. It may have moved, or never existed in the first place.",
+    notFoundHome: "Back to home",
+    notFoundContact: "Contact support",
     faqMore: "More on the support page →",
 
     /* Closing CTA */
@@ -265,6 +269,10 @@ const translations = {
     faqA4: "不需要——BetaSuite 是 App Store 一次性购买。一次付款,终身使用。",
     faqDeleteQ: "如何删除我的数据?",
     faqDeleteA: "打开 BetaSuite,前往「设置 → 数据 → 清除所有应用数据」。",
+    notFoundTitle: "页面未找到",
+    notFoundText: "此页面不存在。可能已被移动,或从未存在过。",
+    notFoundHome: "返回主页",
+    notFoundContact: "联系支持",
     faqMore: "在支持页面查看更多 →",
 
     /* Closing CTA */
@@ -423,6 +431,10 @@ const translations = {
     faqA4: "Nein – BetaSuite ist ein Einmalkauf im App Store. Einmal zahlen, lebenslang nutzen.",
     faqDeleteQ: "Wie lösche ich meine Daten?",
     faqDeleteA: "Öffne BetaSuite und gehe zu Einstellungen → Daten → Alle App-Daten löschen.",
+    notFoundTitle: "Seite nicht gefunden",
+    notFoundText: "Diese Seite ist nicht hier. Sie wurde vielleicht verschoben oder hat nie existiert.",
+    notFoundHome: "Zur Startseite",
+    notFoundContact: "Support kontaktieren",
     faqMore: "Mehr auf der Support-Seite →",
 
     /* Closing CTA */
@@ -581,6 +593,10 @@ const translations = {
     faqA4: "Nee — BetaSuite is een eenmalige aankoop in de App Store. Eén keer betalen, levenslang van jou.",
     faqDeleteQ: "Hoe verwijder ik mijn gegevens?",
     faqDeleteA: "Open BetaSuite en ga naar Instellingen → Data → Alle app-gegevens wissen.",
+    notFoundTitle: "Pagina niet gevonden",
+    notFoundText: "Deze pagina is hier niet. Misschien is hij verplaatst, of heeft hij nooit bestaan.",
+    notFoundHome: "Terug naar home",
+    notFoundContact: "Contact opnemen",
     faqMore: "Meer op de supportpagina →",
 
     /* Closing CTA */
@@ -739,6 +755,10 @@ const translations = {
     faqA4: "Non — BetaSuite est un achat unique sur l'App Store. Payez une fois, à vous pour la vie.",
     faqDeleteQ: "Comment supprimer mes données ?",
     faqDeleteA: "Ouvrez BetaSuite et allez dans Réglages → Données → Effacer toutes les données de l'app.",
+    notFoundTitle: "Page introuvable",
+    notFoundText: "Cette page n'est pas ici. Elle a peut-être été déplacée, ou n'a jamais existé.",
+    notFoundHome: "Retour à l'accueil",
+    notFoundContact: "Contacter le support",
     faqMore: "Plus sur la page support →",
 
     /* Closing CTA */
@@ -897,6 +917,10 @@ const translations = {
     faqA4: "Nei — BetaSuite er et engangskjøp i App Store. Betal én gang, ditt for livet.",
     faqDeleteQ: "Hvordan sletter jeg dataene mine?",
     faqDeleteA: "Åpne BetaSuite og gå til Innstillinger → Data → Slett alle app-data.",
+    notFoundTitle: "Siden ble ikke funnet",
+    notFoundText: "Denne siden er ikke her. Den kan ha blitt flyttet, eller aldri eksistert.",
+    notFoundHome: "Tilbake til forsiden",
+    notFoundContact: "Kontakt støtte",
     faqMore: "Mer på støttesiden →",
 
     /* Closing CTA */
@@ -1055,6 +1079,10 @@ const translations = {
     faqA4: "Nej — BetaSuite är ett engångsköp i App Store. Betala en gång, ditt för livet.",
     faqDeleteQ: "Hur tar jag bort mina data?",
     faqDeleteA: "Öppna BetaSuite och gå till Inställningar → Data → Radera all app-data.",
+    notFoundTitle: "Sidan kunde inte hittas",
+    notFoundText: "Sidan finns inte här. Den kan ha flyttats, eller aldrig funnits.",
+    notFoundHome: "Tillbaka till startsidan",
+    notFoundContact: "Kontakta support",
     faqMore: "Mer på supportsidan →",
 
     /* Closing CTA */
@@ -1213,6 +1241,10 @@ const translations = {
     faqA4: "No — BetaSuite es una compra única en la App Store. Paga una vez, tuyo de por vida.",
     faqDeleteQ: "¿Cómo elimino mis datos?",
     faqDeleteA: "Abre BetaSuite y ve a Ajustes → Datos → Borrar todos los datos de la app.",
+    notFoundTitle: "Página no encontrada",
+    notFoundText: "Esta página no está aquí. Es posible que se haya movido o nunca haya existido.",
+    notFoundHome: "Volver al inicio",
+    notFoundContact: "Contactar con soporte",
     faqMore: "Más en la página de soporte →",
 
     /* Closing CTA */
@@ -1371,6 +1403,10 @@ const translations = {
     faqA4: "No — BetaSuite è un acquisto una tantum su App Store. Paga una volta, tuo per sempre.",
     faqDeleteQ: "Come elimino i miei dati?",
     faqDeleteA: "Apri BetaSuite e vai su Impostazioni → Dati → Cancella tutti i dati dell'app.",
+    notFoundTitle: "Pagina non trovata",
+    notFoundText: "Questa pagina non è qui. Potrebbe essere stata spostata, o non essere mai esistita.",
+    notFoundHome: "Torna alla home",
+    notFoundContact: "Contatta l'assistenza",
     faqMore: "Altro nella pagina supporto →",
 
     /* Closing CTA */
@@ -1529,6 +1565,10 @@ const translations = {
     faqA4: "Nie — BetaSuite to jednorazowy zakup w App Store. Zapłać raz, Twoje na zawsze.",
     faqDeleteQ: "Jak usunąć moje dane?",
     faqDeleteA: "Otwórz BetaSuite i przejdź do Ustawienia → Dane → Usuń wszystkie dane aplikacji.",
+    notFoundTitle: "Nie znaleziono strony",
+    notFoundText: "Tej strony tu nie ma. Mogła zostać przeniesiona lub nigdy nie istniała.",
+    notFoundHome: "Powrót do strony głównej",
+    notFoundContact: "Skontaktuj się z pomocą",
     faqMore: "Więcej na stronie wsparcia →",
 
     /* Closing CTA */
@@ -1676,20 +1716,63 @@ const _observer = new MutationObserver(mutations => {
   }
 });
 
+/* ---------- URL locale helpers ---------- */
+// Pages that have pre-rendered locale variants under /{locale}/.
+const _LOCALIZED_PAGES = new Set(["", "index.html", "why.html", "support.html"]);
+
+function _getUrlLocale() {
+  const m = (typeof window !== "undefined" ? window.location.pathname : "").match(/^\/([a-zA-Z]{2})(\/|$)/);
+  if (m && Object.prototype.hasOwnProperty.call(translations, m[1].toLowerCase())) {
+    return m[1].toLowerCase();
+  }
+  return null;
+}
+
+function _stripLocalePrefix(pathname) {
+  return pathname.replace(/^\/([a-zA-Z]{2})(\/|$)/, (full, code, sep) => {
+    return Object.prototype.hasOwnProperty.call(translations, code.toLowerCase()) ? sep : full;
+  });
+}
+
+function _getPageSlug(pathname) {
+  const stripped = _stripLocalePrefix(pathname);
+  const trimmed = stripped.replace(/^\//, "");
+  return trimmed === "" ? "" : trimmed;
+}
+
+function _localizedHref(lang) {
+  if (typeof window === "undefined") return null;
+  const slug = _getPageSlug(window.location.pathname);
+  if (!_LOCALIZED_PAGES.has(slug)) return null;
+  const tail = slug + window.location.search + window.location.hash;
+  return lang === "en" ? "/" + tail : "/" + lang + "/" + tail;
+}
+
 /* ---------- Initialization ---------- */
 function initI18n(options = {}) {
+  const urlLocale = _getUrlLocale();
   const saved = (() => {
     try { return localStorage.getItem("language"); } catch (e) { return null; }
   })();
-
   const browserLang = (navigator.languages && navigator.languages[0]) || navigator.language || "en";
   const detected = _normaliseLang(browserLang);
-  const lang = saved ? _normaliseLang(saved) : detected;
+
+  // Priority: URL-derived locale > saved preference > browser detect.
+  const lang = urlLocale || (saved ? _normaliseLang(saved) : detected);
 
   const picker = document.getElementById("language-picker");
   if (picker) {
     picker.value = lang;
-    picker.addEventListener("change", (e) => setLanguage(e.target.value));
+    picker.addEventListener("change", (e) => {
+      const next = _normaliseLang(e.target.value);
+      _safeSetLocal("language", next);
+      const target = _localizedHref(next);
+      if (target && target !== window.location.pathname + window.location.search + window.location.hash) {
+        window.location.assign(target);
+      } else {
+        setLanguage(next);
+      }
+    });
   }
 
   translateDocument(lang);
