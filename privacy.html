@@ -86,7 +86,7 @@
 
   <main id="main" class="prose">
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective: 18 May 2026</p>
+    <p class="meta">Effective: 21 May 2026</p>
 
     <p>
       BetaSuite ("we", "us") provides the BetaSuite mobile app ("the App"). The App is built local-first: feedback entries, recordings, photos, and project data live on your device by default and never leave it unless you choose to use a feature that involves an outside service.
@@ -133,10 +133,11 @@
     <h2 id="sec-3">3. Weather and analytics (optional)</h2>
     <h3>Weather overlay</h3>
     <p>
-      Coordinates are sent to a weather provider to retrieve local conditions. On iOS 16+ the default provider is Apple WeatherKit; otherwise the App falls back to OpenWeatherMap or Open-Meteo. No identifier is sent — only the coordinates needed for the lookup.
+      Coordinates are sent to a weather provider to retrieve local conditions. On iOS 16+ the default provider is Apple WeatherKit; otherwise the App falls back to OpenWeatherMap or Open-Meteo. No identifier is sent — only the coordinates needed for the lookup. Wherever weather is displayed, the App shows the source's attribution — the Apple&nbsp;Weather mark and a link to Apple's data-source page for WeatherKit, and the corresponding credit for OpenWeatherMap or Open-Meteo.
     </p>
     <ul>
       <li><a href="https://www.apple.com/legal/privacy/data/en/weather/" target="_blank" rel="noopener">Apple WeatherKit privacy notice</a></li>
+      <li><a href="https://weatherkit.apple.com/legal-attribution.html" target="_blank" rel="noopener">Apple Weather data sources (legal attribution)</a></li>
       <li><a href="https://openweathermap.org/privacy-policy" target="_blank" rel="noopener">OpenWeatherMap privacy policy</a></li>
       <li><a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo terms</a></li>
     </ul>
@@ -204,6 +205,11 @@
 
     <p>
       Confidential Mode (section 6) blocks every cloud AI provider automatically — only Apple Intelligence and Apple on-device speech recognition (strictly on-device) are permitted while Confidential Mode is active, and any feature whose on-device path is unavailable is skipped entirely rather than falling back to a cloud route.
+    </p>
+
+    <h3>Regional availability</h3>
+    <p>
+      The set of AI providers offered depends on your App Store storefront. Where local law requires it — for example on the China mainland storefront — the App offers only Apple Intelligence (on-device) and does not make any cloud AI provider available; in that case no feedback content is sent to a cloud AI service, and voice transcription and text redaction run on-device only or are skipped where the on-device path is unavailable.
     </p>
 
     <h2 id="feature-requests">5. Feature requests</h2>
