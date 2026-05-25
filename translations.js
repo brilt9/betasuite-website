@@ -54,7 +54,7 @@ const translations = {
 
     feat7Title: "Built for hardware testers",
     feat7Lead: "Front, Side, Back, Under — angle-tagged from the start.",
-    feat7Text: "Multi-image condition shots with angle chips that pre-tag the next photo. Mapping screenshots and free-form additional photos live in their own report sections. Reverse-geocoded location and Apple WeatherKit conditions baked in. Drop in photos taken months ago and BetaSuite restores the original date, GPS, and the actual weather from that moment — not from when you uploaded. Live charge-port readout (volts, amps, watts) for power-delivery debugging.",
+    feat7Text: "Multi-image condition shots with angle chips that pre-tag the next photo. Mapping screenshots and free-form additional photos live in their own report sections. Reverse-geocoded location and Apple Weather conditions baked in. Drop in photos taken months ago and BetaSuite restores the original date, GPS, and the actual weather from that moment — not from when you uploaded. Live charge-port readout (volts, amps, watts) for power-delivery debugging.",
 
     feat8Title: "Project structure that scales",
     feat8Lead: "One project per product, instant capture for everything else.",
@@ -222,7 +222,7 @@ const translations = {
 
     feat7Title: "为硬件测试而生",
     feat7Lead: "正面、侧面、背面、底部——从一开始就带角度标签。",
-    feat7Text: "支持多图状态拍摄,角度标签会为下一张照片预先标记。Mapping 截图与自由形式的附加照片各自有专属报告分区。内置反向地理编码定位与 Apple WeatherKit 天气信息。导入数月前拍摄的照片,BetaSuite 会还原原始日期、GPS,以及拍摄当时的真实天气——而不是上传那一刻的天气。内置充电口实时读数(电压、电流、功率),便于排查供电问题。",
+    feat7Text: "支持多图状态拍摄,角度标签会为下一张照片预先标记。Mapping 截图与自由形式的附加照片各自有专属报告分区。内置反向地理编码定位与 Apple Weather 天气信息。导入数月前拍摄的照片,BetaSuite 会还原原始日期、GPS,以及拍摄当时的真实天气——而不是上传那一刻的天气。内置充电口实时读数(电压、电流、功率),便于排查供电问题。",
 
     feat8Title: "可扩展的项目结构",
     feat8Lead: "每个产品一个项目,其余用即时捕捉。",
@@ -390,7 +390,7 @@ const translations = {
 
     feat7Title: "Für Hardware-Tester gebaut",
     feat7Lead: "Vorne, Seite, Hinten, Unten – von Anfang an mit Winkel-Tags.",
-    feat7Text: "Mehrbild-Zustandsaufnahmen mit Winkel-Chips, die das nächste Foto vortaggen. Mapping-Screenshots und freie Zusatzfotos haben eigene Berichtsabschnitte. Reverse-Geocoding-Standort und Apple-WeatherKit-Bedingungen sind eingebaut. Lade Fotos hoch, die du vor Monaten aufgenommen hast – BetaSuite stellt das ursprüngliche Datum, den GPS-Punkt und das tatsächliche Wetter aus diesem Moment wieder her, nicht das vom Upload-Zeitpunkt. Live-Ladeanschluss-Anzeige (Volt, Ampere, Watt) zum Debuggen der Stromversorgung.",
+    feat7Text: "Mehrbild-Zustandsaufnahmen mit Winkel-Chips, die das nächste Foto vortaggen. Mapping-Screenshots und freie Zusatzfotos haben eigene Berichtsabschnitte. Reverse-Geocoding-Standort und Apple Weather-Bedingungen sind eingebaut. Lade Fotos hoch, die du vor Monaten aufgenommen hast – BetaSuite stellt das ursprüngliche Datum, den GPS-Punkt und das tatsächliche Wetter aus diesem Moment wieder her, nicht das vom Upload-Zeitpunkt. Live-Ladeanschluss-Anzeige (Volt, Ampere, Watt) zum Debuggen der Stromversorgung.",
 
     feat8Title: "Projektstruktur, die mitwächst",
     feat8Lead: "Ein Projekt pro Produkt, Sofortaufnahme für alles andere.",
@@ -558,7 +558,7 @@ const translations = {
 
     feat7Title: "Gemaakt voor hardware-testers",
     feat7Lead: "Voor, zij, achter, onder — vanaf het begin met hoek-tags.",
-    feat7Text: "Conditiefoto's met meerdere afbeeldingen en hoek-chips die de volgende foto vooraf taggen. Mapping-screenshots en vrije aanvullende foto's hebben hun eigen rapportsecties. Reverse-geocoded locatie en Apple WeatherKit-condities standaard ingebouwd. Sleep foto's van maanden geleden naar binnen en BetaSuite herstelt de oorspronkelijke datum, GPS en het werkelijke weer van dat moment — niet van het moment dat je ze uploadde. Live-uitlezing van de laadpoort (volt, ampère, watt) voor debugging van de stroomvoorziening.",
+    feat7Text: "Conditiefoto's met meerdere afbeeldingen en hoek-chips die de volgende foto vooraf taggen. Mapping-screenshots en vrije aanvullende foto's hebben hun eigen rapportsecties. Reverse-geocoded locatie en Apple Weather-condities standaard ingebouwd. Sleep foto's van maanden geleden naar binnen en BetaSuite herstelt de oorspronkelijke datum, GPS en het werkelijke weer van dat moment — niet van het moment dat je ze uploadde. Live-uitlezing van de laadpoort (volt, ampère, watt) voor debugging van de stroomvoorziening.",
 
     feat8Title: "Projectstructuur die meeschaalt",
     feat8Lead: "Eén project per product, instant capture voor de rest.",
@@ -726,7 +726,7 @@ const translations = {
 
     feat7Title: "Conçu pour les testeurs hardware",
     feat7Lead: "Avant, côté, arrière, dessous — tagués par angle dès le départ.",
-    feat7Text: "Photos d'état multi-images avec puces d'angle qui pré-taguent la photo suivante. Captures de mapping et photos additionnelles libres ont leurs propres sections de rapport. Localisation par géocodage inverse et conditions Apple WeatherKit intégrées. Importez des photos prises il y a des mois et BetaSuite restaure la date d'origine, le GPS et la météo réelle de ce moment-là — pas celle du moment où vous les avez téléchargées. Lecture en direct du port de charge (volts, ampères, watts) pour déboguer l'alimentation.",
+    feat7Text: "Photos d'état multi-images avec puces d'angle qui pré-taguent la photo suivante. Captures de mapping et photos additionnelles libres ont leurs propres sections de rapport. Localisation par géocodage inverse et conditions Apple Weather intégrées. Importez des photos prises il y a des mois et BetaSuite restaure la date d'origine, le GPS et la météo réelle de ce moment-là — pas celle du moment où vous les avez téléchargées. Lecture en direct du port de charge (volts, ampères, watts) pour déboguer l'alimentation.",
 
     feat8Title: "Une structure de projet qui passe à l'échelle",
     feat8Lead: "Un projet par produit, capture instantanée pour tout le reste.",
@@ -894,7 +894,7 @@ const translations = {
 
     feat7Title: "Bygget for hardware-testere",
     feat7Lead: "Front, side, bak, under — vinkel-tagget fra start.",
-    feat7Text: "Tilstandsbilder med flere bilder og vinkel-chips som pre-tagger neste bilde. Mapping-skjermbilder og fritt formaterte tilleggsbilder har egne rapport-seksjoner. Reverse-geokodet plassering og Apple WeatherKit-forhold er innebygd. Last opp bilder tatt for måneder siden, og BetaSuite gjenoppretter opprinnelig dato, GPS og det faktiske været fra det øyeblikket — ikke fra opplastingstidspunktet. Sanntidsavlesning av ladeporten (volt, ampere, watt) for feilsøking av strømforsyning.",
+    feat7Text: "Tilstandsbilder med flere bilder og vinkel-chips som pre-tagger neste bilde. Mapping-skjermbilder og fritt formaterte tilleggsbilder har egne rapport-seksjoner. Reverse-geokodet plassering og Apple Weather-forhold er innebygd. Last opp bilder tatt for måneder siden, og BetaSuite gjenoppretter opprinnelig dato, GPS og det faktiske været fra det øyeblikket — ikke fra opplastingstidspunktet. Sanntidsavlesning av ladeporten (volt, ampere, watt) for feilsøking av strømforsyning.",
 
     feat8Title: "Prosjektstruktur som skalerer",
     feat8Lead: "Ett prosjekt per produkt, øyeblikkelig opptak for alt annet.",
@@ -1062,7 +1062,7 @@ const translations = {
 
     feat7Title: "Byggt för hårdvarutestare",
     feat7Lead: "Fram, sida, bak, under — vinkel-taggade från start.",
-    feat7Text: "Tillståndsbilder med flera bilder och vinkel-chips som förtaggar nästa foto. Mapping-skärmdumpar och fritt formade tilläggsfoton har egna rapportsektioner. Omvänd geokodning av plats och Apple WeatherKit-förhållanden inbyggda. Lägg in foton tagna för månader sedan och BetaSuite återställer ursprungsdatum, GPS och faktiskt väder från det ögonblicket — inte från när du laddade upp dem. Live-avläsning av laddporten (volt, ampere, watt) för felsökning av strömförsörjningen.",
+    feat7Text: "Tillståndsbilder med flera bilder och vinkel-chips som förtaggar nästa foto. Mapping-skärmdumpar och fritt formade tilläggsfoton har egna rapportsektioner. Omvänd geokodning av plats och Apple Weather-förhållanden inbyggda. Lägg in foton tagna för månader sedan och BetaSuite återställer ursprungsdatum, GPS och faktiskt väder från det ögonblicket — inte från när du laddade upp dem. Live-avläsning av laddporten (volt, ampere, watt) för felsökning av strömförsörjningen.",
 
     feat8Title: "Projektstruktur som skalar",
     feat8Lead: "Ett projekt per produkt, snabbinspelning för allt annat.",
@@ -1230,7 +1230,7 @@ const translations = {
 
     feat7Title: "Pensado para testers de hardware",
     feat7Lead: "Frente, lateral, atrás, debajo — etiquetado por ángulo desde el inicio.",
-    feat7Text: "Fotos de estado multi-imagen con chips de ángulo que pre-etiquetan la siguiente foto. Capturas de mapping y fotos adicionales libres tienen sus propias secciones de informe. Geocodificación inversa de ubicación y condiciones de Apple WeatherKit incluidas. Importa fotos tomadas hace meses y BetaSuite restaura la fecha original, el GPS y el clima real de ese momento — no del momento en que las subiste. Lectura en vivo del puerto de carga (voltios, amperios, vatios) para depurar la alimentación.",
+    feat7Text: "Fotos de estado multi-imagen con chips de ángulo que pre-etiquetan la siguiente foto. Capturas de mapping y fotos adicionales libres tienen sus propias secciones de informe. Geocodificación inversa de ubicación y condiciones de Apple Weather incluidas. Importa fotos tomadas hace meses y BetaSuite restaura la fecha original, el GPS y el clima real de ese momento — no del momento en que las subiste. Lectura en vivo del puerto de carga (voltios, amperios, vatios) para depurar la alimentación.",
 
     feat8Title: "Estructura de proyecto que escala",
     feat8Lead: "Un proyecto por producto, captura instantánea para todo lo demás.",
@@ -1398,7 +1398,7 @@ const translations = {
 
     feat7Title: "Pensato per i tester hardware",
     feat7Lead: "Fronte, lato, retro, sotto — taggati per angolo fin dall'inizio.",
-    feat7Text: "Foto di condizione multi-immagine con chip di angolo che pre-taggano la foto successiva. Screenshot di mapping e foto aggiuntive libere hanno sezioni di report dedicate. Localizzazione con reverse geocoding e condizioni Apple WeatherKit integrate. Importa foto scattate mesi fa e BetaSuite ripristina la data originale, il GPS e il meteo reale di quel momento — non quello del momento in cui le hai caricate. Lettura in tempo reale della porta di ricarica (volt, ampere, watt) per il debug dell'alimentazione.",
+    feat7Text: "Foto di condizione multi-immagine con chip di angolo che pre-taggano la foto successiva. Screenshot di mapping e foto aggiuntive libere hanno sezioni di report dedicate. Localizzazione con reverse geocoding e condizioni Apple Weather integrate. Importa foto scattate mesi fa e BetaSuite ripristina la data originale, il GPS e il meteo reale di quel momento — non quello del momento in cui le hai caricate. Lettura in tempo reale della porta di ricarica (volt, ampere, watt) per il debug dell'alimentazione.",
 
     feat8Title: "Struttura di progetto che scala",
     feat8Lead: "Un progetto per prodotto, cattura istantanea per tutto il resto.",
@@ -1566,7 +1566,7 @@ const translations = {
 
     feat7Title: "Stworzone dla testerów sprzętu",
     feat7Lead: "Przód, bok, tył, spód — z tagami kątów od początku.",
-    feat7Text: "Wieloobrazowe zdjęcia stanu z chipsami kątów, które wstępnie tagują kolejne zdjęcie. Zrzuty mappingu i swobodne dodatkowe zdjęcia mają własne sekcje raportu. Lokalizacja z geokodowaniem odwrotnym i warunki Apple WeatherKit wbudowane. Dodaj zdjęcia zrobione miesiące temu, a BetaSuite przywróci oryginalną datę, GPS i rzeczywistą pogodę z tamtego momentu — a nie z chwili przesyłania. Odczyt portu ładowania na żywo (wolty, ampery, waty) do debugowania zasilania.",
+    feat7Text: "Wieloobrazowe zdjęcia stanu z chipsami kątów, które wstępnie tagują kolejne zdjęcie. Zrzuty mappingu i swobodne dodatkowe zdjęcia mają własne sekcje raportu. Lokalizacja z geokodowaniem odwrotnym i warunki Apple Weather wbudowane. Dodaj zdjęcia zrobione miesiące temu, a BetaSuite przywróci oryginalną datę, GPS i rzeczywistą pogodę z tamtego momentu — a nie z chwili przesyłania. Odczyt portu ładowania na żywo (wolty, ampery, waty) do debugowania zasilania.",
 
     feat8Title: "Struktura projektów, która skaluje się",
     feat8Lead: "Jeden projekt na produkt, natychmiastowe przechwytywanie dla całej reszty.",

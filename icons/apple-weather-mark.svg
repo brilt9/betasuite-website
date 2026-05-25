@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PLACEHOLDER — replace with the official Apple Weather attribution badge.
+
+  Per Apple's WeatherKit Terms of Service, the attribution graphic must be
+  the Apple-provided badge (Apple logo + "Weather" wordmark). Download from
+  Apple's developer resources at https://developer.apple.com/weatherkit/
+  (or, inside the BetaSuite app, share the cached badge served by
+  WeatherKitPlugin.swift → appleWeatherAttributionListenable).
+
+  Until replaced, this file shows a generic cloud icon so the attribution
+  surfaces still render cleanly — no Apple branding is fabricated here.
+  Filename and dimensions (16×16 viewBox, scales to any size) are wired up
+  to <img src="icons/apple-weather-mark.svg"> in privacy.html and any
+  future attribution surface, so dropping the official asset in at this
+  exact path is the only step needed to ship the real mark.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+     stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+     stroke-linejoin="round" aria-hidden="true">
+  <path d="M17.5 19a4.5 4.5 0 1 0-1.7-8.7A6 6 0 0 0 5 13.5 4 4 0 0 0 7.5 19h10z"/>
+</svg>

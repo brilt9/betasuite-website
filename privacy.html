@@ -133,11 +133,15 @@
     <h2 id="sec-3">3. Weather and analytics (optional)</h2>
     <h3>Weather overlay</h3>
     <p>
-      Coordinates are sent to a weather provider to retrieve local conditions. On iOS 16+ the default provider is Apple WeatherKit; otherwise the App falls back to OpenWeatherMap or Open-Meteo. No identifier is sent — only the coordinates needed for the lookup. Wherever weather is displayed, the App shows the source's attribution — the Apple&nbsp;Weather mark and a link to Apple's data-source page for WeatherKit, and the corresponding credit for OpenWeatherMap or Open-Meteo.
+      Coordinates are sent to a weather provider to retrieve local conditions. On iOS&nbsp;16+ the default provider is Apple&nbsp;Weather (via Apple's WeatherKit service); otherwise the App falls back to OpenWeatherMap or Open-Meteo. No identifier is sent — only the coordinates needed for the lookup. Wherever weather is displayed in the App, the source's attribution is shown alongside the data — the Apple&nbsp;Weather symbol, the "Weather" wordmark, and a link to Apple's data-source page (per Apple's WeatherKit Terms of Service), plus the corresponding credit for OpenWeatherMap or Open-Meteo.
     </p>
+    <a class="weather-attribution" href="https://weatherkit.apple.com/legal-attribution.html" target="_blank" rel="noopener" aria-label="Apple Weather — view data sources (opens in new tab)">
+      <img src="icons/apple-weather-mark.svg" alt="" class="weather-attribution__mark" width="16" height="16">
+      <span>Apple&nbsp;Weather — data sources</span>
+    </a>
     <ul>
-      <li><a href="https://www.apple.com/legal/privacy/data/en/weather/" target="_blank" rel="noopener">Apple WeatherKit privacy notice</a></li>
-      <li><a href="https://weatherkit.apple.com/legal-attribution.html" target="_blank" rel="noopener">Apple Weather data sources (legal attribution)</a></li>
+      <li><a href="https://www.apple.com/legal/privacy/data/en/weather/" target="_blank" rel="noopener">Apple&nbsp;Weather privacy notice</a></li>
+      <li><a href="https://weatherkit.apple.com/legal-attribution.html" target="_blank" rel="noopener">Apple&nbsp;Weather data sources (legal attribution)</a></li>
       <li><a href="https://openweathermap.org/privacy-policy" target="_blank" rel="noopener">OpenWeatherMap privacy policy</a></li>
       <li><a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo terms</a></li>
     </ul>

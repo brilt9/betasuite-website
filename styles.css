@@ -291,6 +291,40 @@ a:hover { color: var(--accent-2); text-decoration: underline; }
   font-size: 0.95rem;
 }
 
+/* Apple Weather (WeatherKit) attribution pill — required by Apple's
+   WeatherKit ToS wherever WeatherKit is acknowledged. Combines the
+   Apple-provided weather mark + "Weather" wordmark + link to the
+   legal-attribution page. Used in privacy.html beside the WeatherKit
+   acknowledgement; reuse the same class elsewhere if a marketing
+   surface ever displays live weather data. */
+.weather-attribution {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0 16px;
+  padding: 8px 14px;
+  border: 1px solid var(--border-soft);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-strong);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color 0.18s ease, background 0.18s ease;
+}
+.weather-attribution:hover,
+.weather-attribution:focus-visible {
+  border-color: rgba(30, 144, 255, 0.45);
+  background: rgba(30, 144, 255, 0.08);
+  text-decoration: none;
+}
+.weather-attribution__mark {
+  display: block;
+  width: 16px;
+  height: 16px;
+  color: currentColor;
+}
+
 /* Value props strip */
 .value-props {
   padding: 0 0 24px;
