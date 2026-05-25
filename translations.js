@@ -11,7 +11,7 @@ const translations = {
 
     /* Hero */
     heroTitle: "Catch every bug. Tell the whole story.",
-    heroText: "BetaSuite is the mobile testing kit for people who actually report bugs — record screen and camera at once, replay the last 30 seconds, annotate, transcribe, and ship a polished report.",
+    heroText: "Dual-record screen and camera, drop voice-noted markers as you test, and ship a polished PDF report — all on iPhone, with on-device AI when you want it.",
     downloadAppStore: "Download on the App Store",
     androidNote: "iPhone only — Android in development, release date to be confirmed.",
     androidNotifyLink: "Notify me →",

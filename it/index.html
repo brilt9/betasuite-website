@@ -182,7 +182,20 @@
        Banner handoff complete the TLS handshake before the user taps. -->
   <link rel="preconnect" href="https://apps.apple.com">
   <link rel="preload" as="image" href="/icon.png" fetchpriority="high">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- iOS home-screen "Add to Home Screen" polish — if a user installs
+       the site to their home screen it launches fullscreen with the
+       BetaSuite name and a dark status bar (matches the navy theme). -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BetaSuite">
+
+  <!-- Non-blocking Google Fonts. The bare `<link rel=stylesheet>` form
+       blocks first paint by ~3-4s on cold cache (Google Fonts CSS is
+       parser-blocking). The preload+onload swap loads the stylesheet
+       async; the noscript fallback keeps non-JS browsers covered. -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"></noscript>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -219,13 +232,30 @@
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
       <div class="container">
-        <h1 id="hero-title" data-i18n="heroTitle">Cattura ogni bug. Racconta tutta la storia.</h1>
-        <p class="lead" data-i18n="heroText">BetaSuite è il kit di test mobile per chi i bug li segnala davvero: registra schermo e fotocamera insieme, riproduci gli ultimi 30 secondi, annota, trascrivi e consegna un report rifinito.</p>
-        <div class="hero-actions">
-          <a class="btn" href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" data-i18n="downloadAppStore" aria-label="Download on the App Store">Scarica su App Store</a>
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 id="hero-title" data-i18n="heroTitle">Cattura ogni bug. Racconta tutta la storia.</h1>
+            <p class="lead" data-i18n="heroText">BetaSuite è il kit di test mobile per chi i bug li segnala davvero: registra schermo e fotocamera insieme, riproduci gli ultimi 30 secondi, annota, trascrivi e consegna un report rifinito.</p>
+            <div class="hero-actions">
+              <a class="btn" href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" data-i18n="downloadAppStore" aria-label="Download on the App Store">Scarica su App Store</a>
+            </div>
+            <p class="meta"><span data-i18n="androidNote">Solo iPhone — Android in sviluppo, data di rilascio da confermare.</span> <a href="support.html#contact" data-i18n="androidNotifyLink">Avvisami →</a></p>
+            <p class="meta" data-i18n="metaText">Acquisto una tantum su App Store · Nessun abbonamento · Niente pubblicità · Niente tracciamento · Tuo per sempre</p>
+          </div>
+          <!--
+            To ship a real hero screenshot, replace the placeholder below with:
+
+              <img class="hero-image" src="/screenshots/hero.png"
+                   alt="BetaSuite recording a test session — screen, camera, markers, and a generated report on iPhone"
+                   width="540" height="960" loading="eager" fetchpriority="high">
+
+            Drop the PNG/JPG at `screenshots/hero.png` (9:16 portrait, ≥ 540×960).
+            See `screenshots/README.md` for spec + recommended source captures.
+          -->
+          <div class="hero-image-placeholder" aria-hidden="true">
+            Hero screenshot<br>drop <code>screenshots/hero.png</code>
+          </div>
         </div>
-        <p class="meta"><span data-i18n="androidNote">Solo iPhone — Android in sviluppo, data di rilascio da confermare.</span> <a href="support.html#contact" data-i18n="androidNotifyLink">Avvisami →</a></p>
-        <p class="meta" data-i18n="metaText">Acquisto una tantum su App Store · Nessun abbonamento · Niente pubblicità · Niente tracciamento · Tuo per sempre</p>
       </div>
     </section>
 
