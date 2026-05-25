@@ -9,7 +9,7 @@
 
   <!-- Apple Smart App Banner — iOS Safari shows a top-of-page banner
        offering to open the App Store or launch the app if installed. -->
-  <meta name="apple-itunes-app" content="app-id=6766279266">
+  <meta name="apple-itunes-app" content="app-id=6766279266, app-argument=https://betasuite.pages.dev/support.html">
   <link rel="canonical" href="https://betasuite.pages.dev/nl/support.html">
 
   <!-- Favicons -->
@@ -133,6 +133,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- preconnect to the App Store host so the Download CTA + Smart App
+       Banner handoff complete the TLS handshake before the user taps. -->
+  <link rel="preconnect" href="https://apps.apple.com">
   <link rel="preload" as="image" href="/icon.png" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
