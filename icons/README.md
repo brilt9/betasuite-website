@@ -1,25 +1,28 @@
 # Site icons
 
-## `apple-weather-mark.svg` — **placeholder, needs replacement**
+## `apple-weather-mark.svg` — Apple logo glyph for WeatherKit attribution
 
-This file is currently a generic cloud icon, NOT the real Apple Weather
-attribution mark. It exists so that `privacy.html` (and any future
-attribution surface) renders cleanly until the official badge is dropped
-in.
+This file is the Apple-logo silhouette used inside the WeatherKit
+attribution badge on [privacy.html](../privacy.html). The badge renders
+as " Weather" (Apple logo + wordmark) per Apple's WeatherKit Terms of
+Service — the SVG provides the logo, and the browser renders "Weather"
+in its system font next to it.
 
-Per Apple's WeatherKit Terms of Service, the attribution graphic must be
-the Apple-provided badge: the Apple logo + "Weather" wordmark.
+The SVG is a hand-recreated vector of the Apple logo silhouette
+(geometry from public sources), sized to `1em` and inheriting the
+surrounding text colour via `currentColor`. This is the standard
+approach used by other third-party WeatherKit consumers because the
+U+F8FF Apple-logo Unicode character only renders on Apple devices.
 
-### How to replace
+### When to replace with Apple's official asset
 
-1. Download the official Apple Weather attribution graphic from Apple's
-   WeatherKit developer resources: <https://developer.apple.com/weatherkit/>
-   (or extract the cached badge served at runtime by
-   `WeatherKitPlugin.swift` → `appleWeatherAttributionListenable` inside
-   the BetaSuite Flutter app — that's the canonical Apple-provided file).
-2. Save it as `icons/apple-weather-mark.svg` (overwrite this file).
-3. No markup changes needed — every reference already points at this
-   exact path.
+If you obtain a copy of Apple's official Apple Weather attribution
+badge (extracted at runtime from
+`WeatherKitPlugin.swift → appleWeatherAttributionListenable` inside the
+BetaSuite Flutter app, or from Apple's developer resources at
+<https://developer.apple.com/weatherkit/>), overwrite this file with
+the official SVG. No markup changes needed — every reference already
+points at this exact path.
 
 ### Where this file is used
 
