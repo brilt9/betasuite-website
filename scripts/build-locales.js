@@ -222,6 +222,33 @@ function localizeHeadLinks(html, locale, page) {
   return out;
 }
 
+// Root-owned static assets that the locale page would otherwise resolve
+// to /{locale}/<asset> (404). Rewrite to root-anchored absolute paths
+// so they hit the actual file at /<asset>. Page-to-page nav
+// (support.html, why.html, etc.) is deliberately NOT rewritten — locale
+// users navigating between pages should stay inside their locale, which
+// works because the corresponding /{locale}/<page>.html files exist.
+const ROOT_ASSET_FILES = [
+  "styles.css",
+  "translations.js",
+  "icon.png",
+  "og-image.png",
+];
+const ROOT_ASSET_DIRS = ["icons", "screenshots", "scripts"];
+
+function rewriteAssetPaths(html) {
+  let out = html;
+  for (const file of ROOT_ASSET_FILES) {
+    const re = new RegExp(`(href|src)="${escapeRegex(file)}"`, "g");
+    out = out.replace(re, (_, attr) => `${attr}="/${file}"`);
+  }
+  for (const dir of ROOT_ASSET_DIRS) {
+    const re = new RegExp(`(href|src)="${escapeRegex(dir)}/([^"]+)"`, "g");
+    out = out.replace(re, (_, attr, sub) => `${attr}="/${dir}/${sub}"`);
+  }
+  return out;
+}
+
 function build() {
   const translations = loadTranslations();
   let totalFiles = 0;
@@ -255,6 +282,7 @@ function build() {
 
       out = translateJsonLd(out, dict, page, locale);
       out = localizeHeadLinks(out, locale, page);
+      out = rewriteAssetPaths(out);
 
       fs.writeFileSync(path.join(outDir, page), out);
       totalFiles++;
