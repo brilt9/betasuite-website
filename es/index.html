@@ -181,7 +181,8 @@
   <!-- preconnect to the App Store host so the Download CTA + Smart App
        Banner handoff complete the TLS handshake before the user taps. -->
   <link rel="preconnect" href="https://apps.apple.com">
-  <link rel="preload" as="image" href="/icon.png" fetchpriority="high">
+  <!-- Preload the hero icon — biggest above-the-fold image, drives LCP. -->
+  <link rel="preload" as="image" href="/icons/icon-512.png" fetchpriority="high">
 
   <!-- iOS home-screen "Add to Home Screen" polish — if a user installs
        the site to their home screen it launches fullscreen with the
@@ -243,7 +244,9 @@
             <p class="meta" data-i18n="metaText">Compra única en la App Store · Sin suscripción · Sin anuncios · Sin seguimiento · Tuyo de por vida</p>
           </div>
           <!--
-            To ship a real hero screenshot, replace the placeholder below with:
+            Interim hero visual: the app icon, enlarged and styled as a
+            floating iOS-icon squircle. When real product screenshots are
+            ready, swap this <div> for:
 
               <img class="hero-image" src="/screenshots/hero.png"
                    alt="BetaSuite recording a test session — screen, camera, markers, and a generated report on iPhone"
@@ -252,8 +255,12 @@
             Drop the PNG/JPG at `screenshots/hero.png` (9:16 portrait, ≥ 540×960).
             See `screenshots/README.md` for spec + recommended source captures.
           -->
-          <div class="hero-image-placeholder" aria-hidden="true">
-            Hero screenshot<br>drop <code>screenshots/hero.png</code>
+          <div class="hero-visual">
+            <img class="hero-icon-feature"
+                 src="/icons/icon-512.png"
+                 alt="BetaSuite app icon"
+                 width="512" height="512"
+                 loading="eager" fetchpriority="high">
           </div>
         </div>
       </div>
