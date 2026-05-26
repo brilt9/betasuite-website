@@ -1,31 +1,46 @@
 # Site icons
 
-## `app-store-badge.svg` — "Download on the App Store" badge
+## `app-store-badge*.svg` — official Apple "Download on the App Store" badges
 
-Apple's official "Download on the App Store" badge, hand-recreated as
-an SVG (black rounded rect + Apple logo + two-line wordmark). Apple's
-[Marketing Resources guidelines](https://developer.apple.com/app-store/marketing/guidelines/)
-require this badge when linking to the App Store from a webpage, and
-explicitly permit use of the Apple logo for that purpose.
+Apple's official per-locale "Download on the App Store" badges,
+extracted from Apple's downloadable marketing bundle
+("Download-on-the-App-Store.zip", Black lockup, SVG variants).
+Apple's [Marketing Resources guidelines](https://developer.apple.com/app-store/marketing/guidelines/)
+require this badge when linking to the App Store from a webpage.
 
-Used by the hero CTA in [index.html](../index.html), the bottom CTA
-in [index.html](../index.html), and the CTA on [why.html](../why.html).
+### Layout
+
+| File | Region | Used on |
+|---|---|---|
+| `app-store-badge.svg` | US/UK English (Apple's `US-UK` variant) | Root `index.html` + `why.html` (English) |
+| `app-store-badge-de.svg` | Germany — "Laden im App Store" | `/de/` pages |
+| `app-store-badge-es.svg` | Spain — "Descargar en App Store" | `/es/` pages |
+| `app-store-badge-fr.svg` | France — "Télécharger dans l'App Store" | `/fr/` pages |
+| `app-store-badge-it.svg` | Italy — "Scarica su App Store" | `/it/` pages |
+| `app-store-badge-nb.svg` | Norway (`NO`) — "Last ned i App Store" | `/nb/` pages |
+| `app-store-badge-nl.svg` | Netherlands — "Download in de App Store" | `/nl/` pages |
+| `app-store-badge-pl.svg` | Poland — "Pobierz z App Store" | `/pl/` pages |
+| `app-store-badge-sv.svg` | Sweden (`SE`) — "Hämta i App Store" | `/sv/` pages |
+| `app-store-badge-zh.svg` | Mainland China Simplified (`CN-SC`) — "在 App Store 下载" | `/zh/` pages |
+
+The per-locale swap is done in `scripts/build-locales.js`'s
+`rewriteBadgeForLocale()` — for each locale the build script
+rewrites `icons/app-store-badge.svg` references to
+`icons/app-store-badge-<locale>.svg`. Locales without a matching
+file silently fall through to the English default.
+
 Sized to 180 × 60 px on desktop, 156 × 52 px under 720 px (per the
 breakpoint in styles.css).
 
-### When to swap for Apple's official asset
+### Refreshing from Apple
 
-Apple's App Store Marketing Tools can generate a per-locale badge
-(English, German, Japanese, etc.) at
-<https://tools.applemediaservices.com/app/6766279266>. If you want
-locale-specific badges (Spanish visitors see "Disponible en App Store"
-etc.), download the locale-tagged variant and either:
-- Replace `app-store-badge.svg` for an English-only swap, or
-- Add per-locale variants (`app-store-badge-de.svg`, etc.) and wire
-  conditional rendering in `scripts/build-locales.js`.
-
-For now, the English badge is used across all 10 locales — universally
-recognisable.
+If Apple ever updates the badge artwork (rare), download the bundle
+fresh from Apple's marketing resources and re-extract — the SVG
+filenames follow `Download_on_the_App_Store_Badge_<REGION>_RGB_blk_<date>.svg`
+inside each region folder's `Download_on_App_Store/Black_lockup/SVG/`
+subdirectory. Map them to our 10 locale codes using the table above
+(en→US/US-UK, nb→NO, sv→SE, zh→CN(SC)) and overwrite. No markup
+changes needed.
 
 ## `apple-weather-mark.svg` — Apple logo glyph for WeatherKit attribution
 

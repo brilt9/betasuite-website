@@ -249,6 +249,27 @@ function rewriteAssetPaths(html) {
   return out;
 }
 
+// Per-locale "Download on the App Store" badge swap. Apple ships
+// localised wordmarks (Im App Store laden, Télécharger dans l'App
+// Store, etc.); the corresponding SVGs live at
+// `icons/app-store-badge-<locale>.svg`. If a locale variant exists
+// for the current build, rewrite the default badge reference to it.
+// Locales without a variant on disk fall through to the English
+// default (`icons/app-store-badge.svg`).
+//
+// Runs BEFORE rewriteAssetPaths so the rewritten path then gets
+// root-anchored to `/icons/app-store-badge-<locale>.svg` by the
+// asset-path pass.
+function rewriteBadgeForLocale(html, locale) {
+  const variantFile = `app-store-badge-${locale}.svg`;
+  const variantPath = path.join(ROOT, "icons", variantFile);
+  if (!fs.existsSync(variantPath)) return html; // fall through to English
+  return html.replace(
+    /(href|src)="icons\/app-store-badge\.svg"/g,
+    (_, attr) => `${attr}="icons/${variantFile}"`,
+  );
+}
+
 function build() {
   const translations = loadTranslations();
   let totalFiles = 0;
@@ -282,6 +303,10 @@ function build() {
 
       out = translateJsonLd(out, dict, page, locale);
       out = localizeHeadLinks(out, locale, page);
+      // Per-locale badge swap MUST run before rewriteAssetPaths so
+      // the rewritten `icons/app-store-badge-<locale>.svg` then gets
+      // root-anchored to `/icons/app-store-badge-<locale>.svg`.
+      out = rewriteBadgeForLocale(out, locale);
       out = rewriteAssetPaths(out);
 
       fs.writeFileSync(path.join(outDir, page), out);
