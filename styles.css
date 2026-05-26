@@ -569,6 +569,36 @@ a:hover { color: var(--accent-2); text-decoration: underline; }
     0 0 60px -8px rgba(30, 144, 255, 0.32);
 }
 
+/* Apple "Download on the App Store" badge link. The badge image is
+   intentionally not styled with .btn (which has a blue background and
+   text padding) — the badge IS the visual, framed in its own black
+   rounded rect. Apple's marketing guidelines require the badge be
+   displayed without alteration to colour/proportions. */
+.app-store-badge {
+  display: inline-block;
+  line-height: 0;
+  border-radius: 12px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  background: transparent;
+  padding: 0;
+}
+.app-store-badge:hover,
+.app-store-badge:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+.app-store-badge img {
+  display: block;
+  width: 180px;
+  height: 60px;
+}
+@media (max-width: 720px) {
+  .app-store-badge img {
+    width: 156px;
+    height: 52px;
+  }
+}
+
 /* Table of contents for long-form pages */
 .toc {
   margin: 24px 0 32px;
