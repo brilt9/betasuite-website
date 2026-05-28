@@ -1,0 +1,14 @@
+{
+  "name": "betasuite-website",
+  "private": true,
+  "description": "Static marketing + legal site for BetaSuite, served by Cloudflare Pages.",
+  "scripts": {
+    "build:locales": "node scripts/build-locales.js",
+    "build": "node scripts/build-locales.js",
+    "render:og": "node scripts/render-og-image.js",
+    "audit:live": "node scripts/audit-live.js"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}

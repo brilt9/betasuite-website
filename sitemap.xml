@@ -86,17 +86,59 @@
   <url><loc>https://betasuite.pages.dev/pl/support.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://betasuite.pages.dev/zh/support.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 
-  <!-- Legal (English-only) -->
+  <!-- Privacy (localised chrome + English legal body) -->
   <url>
     <loc>https://betasuite.pages.dev/privacy.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://betasuite.pages.dev/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://betasuite.pages.dev/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://betasuite.pages.dev/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://betasuite.pages.dev/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://betasuite.pages.dev/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://betasuite.pages.dev/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://betasuite.pages.dev/nb/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://betasuite.pages.dev/sv/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://betasuite.pages.dev/pl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://betasuite.pages.dev/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://betasuite.pages.dev/privacy.html"/>
   </url>
+  <url><loc>https://betasuite.pages.dev/de/privacy.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/nl/privacy.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/fr/privacy.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/es/privacy.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/it/privacy.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/nb/privacy.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/sv/privacy.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/pl/privacy.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/zh/privacy.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+
+  <!-- Terms (localised chrome + English legal body) -->
   <url>
     <loc>https://betasuite.pages.dev/terms.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://betasuite.pages.dev/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://betasuite.pages.dev/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://betasuite.pages.dev/nl/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://betasuite.pages.dev/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://betasuite.pages.dev/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://betasuite.pages.dev/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://betasuite.pages.dev/nb/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://betasuite.pages.dev/sv/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://betasuite.pages.dev/pl/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://betasuite.pages.dev/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://betasuite.pages.dev/terms.html"/>
   </url>
+  <url><loc>https://betasuite.pages.dev/de/terms.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/nl/terms.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/fr/terms.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/es/terms.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/it/terms.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/nb/terms.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/sv/terms.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/pl/terms.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://betasuite.pages.dev/zh/terms.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
 </urlset>

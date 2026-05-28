@@ -25,13 +25,30 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const SITE_URL = "https://betasuite.pages.dev";
 const LOCALES = ["de", "nl", "fr", "es", "it", "nb", "sv", "pl", "zh"];
-const PAGES = ["index.html", "why.html", "support.html"];
+const PAGES = ["index.html", "why.html", "support.html", "privacy.html", "terms.html"];
 
 // Page-specific keys for <title> and meta description.
 const PAGE_KEYS = {
   "index.html":   { title: "pageTitleIndex",   desc: "metaDescIndex"   },
   "why.html":     { title: "pageTitleWhy",     desc: "metaDescWhy"     },
   "support.html": { title: "pageTitleSupport", desc: "metaDescSupport" },
+  "privacy.html": { title: "pageTitlePrivacy", desc: "metaDescPrivacy" },
+  "terms.html":   { title: "pageTitleTerms",   desc: "metaDescTerms"   },
+};
+
+// Map ISO-639-1 locales to Open Graph BCP-47 codes (with country variant).
+// Apple/Facebook/Twitter use these to render localised previews.
+const OG_LOCALE_MAP = {
+  en: "en_GB",
+  de: "de_DE",
+  nl: "nl_NL",
+  fr: "fr_FR",
+  es: "es_ES",
+  it: "it_IT",
+  nb: "nb_NO",
+  sv: "sv_SE",
+  pl: "pl_PL",
+  zh: "zh_CN",
 };
 
 // Per-page mapping for FAQPage JSON-LD entries (order matters, must match the page).
@@ -51,6 +68,8 @@ const BREADCRUMB_NAME_MAP = {
   "Home": "navHome",
   "Support": "navSupport",
   "Why BetaSuite": "navWhy",
+  "Privacy Policy": "privacyTitle",
+  "Terms of Use": "termsTitle",
 };
 
 function loadTranslations() {
@@ -140,10 +159,14 @@ function localizeBreadcrumbItem(item, locale) {
     (_, p) => {
       const pathPart = p || "/";
       if (pathPart === "/") return `${SITE_URL}/${locale}/`;
-      if (pathPart === "/why.html" || pathPart === "/support.html") {
+      if (
+        pathPart === "/why.html" ||
+        pathPart === "/support.html" ||
+        pathPart === "/privacy.html" ||
+        pathPart === "/terms.html"
+      ) {
         return `${SITE_URL}/${locale}${pathPart}`;
       }
-      // privacy / terms remain English — leave the URL untouched.
       return `${SITE_URL}${pathPart}`;
     }
   );
@@ -218,6 +241,18 @@ function localizeHeadLinks(html, locale, page) {
     /<meta property="og:url" content="[^"]+">/,
     `<meta property="og:url" content="${localizedPageUrl}">`
   );
+
+  // og:locale — every English page hardcodes en_GB; rewrite to match the
+  // active locale so social-media previews render the correct language.
+  // og:locale:alternate entries stay as-is (they're a list of available
+  // alternatives, identical across all locales).
+  const ogLocale = OG_LOCALE_MAP[locale];
+  if (ogLocale) {
+    out = out.replace(
+      /<meta property="og:locale" content="[^"]+">/,
+      `<meta property="og:locale" content="${ogLocale}">`
+    );
+  }
 
   return out;
 }
