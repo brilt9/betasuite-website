@@ -11,9 +11,9 @@ const translations = {
 
     /* Hero */
     heroTitle: "Catch every bug. Tell the whole story.",
-    heroText: "Dual-record screen and camera, drop voice-noted markers as you test, and ship a polished PDF report — all on iPhone, with on-device AI when you want it.",
+    heroText: "Dual-record screen and camera, drop voice-noted markers as you test, and ship a polished PDF report — all on iPhone or iPad, with on-device AI when you want it.",
     downloadAppStore: "Download on the App Store",
-    androidNote: "iPhone only — Android in development, release date to be confirmed.",
+    androidNote: "iPhone and iPad only — Android in development, release date to be confirmed.",
     androidNotifyLink: "Notify me →",
     metaText: "One-off App Store purchase · No subscription · No ads · No tracking · Yours for life",
 
@@ -75,11 +75,11 @@ const translations = {
 
     /* On-device AI callout */
     calloutTitle: "Privacy-first by design",
-    calloutLead: "BetaSuite leans on on-device AI wherever your iPhone supports it.",
+    calloutLead: "BetaSuite leans on on-device AI wherever your iPhone or iPad supports it.",
     callout1Title: "AI that stays on your device",
-    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) handles text generation locally.",
+    callout1Text: "Apple Intelligence (iOS 26+ on iPhone 15 Pro and later, or iPadOS 26+ on iPad with M1 chip or later) handles text generation locally.",
     callout2Title: "Speech that never leaves",
-    callout2Text: "Voice memos transcribe on-device via Apple's Speech framework on supported iPhones.",
+    callout2Text: "Voice memos transcribe on-device via Apple's Speech framework on supported iPhone and iPad models.",
     callout3Title: "One toggle for sensitive work",
     callout3Text: "Confidential Mode blocks every cloud route so NDA testing stays local.",
     calloutLink: "Read the full privacy policy →",
@@ -98,7 +98,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Common questions",
     faqQ1: "Which devices are supported?",
-    faqA1: "iPhone with iOS 16 or later. Android is in development — release date to be confirmed.",
+    faqA1: "iPhone with iOS 16 or later, and iPad with iPadOS 16 or later. Android is in development — release date to be confirmed.",
     faqQ2: "Do I need an account?",
     faqA2: "BetaSuite itself doesn't require an account, but you'll need a valid Apple ID / App Store account to purchase and download the app.",
     faqQ3: "What is Confidential Mode?",
@@ -124,9 +124,7 @@ const translations = {
     privacyTitle: "Privacy Policy",
     termsTitle: "Terms of Use",
     legalEnglishOnlyNotice: "The body of this document is provided in English only. Any translation elsewhere on the site is for convenience — the English version is the authoritative legal text.",
-    featureRequestTitle: "Have a feature idea?",
-    featureRequestBody: "Feature requests live on a public GitHub repo so other testers can see and upvote them. You can submit new ideas directly from inside the app via Settings → Feature Requests, with on-device PII redaction before anything is posted.",
-    featureRequestLink: "Browse the public feature-request board on GitHub →",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
     faqMore: "More on the support page →",
 
     /* Closing CTA */
@@ -191,7 +189,7 @@ const translations = {
     heroTitle: "捕捉每一个 Bug,讲清完整故事。",
     heroText: "BetaSuite 是为真正提交 Bug 报告的人打造的移动测试工具:同时录制屏幕和相机、回放最近 30 秒、标注、转录,再生成一份精炼的报告。",
     downloadAppStore: "在 App Store 下载",
-    androidNote: "仅支持 iPhone——Android 正在开发中,发布日期待定。",
+    androidNote: "仅支持 iPhone 和 iPad——Android 正在开发中,发布日期待定。",
     androidNotifyLink: "通知我 →",
     metaText: "App Store 一次性购买 · 无订阅 · 无广告 · 无追踪 · 终身使用",
 
@@ -253,11 +251,11 @@ const translations = {
 
     /* Callout */
     calloutTitle: "从设计起就以隐私为先",
-    calloutLead: "只要你的 iPhone 支持,BetaSuite 都会优先使用本地 AI。",
+    calloutLead: "只要你的 iPhone 或 iPad 支持,BetaSuite 都会优先使用本地 AI。",
     callout1Title: "AI 留在你的设备上",
-    callout1Text: "Apple Intelligence(iOS 26+,iPhone 15 Pro / 16 / 17)在本地完成文本生成。",
+    callout1Text: "Apple Intelligence(iOS 26+ 在 iPhone 15 Pro 及更新机型,或 iPadOS 26+ 在配备 M1 芯片或更高的 iPad 上)在本地完成文本生成。",
     callout2Title: "语音不外传",
-    callout2Text: "在支持的 iPhone 上,语音备忘通过 Apple Speech 框架在本地转录。",
+    callout2Text: "在受支持的 iPhone 和 iPad 上,语音备忘通过 Apple Speech 框架在本地转录。",
     callout3Title: "一键应对敏感工作",
     callout3Text: "保密模式封锁所有云端路径,让 NDA 测试始终保持本地化。",
     calloutLink: "查看完整隐私政策 →",
@@ -276,7 +274,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "常见问题",
     faqQ1: "支持哪些设备?",
-    faqA1: "iPhone(iOS 16 及以上)。Android 正在开发中,发布日期待定。",
+    faqA1: "iPhone(iOS 16 及以上)和 iPad(iPadOS 16 及以上)。Android 正在开发中,发布日期待定。",
     faqQ2: "需要账号吗?",
     faqA2: "BetaSuite 本身不需要账号,但你需要有效的 Apple ID / App Store 账号来购买和下载应用。",
     faqQ3: "什么是保密模式?",
@@ -302,9 +300,7 @@ const translations = {
     privacyTitle: "隐私政策",
     termsTitle: "使用条款",
     legalEnglishOnlyNotice: "本文件的正文仅以英文提供。本站其他位置的翻译仅供参考——具有法律效力的版本以英文为准。",
-    featureRequestTitle: "有功能建议吗?",
-    featureRequestBody: "功能请求托管在公共的 GitHub 仓库,让其他测试者也能看到并点赞。你可以直接在应用内通过「设置 → 功能请求」提交新想法——在发布前,应用会在本地完成 PII 脱敏。",
-    featureRequestLink: "在 GitHub 上浏览公共的功能请求列表 →",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
     faqMore: "在支持页面查看更多 →",
 
     /* Closing CTA */
@@ -369,7 +365,7 @@ const translations = {
     heroTitle: "Jeden Bug einfangen. Die ganze Geschichte erzählen.",
     heroText: "BetaSuite ist das mobile Test-Kit für Leute, die wirklich Bugs melden – Bildschirm und Kamera gleichzeitig aufnehmen, die letzten 30 Sekunden wiedergeben, annotieren, transkribieren und einen ausgefeilten Bericht abliefern.",
     downloadAppStore: "Im App Store laden",
-    androidNote: "Nur für iPhone – Android in Entwicklung, Veröffentlichungsdatum noch offen.",
+    androidNote: "Nur für iPhone und iPad – Android in Entwicklung, Veröffentlichungsdatum noch offen.",
     androidNotifyLink: "Benachrichtige mich →",
     metaText: "Einmalkauf im App Store · Kein Abo · Keine Werbung · Kein Tracking · Lebenslang nutzbar",
 
@@ -431,11 +427,11 @@ const translations = {
 
     /* Callout */
     calloutTitle: "Privacy-first by design",
-    calloutLead: "BetaSuite setzt überall, wo dein iPhone es unterstützt, auf KI auf dem Gerät.",
+    calloutLead: "BetaSuite setzt überall, wo dein iPhone oder iPad es unterstützt, auf KI auf dem Gerät.",
     callout1Title: "KI, die auf deinem Gerät bleibt",
-    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) erledigt die Textgenerierung lokal.",
+    callout1Text: "Apple Intelligence (iOS 26+ auf iPhone 15 Pro und neuer, oder iPadOS 26+ auf iPad mit M1-Chip oder neuer) erledigt die Textgenerierung lokal.",
     callout2Title: "Sprache, die nicht weggeht",
-    callout2Text: "Sprachnotizen werden auf unterstützten iPhones via Apples Speech-Framework auf dem Gerät transkribiert.",
+    callout2Text: "Sprachnotizen werden auf unterstützten iPhone- und iPad-Modellen via Apples Speech-Framework auf dem Gerät transkribiert.",
     callout3Title: "Ein Schalter für sensible Arbeit",
     callout3Text: "Der Vertrauliche Modus blockiert jeden Cloud-Weg, sodass NDA-Tests lokal bleiben.",
     calloutLink: "Vollständige Datenschutzerklärung lesen →",
@@ -454,7 +450,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Häufige Fragen",
     faqQ1: "Welche Geräte werden unterstützt?",
-    faqA1: "iPhone mit iOS 16 oder neuer. Android ist in Entwicklung – Veröffentlichungsdatum noch offen.",
+    faqA1: "iPhone mit iOS 16 oder neuer und iPad mit iPadOS 16 oder neuer. Android ist in Entwicklung – Veröffentlichungsdatum noch offen.",
     faqQ2: "Brauche ich ein Konto?",
     faqA2: "BetaSuite selbst benötigt kein Konto, aber du brauchst eine gültige Apple-ID bzw. ein App-Store-Konto, um die App zu kaufen und zu laden.",
     faqQ3: "Was ist der Vertrauliche Modus?",
@@ -480,9 +476,7 @@ const translations = {
     privacyTitle: "Datenschutzerklärung",
     termsTitle: "Nutzungsbedingungen",
     legalEnglishOnlyNotice: "Der Text dieses Dokuments wird ausschließlich in englischer Sprache bereitgestellt. Übersetzungen an anderen Stellen der Website dienen lediglich der Bequemlichkeit – maßgeblich ist die englische Fassung.",
-    featureRequestTitle: "Hast du eine Feature-Idee?",
-    featureRequestBody: "Feature-Anfragen leben in einem öffentlichen GitHub-Repo, damit andere Tester sie sehen und liken können. Du kannst neue Ideen direkt in der App über Einstellungen → Feature-Anfragen einreichen — auf dem Gerät werden personenbezogene Daten geschwärzt, bevor etwas gepostet wird.",
-    featureRequestLink: "Öffentliche Feature-Liste auf GitHub durchstöbern →",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
     faqMore: "Mehr auf der Support-Seite →",
 
     /* Closing CTA */
@@ -547,7 +541,7 @@ const translations = {
     heroTitle: "Vang elke bug. Vertel het hele verhaal.",
     heroText: "BetaSuite is de mobiele testkit voor mensen die echt bugs rapporteren — neem scherm en camera tegelijk op, speel de laatste 30 seconden opnieuw af, annoteer, transcribeer en lever een gepolijst rapport af.",
     downloadAppStore: "Download in de App Store",
-    androidNote: "Alleen iPhone — Android in ontwikkeling, releasedatum nog te bevestigen.",
+    androidNote: "Alleen iPhone en iPad — Android in ontwikkeling, releasedatum nog te bevestigen.",
     androidNotifyLink: "Houd me op de hoogte →",
     metaText: "Eenmalige aankoop in de App Store · Geen abonnement · Geen advertenties · Geen tracking · Levenslang van jou",
 
@@ -609,11 +603,11 @@ const translations = {
 
     /* Callout */
     calloutTitle: "Privacy-first by design",
-    calloutLead: "BetaSuite leunt op AI op het apparaat overal waar je iPhone dat ondersteunt.",
+    calloutLead: "BetaSuite leunt op AI op het apparaat overal waar je iPhone of iPad dat ondersteunt.",
     callout1Title: "AI die op je apparaat blijft",
-    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) verwerkt tekstgeneratie lokaal.",
+    callout1Text: "Apple Intelligence (iOS 26+ op iPhone 15 Pro en nieuwer, of iPadOS 26+ op iPad met M1-chip of nieuwer) verwerkt tekstgeneratie lokaal.",
     callout2Title: "Spraak die nooit vertrekt",
-    callout2Text: "Spraakmemo's worden op het apparaat getranscribeerd via Apple's Speech-framework op ondersteunde iPhones.",
+    callout2Text: "Spraakmemo's worden op het apparaat getranscribeerd via Apple's Speech-framework op ondersteunde iPhone- en iPad-modellen.",
     callout3Title: "Eén schakelaar voor gevoelig werk",
     callout3Text: "De vertrouwelijke modus blokkeert elke cloudroute, zodat NDA-tests lokaal blijven.",
     calloutLink: "Lees het volledige privacybeleid →",
@@ -632,7 +626,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Veelgestelde vragen",
     faqQ1: "Welke apparaten worden ondersteund?",
-    faqA1: "iPhone met iOS 16 of nieuwer. Android is in ontwikkeling — releasedatum nog te bevestigen.",
+    faqA1: "iPhone met iOS 16 of nieuwer, en iPad met iPadOS 16 of nieuwer. Android is in ontwikkeling — releasedatum nog te bevestigen.",
     faqQ2: "Heb ik een account nodig?",
     faqA2: "BetaSuite zelf vereist geen account, maar je hebt een geldige Apple ID / App Store-account nodig om de app te kopen en te downloaden.",
     faqQ3: "Wat is de vertrouwelijke modus?",
@@ -658,9 +652,7 @@ const translations = {
     privacyTitle: "Privacybeleid",
     termsTitle: "Gebruiksvoorwaarden",
     legalEnglishOnlyNotice: "De tekst van dit document wordt uitsluitend in het Engels aangeboden. Elke vertaling elders op de site is louter voor het gemak — de Engelse versie is de juridisch bindende tekst.",
-    featureRequestTitle: "Heb je een feature-idee?",
-    featureRequestBody: "Feature requests leven in een publieke GitHub-repo, zodat andere testers ze kunnen zien en upvoten. Je kunt nieuwe ideeën direct vanuit de app indienen via Instellingen → Feature Requests, met on-device PII-redactie voordat er iets wordt geplaatst.",
-    featureRequestLink: "Bekijk het publieke feature-requestbord op GitHub →",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
     faqMore: "Meer op de supportpagina →",
 
     /* Closing CTA */
@@ -725,7 +717,7 @@ const translations = {
     heroTitle: "Capturez chaque bug. Racontez toute l'histoire.",
     heroText: "BetaSuite est le kit de test mobile pour les gens qui rapportent vraiment des bugs — enregistrez écran et caméra en même temps, rejouez les 30 dernières secondes, annotez, transcrivez et livrez un rapport soigné.",
     downloadAppStore: "Télécharger sur l'App Store",
-    androidNote: "iPhone uniquement — Android en développement, date de sortie à confirmer.",
+    androidNote: "iPhone et iPad uniquement — Android en développement, date de sortie à confirmer.",
     androidNotifyLink: "Me notifier →",
     metaText: "Achat unique sur l'App Store · Sans abonnement · Sans publicité · Sans pistage · À vous pour la vie",
 
@@ -787,11 +779,11 @@ const translations = {
 
     /* Callout */
     calloutTitle: "Confidentialité dès la conception",
-    calloutLead: "BetaSuite s'appuie sur l'IA sur l'appareil partout où votre iPhone le permet.",
+    calloutLead: "BetaSuite s'appuie sur l'IA sur l'appareil partout où votre iPhone ou iPad le permet.",
     callout1Title: "Une IA qui reste sur votre appareil",
-    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) gère la génération de texte localement.",
+    callout1Text: "Apple Intelligence (iOS 26+ sur iPhone 15 Pro et ultérieur, ou iPadOS 26+ sur iPad avec puce M1 ou ultérieure) gère la génération de texte localement.",
     callout2Title: "Une voix qui ne sort jamais",
-    callout2Text: "Les mémos vocaux sont transcrits sur l'appareil via le framework Speech d'Apple sur iPhone compatibles.",
+    callout2Text: "Les mémos vocaux sont transcrits sur l'appareil via le framework Speech d'Apple sur les modèles d'iPhone et d'iPad compatibles.",
     callout3Title: "Un interrupteur pour le travail sensible",
     callout3Text: "Le mode confidentiel bloque toute route cloud, pour que les tests sous NDA restent locaux.",
     calloutLink: "Lire la politique de confidentialité complète →",
@@ -810,7 +802,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Questions courantes",
     faqQ1: "Quels appareils sont pris en charge ?",
-    faqA1: "iPhone avec iOS 16 ou plus récent. Android est en développement — date de sortie à confirmer.",
+    faqA1: "iPhone avec iOS 16 ou plus récent, et iPad avec iPadOS 16 ou plus récent. Android est en développement — date de sortie à confirmer.",
     faqQ2: "Faut-il un compte ?",
     faqA2: "BetaSuite lui-même ne nécessite pas de compte, mais il vous faut un identifiant Apple / compte App Store valide pour acheter et télécharger l'app.",
     faqQ3: "Qu'est-ce que le mode confidentiel ?",
@@ -836,9 +828,7 @@ const translations = {
     privacyTitle: "Politique de confidentialité",
     termsTitle: "Conditions d'utilisation",
     legalEnglishOnlyNotice: "Le corps de ce document est fourni uniquement en anglais. Toute traduction ailleurs sur le site est fournie à titre indicatif — la version anglaise fait foi sur le plan juridique.",
-    featureRequestTitle: "Une idée de fonctionnalité ?",
-    featureRequestBody: "Les demandes de fonctionnalités vivent dans un dépôt GitHub public pour que les autres testeurs puissent les voir et voter. Vous pouvez soumettre de nouvelles idées directement depuis l'app via Réglages → Demandes de fonctionnalités, avec une expurgation des données personnelles sur l'appareil avant toute publication.",
-    featureRequestLink: "Parcourir le tableau public des demandes de fonctionnalités sur GitHub →",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
     faqMore: "Plus sur la page support →",
 
     /* Closing CTA */
@@ -903,7 +893,7 @@ const translations = {
     heroTitle: "Fang hver bug. Fortell hele historien.",
     heroText: "BetaSuite er det mobile testsettet for folk som faktisk rapporterer bugs — ta opp skjerm og kamera samtidig, spill av de siste 30 sekundene på nytt, annoter, transkriber og lever en polert rapport.",
     downloadAppStore: "Last ned i App Store",
-    androidNote: "Kun iPhone — Android under utvikling, lanseringsdato bekreftes senere.",
+    androidNote: "Kun iPhone og iPad — Android under utvikling, lanseringsdato bekreftes senere.",
     androidNotifyLink: "Varsle meg →",
     metaText: "Engangskjøp i App Store · Ingen abonnement · Ingen reklame · Ingen sporing · Ditt for livet",
 
@@ -965,11 +955,11 @@ const translations = {
 
     /* Callout */
     calloutTitle: "Personvern først, etter design",
-    calloutLead: "BetaSuite lener seg på AI på enheten overalt der iPhone-en din støtter det.",
+    calloutLead: "BetaSuite lener seg på AI på enheten overalt der iPhone-en eller iPad-en din støtter det.",
     callout1Title: "AI som blir på enheten",
-    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) håndterer tekstgenerering lokalt.",
+    callout1Text: "Apple Intelligence (iOS 26+ på iPhone 15 Pro og nyere, eller iPadOS 26+ på iPad med M1-brikke eller nyere) håndterer tekstgenerering lokalt.",
     callout2Title: "Tale som aldri forlater",
-    callout2Text: "Taleopptak transkriberes på enheten via Apples Speech-rammeverk på støttede iPhones.",
+    callout2Text: "Taleopptak transkriberes på enheten via Apples Speech-rammeverk på støttede iPhone- og iPad-modeller.",
     callout3Title: "Én bryter for sensitivt arbeid",
     callout3Text: "Konfidensiell modus blokkerer hver sky-rute slik at NDA-testing forblir lokal.",
     calloutLink: "Les hele personvernreglene →",
@@ -988,7 +978,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Vanlige spørsmål",
     faqQ1: "Hvilke enheter støttes?",
-    faqA1: "iPhone med iOS 16 eller nyere. Android er under utvikling — lanseringsdato bekreftes senere.",
+    faqA1: "iPhone med iOS 16 eller nyere, og iPad med iPadOS 16 eller nyere. Android er under utvikling — lanseringsdato bekreftes senere.",
     faqQ2: "Trenger jeg en konto?",
     faqA2: "BetaSuite selv krever ingen konto, men du trenger en gyldig Apple-ID / App Store-konto for å kjøpe og laste ned appen.",
     faqQ3: "Hva er konfidensiell modus?",
@@ -1014,9 +1004,7 @@ const translations = {
     privacyTitle: "Personvernerklæring",
     termsTitle: "Bruksvilkår",
     legalEnglishOnlyNotice: "Innholdet i dette dokumentet leveres kun på engelsk. Eventuelle oversettelser andre steder på nettstedet er kun en bekvemmelighet — den engelske versjonen er den juridisk bindende.",
-    featureRequestTitle: "Har du en funksjonsidé?",
-    featureRequestBody: "Funksjonsønsker ligger i et offentlig GitHub-repo slik at andre testere kan se og stemme på dem. Du kan sende inn nye ideer direkte fra appen via Innstillinger → Funksjonsønsker — personopplysninger redigeres ut på enheten før noe publiseres.",
-    featureRequestLink: "Bla i den offentlige funksjonsønske-tavlen på GitHub →",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
     faqMore: "Mer på støttesiden →",
 
     /* Closing CTA */
@@ -1081,7 +1069,7 @@ const translations = {
     heroTitle: "Fånga varje bugg. Berätta hela historien.",
     heroText: "BetaSuite är den mobila testkit för folk som faktiskt rapporterar buggar — spela in skärm och kamera samtidigt, spela upp de senaste 30 sekunderna, annotera, transkribera och leverera en polerad rapport.",
     downloadAppStore: "Hämta i App Store",
-    androidNote: "Endast iPhone — Android under utveckling, släppdatum ska bekräftas.",
+    androidNote: "Endast iPhone och iPad — Android under utveckling, släppdatum ska bekräftas.",
     androidNotifyLink: "Meddela mig →",
     metaText: "Engångsköp i App Store · Inget abonnemang · Inga annonser · Ingen spårning · Ditt för livet",
 
@@ -1143,11 +1131,11 @@ const translations = {
 
     /* Callout */
     calloutTitle: "Integritet först, från start",
-    calloutLead: "BetaSuite lutar sig mot AI på enheten överallt där din iPhone stöder det.",
+    calloutLead: "BetaSuite lutar sig mot AI på enheten överallt där din iPhone eller iPad stöder det.",
     callout1Title: "AI som stannar på din enhet",
-    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) hanterar textgenerering lokalt.",
+    callout1Text: "Apple Intelligence (iOS 26+ på iPhone 15 Pro och senare, eller iPadOS 26+ på iPad med M1-chip eller senare) hanterar textgenerering lokalt.",
     callout2Title: "Tal som aldrig lämnar",
-    callout2Text: "Röstmemon transkriberas på enheten via Apples Speech-ramverk på stödda iPhones.",
+    callout2Text: "Röstmemon transkriberas på enheten via Apples Speech-ramverk på stödda iPhone- och iPad-modeller.",
     callout3Title: "En knapp för känsligt arbete",
     callout3Text: "Konfidentiellt läge blockerar varje molnväg så att NDA-testning förblir lokal.",
     calloutLink: "Läs hela integritetspolicyn →",
@@ -1166,7 +1154,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Vanliga frågor",
     faqQ1: "Vilka enheter stöds?",
-    faqA1: "iPhone med iOS 16 eller senare. Android är under utveckling — släppdatum ska bekräftas.",
+    faqA1: "iPhone med iOS 16 eller senare, och iPad med iPadOS 16 eller senare. Android är under utveckling — släppdatum ska bekräftas.",
     faqQ2: "Behöver jag ett konto?",
     faqA2: "BetaSuite självt kräver inget konto, men du behöver ett giltigt Apple-ID / App Store-konto för att köpa och ladda ned appen.",
     faqQ3: "Vad är konfidentiellt läge?",
@@ -1192,9 +1180,7 @@ const translations = {
     privacyTitle: "Integritetspolicy",
     termsTitle: "Användarvillkor",
     legalEnglishOnlyNotice: "Innehållet i detta dokument tillhandahålls endast på engelska. Eventuella översättningar på andra delar av webbplatsen är endast en bekvämlighet — den engelska versionen är den juridiskt bindande.",
-    featureRequestTitle: "Har du en funktionsidé?",
-    featureRequestBody: "Funktionsönskemål finns i ett publikt GitHub-repo så att andra testare kan se och rösta på dem. Du kan skicka in nya idéer direkt från appen via Inställningar → Funktionsönskemål — personuppgifter redigeras bort på enheten innan något publiceras.",
-    featureRequestLink: "Bläddra i den publika funktionsönskemålstavlan på GitHub →",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
     faqMore: "Mer på supportsidan →",
 
     /* Closing CTA */
@@ -1259,7 +1245,7 @@ const translations = {
     heroTitle: "Captura cada bug. Cuenta toda la historia.",
     heroText: "BetaSuite es el kit de pruebas móviles para personas que de verdad reportan bugs: graba pantalla y cámara a la vez, reproduce los últimos 30 segundos, anota, transcribe y entrega un informe pulido.",
     downloadAppStore: "Descargar en el App Store",
-    androidNote: "Solo iPhone — Android en desarrollo, fecha de lanzamiento por confirmar.",
+    androidNote: "Solo iPhone y iPad — Android en desarrollo, fecha de lanzamiento por confirmar.",
     androidNotifyLink: "Avísame →",
     metaText: "Compra única en la App Store · Sin suscripción · Sin anuncios · Sin seguimiento · Tuyo de por vida",
 
@@ -1321,11 +1307,11 @@ const translations = {
 
     /* Callout */
     calloutTitle: "Privacidad por diseño",
-    calloutLead: "BetaSuite se apoya en IA en el dispositivo siempre que tu iPhone lo permita.",
+    calloutLead: "BetaSuite se apoya en IA en el dispositivo siempre que tu iPhone o iPad lo permita.",
     callout1Title: "IA que se queda en tu dispositivo",
-    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) gestiona la generación de texto localmente.",
+    callout1Text: "Apple Intelligence (iOS 26+ en iPhone 15 Pro o posterior, o iPadOS 26+ en iPad con chip M1 o posterior) gestiona la generación de texto localmente.",
     callout2Title: "Voz que nunca sale",
-    callout2Text: "Las notas de voz se transcriben en el dispositivo a través del framework Speech de Apple en iPhones compatibles.",
+    callout2Text: "Las notas de voz se transcriben en el dispositivo a través del framework Speech de Apple en modelos de iPhone y iPad compatibles.",
     callout3Title: "Un interruptor para trabajo sensible",
     callout3Text: "El modo confidencial bloquea toda ruta a la nube para que las pruebas bajo NDA queden locales.",
     calloutLink: "Lee la política de privacidad completa →",
@@ -1344,7 +1330,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Preguntas frecuentes",
     faqQ1: "¿Qué dispositivos se admiten?",
-    faqA1: "iPhone con iOS 16 o posterior. Android está en desarrollo — fecha de lanzamiento por confirmar.",
+    faqA1: "iPhone con iOS 16 o posterior, y iPad con iPadOS 16 o posterior. Android está en desarrollo — fecha de lanzamiento por confirmar.",
     faqQ2: "¿Necesito una cuenta?",
     faqA2: "BetaSuite en sí no requiere cuenta, pero necesitas un Apple ID / cuenta de App Store válidos para comprar y descargar la app.",
     faqQ3: "¿Qué es el modo confidencial?",
@@ -1370,9 +1356,7 @@ const translations = {
     privacyTitle: "Política de privacidad",
     termsTitle: "Términos de uso",
     legalEnglishOnlyNotice: "El cuerpo de este documento se proporciona únicamente en inglés. Cualquier traducción en otras partes del sitio es por comodidad — la versión en inglés es la jurídicamente vinculante.",
-    featureRequestTitle: "¿Tienes una idea de función?",
-    featureRequestBody: "Las solicitudes de funciones viven en un repo público de GitHub para que otros testers puedan verlas y votarlas. Puedes enviar nuevas ideas directamente desde la app en Ajustes → Solicitudes de funciones, con redacción de datos personales en el dispositivo antes de publicar nada.",
-    featureRequestLink: "Explorar el tablero público de solicitudes de funciones en GitHub →",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
     faqMore: "Más en la página de soporte →",
 
     /* Closing CTA */
@@ -1437,7 +1421,7 @@ const translations = {
     heroTitle: "Cattura ogni bug. Racconta tutta la storia.",
     heroText: "BetaSuite è il kit di test mobile per chi i bug li segnala davvero: registra schermo e fotocamera insieme, riproduci gli ultimi 30 secondi, annota, trascrivi e consegna un report rifinito.",
     downloadAppStore: "Scarica su App Store",
-    androidNote: "Solo iPhone — Android in sviluppo, data di rilascio da confermare.",
+    androidNote: "Solo iPhone e iPad — Android in sviluppo, data di rilascio da confermare.",
     androidNotifyLink: "Avvisami →",
     metaText: "Acquisto una tantum su App Store · Nessun abbonamento · Niente pubblicità · Niente tracciamento · Tuo per sempre",
 
@@ -1499,11 +1483,11 @@ const translations = {
 
     /* Callout */
     calloutTitle: "Privacy-first per design",
-    calloutLead: "BetaSuite si appoggia all'IA on-device ovunque il tuo iPhone la supporti.",
+    calloutLead: "BetaSuite si appoggia all'IA on-device ovunque il tuo iPhone o iPad la supporti.",
     callout1Title: "IA che resta sul tuo dispositivo",
-    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) gestisce la generazione del testo in locale.",
+    callout1Text: "Apple Intelligence (iOS 26+ su iPhone 15 Pro o successivo, o iPadOS 26+ su iPad con chip M1 o successivo) gestisce la generazione del testo in locale.",
     callout2Title: "Voce che non se ne va",
-    callout2Text: "I memo vocali vengono trascritti sul dispositivo tramite il framework Speech di Apple su iPhone compatibili.",
+    callout2Text: "I memo vocali vengono trascritti sul dispositivo tramite il framework Speech di Apple sui modelli di iPhone e iPad compatibili.",
     callout3Title: "Un interruttore per il lavoro sensibile",
     callout3Text: "La modalità riservata blocca ogni rotta verso il cloud, così i test sotto NDA restano locali.",
     calloutLink: "Leggi l'informativa completa →",
@@ -1522,7 +1506,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Domande frequenti",
     faqQ1: "Quali dispositivi sono supportati?",
-    faqA1: "iPhone con iOS 16 o successivo. Android è in sviluppo — data di rilascio da confermare.",
+    faqA1: "iPhone con iOS 16 o successivo, e iPad con iPadOS 16 o successivo. Android è in sviluppo — data di rilascio da confermare.",
     faqQ2: "Serve un account?",
     faqA2: "BetaSuite in sé non richiede un account, ma serve un Apple ID / account App Store valido per acquistare e scaricare l'app.",
     faqQ3: "Cos'è la modalità riservata?",
@@ -1548,9 +1532,7 @@ const translations = {
     privacyTitle: "Informativa sulla privacy",
     termsTitle: "Termini di utilizzo",
     legalEnglishOnlyNotice: "Il testo di questo documento è fornito solo in inglese. Eventuali traduzioni in altre parti del sito sono fornite per comodità — la versione in inglese è quella giuridicamente vincolante.",
-    featureRequestTitle: "Hai un'idea di funzionalità?",
-    featureRequestBody: "Le richieste di funzionalità vivono in un repo GitHub pubblico, così altri tester possono vederle e votarle. Puoi inviare nuove idee direttamente dall'app tramite Impostazioni → Richieste di funzionalità — i dati personali vengono oscurati sul dispositivo prima della pubblicazione.",
-    featureRequestLink: "Sfoglia la bacheca pubblica delle richieste di funzionalità su GitHub →",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
     faqMore: "Altro nella pagina supporto →",
 
     /* Closing CTA */
@@ -1615,7 +1597,7 @@ const translations = {
     heroTitle: "Złap każdego buga. Opowiedz całą historię.",
     heroText: "BetaSuite to mobilny zestaw testowy dla osób, które naprawdę zgłaszają bugi — nagrywaj ekran i kamerę jednocześnie, odtwarzaj ostatnie 30 sekund, opisuj, transkrybuj i wysyłaj dopracowany raport.",
     downloadAppStore: "Pobierz w App Store",
-    androidNote: "Tylko iPhone — Android w fazie rozwoju, data wydania do potwierdzenia.",
+    androidNote: "Tylko iPhone i iPad — Android w fazie rozwoju, data wydania do potwierdzenia.",
     androidNotifyLink: "Powiadom mnie →",
     metaText: "Jednorazowy zakup w App Store · Bez subskrypcji · Bez reklam · Bez śledzenia · Twoje na zawsze",
 
@@ -1677,11 +1659,11 @@ const translations = {
 
     /* Callout */
     calloutTitle: "Prywatność z założenia",
-    calloutLead: "BetaSuite opiera się na SI na urządzeniu wszędzie tam, gdzie Twój iPhone to wspiera.",
+    calloutLead: "BetaSuite opiera się na SI na urządzeniu wszędzie tam, gdzie Twój iPhone lub iPad to wspiera.",
     callout1Title: "SI, która zostaje na Twoim urządzeniu",
-    callout1Text: "Apple Intelligence (iOS 26+, iPhone 15 Pro / 16 / 17) generuje tekst lokalnie.",
+    callout1Text: "Apple Intelligence (iOS 26+ na iPhone 15 Pro lub nowszym, lub iPadOS 26+ na iPad z chipem M1 lub nowszym) generuje tekst lokalnie.",
     callout2Title: "Mowa, która nigdzie nie ucieka",
-    callout2Text: "Notatki głosowe są transkrybowane na urządzeniu przez framework Speech Apple na obsługiwanych iPhone'ach.",
+    callout2Text: "Notatki głosowe są transkrybowane na urządzeniu przez framework Speech Apple na obsługiwanych modelach iPhone'a i iPada.",
     callout3Title: "Jeden przełącznik na wrażliwą pracę",
     callout3Text: "Tryb poufny blokuje każdą trasę do chmury, więc testy pod NDA pozostają lokalne.",
     calloutLink: "Przeczytaj pełną politykę prywatności →",
@@ -1700,7 +1682,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Częste pytania",
     faqQ1: "Jakie urządzenia są obsługiwane?",
-    faqA1: "iPhone z iOS 16 lub nowszym. Android jest w fazie rozwoju — data wydania do potwierdzenia.",
+    faqA1: "iPhone z iOS 16 lub nowszym, i iPad z iPadOS 16 lub nowszym. Android jest w fazie rozwoju — data wydania do potwierdzenia.",
     faqQ2: "Czy potrzebuję konta?",
     faqA2: "Sam BetaSuite nie wymaga konta, ale potrzebujesz ważnego Apple ID / konta App Store, by kupić i pobrać aplikację.",
     faqQ3: "Czym jest tryb poufny?",
@@ -1726,9 +1708,7 @@ const translations = {
     privacyTitle: "Polityka prywatności",
     termsTitle: "Warunki korzystania",
     legalEnglishOnlyNotice: "Treść tego dokumentu jest dostępna wyłącznie w języku angielskim. Wszelkie tłumaczenia w innych miejscach witryny mają charakter informacyjny — wersja angielska jest wiążąca prawnie.",
-    featureRequestTitle: "Masz pomysł na funkcję?",
-    featureRequestBody: "Prośby o funkcje znajdują się w publicznym repo na GitHubie, dzięki czemu inni testerzy mogą je zobaczyć i głosować na nie. Nowe pomysły możesz zgłaszać bezpośrednio z aplikacji w Ustawienia → Prośby o funkcje — dane osobowe są usuwane lokalnie na urządzeniu przed publikacją.",
-    featureRequestLink: "Przeglądaj publiczną tablicę próśb o funkcje na GitHubie →",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
     faqMore: "Więcej na stronie wsparcia →",
 
     /* Closing CTA */

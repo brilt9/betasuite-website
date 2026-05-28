@@ -204,8 +204,8 @@
       Used first whenever your device supports it.
     </p>
     <ul>
-      <li><strong>Text generation</strong> — Apple Intelligence (Foundation Models), iOS 26+ on iPhone 15 Pro / 16 / 17 series. In this path no feedback content leaves your device.</li>
-      <li><strong>Speech-to-text</strong> — Apple's Speech framework (<code>SFSpeechRecognizer</code>) in on-device mode, iOS 13+ on most modern iPhones. Voice memos and voice notes are transcribed locally — the audio never leaves your device.</li>
+      <li><strong>Text generation</strong> — Apple Intelligence (Foundation Models), iOS 26+ on iPhone 15 Pro and later, or iPadOS 26+ on iPad with M1 chip or later. In this path no feedback content leaves your device.</li>
+      <li><strong>Speech-to-text</strong> — Apple's Speech framework (<code>SFSpeechRecognizer</code>) in on-device mode, iOS 13+ / iPadOS 13+ on most modern iPhone and iPad models. Voice memos and voice notes are transcribed locally — the audio never leaves your device.</li>
     </ul>
     <p>
       Apple publishes a dedicated notice covering Apple Intelligence and Private Cloud Compute:
@@ -213,7 +213,7 @@
     </p>
     <h3>Google Firebase AI (cloud fallback)</h3>
     <p>
-      Used when on-device routing is unavailable (older iPhone, locale model not installed, or a feature without an on-device path). The specific text or audio you choose to process is sent to Google for inference under the BetaSuite Assist umbrella, and is governed by Google's privacy policy. We do not see or store the request.
+      Used when on-device routing is unavailable (older iPhone or iPad, locale model not installed, or a feature without an on-device path). The specific text or audio you choose to process is sent to Google for inference under the BetaSuite Assist umbrella, and is governed by Google's privacy policy. We do not see or store the request.
       <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google privacy policy</a>.
     </p>
     <p>
@@ -236,7 +236,7 @@
     </ul>
     <h3>Voice memo and voice note transcription (on-device first, cloud fallback)</h3>
     <p>
-      Voice memos recorded inside a session — and voice notes attached to markers or feedback entries — are transcribed whenever AI features are enabled. On iOS 13+ devices that support it, BetaSuite Assist uses Apple's on-device speech recognition (<code>SFSpeechRecognizer</code> with <code>requiresOnDeviceRecognition</code>): the audio never leaves the device, there is no quota, and no network round-trip is involved. When on-device recognition isn't available (older iOS or locale model not installed) the audio falls back to Google Firebase AI (Gemini) under the BetaSuite Assist umbrella and is governed by
+      Voice memos recorded inside a session — and voice notes attached to markers or feedback entries — are transcribed whenever AI features are enabled. On iOS 13+ / iPadOS 13+ devices that support it, BetaSuite Assist uses Apple's on-device speech recognition (<code>SFSpeechRecognizer</code> with <code>requiresOnDeviceRecognition</code>): the audio never leaves the device, there is no quota, and no network round-trip is involved. When on-device recognition isn't available (older iOS / iPadOS or locale model not installed) the audio falls back to Google Firebase AI (Gemini) under the BetaSuite Assist umbrella and is governed by
       <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.
       In Confidential Mode the cloud fallback is blocked — on-device transcription still runs on devices that support it, and is skipped entirely on devices that don't.
     </p>
@@ -271,7 +271,7 @@
     </p>
     <h3>Automated redaction (best-effort)</h3>
     <p>
-      Before submission, your text runs through an on-device redactor. Pattern matching removes emails, phone numbers, IP addresses, URLs that look like they carry tokens, long hex / base64 strings, and Luhn-valid credit-card numbers. On iPhones that support Apple Intelligence, an on-device language model takes a second pass to redact names, addresses, and employer references. On other devices the redactor falls back to Google Firebase AI (Gemini) — in that path your text is sent to Google for inference, governed by
+      Before submission, your text runs through an on-device redactor. Pattern matching removes emails, phone numbers, IP addresses, URLs that look like they carry tokens, long hex / base64 strings, and Luhn-valid credit-card numbers. On iPhone and iPad models that support Apple Intelligence, an on-device language model takes a second pass to redact names, addresses, and employer references. On other devices the redactor falls back to Google Firebase AI (Gemini) — in that path your text is sent to Google for inference, governed by
       <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.
       Redaction is best-effort, never guaranteed; please review your text before submitting and avoid personal details.
     </p>
@@ -363,6 +363,7 @@
         <a href="terms.html" data-i18n="navTerms">Vilkår</a>
       </div>
       <p>© 2026 BetaSuite. All rights reserved.</p>
+      <p style="margin-top:10px;font-size:0.78rem;max-width:720px;margin-left:auto;margin-right:auto;line-height:1.4" data-i18n="appleTrademark">Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.</p>
     </div>
   </footer>
 
