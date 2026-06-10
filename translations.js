@@ -35,7 +35,7 @@ const translations = {
 
     feat1Title: "Capture every moment",
     feat1Lead: "Dual recording, instant capture, live overlays.",
-    feat1Text: "Records screen and front camera into one composited video while you switch apps. Tap once to save the last 30 seconds from a rolling buffer — perfect for intermittent glitches you couldn't predict. Every capture is auto-stamped with date, time, GPS, weather, and device info. Trim the dead time off a clip in-app afterwards — frame-accurate with one-tap undo.",
+    feat1Text: "Records your screen plus your front or rear camera — your choice, audio optional — into one composited video while you switch apps. Tap once to save the last 30 seconds from a rolling buffer — perfect for intermittent glitches you couldn't predict. Every capture is auto-stamped with date, time, GPS, weather, and device info. Trim the dead time off a clip in-app afterwards — quick, with one-tap undo.",
 
     feat2Title: "Timeline-based sessions",
     feat2Lead: "Markers, voice notes, photos — all on one timeline.",
@@ -47,11 +47,12 @@ const translations = {
 
     feat4Title: "Confidential Mode",
     feat4Lead: "On-device AI for NDA work.",
-    feat4Text: "Flip one switch and BetaSuite locks down cloud uploads, system share, and every cloud AI provider. Apple Intelligence keeps running fully on-device — no network call, ever — so AI polish and summaries still work on confidential hardware.",
+    feat4Text: "Flip one switch and BetaSuite locks down cloud uploads, system share, and every cloud AI provider. On iPhone and iPad, Apple Intelligence keeps running fully on-device — no network call, ever — so AI polish and summaries still work on confidential hardware.",
 
     feat5Title: "AI routing, your way",
-    feat5Lead: "Apple Intelligence on-device, BetaSuite Assist as fallback. Or bring your own key.",
-    feat5Text: "By default, Apple Intelligence runs on-device with BetaSuite Assist as the cloud fallback. Prefer your own provider? Bring your API key for Claude, GPT, Gemini, or DeepSeek. Pollinations is available as an emergency fallback. Switch providers any time in Settings — every change asks for explicit consent before data leaves the device.",
+    feat5Lead: "On-device Apple Intelligence on iPhone & iPad, BetaSuite Assist as fallback. Or bring your own key.",
+    feat5Text: "By default on iPhone and iPad, Apple Intelligence runs on-device, with BetaSuite Assist as the cloud fallback (and the default on Android, where Apple Intelligence isn't available). Prefer your own provider? Bring your API key for Claude, GPT, Gemini, or DeepSeek. Pollinations is an emergency fallback. Switch providers any time in Settings — every change asks for explicit consent before data leaves the device.",
+    aiPlatformNote: "Apple Intelligence and on-device transcription are iPhone & iPad features. On Android, BetaSuite uses BetaSuite Assist cloud AI or your own API key.",
 
     feat6Title: "Dial your AI use",
     feat6Lead: "Off, polish only, profanity masking, or full summarisation.",
@@ -129,7 +130,7 @@ const translations = {
     privacyTitle: "Privacy Policy",
     termsTitle: "Terms of Use",
     legalEnglishOnlyNotice: "The body of this document is provided in English only. Any translation elsewhere on the site is for convenience — the English version is the authoritative legal text.",
-    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions. Google Play and the Google Play logo are trademarks of Google LLC.",
     faqMore: "More on the support page →",
 
     /* Closing CTA */
@@ -216,7 +217,7 @@ const translations = {
 
     feat1Title: "捕捉每一个瞬间",
     feat1Lead: "双路录制、即时捕捉、实时叠加。",
-    feat1Text: "在你切换应用时,同时录制屏幕和前置相机并合成为一段视频。一键保存滚动缓冲中的最近 30 秒——非常适合那些难以预判的偶发故障。每次录制都会自动附上日期、时间、GPS、天气和设备信息。事后可在应用内修剪片段开头或结尾的空闲时间——精确到帧,一键撤销。",
+    feat1Text: "在你切换应用时，将屏幕加上你的前置或后置摄像头（任你选择，音频可选）录制成一段合成视频。点按一次即可从持续缓冲中保存最近 30 秒——非常适合无法预料的间歇性故障。每段采集都会自动标注日期、时间、GPS、天气和设备信息。事后可在应用内裁剪掉片段中的空白时间——快速，且支持一键撤销。",
 
     feat2Title: "基于时间线的会话",
     feat2Lead: "标记、语音笔记、照片——全部在同一条时间线上。",
@@ -233,6 +234,7 @@ const translations = {
     feat5Title: "按你的方式路由 AI",
     feat5Lead: "Apple Intelligence 在设备本地运行,云端回退到 BetaSuite Assist。或自带密钥。",
     feat5Text: "默认情况下,BetaSuite 在设备本地使用 Apple Intelligence,云端回退到 BetaSuite Assist。更愿意使用自己的提供商?可带入 Claude、GPT、Gemini 或 DeepSeek 的 API 密钥。Pollinations 可作为紧急回退选项。任何时候可在「设置」中切换提供商——数据离开设备前都需明确同意。",
+    aiPlatformNote: "Apple Intelligence 和设备端转写是 iPhone 与 iPad 的功能。在 Android 上，BetaSuite 使用云端 AI「BetaSuite Assist」或你自己的 API 密钥。",
 
     feat6Title: "自由调节 AI 使用程度",
     feat6Lead: "关闭、仅润色、屏蔽脏话,或完整摘要。",
@@ -310,7 +312,7 @@ const translations = {
     privacyTitle: "隐私政策",
     termsTitle: "使用条款",
     legalEnglishOnlyNotice: "本文件的正文仅以英文提供。本站其他位置的翻译仅供参考——具有法律效力的版本以英文为准。",
-    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions. Google Play 和 Google Play 标志是 Google LLC 的商标。",
     faqMore: "在支持页面查看更多 →",
 
     /* Closing CTA */
@@ -397,7 +399,7 @@ const translations = {
 
     feat1Title: "Jeden Moment einfangen",
     feat1Lead: "Doppelaufnahme, Sofortaufnahme, Live-Overlays.",
-    feat1Text: "Nimmt Bildschirm und Frontkamera in einem zusammengesetzten Video auf, während du Apps wechselst. Ein Tipp speichert die letzten 30 Sekunden aus einem rollenden Puffer – perfekt für unvorhersehbare, sporadische Fehler. Jede Aufnahme erhält automatisch Datum, Uhrzeit, GPS, Wetter und Geräteinformationen. Schneide nachträglich Leerzeit aus einem Clip direkt in der App – framegenau, mit Undo per Tipp.",
+    feat1Text: "Nimmt deinen Bildschirm plus deine Front- oder Rückkamera – deine Wahl, Ton optional – in einem zusammengesetzten Video auf, während du die App wechselst. Einmal tippen, um die letzten 30 Sekunden aus einem laufenden Puffer zu sichern – perfekt für sporadische Glitches, die du nicht vorhersehen konntest. Jede Aufnahme wird automatisch mit Datum, Uhrzeit, GPS, Wetter und Geräteinfos versehen. Schneide hinterher die Leerzeit aus einem Clip direkt in der App – schnell, mit Ein-Tipp-Rückgängig.",
 
     feat2Title: "Sessions auf einer Zeitleiste",
     feat2Lead: "Marker, Sprachnotizen, Fotos – alles auf einer Zeitleiste.",
@@ -414,6 +416,7 @@ const translations = {
     feat5Title: "KI-Routing nach deinem Geschmack",
     feat5Lead: "Apple Intelligence auf dem Gerät, BetaSuite Assist als Fallback. Oder nutze deinen eigenen Schlüssel.",
     feat5Text: "Standardmäßig läuft Apple Intelligence auf dem Gerät, mit BetaSuite Assist als Cloud-Fallback. Lieber dein eigener Anbieter? Bring deinen API-Schlüssel für Claude, GPT, Gemini oder DeepSeek mit. Pollinations steht als Notfall-Fallback bereit. Anbieter jederzeit in den Einstellungen wechseln – jede Änderung verlangt eine ausdrückliche Zustimmung, bevor Daten das Gerät verlassen.",
+    aiPlatformNote: "Apple Intelligence und die geräteinterne Transkription sind iPhone- und iPad-Funktionen. Auf Android nutzt BetaSuite die Cloud-KI BetaSuite Assist oder deinen eigenen API-Schlüssel.",
 
     feat6Title: "Stelle deine KI-Nutzung ein",
     feat6Lead: "Aus, nur Politur, Schimpfwortmaskierung oder vollständige Zusammenfassung.",
@@ -491,7 +494,7 @@ const translations = {
     privacyTitle: "Datenschutzerklärung",
     termsTitle: "Nutzungsbedingungen",
     legalEnglishOnlyNotice: "Der Text dieses Dokuments wird ausschließlich in englischer Sprache bereitgestellt. Übersetzungen an anderen Stellen der Website dienen lediglich der Bequemlichkeit – maßgeblich ist die englische Fassung.",
-    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions. Google Play und das Google-Play-Logo sind Marken von Google LLC.",
     faqMore: "Mehr auf der Support-Seite →",
 
     /* Closing CTA */
@@ -578,7 +581,7 @@ const translations = {
 
     feat1Title: "Leg elk moment vast",
     feat1Lead: "Dubbele opname, instant capture, live overlays.",
-    feat1Text: "Neemt scherm en frontcamera op in één samengestelde video terwijl je tussen apps wisselt. Eén tik bewaart de laatste 30 seconden uit een rollende buffer — perfect voor onvoorspelbare, sporadische glitches. Elke opname krijgt automatisch datum, tijd, GPS, weer en apparaatinformatie mee. Trim achteraf de stille tijd uit een clip in de app — frame-precies, met één-tik ongedaan maken.",
+    feat1Text: "Neemt je scherm plus je voor- of achtercamera — jouw keuze, audio optioneel — op in één samengestelde video terwijl je tussen apps wisselt. Tik één keer om de laatste 30 seconden uit een doorlopende buffer op te slaan — perfect voor onvoorspelbare, sporadische glitches. Elke opname krijgt automatisch datum, tijd, GPS, weer en apparaatinfo. Knip achteraf de dode tijd uit een clip in de app — snel, met ongedaan maken in één tik.",
 
     feat2Title: "Sessies op een tijdlijn",
     feat2Lead: "Markers, spraakmemo's, foto's — alles op één tijdlijn.",
@@ -595,6 +598,7 @@ const translations = {
     feat5Title: "AI-routing op jouw manier",
     feat5Lead: "Apple Intelligence op het apparaat, BetaSuite Assist als fallback. Of breng je eigen sleutel.",
     feat5Text: "Standaard draait Apple Intelligence op het apparaat met BetaSuite Assist als cloud-fallback. Liever je eigen aanbieder? Breng je API-sleutel mee voor Claude, GPT, Gemini of DeepSeek. Pollinations is beschikbaar als noodfallback. Wissel op elk moment van aanbieder in Instellingen — elke wijziging vraagt expliciete toestemming voordat data het apparaat verlaat.",
+    aiPlatformNote: "Apple Intelligence en transcriptie op het apparaat zijn functies voor iPhone en iPad. Op Android gebruikt BetaSuite de cloud-AI BetaSuite Assist of je eigen API-sleutel.",
 
     feat6Title: "Stem je AI-gebruik af",
     feat6Lead: "Uit, alleen polijsten, schuttingtaal maskeren of volledige samenvatting.",
@@ -672,7 +676,7 @@ const translations = {
     privacyTitle: "Privacybeleid",
     termsTitle: "Gebruiksvoorwaarden",
     legalEnglishOnlyNotice: "De tekst van dit document wordt uitsluitend in het Engels aangeboden. Elke vertaling elders op de site is louter voor het gemak — de Engelse versie is de juridisch bindende tekst.",
-    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions. Google Play en het Google Play-logo zijn handelsmerken van Google LLC.",
     faqMore: "Meer op de supportpagina →",
 
     /* Closing CTA */
@@ -759,7 +763,7 @@ const translations = {
 
     feat1Title: "Capturez chaque instant",
     feat1Lead: "Double enregistrement, capture instantanée, superpositions en direct.",
-    feat1Text: "Enregistre l'écran et la caméra avant dans une seule vidéo composée pendant que vous changez d'app. Une touche enregistre les 30 dernières secondes depuis un tampon glissant — parfait pour les glitches sporadiques imprévisibles. Chaque capture est automatiquement marquée avec date, heure, GPS, météo et infos de l'appareil. Coupez ensuite les temps morts d'un clip dans l'app — précis à l'image près, avec annulation en un tap.",
+    feat1Text: "Enregistre votre écran et votre caméra avant ou arrière — au choix, audio en option — dans une seule vidéo composite pendant que vous changez d'app. Touchez une fois pour sauvegarder les 30 dernières secondes depuis une mémoire tampon continue — parfait pour les bugs intermittents imprévisibles. Chaque capture est automatiquement horodatée avec date, heure, GPS, météo et infos de l'appareil. Coupez ensuite les temps morts d'un clip dans l'app — rapide, avec annulation en un geste.",
 
     feat2Title: "Sessions sur une chronologie",
     feat2Lead: "Marqueurs, mémos vocaux, photos — tout sur une chronologie.",
@@ -776,6 +780,7 @@ const translations = {
     feat5Title: "Routage IA à votre façon",
     feat5Lead: "Apple Intelligence sur l'appareil, BetaSuite Assist en repli. Ou apportez votre propre clé.",
     feat5Text: "Par défaut, Apple Intelligence tourne sur l'appareil avec BetaSuite Assist comme repli cloud. Vous préférez votre propre fournisseur ? Apportez votre clé API pour Claude, GPT, Gemini ou DeepSeek. Pollinations est disponible comme repli d'urgence. Changez de fournisseur à tout moment dans les Réglages — chaque changement demande un consentement explicite avant que les données ne quittent l'appareil.",
+    aiPlatformNote: "Apple Intelligence et la transcription sur l'appareil sont des fonctions iPhone et iPad. Sur Android, BetaSuite utilise l'IA cloud BetaSuite Assist ou votre propre clé API.",
 
     feat6Title: "Réglez votre usage de l'IA",
     feat6Lead: "Désactivé, simple finition, masquage de jurons ou résumé complet.",
@@ -853,7 +858,7 @@ const translations = {
     privacyTitle: "Politique de confidentialité",
     termsTitle: "Conditions d'utilisation",
     legalEnglishOnlyNotice: "Le corps de ce document est fourni uniquement en anglais. Toute traduction ailleurs sur le site est fournie à titre indicatif — la version anglaise fait foi sur le plan juridique.",
-    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions. Google Play et le logo Google Play sont des marques de Google LLC.",
     faqMore: "Plus sur la page support →",
 
     /* Closing CTA */
@@ -940,7 +945,7 @@ const translations = {
 
     feat1Title: "Fang hvert øyeblikk",
     feat1Lead: "Dobbeltopptak, øyeblikkelig opptak, sanntidsoverlegg.",
-    feat1Text: "Tar opp skjerm og frontkamera i én sammensatt video mens du bytter app. Ett trykk lagrer de siste 30 sekundene fra en rullerende buffer — perfekt for sporadiske, uforutsigbare feil. Hvert opptak får automatisk dato, klokkeslett, GPS, vær og enhetsinformasjon. Trim dødtid fra et klipp i appen etterpå — bilde-nøyaktig, med ett-trykks angre.",
+    feat1Text: "Tar opp skjermen din pluss front- eller bakkameraet — ditt valg, lyd valgfritt — i én sammensatt video mens du bytter app. Trykk én gang for å lagre de siste 30 sekundene fra en løpende buffer — perfekt for uforutsigbare, sporadiske feil. Hvert opptak stemples automatisk med dato, tid, GPS, vær og enhetsinfo. Klipp bort dødtid fra en klipp i appen etterpå — raskt, med angre med ett trykk.",
 
     feat2Title: "Tidslinje-baserte økter",
     feat2Lead: "Markører, taleopptak, bilder — alt på én tidslinje.",
@@ -957,6 +962,7 @@ const translations = {
     feat5Title: "AI-routing på din måte",
     feat5Lead: "Apple Intelligence på enheten, BetaSuite Assist som reserve. Eller bruk din egen nøkkel.",
     feat5Text: "Som standard kjører Apple Intelligence på enheten med BetaSuite Assist som sky-reserve. Foretrekker du din egen leverandør? Ta med din API-nøkkel for Claude, GPT, Gemini eller DeepSeek. Pollinations er tilgjengelig som nødreserve. Bytt leverandør når som helst i Innstillinger — hver endring ber om eksplisitt samtykke før data forlater enheten.",
+    aiPlatformNote: "Apple Intelligence og transkripsjon på enheten er iPhone- og iPad-funksjoner. På Android bruker BetaSuite sky-AI-en BetaSuite Assist eller din egen API-nøkkel.",
 
     feat6Title: "Juster din AI-bruk",
     feat6Lead: "Av, kun polering, banneord-maskering eller fullt sammendrag.",
@@ -1034,7 +1040,7 @@ const translations = {
     privacyTitle: "Personvernerklæring",
     termsTitle: "Bruksvilkår",
     legalEnglishOnlyNotice: "Innholdet i dette dokumentet leveres kun på engelsk. Eventuelle oversettelser andre steder på nettstedet er kun en bekvemmelighet — den engelske versjonen er den juridisk bindende.",
-    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions. Google Play og Google Play-logoen er varemerker for Google LLC.",
     faqMore: "Mer på støttesiden →",
 
     /* Closing CTA */
@@ -1121,7 +1127,7 @@ const translations = {
 
     feat1Title: "Fånga varje ögonblick",
     feat1Lead: "Dubbel inspelning, snabbinspelning, live-överlägg.",
-    feat1Text: "Spelar in skärm och frontkamera i en sammansatt video medan du växlar appar. Ett tryck sparar de senaste 30 sekunderna från en rullande buffert — perfekt för oförutsägbara, sporadiska glitchar. Varje inspelning får automatiskt datum, tid, GPS, väder och enhetsinformation. Trimma död tid från ett klipp i appen efteråt — bildexakt, med ett-trycks ångra.",
+    feat1Text: "Spelar in din skärm plus din fram- eller bakkamera — ditt val, ljud valfritt — i en sammansatt video medan du byter app. Tryck en gång för att spara de senaste 30 sekunderna från en löpande buffert — perfekt för oförutsägbara, sporadiska buggar. Varje inspelning stämplas automatiskt med datum, tid, GPS, väder och enhetsinfo. Klipp bort död tid från en klipp i appen efteråt — snabbt, med ångra med ett tryck.",
 
     feat2Title: "Tidslinjebaserade sessioner",
     feat2Lead: "Markörer, röstmemon, foton — allt på en tidslinje.",
@@ -1138,6 +1144,7 @@ const translations = {
     feat5Title: "AI-routning på ditt sätt",
     feat5Lead: "Apple Intelligence på enheten, BetaSuite Assist som reserv. Eller ta med din egen nyckel.",
     feat5Text: "Som standard körs Apple Intelligence på enheten med BetaSuite Assist som molnreserv. Föredrar du din egen leverantör? Ta med din API-nyckel för Claude, GPT, Gemini eller DeepSeek. Pollinations finns som nödreserv. Byt leverantör när som helst i Inställningar — varje ändring kräver uttryckligt samtycke innan data lämnar enheten.",
+    aiPlatformNote: "Apple Intelligence och transkribering på enheten är funktioner för iPhone och iPad. På Android använder BetaSuite moln-AI:n BetaSuite Assist eller din egen API-nyckel.",
 
     feat6Title: "Justera din AI-användning",
     feat6Lead: "Av, endast polering, svordomsmaskering eller full sammanfattning.",
@@ -1215,7 +1222,7 @@ const translations = {
     privacyTitle: "Integritetspolicy",
     termsTitle: "Användarvillkor",
     legalEnglishOnlyNotice: "Innehållet i detta dokument tillhandahålls endast på engelska. Eventuella översättningar på andra delar av webbplatsen är endast en bekvämlighet — den engelska versionen är den juridiskt bindande.",
-    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions. Google Play och Google Play-logotypen är varumärken som tillhör Google LLC.",
     faqMore: "Mer på supportsidan →",
 
     /* Closing CTA */
@@ -1302,7 +1309,7 @@ const translations = {
 
     feat1Title: "Captura cada momento",
     feat1Lead: "Grabación dual, captura instantánea, superposiciones en vivo.",
-    feat1Text: "Graba pantalla y cámara frontal en un único vídeo compuesto mientras cambias de app. Un toque guarda los últimos 30 segundos de un búfer rodante — perfecto para fallos intermitentes que no podías predecir. Cada captura lleva fecha, hora, GPS, clima e info del dispositivo automáticamente. Recorta después el tiempo muerto de un clip en la app — precisión por fotograma, con deshacer en un toque.",
+    feat1Text: "Graba tu pantalla más tu cámara frontal o trasera — tú eliges, audio opcional — en un único vídeo compuesto mientras cambias de app. Toca una vez para guardar los últimos 30 segundos de un búfer continuo: perfecto para fallos intermitentes que no podías prever. Cada captura se sella automáticamente con fecha, hora, GPS, clima e info del dispositivo. Recorta después los tiempos muertos de un clip dentro de la app — rápido, con deshacer en un toque.",
 
     feat2Title: "Sesiones en línea de tiempo",
     feat2Lead: "Marcadores, notas de voz, fotos — todo en una línea de tiempo.",
@@ -1319,6 +1326,7 @@ const translations = {
     feat5Title: "Enrutado de IA a tu manera",
     feat5Lead: "Apple Intelligence en el dispositivo, BetaSuite Assist como respaldo. O usa tu propia clave.",
     feat5Text: "Por defecto, Apple Intelligence corre en el dispositivo con BetaSuite Assist como respaldo en la nube. ¿Prefieres tu proveedor? Trae tu clave API para Claude, GPT, Gemini o DeepSeek. Pollinations está disponible como respaldo de emergencia. Cambia de proveedor cuando quieras en Ajustes — cada cambio pide consentimiento explícito antes de que los datos salgan del dispositivo.",
+    aiPlatformNote: "Apple Intelligence y la transcripción en el dispositivo son funciones de iPhone y iPad. En Android, BetaSuite usa la IA en la nube BetaSuite Assist o tu propia clave API.",
 
     feat6Title: "Ajusta tu uso de IA",
     feat6Lead: "Apagada, solo pulido, enmascarado de palabrotas o resumen completo.",
@@ -1396,7 +1404,7 @@ const translations = {
     privacyTitle: "Política de privacidad",
     termsTitle: "Términos de uso",
     legalEnglishOnlyNotice: "El cuerpo de este documento se proporciona únicamente en inglés. Cualquier traducción en otras partes del sitio es por comodidad — la versión en inglés es la jurídicamente vinculante.",
-    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions. Google Play y el logotipo de Google Play son marcas comerciales de Google LLC.",
     faqMore: "Más en la página de soporte →",
 
     /* Closing CTA */
@@ -1483,7 +1491,7 @@ const translations = {
 
     feat1Title: "Cattura ogni momento",
     feat1Lead: "Doppia registrazione, cattura istantanea, overlay in tempo reale.",
-    feat1Text: "Registra schermo e fotocamera frontale in un unico video composito mentre cambi app. Un tocco salva gli ultimi 30 secondi da un buffer rotante — perfetto per glitch sporadici imprevedibili. Ogni cattura riceve automaticamente data, ora, GPS, meteo e info sul dispositivo. Taglia in seguito i tempi morti da un clip nell'app — preciso al fotogramma, con annulla a un tocco.",
+    feat1Text: "Registra il tuo schermo più la fotocamera anteriore o posteriore — a tua scelta, audio opzionale — in un unico video composito mentre cambi app. Tocca una volta per salvare gli ultimi 30 secondi da un buffer continuo: perfetto per glitch intermittenti imprevedibili. Ogni acquisizione viene marcata automaticamente con data, ora, GPS, meteo e info del dispositivo. Taglia poi i tempi morti di una clip nell'app — veloce, con annulla in un tocco.",
 
     feat2Title: "Sessioni su una timeline",
     feat2Lead: "Marker, memo vocali, foto — tutto su un'unica timeline.",
@@ -1500,6 +1508,7 @@ const translations = {
     feat5Title: "Routing IA a modo tuo",
     feat5Lead: "Apple Intelligence on-device, BetaSuite Assist come fallback. Oppure porta la tua chiave.",
     feat5Text: "Per impostazione predefinita, Apple Intelligence gira sul dispositivo con BetaSuite Assist come fallback cloud. Preferisci il tuo provider? Porta la tua chiave API per Claude, GPT, Gemini o DeepSeek. Pollinations è disponibile come fallback di emergenza. Cambia provider quando vuoi nelle Impostazioni — ogni cambio chiede consenso esplicito prima che i dati lascino il dispositivo.",
+    aiPlatformNote: "Apple Intelligence e la trascrizione sul dispositivo sono funzioni per iPhone e iPad. Su Android, BetaSuite usa l'IA cloud BetaSuite Assist o la tua chiave API.",
 
     feat6Title: "Regola il tuo uso dell'IA",
     feat6Lead: "Off, solo rifinitura, mascheramento delle parolacce o riepilogo completo.",
@@ -1577,7 +1586,7 @@ const translations = {
     privacyTitle: "Informativa sulla privacy",
     termsTitle: "Termini di utilizzo",
     legalEnglishOnlyNotice: "Il testo di questo documento è fornito solo in inglese. Eventuali traduzioni in altre parti del sito sono fornite per comodità — la versione in inglese è quella giuridicamente vincolante.",
-    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions. Google Play e il logo Google Play sono marchi di Google LLC.",
     faqMore: "Altro nella pagina supporto →",
 
     /* Closing CTA */
@@ -1664,7 +1673,7 @@ const translations = {
 
     feat1Title: "Złap każdy moment",
     feat1Lead: "Podwójne nagrywanie, natychmiastowe przechwytywanie, nakładki na żywo.",
-    feat1Text: "Nagrywa ekran i przednią kamerę w jedno złożone wideo, gdy przełączasz aplikacje. Jedno dotknięcie zapisuje ostatnie 30 sekund z bufora kroczącego — idealne na nieprzewidywalne, sporadyczne usterki. Każde nagranie automatycznie otrzymuje datę, godzinę, GPS, pogodę i informacje o urządzeniu. Potem przytnij martwy czas z klipu w aplikacji — z dokładnością do klatki, cofnij jednym dotknięciem.",
+    feat1Text: "Nagrywa Twój ekran oraz przedni lub tylny aparat — Twój wybór, dźwięk opcjonalnie — w jednym złożonym wideo, gdy przełączasz aplikacje. Dotknij raz, aby zapisać ostatnie 30 sekund z ciągłego bufora — idealne do nieprzewidywalnych, sporadycznych usterek. Każde nagranie jest automatycznie oznaczane datą, godziną, GPS, pogodą i informacjami o urządzeniu. Przytnij potem martwy czas z klipu w aplikacji — szybko, z cofnięciem jednym dotknięciem.",
 
     feat2Title: "Sesje na osi czasu",
     feat2Lead: "Znaczniki, notatki głosowe, zdjęcia — wszystko na jednej osi czasu.",
@@ -1681,6 +1690,7 @@ const translations = {
     feat5Title: "Routing SI po Twojemu",
     feat5Lead: "Apple Intelligence na urządzeniu, BetaSuite Assist jako zapas. Lub przynieś własny klucz.",
     feat5Text: "Domyślnie Apple Intelligence działa na urządzeniu, a BetaSuite Assist stanowi zapas chmurowy. Wolisz własnego dostawcę? Przynieś klucz API dla Claude, GPT, Gemini lub DeepSeek. Pollinations jest dostępny jako awaryjny zapas. Zmieniaj dostawcę kiedy chcesz w Ustawieniach — każda zmiana prosi o jednoznaczną zgodę zanim dane opuszczą urządzenie.",
+    aiPlatformNote: "Apple Intelligence i transkrypcja na urządzeniu to funkcje iPhone'a i iPada. Na Androidzie BetaSuite korzysta z chmurowej AI BetaSuite Assist lub Twojego własnego klucza API.",
 
     feat6Title: "Wyreguluj użycie SI",
     feat6Lead: "Wyłączone, tylko polerowanie, maskowanie wulgaryzmów lub pełne streszczenie.",
@@ -1758,7 +1768,7 @@ const translations = {
     privacyTitle: "Polityka prywatności",
     termsTitle: "Warunki korzystania",
     legalEnglishOnlyNotice: "Treść tego dokumentu jest dostępna wyłącznie w języku angielskim. Wszelkie tłumaczenia w innych miejscach witryny mają charakter informacyjny — wersja angielska jest wiążąca prawnie.",
-    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
+    appleTrademark: "Apple, the Apple logo, iPhone, iPad, iPadOS, iOS, App Store, Apple Intelligence, and WeatherKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions. Google Play i logo Google Play są znakami towarowymi Google LLC.",
     faqMore: "Więcej na stronie wsparcia →",
 
     /* Closing CTA */
