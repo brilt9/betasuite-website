@@ -108,7 +108,7 @@
         "name": "Welke apparaten worden ondersteund?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "iPhone met iOS 16 of nieuwer, en iPad met iPadOS 16 of nieuwer. Android is in bètatest — neem deel aan de Android-bèta om het voor de lancering te proberen."
+          "text": "iPhone met iOS 16 of nieuwer en iPad met iPadOS 16 of nieuwer. De Android-versie verschijnt eind juni 2026 in Google Play."
         }
       },
       {
@@ -237,12 +237,16 @@
           <div class="hero-text">
             <h1 id="hero-title" data-i18n="heroTitle">Vang elke bug. Vertel het hele verhaal.</h1>
             <p class="lead" data-i18n="heroText">BetaSuite is de mobiele testkit voor mensen die echt bugs rapporteren — neem scherm en camera tegelijk op, speel de laatste 30 seconden opnieuw af, annoteer, transcribeer en lever een gepolijst rapport af.</p>
-            <div class="hero-actions">
+            <div class="hero-actions store-badges">
               <a class="app-store-badge" href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" aria-label="Download on the App Store">
                 <img src="/icons/app-store-badge-nl.svg" alt="Download on the App Store" width="180" height="60">
               </a>
+              <a class="google-play-badge store-badge--soon" href="#android" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+                <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60">
+                <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">Binnenkort</span>
+              </a>
             </div>
-            <p class="meta"><span data-i18n="androidNote">Nu beschikbaar op iPhone en iPad — Android is in bètatest.</span> <a href="#android-beta" data-i18n="androidNotifyLink">Deelnemen aan de Android-bèta →</a></p>
+            <p class="meta" data-i18n="androidNote">Vandaag al op iPhone en iPad — de Android-versie verschijnt eind juni 2026 in Google Play.</p>
             <p class="meta" data-i18n="metaText">Eenmalige aankoop in de App Store · Geen abonnement · Geen advertenties · Geen tracking · Levenslang van jou</p>
           </div>
           <!--
@@ -268,22 +272,17 @@
       </div>
     </section>
 
-    <section class="callout" id="android-beta" aria-labelledby="android-beta-title">
+    <section class="callout android-coming" id="android" aria-labelledby="android-title">
       <div class="container">
-        <h2 id="android-beta-title" data-i18n="androidBetaTitle">Deelnemen aan de Android-bèta</h2>
-        <p class="callout-lead" data-i18n="androidBetaLead">De Android-app is volop in ontwikkeling. Help de release vorm te geven — neem deel aan de bèta en probeer BetaSuite op Android voordat het wordt uitgebracht.</p>
-        <div class="callout-grid">
-          <div class="callout-item">
-            <h3 data-i18n="androidBetaStep1Title">1. Deelnemen aan de Google Groep</h3>
-            <p data-i18n="androidBetaStep1Text">Meld je aan met het Google-account waarmee je gaat testen en neem deel aan de groep, zodat we je als tester kunnen toevoegen.</p>
-            <a class="callout-link" href="https://groups.google.com/g/betasuite" target="_blank" rel="noopener" data-i18n="androidBetaStep1Link">Deelnemen aan de Google Groep →</a>
-          </div>
-          <div class="callout-item">
-            <h3 data-i18n="androidBetaStep2Title">2. Deelnemen aan de test en downloaden</h3>
-            <p data-i18n="androidBetaStep2Text">Open de testlink, meld je aan voor de test en download BetaSuite uit Google Play.</p>
-            <a class="callout-link" href="https://play.google.com/apps/testing/com.betasuite.pro" target="_blank" rel="noopener" data-i18n="androidBetaStep2Link">Deelnemen aan de test op Google Play →</a>
-          </div>
+        <h2 id="android-title" data-i18n="androidBetaTitle">Binnenkort op Android</h2>
+        <p class="callout-lead" data-i18n="androidBetaLead">De Android-versie verschijnt eind juni 2026 in Google Play — gebouwd op dezelfde codebasis, met dezelfde dubbele opname, instant replay en rapporten die ontwikkelaars meteen kunnen gebruiken.</p>
+        <div class="store-badges store-badges--center">
+          <span class="google-play-badge store-badge--soon store-badge--lg" role="img" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+            <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60" loading="lazy">
+            <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">Binnenkort</span>
+          </span>
         </div>
+        <p class="meta center android-coming__note"><a href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" data-i18n="androidComingIosLink">Al op iOS? Download voor iPhone &amp; iPad →</a></p>
       </div>
     </section>
 
@@ -321,14 +320,14 @@
             <p data-i18n="feat2Text">Plaats met één tik een marker zodra er iets gebeurt. Voeg een screenshot toe, dicteer een spraakmemo of werk later uit tot een volledig bugrapport. Elke sessie legt apparaatstatus, OS, accugezondheid en weer automatisch vast — context ontbreekt nooit.</p>
           </article>
           <article class="feature">
-            <h3 data-i18n="feat3Title">AI-ondersteunde rapporten</h3>
-            <p class="feature-lead" data-i18n="feat3Lead">Een gepolijste PDF of DOCX in seconden.</p>
-            <p data-i18n="feat3Text">Kies een periode — deze week, vorige week, eigen bereik — en BetaSuite stelt een gestructureerd rapport op (thema, pluspunten, problemen, aanbevelingen) als scanbare bullets. Beelden worden automatisch in Conditie-, Mapping- en Aanvullende secties gesorteerd, elke sectie op een eigen pagina zodat de PDF leest als een hoofdstukkenboek. Eigen merkkleur per project. Verstuur het direct vanuit de app per e-mail.</p>
-          </article>
-          <article class="feature">
             <h3 data-i18n="feat4Title">Vertrouwelijke modus</h3>
             <p class="feature-lead" data-i18n="feat4Lead">AI op het apparaat voor NDA-werk.</p>
             <p data-i18n="feat4Text">Eén schakelaar omzetten en BetaSuite vergrendelt cloud-uploads, systeemdelen en elke cloud-AI-aanbieder. Apple Intelligence blijft volledig op het apparaat draaien — geen enkele netwerkaanroep — zodat AI-polijsten en samenvattingen ook op vertrouwelijke hardware blijven werken.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat3Title">AI-ondersteunde rapporten</h3>
+            <p class="feature-lead" data-i18n="feat3Lead">Een gepolijste PDF of DOCX in seconden.</p>
+            <p data-i18n="feat3Text">Kies een periode — deze week, vorige week, eigen bereik — en BetaSuite stelt een gestructureerd rapport op (thema, pluspunten, problemen, aanbevelingen) als scanbare bullets. Beelden worden automatisch in Conditie-, Mapping- en Aanvullende secties gesorteerd, elke sectie op een eigen pagina zodat de PDF leest als een hoofdstukkenboek. Eigen merkkleur per project. Verstuur het direct vanuit de app per e-mail.</p>
           </article>
           <article class="feature">
             <h3 data-i18n="feat5Title">AI-routing op jouw manier</h3>
@@ -408,15 +407,15 @@
         <div class="pain-grid pain-grid--three">
           <article class="pain-card">
             <span class="pain-label problem" data-i18n="problemLabel">Het probleem</span>
-            <h3 data-i18n="whyTeaser1Problem">Camera en scherm tegelijk?</h3>
-            <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's antwoord</span>
-            <p data-i18n="whyTeaser1Answer">BetaSuite combineert beide streams tot één MP4 op het geteste apparaat — geen statief, geen tweede telefoon.</p>
-          </article>
-          <article class="pain-card">
-            <span class="pain-label problem" data-i18n="problemLabel">Het probleem</span>
             <h3 data-i18n="whyTeaser2Problem">Bug al weg tegen de tijd dat je op opnemen drukt?</h3>
             <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's antwoord</span>
             <p data-i18n="whyTeaser2Answer">Een rollende buffer van 15 of 30 seconden houdt het moment vast — één tik bewaart wat zojuist gebeurde.</p>
+          </article>
+          <article class="pain-card">
+            <span class="pain-label problem" data-i18n="problemLabel">Het probleem</span>
+            <h3 data-i18n="whyTeaser1Problem">Camera en scherm tegelijk?</h3>
+            <span class="pain-label answer" data-i18n="answerLabel">BetaSuite's antwoord</span>
+            <p data-i18n="whyTeaser1Answer">BetaSuite combineert beide streams tot één MP4 op het geteste apparaat — geen statief, geen tweede telefoon.</p>
           </article>
           <article class="pain-card">
             <span class="pain-label problem" data-i18n="problemLabel">Het probleem</span>
@@ -434,7 +433,7 @@
         <h2 id="faq-teaser-title" data-i18n="faqTeaserTitle">Veelgestelde vragen</h2>
         <dl class="faq">
           <dt data-i18n="faqQ1">Welke apparaten worden ondersteund?</dt>
-          <dd data-i18n="faqA1">iPhone met iOS 16 of nieuwer, en iPad met iPadOS 16 of nieuwer. Android is in bètatest — neem deel aan de Android-bèta om het voor de lancering te proberen.</dd>
+          <dd data-i18n="faqA1">iPhone met iOS 16 of nieuwer en iPad met iPadOS 16 of nieuwer. De Android-versie verschijnt eind juni 2026 in Google Play.</dd>
 
           <dt data-i18n="faqQ2">Heb ik een account nodig?</dt>
           <dd data-i18n="faqA2">BetaSuite zelf vereist geen account, maar je hebt een geldige Apple ID / App Store-account nodig om de app te kopen en te downloaden.</dd>
@@ -454,12 +453,16 @@
         <p class="tagline" data-i18n="taglineMain">Concurrenten meten het product. BetaSuite meet de tester.</p>
         <h2 id="cta-title" data-i18n="ctaTitle">Klaar om betere bugrapporten af te leveren?</h2>
         <p data-i18n="ctaText">Download BetaSuite — of neem contact op als je eerst vragen hebt.</p>
-        <div class="cta-row">
+        <div class="cta-row store-badges store-badges--center">
           <a class="app-store-badge" href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" aria-label="Download on the App Store">
             <img src="/icons/app-store-badge-nl.svg" alt="Download on the App Store" width="180" height="60" loading="lazy">
           </a>
+          <a class="google-play-badge store-badge--soon" href="#android" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+            <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60" loading="lazy">
+            <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">Binnenkort</span>
+          </a>
         </div>
-        <p class="meta" style="margin-top:14px"><span data-i18n="androidNote">Nu beschikbaar op iPhone en iPad — Android is in bètatest.</span> <a href="#android-beta" data-i18n="androidNotifyLink">Deelnemen aan de Android-bèta →</a></p>
+        <p class="meta" style="margin-top:14px" data-i18n="androidNote">Vandaag al op iPhone en iPad — de Android-versie verschijnt eind juni 2026 in Google Play.</p>
         <p style="margin-top:18px"><a href="support.html" data-i18n="ctaContact">Vragen? Neem contact op →</a></p>
       </div>
     </section>

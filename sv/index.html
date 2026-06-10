@@ -108,7 +108,7 @@
         "name": "Vilka enheter stöds?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "iPhone med iOS 16 eller senare, och iPad med iPadOS 16 eller senare. Android är under betatestning — gå med i Android-betan för att prova den före lanseringen."
+          "text": "iPhone med iOS 16 eller senare, och iPad med iPadOS 16 eller senare. Android-versionen kommer till Google Play i slutet av juni 2026."
         }
       },
       {
@@ -237,12 +237,16 @@
           <div class="hero-text">
             <h1 id="hero-title" data-i18n="heroTitle">Fånga varje bugg. Berätta hela historien.</h1>
             <p class="lead" data-i18n="heroText">BetaSuite är den mobila testkit för folk som faktiskt rapporterar buggar — spela in skärm och kamera samtidigt, spela upp de senaste 30 sekunderna, annotera, transkribera och leverera en polerad rapport.</p>
-            <div class="hero-actions">
+            <div class="hero-actions store-badges">
               <a class="app-store-badge" href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" aria-label="Download on the App Store">
                 <img src="/icons/app-store-badge-sv.svg" alt="Download on the App Store" width="180" height="60">
               </a>
+              <a class="google-play-badge store-badge--soon" href="#android" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+                <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60">
+                <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">Snart</span>
+              </a>
             </div>
-            <p class="meta"><span data-i18n="androidNote">Tillgänglig nu på iPhone och iPad — Android är under betatestning.</span> <a href="#android-beta" data-i18n="androidNotifyLink">Gå med i Android-betan →</a></p>
+            <p class="meta" data-i18n="androidNote">Redan på iPhone och iPad – Android-versionen kommer till Google Play i slutet av juni 2026.</p>
             <p class="meta" data-i18n="metaText">Engångsköp i App Store · Inget abonnemang · Inga annonser · Ingen spårning · Ditt för livet</p>
           </div>
           <!--
@@ -268,22 +272,17 @@
       </div>
     </section>
 
-    <section class="callout" id="android-beta" aria-labelledby="android-beta-title">
+    <section class="callout android-coming" id="android" aria-labelledby="android-title">
       <div class="container">
-        <h2 id="android-beta-title" data-i18n="androidBetaTitle">Gå med i Android-betan</h2>
-        <p class="callout-lead" data-i18n="androidBetaLead">Android-appen är under aktiv utveckling. Hjälp till att forma utgåvan — gå med i betan och prova BetaSuite på Android innan den lanseras.</p>
-        <div class="callout-grid">
-          <div class="callout-item">
-            <h3 data-i18n="androidBetaStep1Title">1. Gå med i Google-gruppen</h3>
-            <p data-i18n="androidBetaStep1Text">Logga in med det Google-konto du ska testa med, och gå sedan med i gruppen så att vi kan lägga till dig som testare.</p>
-            <a class="callout-link" href="https://groups.google.com/g/betasuite" target="_blank" rel="noopener" data-i18n="androidBetaStep1Link">Gå med i Google-gruppen →</a>
-          </div>
-          <div class="callout-item">
-            <h3 data-i18n="androidBetaStep2Title">2. Gå med i testet och ladda ner</h3>
-            <p data-i18n="androidBetaStep2Text">Öppna testlänken, anmäl dig till testet och ladda sedan ner BetaSuite från Google Play.</p>
-            <a class="callout-link" href="https://play.google.com/apps/testing/com.betasuite.pro" target="_blank" rel="noopener" data-i18n="androidBetaStep2Link">Gå med i testet på Google Play →</a>
-          </div>
+        <h2 id="android-title" data-i18n="androidBetaTitle">Kommer till Android</h2>
+        <p class="callout-lead" data-i18n="androidBetaLead">Android-versionen kommer till Google Play i slutet av juni 2026 – byggd på samma kodbas, med samma dubbelinspelning, direktåteruppspelning och utvecklarfärdiga rapporter.</p>
+        <div class="store-badges store-badges--center">
+          <span class="google-play-badge store-badge--soon store-badge--lg" role="img" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+            <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60" loading="lazy">
+            <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">Snart</span>
+          </span>
         </div>
+        <p class="meta center android-coming__note"><a href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" data-i18n="androidComingIosLink">Redan på iOS? Ladda ner för iPhone och iPad →</a></p>
       </div>
     </section>
 
@@ -321,14 +320,14 @@
             <p data-i18n="feat2Text">Släpp en markör med ett tryck i samma sekund som något händer. Bifoga en skärmdump, diktera ett röstmemo, eller utöka senare till en fullständig buggrapport. Varje session fångar enhetstillstånd, OS, batterihälsa och väder automatiskt — sammanhang saknas aldrig.</p>
           </article>
           <article class="feature">
-            <h3 data-i18n="feat3Title">AI-assisterade rapporter</h3>
-            <p class="feature-lead" data-i18n="feat3Lead">En polerad PDF eller DOCX på sekunder.</p>
-            <p data-i18n="feat3Text">Välj en period — den här veckan, förra veckan, eget intervall — och BetaSuite utkastar en strukturerad rapport (tema, positiva punkter, problem, rekommendationer) som skannbara punkter. Bilder sorteras automatiskt in i sektionerna Tillstånd, Mapping och Övrigt, varje sektion på en egen sida så att PDF:en läses som en bok i kapitel. Egen varumärkesfärg per projekt. Maila direkt från appen.</p>
-          </article>
-          <article class="feature">
             <h3 data-i18n="feat4Title">Konfidentiellt läge</h3>
             <p class="feature-lead" data-i18n="feat4Lead">AI på enheten för NDA-arbete.</p>
             <p data-i18n="feat4Text">Slå om en knapp och BetaSuite stänger av molnladdningar, systemdelning och varje moln-AI-leverantör. Apple Intelligence fortsätter köras helt på enheten — aldrig ett nätverksanrop — så AI-polering och sammanfattningar fungerar även på konfidentiell hårdvara.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat3Title">AI-assisterade rapporter</h3>
+            <p class="feature-lead" data-i18n="feat3Lead">En polerad PDF eller DOCX på sekunder.</p>
+            <p data-i18n="feat3Text">Välj en period — den här veckan, förra veckan, eget intervall — och BetaSuite utkastar en strukturerad rapport (tema, positiva punkter, problem, rekommendationer) som skannbara punkter. Bilder sorteras automatiskt in i sektionerna Tillstånd, Mapping och Övrigt, varje sektion på en egen sida så att PDF:en läses som en bok i kapitel. Egen varumärkesfärg per projekt. Maila direkt från appen.</p>
           </article>
           <article class="feature">
             <h3 data-i18n="feat5Title">AI-routning på ditt sätt</h3>
@@ -408,15 +407,15 @@
         <div class="pain-grid pain-grid--three">
           <article class="pain-card">
             <span class="pain-label problem" data-i18n="problemLabel">Problemet</span>
-            <h3 data-i18n="whyTeaser1Problem">Kamera och skärm samtidigt?</h3>
-            <span class="pain-label answer" data-i18n="answerLabel">BetaSuites svar</span>
-            <p data-i18n="whyTeaser1Answer">BetaSuite sätter samman båda strömmarna till en MP4 på den enhet som testas — inget stativ, ingen extra telefon.</p>
-          </article>
-          <article class="pain-card">
-            <span class="pain-label problem" data-i18n="problemLabel">Problemet</span>
             <h3 data-i18n="whyTeaser2Problem">Bugg redan borta när du trycker på spela in?</h3>
             <span class="pain-label answer" data-i18n="answerLabel">BetaSuites svar</span>
             <p data-i18n="whyTeaser2Answer">En rullande buffert på 15 eller 30 sekunder håller ögonblicket levande — ett tryck sparar det som just hände.</p>
+          </article>
+          <article class="pain-card">
+            <span class="pain-label problem" data-i18n="problemLabel">Problemet</span>
+            <h3 data-i18n="whyTeaser1Problem">Kamera och skärm samtidigt?</h3>
+            <span class="pain-label answer" data-i18n="answerLabel">BetaSuites svar</span>
+            <p data-i18n="whyTeaser1Answer">BetaSuite sätter samman båda strömmarna till en MP4 på den enhet som testas — inget stativ, ingen extra telefon.</p>
           </article>
           <article class="pain-card">
             <span class="pain-label problem" data-i18n="problemLabel">Problemet</span>
@@ -434,7 +433,7 @@
         <h2 id="faq-teaser-title" data-i18n="faqTeaserTitle">Vanliga frågor</h2>
         <dl class="faq">
           <dt data-i18n="faqQ1">Vilka enheter stöds?</dt>
-          <dd data-i18n="faqA1">iPhone med iOS 16 eller senare, och iPad med iPadOS 16 eller senare. Android är under betatestning — gå med i Android-betan för att prova den före lanseringen.</dd>
+          <dd data-i18n="faqA1">iPhone med iOS 16 eller senare, och iPad med iPadOS 16 eller senare. Android-versionen kommer till Google Play i slutet av juni 2026.</dd>
 
           <dt data-i18n="faqQ2">Behöver jag ett konto?</dt>
           <dd data-i18n="faqA2">BetaSuite självt kräver inget konto, men du behöver ett giltigt Apple-ID / App Store-konto för att köpa och ladda ned appen.</dd>
@@ -454,12 +453,16 @@
         <p class="tagline" data-i18n="taglineMain">Konkurrenterna mäter produkten. BetaSuite mäter testaren.</p>
         <h2 id="cta-title" data-i18n="ctaTitle">Redo att leverera bättre buggrapporter?</h2>
         <p data-i18n="ctaText">Hämta BetaSuite — eller hör av dig om du har frågor först.</p>
-        <div class="cta-row">
+        <div class="cta-row store-badges store-badges--center">
           <a class="app-store-badge" href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" aria-label="Download on the App Store">
             <img src="/icons/app-store-badge-sv.svg" alt="Download on the App Store" width="180" height="60" loading="lazy">
           </a>
+          <a class="google-play-badge store-badge--soon" href="#android" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+            <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60" loading="lazy">
+            <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">Snart</span>
+          </a>
         </div>
-        <p class="meta" style="margin-top:14px"><span data-i18n="androidNote">Tillgänglig nu på iPhone och iPad — Android är under betatestning.</span> <a href="#android-beta" data-i18n="androidNotifyLink">Gå med i Android-betan →</a></p>
+        <p class="meta" style="margin-top:14px" data-i18n="androidNote">Redan på iPhone och iPad – Android-versionen kommer till Google Play i slutet av juni 2026.</p>
         <p style="margin-top:18px"><a href="support.html" data-i18n="ctaContact">Frågor? Hör av dig →</a></p>
       </div>
     </section>

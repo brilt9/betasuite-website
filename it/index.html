@@ -108,7 +108,7 @@
         "name": "Quali dispositivi sono supportati?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "iPhone con iOS 16 o successivo, e iPad con iPadOS 16 o successivo. Android è in beta testing — partecipa alla beta di Android per provarlo prima del lancio."
+          "text": "iPhone con iOS 16 o successivo e iPad con iPadOS 16 o successivo. La versione Android arriva su Google Play a fine giugno 2026."
         }
       },
       {
@@ -237,12 +237,16 @@
           <div class="hero-text">
             <h1 id="hero-title" data-i18n="heroTitle">Cattura ogni bug. Racconta tutta la storia.</h1>
             <p class="lead" data-i18n="heroText">BetaSuite è il kit di test mobile per chi i bug li segnala davvero: registra schermo e fotocamera insieme, riproduci gli ultimi 30 secondi, annota, trascrivi e consegna un report rifinito.</p>
-            <div class="hero-actions">
+            <div class="hero-actions store-badges">
               <a class="app-store-badge" href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" aria-label="Download on the App Store">
                 <img src="/icons/app-store-badge-it.svg" alt="Download on the App Store" width="180" height="60">
               </a>
+              <a class="google-play-badge store-badge--soon" href="#android" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+                <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60">
+                <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">Presto</span>
+              </a>
             </div>
-            <p class="meta"><span data-i18n="androidNote">Disponibile ora su iPhone e iPad — Android è in beta testing.</span> <a href="#android-beta" data-i18n="androidNotifyLink">Partecipa alla beta di Android →</a></p>
+            <p class="meta" data-i18n="androidNote">Già su iPhone e iPad — la versione Android arriva su Google Play a fine giugno 2026.</p>
             <p class="meta" data-i18n="metaText">Acquisto una tantum su App Store · Nessun abbonamento · Niente pubblicità · Niente tracciamento · Tuo per sempre</p>
           </div>
           <!--
@@ -268,22 +272,17 @@
       </div>
     </section>
 
-    <section class="callout" id="android-beta" aria-labelledby="android-beta-title">
+    <section class="callout android-coming" id="android" aria-labelledby="android-title">
       <div class="container">
-        <h2 id="android-beta-title" data-i18n="androidBetaTitle">Partecipa alla beta di Android</h2>
-        <p class="callout-lead" data-i18n="androidBetaLead">L'app Android è in fase di sviluppo attivo. Contribuisci a definire il rilascio — partecipa alla beta e prova BetaSuite su Android prima del lancio.</p>
-        <div class="callout-grid">
-          <div class="callout-item">
-            <h3 data-i18n="androidBetaStep1Title">1. Partecipa al Google Group</h3>
-            <p data-i18n="androidBetaStep1Text">Accedi con l'account Google che userai per i test, poi partecipa al gruppo così possiamo aggiungerti come tester.</p>
-            <a class="callout-link" href="https://groups.google.com/g/betasuite" target="_blank" rel="noopener" data-i18n="androidBetaStep1Link">Partecipa al Google Group →</a>
-          </div>
-          <div class="callout-item">
-            <h3 data-i18n="androidBetaStep2Title">2. Partecipa al test e scarica</h3>
-            <p data-i18n="androidBetaStep2Text">Apri il link di testing, iscriviti al test, poi scarica BetaSuite da Google Play.</p>
-            <a class="callout-link" href="https://play.google.com/apps/testing/com.betasuite.pro" target="_blank" rel="noopener" data-i18n="androidBetaStep2Link">Partecipa al test su Google Play →</a>
-          </div>
+        <h2 id="android-title" data-i18n="androidBetaTitle">Presto su Android</h2>
+        <p class="callout-lead" data-i18n="androidBetaLead">La versione Android arriva su Google Play a fine giugno 2026: basata sullo stesso codice, con la stessa doppia registrazione, replay istantaneo e report pronti per gli sviluppatori.</p>
+        <div class="store-badges store-badges--center">
+          <span class="google-play-badge store-badge--soon store-badge--lg" role="img" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+            <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60" loading="lazy">
+            <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">Presto</span>
+          </span>
         </div>
+        <p class="meta center android-coming__note"><a href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" data-i18n="androidComingIosLink">Già su iOS? Scarica per iPhone e iPad →</a></p>
       </div>
     </section>
 
@@ -321,14 +320,14 @@
             <p data-i18n="feat2Text">Posa un marker con un tocco nel momento in cui qualcosa accade. Allega uno screenshot, detta un memo vocale, o espandi più tardi in un report di bug completo. Ogni sessione cattura stato del dispositivo, OS, salute della batteria e meteo in automatico — il contesto non manca mai.</p>
           </article>
           <article class="feature">
-            <h3 data-i18n="feat3Title">Report assistiti dall'IA</h3>
-            <p class="feature-lead" data-i18n="feat3Lead">Un PDF o DOCX rifinito in pochi secondi.</p>
-            <p data-i18n="feat3Text">Scegli un periodo — questa settimana, la scorsa, intervallo personalizzato — e BetaSuite stende un report strutturato (tema, punti positivi, problemi, raccomandazioni) come bullet scorrevoli. Le immagini vengono ordinate automaticamente nelle sezioni Condizione, Mapping e Aggiuntive, ciascuna sezione su una propria pagina così il PDF si legge come un libro a capitoli. Colore del brand per progetto. Invialo via email dall'app.</p>
-          </article>
-          <article class="feature">
             <h3 data-i18n="feat4Title">Modalità riservata</h3>
             <p class="feature-lead" data-i18n="feat4Lead">IA on-device per il lavoro sotto NDA.</p>
             <p data-i18n="feat4Text">Un solo interruttore e BetaSuite blocca upload cloud, condivisione di sistema e ogni provider di IA cloud. Apple Intelligence continua a girare interamente sul dispositivo — nessuna chiamata di rete, mai — così rifinitura IA e riepiloghi funzionano anche su hardware riservato.</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat3Title">Report assistiti dall'IA</h3>
+            <p class="feature-lead" data-i18n="feat3Lead">Un PDF o DOCX rifinito in pochi secondi.</p>
+            <p data-i18n="feat3Text">Scegli un periodo — questa settimana, la scorsa, intervallo personalizzato — e BetaSuite stende un report strutturato (tema, punti positivi, problemi, raccomandazioni) come bullet scorrevoli. Le immagini vengono ordinate automaticamente nelle sezioni Condizione, Mapping e Aggiuntive, ciascuna sezione su una propria pagina così il PDF si legge come un libro a capitoli. Colore del brand per progetto. Invialo via email dall'app.</p>
           </article>
           <article class="feature">
             <h3 data-i18n="feat5Title">Routing IA a modo tuo</h3>
@@ -408,15 +407,15 @@
         <div class="pain-grid pain-grid--three">
           <article class="pain-card">
             <span class="pain-label problem" data-i18n="problemLabel">Il problema</span>
-            <h3 data-i18n="whyTeaser1Problem">Fotocamera e schermo insieme?</h3>
-            <span class="pain-label answer" data-i18n="answerLabel">La risposta di BetaSuite</span>
-            <p data-i18n="whyTeaser1Answer">BetaSuite compone entrambi i flussi in un unico MP4 sul dispositivo testato — niente treppiede, nessun secondo telefono.</p>
-          </article>
-          <article class="pain-card">
-            <span class="pain-label problem" data-i18n="problemLabel">Il problema</span>
             <h3 data-i18n="whyTeaser2Problem">Bug già sparito quando premi registra?</h3>
             <span class="pain-label answer" data-i18n="answerLabel">La risposta di BetaSuite</span>
             <p data-i18n="whyTeaser2Answer">Un buffer rotante da 15 o 30 secondi tiene vivo il momento — un tocco salva quello che è appena successo.</p>
+          </article>
+          <article class="pain-card">
+            <span class="pain-label problem" data-i18n="problemLabel">Il problema</span>
+            <h3 data-i18n="whyTeaser1Problem">Fotocamera e schermo insieme?</h3>
+            <span class="pain-label answer" data-i18n="answerLabel">La risposta di BetaSuite</span>
+            <p data-i18n="whyTeaser1Answer">BetaSuite compone entrambi i flussi in un unico MP4 sul dispositivo testato — niente treppiede, nessun secondo telefono.</p>
           </article>
           <article class="pain-card">
             <span class="pain-label problem" data-i18n="problemLabel">Il problema</span>
@@ -434,7 +433,7 @@
         <h2 id="faq-teaser-title" data-i18n="faqTeaserTitle">Domande frequenti</h2>
         <dl class="faq">
           <dt data-i18n="faqQ1">Quali dispositivi sono supportati?</dt>
-          <dd data-i18n="faqA1">iPhone con iOS 16 o successivo, e iPad con iPadOS 16 o successivo. Android è in beta testing — partecipa alla beta di Android per provarlo prima del lancio.</dd>
+          <dd data-i18n="faqA1">iPhone con iOS 16 o successivo e iPad con iPadOS 16 o successivo. La versione Android arriva su Google Play a fine giugno 2026.</dd>
 
           <dt data-i18n="faqQ2">Serve un account?</dt>
           <dd data-i18n="faqA2">BetaSuite in sé non richiede un account, ma serve un Apple ID / account App Store valido per acquistare e scaricare l'app.</dd>
@@ -454,12 +453,16 @@
         <p class="tagline" data-i18n="taglineMain">I concorrenti strumentano il prodotto. BetaSuite strumenta il tester.</p>
         <h2 id="cta-title" data-i18n="ctaTitle">Pronto a consegnare report di bug migliori?</h2>
         <p data-i18n="ctaText">Scarica BetaSuite — oppure contattaci se prima hai delle domande.</p>
-        <div class="cta-row">
+        <div class="cta-row store-badges store-badges--center">
           <a class="app-store-badge" href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" aria-label="Download on the App Store">
             <img src="/icons/app-store-badge-it.svg" alt="Download on the App Store" width="180" height="60" loading="lazy">
           </a>
+          <a class="google-play-badge store-badge--soon" href="#android" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+            <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60" loading="lazy">
+            <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">Presto</span>
+          </a>
         </div>
-        <p class="meta" style="margin-top:14px"><span data-i18n="androidNote">Disponibile ora su iPhone e iPad — Android è in beta testing.</span> <a href="#android-beta" data-i18n="androidNotifyLink">Partecipa alla beta di Android →</a></p>
+        <p class="meta" style="margin-top:14px" data-i18n="androidNote">Già su iPhone e iPad — la versione Android arriva su Google Play a fine giugno 2026.</p>
         <p style="margin-top:18px"><a href="support.html" data-i18n="ctaContact">Domande? Contattaci →</a></p>
       </div>
     </section>

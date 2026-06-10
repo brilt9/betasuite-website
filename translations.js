@@ -13,19 +13,14 @@ const translations = {
     heroTitle: "Catch every bug. Tell the whole story.",
     heroText: "Dual-record screen and camera, drop voice-noted markers as you test, and ship a polished PDF report — all on iPhone or iPad, with on-device AI when you want it.",
     downloadAppStore: "Download on the App Store",
-    androidNote: "Available now on iPhone and iPad — Android is in beta testing.",
-    androidNotifyLink: "Join the Android beta →",
+    androidNote: "On iPhone and iPad today — Android lands on Google Play at the end of June 2026.",
+    androidComingIosLink: "On iOS already? Download for iPhone & iPad →",
+    androidBadgeLabel: "BetaSuite for Android — coming end of June 2026",
+    androidSoonRibbon: "Soon",
     metaText: "One-off App Store purchase · No subscription · No ads · No tracking · Yours for life",
 
-    /* Android beta join callout */
-    androidBetaTitle: "Join the Android beta",
-    androidBetaLead: "The Android app is in active development. Help shape the release — join the beta and try BetaSuite on Android before it launches.",
-    androidBetaStep1Title: "1. Join the Google Group",
-    androidBetaStep1Text: "Sign in with the Google account you'll test with, then join the group so we can add you as a tester.",
-    androidBetaStep1Link: "Join the Google Group →",
-    androidBetaStep2Title: "2. Join the test & download",
-    androidBetaStep2Text: "Open the testing link, opt in to the test, then download BetaSuite from Google Play.",
-    androidBetaStep2Link: "Join the test on Google Play →",
+    androidBetaTitle: "Coming to Android",
+    androidBetaLead: "The Android edition arrives on Google Play at the end of June 2026 — built from the same codebase, with the same dual recording, instant replay, and developer-ready reports.",
 
     /* Value props strip */
     valueCaptureTitle: "Capture",
@@ -108,7 +103,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Common questions",
     faqQ1: "Which devices are supported?",
-    faqA1: "iPhone with iOS 16 or later, and iPad with iPadOS 16 or later. Android is in beta testing — join the Android beta to try it before launch.",
+    faqA1: "iPhone with iOS 16 or later, and iPad with iPadOS 16 or later. The Android edition arrives on Google Play at the end of June 2026.",
     faqQ2: "Do I need an account?",
     faqA2: "BetaSuite itself doesn't require an account, but you'll need a valid Apple ID / App Store account to purchase and download the app.",
     faqQ3: "What is Confidential Mode?",
@@ -199,18 +194,13 @@ const translations = {
     heroTitle: "捕捉每一个 Bug,讲清完整故事。",
     heroText: "BetaSuite 是为真正提交 Bug 报告的人打造的移动测试工具:同时录制屏幕和相机、回放最近 30 秒、标注、转录,再生成一份精炼的报告。",
     downloadAppStore: "在 App Store 下载",
-    androidNote: "现已支持 iPhone 和 iPad——Android 正在进行 Beta 测试。",
-    androidNotifyLink: "加入 Android Beta →",
+    androidNote: "现已支持 iPhone 和 iPad——Android 版本将于 2026 年 6 月底登陆 Google Play。",
+    androidComingIosLink: "已在使用 iOS？下载 iPhone 和 iPad 版 →",
+    androidBadgeLabel: "BetaSuite Android 版——2026 年 6 月底推出",
+    androidSoonRibbon: "即将推出",
 
-    /* Android beta join callout */
-    androidBetaTitle: "加入 Android Beta",
-    androidBetaLead: "Android 应用正在积极开发中。加入 Beta 测试,助力打磨正式版本,在 BetaSuite 正式发布前抢先体验 Android 版本。",
-    androidBetaStep1Title: "1. 加入 Google 群组",
-    androidBetaStep1Text: "用你要测试的 Google 账号登录,然后加入该群组,这样我们就能将你添加为测试人员。",
-    androidBetaStep1Link: "加入 Google 群组 →",
-    androidBetaStep2Title: "2. 加入测试并下载",
-    androidBetaStep2Text: "打开测试链接,选择参加测试,然后从 Google Play 下载 BetaSuite。",
-    androidBetaStep2Link: "在 Google Play 加入测试 →",
+    androidBetaTitle: "即将登陆 Android",
+    androidBetaLead: "Android 版本将于 2026 年 6 月底登陆 Google Play——基于相同的代码库，具备相同的双路录制、即时回放以及开发者可直接使用的报告。",
     metaText: "App Store 一次性购买 · 无订阅 · 无广告 · 无追踪 · 终身使用",
 
     /* Value props strip */
@@ -294,7 +284,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "常见问题",
     faqQ1: "支持哪些设备?",
-    faqA1: "iPhone(iOS 16 及以上)和 iPad(iPadOS 16 及以上)。Android 正在进行 Beta 测试——加入 Android Beta 即可在发布前抢先体验。",
+    faqA1: "iPhone 需 iOS 16 或更新版本，iPad 需 iPadOS 16 或更新版本。Android 版本将于 2026 年 6 月底登陆 Google Play。",
     faqQ2: "需要账号吗?",
     faqA2: "BetaSuite 本身不需要账号,但你需要有效的 Apple ID / App Store 账号来购买和下载应用。",
     faqQ3: "什么是保密模式?",
@@ -385,18 +375,13 @@ const translations = {
     heroTitle: "Jeden Bug einfangen. Die ganze Geschichte erzählen.",
     heroText: "BetaSuite ist das mobile Test-Kit für Leute, die wirklich Bugs melden – Bildschirm und Kamera gleichzeitig aufnehmen, die letzten 30 Sekunden wiedergeben, annotieren, transkribieren und einen ausgefeilten Bericht abliefern.",
     downloadAppStore: "Im App Store laden",
-    androidNote: "Jetzt für iPhone und iPad verfügbar – Android wird derzeit getestet.",
-    androidNotifyLink: "Tritt der Android-Beta bei →",
+    androidNote: "Heute schon für iPhone und iPad – die Android-Version erscheint Ende Juni 2026 bei Google Play.",
+    androidComingIosLink: "Schon auf iOS? Für iPhone & iPad laden →",
+    androidBadgeLabel: "BetaSuite für Android – ab Ende Juni 2026",
+    androidSoonRibbon: "Bald",
 
-    /* Android beta join callout */
-    androidBetaTitle: "Tritt der Android-Beta bei",
-    androidBetaLead: "Die Android-App ist in aktiver Entwicklung. Gestalte die Veröffentlichung mit – tritt der Beta bei und probiere BetaSuite auf Android schon vor dem Launch.",
-    androidBetaStep1Title: "1. Tritt der Google-Gruppe bei",
-    androidBetaStep1Text: "Melde dich mit dem Google-Konto an, mit dem du testen möchtest, und tritt der Gruppe bei, damit wir dich als Tester hinzufügen können.",
-    androidBetaStep1Link: "Tritt der Google-Gruppe bei →",
-    androidBetaStep2Title: "2. Tritt dem Test bei und lade herunter",
-    androidBetaStep2Text: "Öffne den Test-Link, melde dich zum Test an und lade BetaSuite aus Google Play herunter.",
-    androidBetaStep2Link: "Tritt dem Test auf Google Play bei →",
+    androidBetaTitle: "Bald für Android",
+    androidBetaLead: "Die Android-Version erscheint Ende Juni 2026 bei Google Play – aus derselben Codebasis, mit derselben Doppelaufnahme, Sofortwiedergabe und entwicklerfertigen Berichten.",
     metaText: "Einmalkauf im App Store · Kein Abo · Keine Werbung · Kein Tracking · Lebenslang nutzbar",
 
     /* Value props strip */
@@ -480,7 +465,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Häufige Fragen",
     faqQ1: "Welche Geräte werden unterstützt?",
-    faqA1: "iPhone mit iOS 16 oder neuer und iPad mit iPadOS 16 oder neuer. Android wird derzeit getestet – tritt der Android-Beta bei und probiere es schon vor dem Launch.",
+    faqA1: "iPhone mit iOS 16 oder neuer und iPad mit iPadOS 16 oder neuer. Die Android-Version erscheint Ende Juni 2026 bei Google Play.",
     faqQ2: "Brauche ich ein Konto?",
     faqA2: "BetaSuite selbst benötigt kein Konto, aber du brauchst eine gültige Apple-ID bzw. ein App-Store-Konto, um die App zu kaufen und zu laden.",
     faqQ3: "Was ist der Vertrauliche Modus?",
@@ -571,18 +556,13 @@ const translations = {
     heroTitle: "Vang elke bug. Vertel het hele verhaal.",
     heroText: "BetaSuite is de mobiele testkit voor mensen die echt bugs rapporteren — neem scherm en camera tegelijk op, speel de laatste 30 seconden opnieuw af, annoteer, transcribeer en lever een gepolijst rapport af.",
     downloadAppStore: "Download in de App Store",
-    androidNote: "Nu beschikbaar op iPhone en iPad — Android is in bètatest.",
-    androidNotifyLink: "Deelnemen aan de Android-bèta →",
+    androidNote: "Vandaag al op iPhone en iPad — de Android-versie verschijnt eind juni 2026 in Google Play.",
+    androidComingIosLink: "Al op iOS? Download voor iPhone & iPad →",
+    androidBadgeLabel: "BetaSuite voor Android — vanaf eind juni 2026",
+    androidSoonRibbon: "Binnenkort",
 
-    /* Android beta join callout */
-    androidBetaTitle: "Deelnemen aan de Android-bèta",
-    androidBetaLead: "De Android-app is volop in ontwikkeling. Help de release vorm te geven — neem deel aan de bèta en probeer BetaSuite op Android voordat het wordt uitgebracht.",
-    androidBetaStep1Title: "1. Deelnemen aan de Google Groep",
-    androidBetaStep1Text: "Meld je aan met het Google-account waarmee je gaat testen en neem deel aan de groep, zodat we je als tester kunnen toevoegen.",
-    androidBetaStep1Link: "Deelnemen aan de Google Groep →",
-    androidBetaStep2Title: "2. Deelnemen aan de test en downloaden",
-    androidBetaStep2Text: "Open de testlink, meld je aan voor de test en download BetaSuite uit Google Play.",
-    androidBetaStep2Link: "Deelnemen aan de test op Google Play →",
+    androidBetaTitle: "Binnenkort op Android",
+    androidBetaLead: "De Android-versie verschijnt eind juni 2026 in Google Play — gebouwd op dezelfde codebasis, met dezelfde dubbele opname, instant replay en rapporten die ontwikkelaars meteen kunnen gebruiken.",
     metaText: "Eenmalige aankoop in de App Store · Geen abonnement · Geen advertenties · Geen tracking · Levenslang van jou",
 
     /* Value props strip */
@@ -666,7 +646,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Veelgestelde vragen",
     faqQ1: "Welke apparaten worden ondersteund?",
-    faqA1: "iPhone met iOS 16 of nieuwer, en iPad met iPadOS 16 of nieuwer. Android is in bètatest — neem deel aan de Android-bèta om het voor de lancering te proberen.",
+    faqA1: "iPhone met iOS 16 of nieuwer en iPad met iPadOS 16 of nieuwer. De Android-versie verschijnt eind juni 2026 in Google Play.",
     faqQ2: "Heb ik een account nodig?",
     faqA2: "BetaSuite zelf vereist geen account, maar je hebt een geldige Apple ID / App Store-account nodig om de app te kopen en te downloaden.",
     faqQ3: "Wat is de vertrouwelijke modus?",
@@ -757,18 +737,13 @@ const translations = {
     heroTitle: "Capturez chaque bug. Racontez toute l'histoire.",
     heroText: "BetaSuite est le kit de test mobile pour les gens qui rapportent vraiment des bugs — enregistrez écran et caméra en même temps, rejouez les 30 dernières secondes, annotez, transcrivez et livrez un rapport soigné.",
     downloadAppStore: "Télécharger sur l'App Store",
-    androidNote: "Disponible maintenant sur iPhone et iPad — Android en test bêta.",
-    androidNotifyLink: "Rejoindre la bêta Android →",
+    androidNote: "Déjà sur iPhone et iPad — la version Android arrive sur Google Play fin juin 2026.",
+    androidComingIosLink: "Déjà sur iOS ? Télécharger pour iPhone et iPad →",
+    androidBadgeLabel: "BetaSuite pour Android — disponible fin juin 2026",
+    androidSoonRibbon: "Bientôt",
 
-    /* Android beta join callout */
-    androidBetaTitle: "Rejoindre la bêta Android",
-    androidBetaLead: "L'app Android est en développement actif. Aidez-nous à façonner la version finale — rejoignez la bêta et essayez BetaSuite sur Android avant son lancement.",
-    androidBetaStep1Title: "1. Rejoindre le groupe Google",
-    androidBetaStep1Text: "Connectez-vous avec le compte Google que vous utiliserez pour les tests, puis rejoignez le groupe afin que nous puissions vous ajouter comme testeur.",
-    androidBetaStep1Link: "Rejoindre le groupe Google →",
-    androidBetaStep2Title: "2. Rejoindre le test et télécharger",
-    androidBetaStep2Text: "Ouvrez le lien de test, acceptez de participer au test, puis téléchargez BetaSuite depuis Google Play.",
-    androidBetaStep2Link: "Rejoindre le test sur Google Play →",
+    androidBetaTitle: "Bientôt sur Android",
+    androidBetaLead: "La version Android arrive sur Google Play fin juin 2026 — issue de la même base de code, avec le même double enregistrement, la relecture instantanée et des rapports prêts pour les développeurs.",
     metaText: "Achat unique sur l'App Store · Sans abonnement · Sans publicité · Sans pistage · À vous pour la vie",
 
     /* Value props strip */
@@ -852,7 +827,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Questions courantes",
     faqQ1: "Quels appareils sont pris en charge ?",
-    faqA1: "iPhone avec iOS 16 ou plus récent, et iPad avec iPadOS 16 ou plus récent. Android est en test bêta — rejoignez la bêta Android pour l'essayer avant son lancement.",
+    faqA1: "iPhone avec iOS 16 ou version ultérieure, et iPad avec iPadOS 16 ou version ultérieure. La version Android arrive sur Google Play fin juin 2026.",
     faqQ2: "Faut-il un compte ?",
     faqA2: "BetaSuite lui-même ne nécessite pas de compte, mais il vous faut un identifiant Apple / compte App Store valide pour acheter et télécharger l'app.",
     faqQ3: "Qu'est-ce que le mode confidentiel ?",
@@ -943,18 +918,13 @@ const translations = {
     heroTitle: "Fang hver bug. Fortell hele historien.",
     heroText: "BetaSuite er det mobile testsettet for folk som faktisk rapporterer bugs — ta opp skjerm og kamera samtidig, spill av de siste 30 sekundene på nytt, annoter, transkriber og lever en polert rapport.",
     downloadAppStore: "Last ned i App Store",
-    androidNote: "Tilgjengelig nå på iPhone og iPad — Android er under betatesting.",
-    androidNotifyLink: "Bli med i Android-betaen →",
+    androidNote: "Allerede på iPhone og iPad – Android-versjonen kommer til Google Play i slutten av juni 2026.",
+    androidComingIosLink: "Allerede på iOS? Last ned for iPhone og iPad →",
+    androidBadgeLabel: "BetaSuite for Android – kommer i slutten av juni 2026",
+    androidSoonRibbon: "Snart",
 
-    /* Android beta join callout */
-    androidBetaTitle: "Bli med i Android-betaen",
-    androidBetaLead: "Android-appen er under aktiv utvikling. Hjelp til å forme lanseringen — bli med i betaen og prøv BetaSuite på Android før den lanseres.",
-    androidBetaStep1Title: "1. Bli med i Google-gruppen",
-    androidBetaStep1Text: "Logg inn med Google-kontoen du skal teste med, og bli deretter med i gruppen slik at vi kan legge deg til som tester.",
-    androidBetaStep1Link: "Bli med i Google-gruppen →",
-    androidBetaStep2Title: "2. Bli med i testen og last ned",
-    androidBetaStep2Text: "Åpne testlenken, meld deg på testen, og last ned BetaSuite fra Google Play.",
-    androidBetaStep2Link: "Bli med i testen på Google Play →",
+    androidBetaTitle: "Kommer til Android",
+    androidBetaLead: "Android-versjonen kommer til Google Play i slutten av juni 2026 – bygget på samme kodebase, med samme dobbeltopptak, direkte reprise og utviklerklare rapporter.",
     metaText: "Engangskjøp i App Store · Ingen abonnement · Ingen reklame · Ingen sporing · Ditt for livet",
 
     /* Value props strip */
@@ -1038,7 +1008,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Vanlige spørsmål",
     faqQ1: "Hvilke enheter støttes?",
-    faqA1: "iPhone med iOS 16 eller nyere, og iPad med iPadOS 16 eller nyere. Android er under betatesting — bli med i Android-betaen for å prøve den før lanseringen.",
+    faqA1: "iPhone med iOS 16 eller nyere, og iPad med iPadOS 16 eller nyere. Android-versjonen kommer til Google Play i slutten av juni 2026.",
     faqQ2: "Trenger jeg en konto?",
     faqA2: "BetaSuite selv krever ingen konto, men du trenger en gyldig Apple-ID / App Store-konto for å kjøpe og laste ned appen.",
     faqQ3: "Hva er konfidensiell modus?",
@@ -1129,18 +1099,13 @@ const translations = {
     heroTitle: "Fånga varje bugg. Berätta hela historien.",
     heroText: "BetaSuite är den mobila testkit för folk som faktiskt rapporterar buggar — spela in skärm och kamera samtidigt, spela upp de senaste 30 sekunderna, annotera, transkribera och leverera en polerad rapport.",
     downloadAppStore: "Hämta i App Store",
-    androidNote: "Tillgänglig nu på iPhone och iPad — Android är under betatestning.",
-    androidNotifyLink: "Gå med i Android-betan →",
+    androidNote: "Redan på iPhone och iPad – Android-versionen kommer till Google Play i slutet av juni 2026.",
+    androidComingIosLink: "Redan på iOS? Ladda ner för iPhone och iPad →",
+    androidBadgeLabel: "BetaSuite för Android – kommer i slutet av juni 2026",
+    androidSoonRibbon: "Snart",
 
-    /* Android beta join callout */
-    androidBetaTitle: "Gå med i Android-betan",
-    androidBetaLead: "Android-appen är under aktiv utveckling. Hjälp till att forma utgåvan — gå med i betan och prova BetaSuite på Android innan den lanseras.",
-    androidBetaStep1Title: "1. Gå med i Google-gruppen",
-    androidBetaStep1Text: "Logga in med det Google-konto du ska testa med, och gå sedan med i gruppen så att vi kan lägga till dig som testare.",
-    androidBetaStep1Link: "Gå med i Google-gruppen →",
-    androidBetaStep2Title: "2. Gå med i testet och ladda ner",
-    androidBetaStep2Text: "Öppna testlänken, anmäl dig till testet och ladda sedan ner BetaSuite från Google Play.",
-    androidBetaStep2Link: "Gå med i testet på Google Play →",
+    androidBetaTitle: "Kommer till Android",
+    androidBetaLead: "Android-versionen kommer till Google Play i slutet av juni 2026 – byggd på samma kodbas, med samma dubbelinspelning, direktåteruppspelning och utvecklarfärdiga rapporter.",
     metaText: "Engångsköp i App Store · Inget abonnemang · Inga annonser · Ingen spårning · Ditt för livet",
 
     /* Value props strip */
@@ -1224,7 +1189,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Vanliga frågor",
     faqQ1: "Vilka enheter stöds?",
-    faqA1: "iPhone med iOS 16 eller senare, och iPad med iPadOS 16 eller senare. Android är under betatestning — gå med i Android-betan för att prova den före lanseringen.",
+    faqA1: "iPhone med iOS 16 eller senare, och iPad med iPadOS 16 eller senare. Android-versionen kommer till Google Play i slutet av juni 2026.",
     faqQ2: "Behöver jag ett konto?",
     faqA2: "BetaSuite självt kräver inget konto, men du behöver ett giltigt Apple-ID / App Store-konto för att köpa och ladda ned appen.",
     faqQ3: "Vad är konfidentiellt läge?",
@@ -1315,18 +1280,13 @@ const translations = {
     heroTitle: "Captura cada bug. Cuenta toda la historia.",
     heroText: "BetaSuite es el kit de pruebas móviles para personas que de verdad reportan bugs: graba pantalla y cámara a la vez, reproduce los últimos 30 segundos, anota, transcribe y entrega un informe pulido.",
     downloadAppStore: "Descargar en el App Store",
-    androidNote: "Disponible ahora en iPhone y iPad — Android está en fase beta.",
-    androidNotifyLink: "Únete a la beta de Android →",
+    androidNote: "Ya disponible en iPhone y iPad — la versión para Android llega a Google Play a finales de junio de 2026.",
+    androidComingIosLink: "¿Ya en iOS? Descárgala para iPhone y iPad →",
+    androidBadgeLabel: "BetaSuite para Android: disponible a finales de junio de 2026",
+    androidSoonRibbon: "Pronto",
 
-    /* Android beta join callout */
-    androidBetaTitle: "Únete a la beta de Android",
-    androidBetaLead: "La app de Android está en desarrollo activo. Ayuda a dar forma al lanzamiento: únete a la beta y prueba BetaSuite en Android antes de que salga.",
-    androidBetaStep1Title: "1. Únete al grupo de Google",
-    androidBetaStep1Text: "Inicia sesión con la cuenta de Google con la que vas a probar y únete al grupo para que podamos añadirte como tester.",
-    androidBetaStep1Link: "Únete al grupo de Google →",
-    androidBetaStep2Title: "2. Únete a la prueba y descarga",
-    androidBetaStep2Text: "Abre el enlace de prueba, acepta participar en la prueba y descarga BetaSuite desde Google Play.",
-    androidBetaStep2Link: "Únete a la prueba en Google Play →",
+    androidBetaTitle: "Próximamente en Android",
+    androidBetaLead: "La versión para Android llega a Google Play a finales de junio de 2026: construida sobre el mismo código, con la misma grabación doble, repetición instantánea e informes listos para desarrolladores.",
     metaText: "Compra única en la App Store · Sin suscripción · Sin anuncios · Sin seguimiento · Tuyo de por vida",
 
     /* Value props strip */
@@ -1410,7 +1370,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Preguntas frecuentes",
     faqQ1: "¿Qué dispositivos se admiten?",
-    faqA1: "iPhone con iOS 16 o posterior, y iPad con iPadOS 16 o posterior. Android está en fase beta — únete a la beta de Android para probarlo antes del lanzamiento.",
+    faqA1: "iPhone con iOS 16 o posterior, y iPad con iPadOS 16 o posterior. La versión para Android llega a Google Play a finales de junio de 2026.",
     faqQ2: "¿Necesito una cuenta?",
     faqA2: "BetaSuite en sí no requiere cuenta, pero necesitas un Apple ID / cuenta de App Store válidos para comprar y descargar la app.",
     faqQ3: "¿Qué es el modo confidencial?",
@@ -1501,18 +1461,13 @@ const translations = {
     heroTitle: "Cattura ogni bug. Racconta tutta la storia.",
     heroText: "BetaSuite è il kit di test mobile per chi i bug li segnala davvero: registra schermo e fotocamera insieme, riproduci gli ultimi 30 secondi, annota, trascrivi e consegna un report rifinito.",
     downloadAppStore: "Scarica su App Store",
-    androidNote: "Disponibile ora su iPhone e iPad — Android è in beta testing.",
-    androidNotifyLink: "Partecipa alla beta di Android →",
+    androidNote: "Già su iPhone e iPad — la versione Android arriva su Google Play a fine giugno 2026.",
+    androidComingIosLink: "Già su iOS? Scarica per iPhone e iPad →",
+    androidBadgeLabel: "BetaSuite per Android — in arrivo a fine giugno 2026",
+    androidSoonRibbon: "Presto",
 
-    /* Android beta join callout */
-    androidBetaTitle: "Partecipa alla beta di Android",
-    androidBetaLead: "L'app Android è in fase di sviluppo attivo. Contribuisci a definire il rilascio — partecipa alla beta e prova BetaSuite su Android prima del lancio.",
-    androidBetaStep1Title: "1. Partecipa al Google Group",
-    androidBetaStep1Text: "Accedi con l'account Google che userai per i test, poi partecipa al gruppo così possiamo aggiungerti come tester.",
-    androidBetaStep1Link: "Partecipa al Google Group →",
-    androidBetaStep2Title: "2. Partecipa al test e scarica",
-    androidBetaStep2Text: "Apri il link di testing, iscriviti al test, poi scarica BetaSuite da Google Play.",
-    androidBetaStep2Link: "Partecipa al test su Google Play →",
+    androidBetaTitle: "Presto su Android",
+    androidBetaLead: "La versione Android arriva su Google Play a fine giugno 2026: basata sullo stesso codice, con la stessa doppia registrazione, replay istantaneo e report pronti per gli sviluppatori.",
     metaText: "Acquisto una tantum su App Store · Nessun abbonamento · Niente pubblicità · Niente tracciamento · Tuo per sempre",
 
     /* Value props strip */
@@ -1596,7 +1551,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Domande frequenti",
     faqQ1: "Quali dispositivi sono supportati?",
-    faqA1: "iPhone con iOS 16 o successivo, e iPad con iPadOS 16 o successivo. Android è in beta testing — partecipa alla beta di Android per provarlo prima del lancio.",
+    faqA1: "iPhone con iOS 16 o successivo e iPad con iPadOS 16 o successivo. La versione Android arriva su Google Play a fine giugno 2026.",
     faqQ2: "Serve un account?",
     faqA2: "BetaSuite in sé non richiede un account, ma serve un Apple ID / account App Store valido per acquistare e scaricare l'app.",
     faqQ3: "Cos'è la modalità riservata?",
@@ -1687,18 +1642,13 @@ const translations = {
     heroTitle: "Złap każdego buga. Opowiedz całą historię.",
     heroText: "BetaSuite to mobilny zestaw testowy dla osób, które naprawdę zgłaszają bugi — nagrywaj ekran i kamerę jednocześnie, odtwarzaj ostatnie 30 sekund, opisuj, transkrybuj i wysyłaj dopracowany raport.",
     downloadAppStore: "Pobierz w App Store",
-    androidNote: "Dostępne teraz na iPhone'a i iPada — Android jest w fazie testów beta.",
-    androidNotifyLink: "Dołącz do bety Androida →",
+    androidNote: "Już na iPhone'a i iPada — wersja na Androida pojawi się w Google Play pod koniec czerwca 2026.",
+    androidComingIosLink: "Masz już iOS? Pobierz na iPhone'a i iPada →",
+    androidBadgeLabel: "BetaSuite na Androida — dostępne pod koniec czerwca 2026",
+    androidSoonRibbon: "Wkrótce",
 
-    /* Android beta join callout */
-    androidBetaTitle: "Dołącz do bety Androida",
-    androidBetaLead: "Aplikacja na Androida jest w trakcie aktywnego rozwoju. Pomóż ukształtować wydanie — dołącz do bety i wypróbuj BetaSuite na Androidzie, zanim trafi do sprzedaży.",
-    androidBetaStep1Title: "1. Dołącz do grupy Google",
-    androidBetaStep1Text: "Zaloguj się na koncie Google, którego użyjesz do testów, a następnie dołącz do grupy, abyśmy mogli dodać Cię jako testera.",
-    androidBetaStep1Link: "Dołącz do grupy Google →",
-    androidBetaStep2Title: "2. Dołącz do testów i pobierz",
-    androidBetaStep2Text: "Otwórz link do testów, wyraź zgodę na udział w testach, a następnie pobierz BetaSuite z Google Play.",
-    androidBetaStep2Link: "Dołącz do testów w Google Play →",
+    androidBetaTitle: "Wkrótce na Androida",
+    androidBetaLead: "Wersja na Androida pojawi się w Google Play pod koniec czerwca 2026 — oparta na tym samym kodzie, z tym samym podwójnym nagrywaniem, natychmiastową powtórką i raportami gotowymi dla deweloperów.",
     metaText: "Jednorazowy zakup w App Store · Bez subskrypcji · Bez reklam · Bez śledzenia · Twoje na zawsze",
 
     /* Value props strip */
@@ -1782,7 +1732,7 @@ const translations = {
     /* FAQ teaser */
     faqTeaserTitle: "Częste pytania",
     faqQ1: "Jakie urządzenia są obsługiwane?",
-    faqA1: "iPhone z iOS 16 lub nowszym, i iPad z iPadOS 16 lub nowszym. Android jest w fazie testów beta — dołącz do bety Androida, aby wypróbować ją przed premierą.",
+    faqA1: "iPhone z iOS 16 lub nowszym oraz iPad z iPadOS 16 lub nowszym. Wersja na Androida pojawi się w Google Play pod koniec czerwca 2026.",
     faqQ2: "Czy potrzebuję konta?",
     faqA2: "Sam BetaSuite nie wymaga konta, ale potrzebujesz ważnego Apple ID / konta App Store, by kupić i pobrać aplikację.",
     faqQ3: "Czym jest tryb poufny?",

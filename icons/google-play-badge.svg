@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40" role="img" aria-label="Get it on Google Play">
+  <title>Get it on Google Play</title>
+  <!-- Badge body: black rounded rectangle with the same hairline grey
+       border Apple's "Download on the App Store" badge uses, so the two
+       badges sit together as a matched pair. -->
+  <rect x="0.5" y="0.5" width="119" height="39" rx="6" ry="6" fill="#000" stroke="#a6a6a6" stroke-width="1"/>
+  <!-- Google Play triangle. Four facets tile the triangle (12,10)-(12,30)-(29,20)
+       around an interior fold point (22.5,20): large blue (top) + green
+       (bottom) bodies, small yellow + red tip triangles — the recognisable
+       Play mark. -->
+  <g>
+    <polygon points="12,10 12,20 22.5,20" fill="#00C3FF"/>
+    <polygon points="12,20 12,30 22.5,20" fill="#00E676"/>
+    <polygon points="12,10 22.5,20 29,20" fill="#FFC400"/>
+    <polygon points="12,30 22.5,20 29,20" fill="#FF3D47"/>
+  </g>
+  <text x="37" y="16.2" fill="#fff" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="5.4" font-weight="400" letter-spacing="0.7">GET IT ON</text>
+  <text x="36.4" y="30.5" fill="#fff" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0.2">Google Play</text>
+</svg>

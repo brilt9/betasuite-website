@@ -108,7 +108,7 @@
         "name": "支持哪些设备?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "iPhone(iOS 16 及以上)和 iPad(iPadOS 16 及以上)。Android 正在进行 Beta 测试——加入 Android Beta 即可在发布前抢先体验。"
+          "text": "iPhone 需 iOS 16 或更新版本，iPad 需 iPadOS 16 或更新版本。Android 版本将于 2026 年 6 月底登陆 Google Play。"
         }
       },
       {
@@ -237,12 +237,16 @@
           <div class="hero-text">
             <h1 id="hero-title" data-i18n="heroTitle">捕捉每一个 Bug,讲清完整故事。</h1>
             <p class="lead" data-i18n="heroText">BetaSuite 是为真正提交 Bug 报告的人打造的移动测试工具:同时录制屏幕和相机、回放最近 30 秒、标注、转录,再生成一份精炼的报告。</p>
-            <div class="hero-actions">
+            <div class="hero-actions store-badges">
               <a class="app-store-badge" href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" aria-label="Download on the App Store">
                 <img src="/icons/app-store-badge-zh.svg" alt="Download on the App Store" width="180" height="60">
               </a>
+              <a class="google-play-badge store-badge--soon" href="#android" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+                <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60">
+                <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">即将推出</span>
+              </a>
             </div>
-            <p class="meta"><span data-i18n="androidNote">现已支持 iPhone 和 iPad——Android 正在进行 Beta 测试。</span> <a href="#android-beta" data-i18n="androidNotifyLink">加入 Android Beta →</a></p>
+            <p class="meta" data-i18n="androidNote">现已支持 iPhone 和 iPad——Android 版本将于 2026 年 6 月底登陆 Google Play。</p>
             <p class="meta" data-i18n="metaText">App Store 一次性购买 · 无订阅 · 无广告 · 无追踪 · 终身使用</p>
           </div>
           <!--
@@ -268,22 +272,17 @@
       </div>
     </section>
 
-    <section class="callout" id="android-beta" aria-labelledby="android-beta-title">
+    <section class="callout android-coming" id="android" aria-labelledby="android-title">
       <div class="container">
-        <h2 id="android-beta-title" data-i18n="androidBetaTitle">加入 Android Beta</h2>
-        <p class="callout-lead" data-i18n="androidBetaLead">Android 应用正在积极开发中。加入 Beta 测试,助力打磨正式版本,在 BetaSuite 正式发布前抢先体验 Android 版本。</p>
-        <div class="callout-grid">
-          <div class="callout-item">
-            <h3 data-i18n="androidBetaStep1Title">1. 加入 Google 群组</h3>
-            <p data-i18n="androidBetaStep1Text">用你要测试的 Google 账号登录,然后加入该群组,这样我们就能将你添加为测试人员。</p>
-            <a class="callout-link" href="https://groups.google.com/g/betasuite" target="_blank" rel="noopener" data-i18n="androidBetaStep1Link">加入 Google 群组 →</a>
-          </div>
-          <div class="callout-item">
-            <h3 data-i18n="androidBetaStep2Title">2. 加入测试并下载</h3>
-            <p data-i18n="androidBetaStep2Text">打开测试链接,选择参加测试,然后从 Google Play 下载 BetaSuite。</p>
-            <a class="callout-link" href="https://play.google.com/apps/testing/com.betasuite.pro" target="_blank" rel="noopener" data-i18n="androidBetaStep2Link">在 Google Play 加入测试 →</a>
-          </div>
+        <h2 id="android-title" data-i18n="androidBetaTitle">即将登陆 Android</h2>
+        <p class="callout-lead" data-i18n="androidBetaLead">Android 版本将于 2026 年 6 月底登陆 Google Play——基于相同的代码库，具备相同的双路录制、即时回放以及开发者可直接使用的报告。</p>
+        <div class="store-badges store-badges--center">
+          <span class="google-play-badge store-badge--soon store-badge--lg" role="img" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+            <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60" loading="lazy">
+            <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">即将推出</span>
+          </span>
         </div>
+        <p class="meta center android-coming__note"><a href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" data-i18n="androidComingIosLink">已在使用 iOS？下载 iPhone 和 iPad 版 →</a></p>
       </div>
     </section>
 
@@ -321,14 +320,14 @@
             <p data-i18n="feat2Text">事件发生的那一刻,一键添加标记。附上截图、口述语音笔记,或稍后展开为完整 Bug 报告。每个会话都会自动捕获设备状态、操作系统、电池健康度和天气——上下文从不缺失。</p>
           </article>
           <article class="feature">
-            <h3 data-i18n="feat3Title">AI 辅助报告</h3>
-            <p class="feature-lead" data-i18n="feat3Lead">几秒生成精致的 PDF 或 DOCX。</p>
-            <p data-i18n="feat3Text">选择时间段——本周、上周、自定义范围——BetaSuite 会以可快速浏览的要点起草结构化报告(主题、亮点、问题、建议)。图片自动归入 Condition、Mapping 和 Additional 各节,每节独占一页,让 PDF 读起来像一本分章的文档。支持按项目品牌色。直接从应用内邮件发送。</p>
-          </article>
-          <article class="feature">
             <h3 data-i18n="feat4Title">保密模式</h3>
             <p class="feature-lead" data-i18n="feat4Lead">面向 NDA 工作的本地 AI。</p>
             <p data-i18n="feat4Text">一键开启,BetaSuite 即封锁云端上传、系统分享与所有云端 AI 提供商。Apple Intelligence 仍在设备本地运行——永远无网络调用——AI 润色与摘要在保密硬件上依然可用。</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feat3Title">AI 辅助报告</h3>
+            <p class="feature-lead" data-i18n="feat3Lead">几秒生成精致的 PDF 或 DOCX。</p>
+            <p data-i18n="feat3Text">选择时间段——本周、上周、自定义范围——BetaSuite 会以可快速浏览的要点起草结构化报告(主题、亮点、问题、建议)。图片自动归入 Condition、Mapping 和 Additional 各节,每节独占一页,让 PDF 读起来像一本分章的文档。支持按项目品牌色。直接从应用内邮件发送。</p>
           </article>
           <article class="feature">
             <h3 data-i18n="feat5Title">按你的方式路由 AI</h3>
@@ -408,15 +407,15 @@
         <div class="pain-grid pain-grid--three">
           <article class="pain-card">
             <span class="pain-label problem" data-i18n="problemLabel">痛点</span>
-            <h3 data-i18n="whyTeaser1Problem">能同时录屏幕和相机吗?</h3>
-            <span class="pain-label answer" data-i18n="answerLabel">BetaSuite 的解法</span>
-            <p data-i18n="whyTeaser1Answer">BetaSuite 在被测设备上把两路画面合成为一段 MP4——无需三脚架,无需第二台手机。</p>
-          </article>
-          <article class="pain-card">
-            <span class="pain-label problem" data-i18n="problemLabel">痛点</span>
             <h3 data-i18n="whyTeaser2Problem">按下录制按钮时 Bug 已经消失?</h3>
             <span class="pain-label answer" data-i18n="answerLabel">BetaSuite 的解法</span>
             <p data-i18n="whyTeaser2Answer">15 或 30 秒的滚动缓冲让那一刻不再溜走——一键保存刚刚发生的内容。</p>
+          </article>
+          <article class="pain-card">
+            <span class="pain-label problem" data-i18n="problemLabel">痛点</span>
+            <h3 data-i18n="whyTeaser1Problem">能同时录屏幕和相机吗?</h3>
+            <span class="pain-label answer" data-i18n="answerLabel">BetaSuite 的解法</span>
+            <p data-i18n="whyTeaser1Answer">BetaSuite 在被测设备上把两路画面合成为一段 MP4——无需三脚架,无需第二台手机。</p>
           </article>
           <article class="pain-card">
             <span class="pain-label problem" data-i18n="problemLabel">痛点</span>
@@ -434,7 +433,7 @@
         <h2 id="faq-teaser-title" data-i18n="faqTeaserTitle">常见问题</h2>
         <dl class="faq">
           <dt data-i18n="faqQ1">支持哪些设备?</dt>
-          <dd data-i18n="faqA1">iPhone(iOS 16 及以上)和 iPad(iPadOS 16 及以上)。Android 正在进行 Beta 测试——加入 Android Beta 即可在发布前抢先体验。</dd>
+          <dd data-i18n="faqA1">iPhone 需 iOS 16 或更新版本，iPad 需 iPadOS 16 或更新版本。Android 版本将于 2026 年 6 月底登陆 Google Play。</dd>
 
           <dt data-i18n="faqQ2">需要账号吗?</dt>
           <dd data-i18n="faqA2">BetaSuite 本身不需要账号,但你需要有效的 Apple ID / App Store 账号来购买和下载应用。</dd>
@@ -454,12 +453,16 @@
         <p class="tagline" data-i18n="taglineMain">竞品仪表化产品。BetaSuite 仪表化测试者。</p>
         <h2 id="cta-title" data-i18n="ctaTitle">准备好提交更好的 Bug 报告了吗?</h2>
         <p data-i18n="ctaText">下载 BetaSuite——若你有疑问,也可以先联系我们。</p>
-        <div class="cta-row">
+        <div class="cta-row store-badges store-badges--center">
           <a class="app-store-badge" href="https://apps.apple.com/app/id6766279266" target="_blank" rel="noopener" aria-label="Download on the App Store">
             <img src="/icons/app-store-badge-zh.svg" alt="Download on the App Store" width="180" height="60" loading="lazy">
           </a>
+          <a class="google-play-badge store-badge--soon" href="#android" data-i18n-aria-label="androidBadgeLabel" aria-label="BetaSuite for Android — coming end of June 2026">
+            <img src="/icons/google-play-badge.svg" alt="Get it on Google Play — coming end of June 2026" width="180" height="60" loading="lazy">
+            <span class="store-badge__ribbon" data-i18n="androidSoonRibbon">即将推出</span>
+          </a>
         </div>
-        <p class="meta" style="margin-top:14px"><span data-i18n="androidNote">现已支持 iPhone 和 iPad——Android 正在进行 Beta 测试。</span> <a href="#android-beta" data-i18n="androidNotifyLink">加入 Android Beta →</a></p>
+        <p class="meta" style="margin-top:14px" data-i18n="androidNote">现已支持 iPhone 和 iPad——Android 版本将于 2026 年 6 月底登陆 Google Play。</p>
         <p style="margin-top:18px"><a href="support.html" data-i18n="ctaContact">有疑问?联系我们 →</a></p>
       </div>
     </section>
