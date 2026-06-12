@@ -29,6 +29,8 @@ const translations = {
     valueAnnotateText: "Draw, pin, and timestamp every clip and screenshot.",
     valueReportTitle: "Report",
     valueReportText: "Auto session summaries developers can actually read.",
+    demoTitle: "See it in action",
+    demoLead: "One phone, filming a robot mower and its companion app at the same time — dual recording with the date, time, GPS and weather stamped in live, exactly as it looks on device.",
 
     /* Feature grid (9 cards) */
     insideTitle: "What's inside",
@@ -211,6 +213,8 @@ const translations = {
     valueAnnotateText: "对每段视频和截图进行绘制、批注与时间戳标记。",
     valueReportTitle: "报告",
     valueReportText: "自动生成开发者真正读得懂的会话摘要。",
+    demoTitle: "实际演示",
+    demoLead: "一部手机同时录下割草机器人和它的配套 App——双路录制，并实时叠加日期、时间、GPS 和天气，与设备上的画面完全一致。",
 
     /* Feature grid (9 cards) */
     insideTitle: "功能内容",
@@ -393,6 +397,8 @@ const translations = {
     valueAnnotateText: "Zeichnen, markieren und mit Zeitstempel auf jedem Clip und Screenshot.",
     valueReportTitle: "Berichten",
     valueReportText: "Automatische Session-Zusammenfassungen, die Entwickler tatsächlich lesen.",
+    demoTitle: "In Aktion erleben",
+    demoLead: "Ein Telefon filmt gleichzeitig einen Mähroboter und seine Begleit-App – Dual-Aufnahme mit live eingeblendetem Datum, Uhrzeit, GPS und Wetter, genau wie auf dem Gerät.",
 
     /* Feature grid (9 cards) */
     insideTitle: "Was drinsteckt",
@@ -575,6 +581,8 @@ const translations = {
     valueAnnotateText: "Teken, prik en plaats een tijdstempel op elke clip en screenshot.",
     valueReportTitle: "Rapporteren",
     valueReportText: "Automatische sessiesamenvattingen die ontwikkelaars echt lezen.",
+    demoTitle: "Zie het in actie",
+    demoLead: "Één telefoon die tegelijk een maairobot en de bijbehorende app filmt – dubbele opname met datum, tijd, GPS en weer live ingebrand, precies zoals het op het toestel oogt.",
 
     /* Feature grid (9 cards) */
     insideTitle: "Wat zit erin",
@@ -757,6 +765,8 @@ const translations = {
     valueAnnotateText: "Dessinez, épinglez et horodatez chaque clip et capture.",
     valueReportTitle: "Rapporter",
     valueReportText: "Des résumés de session automatiques que les développeurs lisent vraiment.",
+    demoTitle: "Voir en action",
+    demoLead: "Un seul téléphone qui filme en même temps un robot tondeuse et son application compagnon — double enregistrement avec date, heure, GPS et météo incrustés en direct, exactement comme à l'écran.",
 
     /* Feature grid (9 cards) */
     insideTitle: "Ce qu'il y a dedans",
@@ -939,6 +949,8 @@ const translations = {
     valueAnnotateText: "Tegn, fest og tidsstempel hvert klipp og skjermbilde.",
     valueReportTitle: "Rapporter",
     valueReportText: "Automatiske øktssammendrag som utviklere faktisk leser.",
+    demoTitle: "Se det i praksis",
+    demoLead: "Én telefon som filmer en robotgressklipper og appen dens samtidig – dobbeltopptak med dato, klokkeslett, GPS og vær brent inn live, akkurat slik det ser ut på enheten.",
 
     /* Feature grid (9 cards) */
     insideTitle: "Hva som er inni",
@@ -1121,6 +1133,8 @@ const translations = {
     valueAnnotateText: "Rita, fäst och tidsstämpla varje klipp och skärmdump.",
     valueReportTitle: "Rapportera",
     valueReportText: "Automatiska sessionssammanfattningar som utvecklare faktiskt läser.",
+    demoTitle: "Se det i praktiken",
+    demoLead: "En telefon som samtidigt filmar en robotgräsklippare och dess app – dubbelinspelning med datum, tid, GPS och väder inbränt live, precis som det ser ut på enheten.",
 
     /* Feature grid (9 cards) */
     insideTitle: "Vad som finns inuti",
@@ -1303,6 +1317,8 @@ const translations = {
     valueAnnotateText: "Dibuja, fija y marca con tiempo cada clip y captura.",
     valueReportTitle: "Reportar",
     valueReportText: "Resúmenes automáticos de sesión que los desarrolladores sí leen.",
+    demoTitle: "Míralo en acción",
+    demoLead: "Un solo teléfono que graba a la vez un robot cortacésped y su app complementaria: grabación doble con fecha, hora, GPS y clima incrustados en directo, tal como se ve en el dispositivo.",
 
     /* Feature grid (9 cards) */
     insideTitle: "Qué hay dentro",
@@ -1485,6 +1501,8 @@ const translations = {
     valueAnnotateText: "Disegna, appunta e timestampa ogni clip e screenshot.",
     valueReportTitle: "Riportare",
     valueReportText: "Riepiloghi di sessione automatici che gli sviluppatori leggono davvero.",
+    demoTitle: "Guardalo in azione",
+    demoLead: "Un solo telefono che riprende insieme un robot tagliaerba e la sua app companion: doppia registrazione con data, ora, GPS e meteo impressi in tempo reale, esattamente come appare sul dispositivo.",
 
     /* Feature grid (9 cards) */
     insideTitle: "Cosa c'è dentro",
@@ -1667,6 +1685,8 @@ const translations = {
     valueAnnotateText: "Rysuj, przypinaj i znaczyj czasem każdy klip i zrzut ekranu.",
     valueReportTitle: "Raportuj",
     valueReportText: "Automatyczne podsumowania sesji, które programiści naprawdę czytają.",
+    demoTitle: "Zobacz w działaniu",
+    demoLead: "Jeden telefon nagrywający jednocześnie robota koszącego i jego aplikację – podwójne nagranie z datą, godziną, GPS i pogodą nanoszonymi na żywo, dokładnie tak, jak wygląda to na urządzeniu.",
 
     /* Feature grid (9 cards) */
     insideTitle: "Co jest w środku",
@@ -1984,7 +2004,28 @@ function initI18n(options = {}) {
   return lang;
 }
 
-document.addEventListener("DOMContentLoaded", () => initI18n({ observeMutations: true }));
+/* ---------- Hero / demo video autoplay (reduced-motion aware) ---------- */
+// Videos opt in with `data-autoplay` instead of the native `autoplay`
+// attribute so we never animate for users who prefer reduced motion —
+// they keep the static poster, with no flash of playback. No-JS browsers
+// also fall back to the poster, which is the deliberate, acceptable state.
+function _initVideoAutoplay() {
+  let prefersReduced = false;
+  try {
+    prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  } catch (e) { /* matchMedia unsupported → treat as no preference */ }
+  if (prefersReduced) return;
+  document.querySelectorAll("video[data-autoplay]").forEach(v => {
+    v.muted = true; // belt-and-suspenders: muted is required for autoplay
+    const p = v.play();
+    if (p && typeof p.catch === "function") p.catch(() => { /* autoplay blocked — poster stays */ });
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  initI18n({ observeMutations: true });
+  _initVideoAutoplay();
+});
 
 window.BetaSuiteI18n = {
   init: initI18n,

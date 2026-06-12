@@ -597,6 +597,65 @@ a:hover { color: var(--accent-2); text-decoration: underline; }
     0 0 60px -8px rgba(30, 144, 255, 0.32);
 }
 
+/* Animated hero — the launch-animation clip. It carries its own navy
+   gradient background and "Now available" text, so it's framed as a
+   rounded card (NOT cropped to a 22% squircle, which would clip the
+   text). The glow matches the static-icon treatment above. */
+.hero-anim {
+  display: block;
+  width: clamp(240px, 84%, 420px);
+  height: auto;
+  aspect-ratio: 600 / 596;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow:
+    0 22px 60px -14px rgba(13, 27, 42, 0.65),
+    0 8px 24px rgba(0, 0, 0, 0.35),
+    0 0 60px -8px rgba(30, 144, 255, 0.32);
+}
+.hero-anim img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: inherit;
+}
+
+/* "See it in action" — the vertical product clip in a phone-style frame. */
+.demo {
+  padding: 64px 0;
+  text-align: center;
+}
+.demo h2 {
+  margin: 0 0 10px;
+}
+.demo-lead {
+  max-width: 620px;
+  margin: 0 auto 32px;
+  color: var(--muted);
+}
+.demo-frame {
+  display: flex;
+  justify-content: center;
+}
+.demo-video {
+  display: block;
+  width: clamp(240px, 78vw, 320px);
+  height: auto;
+  aspect-ratio: 718 / 992;
+  border-radius: 32px;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 30px 80px -20px rgba(0, 0, 0, 0.6),
+    0 0 80px -16px rgba(30, 144, 255, 0.25);
+}
+.demo-video img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: inherit;
+}
+
 /* Apple "Download on the App Store" badge link. The badge image is
    intentionally not styled with .btn (which has a blue background and
    text padding) — the badge IS the visual, framed in its own black

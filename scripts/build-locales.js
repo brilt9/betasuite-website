@@ -278,7 +278,9 @@ function rewriteAssetPaths(html) {
     out = out.replace(re, (_, attr) => `${attr}="/${file}"`);
   }
   for (const dir of ROOT_ASSET_DIRS) {
-    const re = new RegExp(`(href|src)="${escapeRegex(dir)}/([^"]+)"`, "g");
+    // `poster` is included alongside href/src so <video poster="icons/…">
+    // resolves from a /{locale}/ page (otherwise it 404s at /{locale}/icons/…).
+    const re = new RegExp(`(href|src|poster)="${escapeRegex(dir)}/([^"]+)"`, "g");
     out = out.replace(re, (_, attr, sub) => `${attr}="/${dir}/${sub}"`);
   }
   return out;

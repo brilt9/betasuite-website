@@ -181,8 +181,9 @@
   <!-- preconnect to the App Store host so the Download CTA + Smart App
        Banner handoff complete the TLS handshake before the user taps. -->
   <link rel="preconnect" href="https://apps.apple.com">
-  <!-- Preload the hero icon — biggest above-the-fold image, drives LCP. -->
-  <link rel="preload" as="image" href="/icons/icon-512.png" fetchpriority="high">
+  <!-- Preload the hero animation's poster — the first above-the-fold
+       paint (the <video> shows it until the clip is ready), drives LCP. -->
+  <link rel="preload" as="image" href="/icons/betasuite-icon-poster.jpg" fetchpriority="high">
 
   <!-- iOS home-screen "Add to Home Screen" polish — if a user installs
        the site to their home screen it launches fullscreen with the
@@ -250,23 +251,26 @@
             <p class="meta" data-i18n="metaText">Engångsköp i App Store · Inget abonnemang · Inga annonser · Ingen spårning · Ditt för livet</p>
           </div>
           <!--
-            Interim hero visual: the app icon, enlarged and styled as a
-            floating iOS-icon squircle. When real product screenshots are
-            ready, swap this <div> for:
-
-              <img class="hero-image" src="/screenshots/hero.png"
-                   alt="BetaSuite recording a test session — screen, camera, markers, and a generated report on iPhone and iPad"
-                   width="540" height="960" loading="eager" fetchpriority="high">
-
-            Drop the PNG/JPG at `screenshots/hero.png` (9:16 portrait, ≥ 540×960).
-            See `screenshots/README.md` for spec + recommended source captures.
+            Hero visual: the BetaSuite launch-animation clip (navy gradient,
+            "Now available", glossy β squircle). It carries its own background
+            and text, so it's framed as a rounded card — NOT cropped to a 22%
+            squircle. data-autoplay + the reduced-motion guard in
+            translations.js gate playback; the poster (settled final frame) is
+            the no-JS / reduced-motion fallback and the LCP paint.
           -->
           <div class="hero-visual">
-            <img class="hero-icon-feature"
-                 src="/icons/icon-512.png"
-                 alt="BetaSuite app icon"
-                 width="512" height="512"
-                 loading="eager" fetchpriority="high">
+            <video class="hero-anim"
+                   width="600" height="596"
+                   muted loop playsinline data-autoplay
+                   preload="auto"
+                   poster="/icons/betasuite-icon-poster.jpg"
+                   aria-label="BetaSuite — now available">
+              <source src="/icons/betasuite-icon.webm" type="video/webm">
+              <source src="/icons/betasuite-icon.mp4" type="video/mp4">
+              <img src="/icons/betasuite-icon-poster.jpg"
+                   alt="BetaSuite — now available"
+                   width="600" height="596" loading="eager">
+            </video>
           </div>
         </div>
       </div>
@@ -301,6 +305,27 @@
             <h3 data-i18n="valueReportTitle">Rapportera</h3>
             <p data-i18n="valueReportText">Automatiska sessionssammanfattningar som utvecklare faktiskt läser.</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="demo" id="see-it" aria-labelledby="demo-title">
+      <div class="container">
+        <h2 id="demo-title" data-i18n="demoTitle">Se det i praktiken</h2>
+        <p class="demo-lead" data-i18n="demoLead">En telefon som samtidigt filmar en robotgräsklippare och dess app – dubbelinspelning med datum, tid, GPS och väder inbränt live, precis som det ser ut på enheten.</p>
+        <div class="demo-frame">
+          <video class="demo-video"
+                 width="718" height="992"
+                 muted loop playsinline controls data-autoplay
+                 preload="metadata"
+                 poster="/icons/betasuite-demo-poster.jpg"
+                 aria-label="BetaSuite dual-recording demo: a robot mower and its companion app captured in one video">
+            <source src="/icons/betasuite-demo.webm" type="video/webm">
+            <source src="/icons/betasuite-demo.mp4" type="video/mp4">
+            <img src="/icons/betasuite-demo-poster.jpg"
+                 alt="BetaSuite dual recording — a garden map and a live camera view of a robot mower on one phone screen"
+                 width="718" height="992" loading="lazy">
+          </video>
         </div>
       </div>
     </section>
